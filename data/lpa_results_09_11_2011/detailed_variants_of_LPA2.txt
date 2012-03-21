@@ -1,0 +1,34 @@
+chr	start	end	ref	alt	dbSNP_id	X1000genomes_id	gene	c_type
+1	18807536	18807536	G	T	unknown	0.094	KLHDC7A	nonsynonymous SNV
+1	19597289	19597289	C	T	unknown	unknown	AKR7L	nonsynonymous SNV
+1	111825435	111825435	T	C	unknown	0.161	LOC149620	ncRNA
+1	241761260	241761260	T	C	unknown	unknown	OPN3	nonsynonymous SNV
+2	85617310	85617310	G	A	unknown	0.002	ELMOD3	nonsynonymous SNV
+2	163136505	163136505	C	G	unknown	0.005	IFIH1	splicing
+2	168115769	168115769	G	C	unknown	0.171	XIRP2	nonsynonymous SNV
+2	201726353	201726353	C	T	unknown	0.006	CLK1	ncRNA
+3	132345555	132345555	G	A	unknown	unknown	ACAD11	nonsynonymous SNV
+4	4440183	4440183	T	G	unknown	0.039	STX18	nonsynonymous SNV
+5	95011189	95011189	A	G	unknown	0.005	SPATA9	nonsynonymous SNV
+6	49806156	49806156	G	A	unknown	unknown	CRISP1	nonsynonymous SNV
+6	76631823	76631823	C	T	unknown	0.026	IMPG1	nonsynonymous SNV
+6	87994263	87994263	G	T	unknown	unknown	GJB7	nonsynonymous SNV
+7	123593764	123593764	T	C	unknown	0.021	SPAM1	nonsynonymous SNV
+11	48152063	48152063	C	G	unknown	unknown	PTPRJ	nonsynonymous SNV
+11	69957720	69957720	G	T	unknown	0.154	ANO1	ncRNA
+11	118343378	118343378	G	A	unknown	unknown	MLL	nonsynonymous SNV
+12	132241162	132241162	A	G	unknown	unknown	SFSWAP	nonsynonymous SNV
+13	28610141	28610141	G	A	unknown	unknown	FLT3	nonsynonymous SNV
+13	103343308	103343308	T	C	unknown	0.016	C13orf39	nonsynonymous SNV
+16	81095091	81095091	A	G	unknown	0.175	C16orf46	nonsynonymous SNV
+16	81199468	81199468	G	C	unknown	0.012	PKD1L2	nonsynonymous SNV
+17	62856332	62856332	C	T	unknown	unknown	LRRC37A3	nonsynonymous SNV
+19	4359191	4359191	C	T	unknown	0.013	MPND	nonsynonymous SNV
+19	8159339	8159339	G	C	unknown	0.040	FBN3	nonsynonymous SNV
+19	41313261	41313261	C	T	unknown	0.010	RAB4B-EGLN2	ncRNA
+19	58050063	58050063	A	G	unknown	0.022	ZNF549	nonsynonymous SNV
+20	53208250	53208250	G	A	unknown	unknown	DOK5	nonsynonymous SNV
+22	26224825	26224825	A	G	unknown	unknown	MYO18B	nonsynonymous SNV
+22	30198025	30198025	C	T	unknown	0.081	ASCC2	nonsynonymous SNV
+22	32754230	32754230	A	G	unknown	0.088	RFPL3	nonsynonymous SNV
+22	51015490	51015490	G	A	unknown	unknown	CHKB-CPT1B	ncRNA

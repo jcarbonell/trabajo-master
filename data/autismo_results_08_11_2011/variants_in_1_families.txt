@@ -1,0 +1,188 @@
+chr	start	end	ref	alt	dbSNP	gene	consequence	families
+10	133761285	133761285	G	A	unknown	PPP2R2D	nonsynonymous SNV	grupo_afectos
+10	133769482	133769482	G	C	unknown	PPP2R2D	ncRNA	grupo_afectos
+10	21414892	21414892	C	G	unknown	C10orf113	nonsynonymous SNV	grupo_afectos
+10	22839628	22839628	T	C	unknown	PIP4K2A	nonsynonymous SNV	grupo_afectos
+10	31318756	31318756	G	T	unknown	ZNF438	ncRNA	grupo_afectos
+10	47138604	47138604	T	G	unknown	LOC643650	ncRNA	grupo_afectos
+10	49420008	49420008	T	C	unknown	FRMPD2	nonsynonymous SNV	grupo_afectos
+10	50034833	50034833	G	A	unknown	WDFY4	nonsynonymous SNV	grupo_afectos
+10	88768253	88768253	A	G	unknown	AGAP11	nonsynonymous SNV	grupo_afectos
+11	122023187	122023187	A	G	unknown	LOC399959	ncRNA	grupo_afectos
+11	129722553	129722553	C	T	unknown	TMEM45B	nonsynonymous SNV	grupo_afectos
+1	113098534	113098534	C	T	unknown	ST7L	nonsynonymous SNV	grupo_afectos
+11	133788992	133788992	T	C	unknown	IGSF9B	nonsynonymous SNV	grupo_afectos
+11	36595600	36595600	A	G	unknown	RAG1	nonsynonymous SNV	grupo_afectos
+1	144868170	144868170	C	T	unknown	PDE4DIP	nonsynonymous SNV	grupo_afectos
+1	156907115	156907115	T	C	unknown	ARHGEF11	nonsynonymous SNV	grupo_afectos
+11	60706864	60706864	G	A	unknown	SLC15A3	ncRNA	grupo_afectos
+11	67564197	67564197	T	C	unknown	LOC645332	ncRNA	grupo_afectos
+11	6790028	6790028	C	G	unknown	OR2AG2	nonsynonymous SNV	grupo_afectos
+11	71707489	71707489	T	C	unknown	RNF121	ncRNA	grupo_afectos
+1	173320886	173320886	C	A	unknown	LOC100506023	ncRNA	grupo_afectos
+1	177247854	177247854	C	G	unknown	FAM5B	nonsynonymous SNV	grupo_afectos
+11	86969997	86969997	G	A	unknown	TMEM135	ncRNA	grupo_afectos
+1	201177538	201177538	G	T	unknown	IGFN1	nonsynonymous SNV	grupo_afectos
+1	202122613	202122613	C	T	unknown	PTPN7	ncRNA	grupo_afectos
+12	11214145	11214145	C	T	unknown	TAS2R46	stopgain SNV	grupo_afectos
+12	11243929	11243929	C	T	unknown	TAS2R43	stopgain SNV	grupo_afectos
+12	11338669	11338669	C	T	unknown	TAS2R42	nonsynonymous SNV	grupo_afectos
+12	122689181	122689181	C	G	unknown	B3GNT4	nonsynonymous SNV	grupo_afectos
+12	133384864	133384864	G	A	unknown	GOLGA3	nonsynonymous SNV	grupo_afectos
+1	223954080	223954080	A	C	unknown	CAPN2	nonsynonymous SNV	grupo_afectos
+1	225607144	225607144	C	T	unknown	LBR	nonsynonymous SNV	grupo_afectos
+1	231931048	231931048	T	C	unknown	TSNAX-DISC1	ncRNA	grupo_afectos
+1	248059476	248059476	A	C	unknown	OR2W3	nonsynonymous SNV	grupo_afectos
+12	52611710	52611710	G	A	unknown	LOC283404	ncRNA	grupo_afectos
+12	6562293	6562293	C	T	unknown	TAPBPL	nonsynonymous SNV	grupo_afectos
+12	6567907	6567907	C	T	unknown	TAPBPL	nonsynonymous SNV	grupo_afectos
+12	6635274	6635274	G	A	unknown	NCAPD2	nonsynonymous SNV	grupo_afectos
+1	26694245	26694245	T	C	unknown	ZNF683	nonsynonymous SNV	grupo_afectos
+12	9585598	9585598	T	C	unknown	DDX12	ncRNA	grupo_afectos
+12	96288860	96288860	T	C	unknown	CCDC38	nonsynonymous SNV	grupo_afectos
+13	113909339	113909339	A	G	unknown	CUL4A	nonsynonymous SNV	grupo_afectos
+1	31349647	31349647	C	T	unknown	SDC3	nonsynonymous SNV	grupo_afectos
+13	24895559	24895559	A	G	unknown	C1QTNF9	nonsynonymous SNV	grupo_afectos
+13	50205025	50205025	T	C	unknown	ARL11	nonsynonymous SNV	grupo_afectos
+1	36807481	36807481	C	T	unknown	STK40	nonsynonymous SNV	grupo_afectos
+1	40533287	40533287	T	G	unknown	CAP1	nonsynonymous SNV	grupo_afectos
+1	40533315	40533315	T	G	unknown	CAP1	nonsynonymous SNV	grupo_afectos
+1	40533320	40533320	T	G	unknown	CAP1	nonsynonymous SNV	grupo_afectos
+14	105414790	105414790	A	G	unknown	AHNAK2	nonsynonymous SNV	grupo_afectos
+14	19558644	19558644	T	C	unknown	POTEG	ncRNA	grupo_afectos
+14	24507010	24507010	C	A	unknown	DHRS4L1	nonsynonymous SNV	grupo_afectos
+14	50792273	50792273	A	G	unknown	ATP5S	ncRNA	grupo_afectos
+14	58737766	58737766	A	T	unknown	FLJ31306	ncRNA	grupo_afectos
+14	58761129	58761129	G	A	unknown	FLJ31306	ncRNA	grupo_afectos
+14	96135857	96135857	C	T	unknown	TCL6	ncRNA	grupo_afectos
+1	54606804	54606804	C	T	unknown	CDCP2	nonsynonymous SNV	grupo_afectos
+15	49285001	49285001	G	C	unknown	SECISBP2L	nonsynonymous SNV	grupo_afectos
+15	55619796	55619796	T	C	unknown	PIGB	nonsynonymous SNV	grupo_afectos
+15	65235776	65235776	A	G	unknown	ANKDD1A	nonsynonymous SNV	grupo_afectos
+15	78208141	78208141	C	T	unknown	LOC645752	ncRNA	grupo_afectos
+15	81624768	81624768	C	T	unknown	TMC3	nonsynonymous SNV	grupo_afectos
+15	83680287	83680287	A	G	unknown	C15orf40	nonsynonymous SNV	grupo_afectos
+15	89398407	89398407	C	T	unknown	ACAN	nonsynonymous SNV	grupo_afectos
+15	90796558	90796558	G	A	unknown	TTLL13	nonsynonymous SNV	grupo_afectos
+15	90800449	90800449	C	T	unknown	TTLL13	nonsynonymous SNV	grupo_afectos
+1	62732421	62732421	T	C	unknown	KANK4	nonsynonymous SNV	grupo_afectos
+16	31580272	31580272	C	T	unknown	CSDAP1	ncRNA	grupo_afectos
+16	53358439	53358439	A	G	unknown	CHD9	nonsynonymous SNV	grupo_afectos
+16	71419595	71419595	A	G	unknown	CALB2	ncRNA	grupo_afectos
+16	71483497	71483497	C	G	unknown	ZNF23	nonsynonymous SNV	grupo_afectos
+16	84209864	84209864	G	C	unknown	LRRC50	nonsynonymous SNV	grupo_afectos
+16	88502505	88502505	A	G	unknown	ZNF469	nonsynonymous SNV	grupo_afectos
+16	88783100	88783100	T	C	unknown	FAM38A	nonsynonymous SNV	grupo_afectos
+16	88803982	88803982	C	G	unknown	FAM38A	nonsynonymous SNV	grupo_afectos
+16	89985844	89985844	G	T	unknown	MC1R	nonsynonymous SNV	grupo_afectos
+17	28386526	28386526	A	G	unknown	EFCAB5	ncRNA	grupo_afectos
+17	34325532	34325532	T	C	unknown	CCL14-CCL15	ncRNA	grupo_afectos
+17	39579112	39579112	G	A	unknown	KRT37	nonsynonymous SNV	grupo_afectos
+17	43334005	43334005	G	C	unknown	LOC100133991	ncRNA	grupo_afectos
+17	7230845	7230845	G	T	unknown	NEURL4	nonsynonymous SNV	grupo_afectos
+17	72351024	72351024	T	C	unknown	KIF19	nonsynonymous SNV	grupo_afectos
+17	72838649	72838649	C	A	unknown	GRIN2C	nonsynonymous SNV	grupo_afectos
+17	79174221	79174221	T	C	unknown	AZI1	nonsynonymous SNV	grupo_afectos
+17	80352303	80352303	G	A	unknown	C17orf101	nonsynonymous SNV	grupo_afectos
+17	80367206	80367206	G	A	unknown	C17orf101	ncRNA	grupo_afectos
+18	109184	109184	G	T	unknown	ROCK1P1	ncRNA	grupo_afectos
+18	24510753	24510753	G	A	unknown	C18orf16	ncRNA	grupo_afectos
+18	2652879	2652879	T	G	unknown	LOC645158	ncRNA	grupo_afectos
+1	90459982	90459982	G	A	unknown	GEMIN8P4	ncRNA	grupo_afectos
+19	1037718	1037718	G	T	unknown	CNN2	nonsynonymous SNV	grupo_afectos
+19	15882796	15882796	T	A	unknown	CYP4F24P	ncRNA	grupo_afectos
+19	36497358	36497358	C	G	unknown	C19orf46	nonsynonymous SNV	grupo_afectos
+19	36912925	36912925	A	T	unknown	LOC644189	ncRNA	grupo_afectos
+19	43269699	43269699	C	T	unknown	PSG8	nonsynonymous SNV	grupo_afectos
+19	4511350	4511350	T	A	unknown	PLIN4	nonsynonymous SNV	grupo_afectos
+19	46716716	46716716	A	G	unknown	DKFZp434J0226	ncRNA	grupo_afectos
+19	49141532	49141532	T	C	unknown	SEC1	ncRNA	grupo_afectos
+19	50435862	50435862	C	T	unknown	ATF5	nonsynonymous SNV	grupo_afectos
+19	53100377	53100377	G	A	unknown	ZNF137P	ncRNA	grupo_afectos
+19	53344919	53344919	T	G	unknown	ZNF468	nonsynonymous SNV	grupo_afectos
+19	54973280	54973280	C	G	unknown	LENG9	nonsynonymous SNV	grupo_afectos
+19	55349031	55349031	G	A	unknown	KIR2DS4;KIR2DS4	nonsynonymous SNV	grupo_afectos
+19	58864867	58864867	A	G	unknown	A1BG-AS1	ncRNA	grupo_afectos
+19	7831700	7831700	G	C	unknown	CLEC4M	ncRNA	grupo_afectos
+19	8808942	8808942	A	G	unknown	ACTL9	nonsynonymous SNV	grupo_afectos
+19	9074265	9074265	G	A	unknown	MUC16	nonsynonymous SNV	grupo_afectos
+20	1559259	1559259	C	T	unknown	SIRPB1	nonsynonymous SNV	grupo_afectos
+20	60908969	60908969	T	C	unknown	LAMA5	nonsynonymous SNV	grupo_afectos
+20	61878950	61878950	A	C	unknown	NKAIN4	nonsynonymous SNV	grupo_afectos
+20	7963041	7963041	C	T	unknown	TMX4	nonsynonymous SNV	grupo_afectos
+2	112187008	112187008	G	A	unknown	LOC541471	ncRNA	grupo_afectos
+2	130897234	130897234	C	T	unknown	CCDC74B	nonsynonymous SNV	grupo_afectos
+2	130910847	130910847	G	A	unknown	SMPD4	ncRNA	grupo_afectos
+2	132996661	132996661	A	T	unknown	ANKRD30BL	ncRNA	grupo_afectos
+2	133541107	133541107	T	A	unknown	NCKAP5	nonsynonymous SNV	grupo_afectos
+21	35821821	35821821	T	C	unknown	KCNE1	nonsynonymous SNV	grupo_afectos
+21	43510437	43510437	A	C	unknown	UMODL1	nonsynonymous SNV	grupo_afectos
+21	43793625	43793625	C	T	unknown	TMPRSS3	ncRNA	grupo_afectos
+21	46021335	46021335	G	A	unknown	KRTAP10-7	nonsynonymous SNV	grupo_afectos
+21	46583539	46583539	A	C	unknown	ADARB1	ncRNA	grupo_afectos
+2	171260797	171260797	A	G	unknown	MYO3B	nonsynonymous SNV	grupo_afectos
+2	179406003	179406003	C	A	unknown	MIR548N	ncRNA	grupo_afectos
+2	202006096	202006096	G	A	unknown	CFLAR	splicing	grupo_afectos
+22	21329123	21329123	A	G	unknown	AIFM3	ncRNA	grupo_afectos
+22	21330266	21330266	T	C	unknown	AIFM3	ncRNA	grupo_afectos
+22	21363306	21363306	G	A	unknown	FLJ39582,MGC16703	ncRNA	grupo_afectos
+22	24037306	24037306	T	G	unknown	LOC91316	ncRNA	grupo_afectos
+22	31536133	31536133	A	C	unknown	PLA2G3	nonsynonymous SNV	grupo_afectos
+22	36551916	36551916	C	T	unknown	APOL3	ncRNA	grupo_afectos
+2	239155053	239155053	C	T	unknown	PER2	nonsynonymous SNV	grupo_afectos
+22	39498038	39498038	G	C	unknown	APOBEC3H	nonsynonymous SNV	grupo_afectos
+22	40058186	40058186	A	G	unknown	CACNA1I	nonsynonymous SNV	grupo_afectos
+22	43610207	43610207	A	G	unknown	SCUBE1	nonsynonymous SNV	grupo_afectos
+22	50658698	50658698	T	A	unknown	TUBGCP6	nonsynonymous SNV	grupo_afectos
+2	32961858	32961858	A	G	unknown	TTC27	nonsynonymous SNV	grupo_afectos
+2	71163173	71163173	C	T	unknown	ATP6V1B1	nonsynonymous SNV	grupo_afectos
+2	84518438	84518438	T	C	unknown	FUNDC2P2	ncRNA	grupo_afectos
+2	9528536	9528536	G	C	unknown	ASAP2	nonsynonymous SNV	grupo_afectos
+2	95540543	95540543	G	A	unknown	TEKT4	nonsynonymous SNV	grupo_afectos
+3	106849510	106849510	G	A	unknown	LOC100302640	ncRNA	grupo_afectos
+3	111921116	111921116	C	A	unknown	SLC9A10	nonsynonymous SNV	grupo_afectos
+3	111962851	111962851	T	C	unknown	SLC9A10	nonsynonymous SNV	grupo_afectos
+3	111996554	111996554	T	C	unknown	SLC9A10	nonsynonymous SNV	grupo_afectos
+3	13670536	13670536	A	G	unknown	FBLN2	nonsynonymous SNV	grupo_afectos
+3	13977703	13977703	A	C	unknown	LOC100132526	ncRNA	grupo_afectos
+3	193334991	193334991	G	A	unknown	OPA1	nonsynonymous SNV	grupo_afectos
+3	9857371	9857371	T	A	unknown	TTLL3	ncRNA	grupo_afectos
+4	1244879	1244879	A	G	unknown	C4orf42	ncRNA	grupo_afectos
+4	2451694	2451694	T	C	unknown	LOC402160	nonsynonymous SNV	grupo_afectos
+4	95561459	95561459	A	G	unknown	PDLIM5	nonsynonymous SNV	grupo_afectos
+5	178459283	178459283	A	G	unknown	ZNF879	nonsynonymous SNV	grupo_afectos
+5	178459426	178459426	A	C	unknown	ZNF879	nonsynonymous SNV	grupo_afectos
+5	179267949	179267949	T	C	unknown	C5orf45	nonsynonymous SNV	grupo_afectos
+6	112382313	112382313	G	T	unknown	WISP3	nonsynonymous SNV	grupo_afectos
+6	112457383	112457383	G	C	unknown	LAMA4	nonsynonymous SNV	grupo_afectos
+6	139197609	139197609	G	A	unknown	ECT2L;ECT2L	nonsynonymous SNV	grupo_afectos
+6	29709636	29709636	C	G	unknown	LOC285830	ncRNA	grupo_afectos
+6	29857410	29857410	T	C	unknown	HLA-H	ncRNA	grupo_afectos
+6	29910761	29910761	G	A	unknown	HLA-A	nonsynonymous SNV	grupo_afectos
+6	32489835	32489835	C	G	unknown	HLA-DRB5	nonsynonymous SNV	grupo_afectos
+6	33048628	33048628	A	C	unknown	HLA-DPB1	nonsynonymous SNV	grupo_afectos
+6	46827239	46827239	C	T	unknown	GPR116	nonsynonymous SNV	grupo_afectos
+6	6588881	6588881	A	C	unknown	LY86-AS1	ncRNA	grupo_afectos
+6	79675701	79675701	A	G	unknown	PHIP	nonsynonymous SNV	grupo_afectos
+6	7986847	7986847	G	A	unknown	MUTED-TXNDC5,PIP5K1P1	ncRNA	grupo_afectos
+7	126410171	126410171	G	C	unknown	GRM8	ncRNA	grupo_afectos
+7	141429515	141429515	G	A	unknown	FLJ40852	ncRNA	grupo_afectos
+7	149503843	149503843	T	G	unknown	SSPO	nonsynonymous SNV	grupo_afectos
+7	64534151	64534151	T	C	unknown	CCT6P3	ncRNA	grupo_afectos
+8	142477588	142477588	C	T	unknown	FLJ43860	nonsynonymous SNV	grupo_afectos
+8	143746069	143746069	T	C	unknown	JRK	nonsynonymous SNV	grupo_afectos
+8	144816759	144816759	C	T	unknown	LOC100128338	ncRNA	grupo_afectos
+8	145007187	145007187	G	A	unknown	PLEC	nonsynonymous SNV	grupo_afectos
+8	56364593	56364593	C	G	unknown	SBF1P1	ncRNA	grupo_afectos
+8	67592152	67592152	T	C	unknown	C8orf44	nonsynonymous SNV	grupo_afectos
+8	72836429	72836429	T	G	unknown	LOC100132891	ncRNA	grupo_afectos
+8	90990479	90990479	C	G	unknown	NBN	nonsynonymous SNV	grupo_afectos
+8	94407211	94407211	T	C	unknown	LOC642924	ncRNA	grupo_afectos
+8	94658590	94658590	G	A	unknown	LOC642924	ncRNA	grupo_afectos
+9	130884753	130884753	C	T	unknown	PTGES2	nonsynonymous SNV	grupo_afectos
+9	132377900	132377900	C	T	unknown	C9orf50	nonsynonymous SNV	grupo_afectos
+9	139275294	139275294	G	C	unknown	SNAPC4	nonsynonymous SNV	grupo_afectos
+9	33001449	33001449	C	A	unknown	APTX	ncRNA	grupo_afectos
+9	97055310	97055310	C	T	unknown	ZNF169	nonsynonymous SNV	grupo_afectos
+X	140993859	140993859	T	A	unknown	MAGEC1	nonsynonymous SNV	grupo_afectos
+X	2688542	2688542	T	C	unknown	XGPY2	ncRNA	grupo_afectos

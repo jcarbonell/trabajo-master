@@ -1,0 +1,16 @@
+gene	variants	fams	biotype	description	omim_hit
+ATL2	2	MGP41			 ATLASTIN GTPase 2; ATL2
+HLA-DQA1	2	MGP43	c("protein_coding", "protein_coding", "protein_coding")	c("major histocompatibility complex, class II, DQ alpha 1 [Source:HGNC Symbol;Acc:4942]", "major histocompatibility complex, class II, DQ alpha 1 [Source:HGNC Symbol;Acc:4942]", "major histocompatibility complex, class II, DQ alpha 1 [Source:HGNC Symbol;Acc:4942]")	c(" MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DQ ALPHA-1; HLA-DQA1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DQ ALPHA-1; HLA-DQA1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DQ ALPHA-1; HLA-DQA1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DQ ALPHA-1; HLA-DQA1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DQ ALPHA-1; HLA-DQA1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DQ ALPHA-1; HLA-DQA1")
+HLA-H	2	MGP43	c("pseudogene", "pseudogene", "pseudogene")	c("major histocompatibility complex, class I, H (pseudogene) [Source:HGNC Symbol;Acc:4965]", "major histocompatibility complex, class I, H (pseudogene) [Source:HGNC Symbol;Acc:4965]", "major histocompatibility complex, class I, H (pseudogene) [Source:HGNC Symbol;Acc:4965]")	
+KIAA0556	2	MGP43			
+LOXHD1	2	MGP41			 LIPOXYGENASE HOMOLOGY DOMAIN-CONTAINING 1; LOXHD1
+MACF1	2	MGP43	protein_coding	microtubule-actin crosslinking factor 1 [Source:HGNC Symbol;Acc:13664]	 MICROTUBULE-ACTIN CROSS-LINKING FACTOR 1; MACF1
+MYH7B	2	MGP43			 MYOSIN, HEAVY CHAIN 7B, CARDIAC MUSCLE, BETA; MYH7B
+NCRNA00188	2	MGP43	lincRNA	non-protein coding RNA 188 [Source:HGNC Symbol;Acc:28619]	
+NLRP5	2	MGP43			 NLR FAMILY, PYRIN DOMAIN-CONTAINING 5; NLRP5
+OR2T8	4	MGP43			
+PDZD2	3	MGP43	protein_coding	PDZ domain containing 2 [Source:HGNC Symbol;Acc:18486]	 PDZ DOMAIN-CONTAINING 2; PDZD2
+SDHAP1	3	MGP43			
+TMEM132A	2	MGP43			
+ZNF543	2	MGP43			
+ZNF578	2	MGP43			

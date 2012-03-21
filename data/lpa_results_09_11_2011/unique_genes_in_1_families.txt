@@ -1,0 +1,123 @@
+gene	variants	fams	biotype	description	omim_hit
+ACAD11	1	LPA2	protein_coding	acyl-CoA dehydrogenase family, member 11 [Source:HGNC Symbol;Acc:30211]	
+ADAMTSL1	1	LPA5	protein_coding	ADAMTS-like 1 [Source:HGNC Symbol;Acc:14632]	 ADAMTS-LIKE PROTEIN 1; ADAMTSL1
+ADC	1	LPA1			 ANTIZYME INHIBITOR 2
+AKR7L	1	LPA2	protein_coding	aldo-keto reductase family 7-like [Source:HGNC Symbol;Acc:24056]	 ALDO-KETO REDUCTASE FAMILY 7, MEMBER A4
+ALDH16A1	1	LPA4	protein_coding	aldehyde dehydrogenase 16 family, member A1 [Source:HGNC Symbol;Acc:28114]	 ALDEHYDE DEHYDROGENASE 16 FAMILY, MEMBER A1; ALDH16A1
+ALPK3	1	LPA3			
+ANO1	1	LPA2	protein_coding	anoctamin 1, calcium activated chloride channel [Source:HGNC Symbol;Acc:21625]	 ANOCTAMIN 1, CALCIUM-ACTIVATED CHLORIDE CHANNEL; ANO1
+AQP7	1	LPA4	protein_coding	aquaporin 7 [Source:HGNC Symbol;Acc:640]	 AQUAPORIN 7; AQP7
+ASAP3;ASAP3	1	LPA5			
+ASCC2	1	LPA2	protein_coding	activating signal cointegrator 1 complex subunit 2 [Source:HGNC Symbol;Acc:24103]	
+ASPG	1	LPA4	protein_coding	asparaginase homolog (S. cerevisiae) [Source:HGNC Symbol;Acc:20123]	
+AZI1	1	LPA5			 5-@AZACYTIDINE-INDUCED GENE 1, MOUSE, HOMOLOG OF; AZI1
+B3GALNT1	1	LPA4			 BETA-1,3-N-ACETYLGALACTOSAMINYLTRANSFERASE 1; B3GALNT1
+BBS7	1	LPA4			 BBS7 GENE; BBS7
+BRCA1	1	LPA1	protein_coding	breast cancer 1, early onset [Source:HGNC Symbol;Acc:1100]	 BREAST CANCER 1 GENE; BRCA1
+BTNL3	1	LPA4	protein_coding	butyrophilin-like 3 [Source:HGNC Symbol;Acc:1143]	 BUTYROPHILIN-LIKE PROTEIN 3; BTNL3
+C13orf39	1	LPA2			
+C15orf39	1	LPA5			
+C16orf46	1	LPA2			
+C18orf16	1	LPA5			
+C22orf41	1	LPA5	protein_coding	chromosome 22 open reading frame 41 [Source:HGNC Symbol;Acc:35245]	
+C8A	1	LPA4	LRG_gene	complement component 8, alpha polypeptide [Source:HGNC Symbol;Acc:1352]	c(" COMPLEMENT COMPONENT 8, ALPHA SUBUNIT; C8A", " COMPLEMENT COMPONENT 8, ALPHA SUBUNIT; C8A")
+C9orf84	1	LPA3	protein_coding	chromosome 9 open reading frame 84 [Source:HGNC Symbol;Acc:26535]	
+CAPRIN2	1	LPA3			 C1q DOMAIN-CONTAINING PROTEIN 1; C1QDC1
+CCDC142	1	LPA5	protein_coding	coiled-coil domain containing 142 [Source:HGNC Symbol;Acc:25889]	
+CCDC150	1	LPA3			
+CCT8	1	LPA4	protein_coding	chaperonin containing TCP1, subunit 8 (theta) [Source:HGNC Symbol;Acc:1623]	
+CLEC4M	1	LPA5			 C-TYPE LECTIN DOMAIN FAMILY 4, MEMBER M; CLEC4M
+CLIC3	1	LPA4			 CHLORIDE INTRACELLULAR CHANNEL 3; CLIC3
+CLK1	1	LPA2			 CDC-LIKE KINASE 1; CLK1
+CNKSR1	1	LPA3			 CONNECTOR ENHANCER OF KSR 1; CNKSR1
+COBL	1	LPA4	protein_coding	cordon-bleu homolog (mouse) [Source:HGNC Symbol;Acc:22199]	 CORDON-BLEU, MOUSE, HOMOLOG OF; COBL
+COL6A3	1	LPA1			 COLLAGEN, TYPE VI, ALPHA-3; COL6A3
+CPEB3	1	LPA4			 CYTOPLASMIC POLYADENYLATION ELEMENT-BINDING PROTEIN 3; CPEB3
+CPT1B	1	LPA4	protein_coding	carnitine palmitoyltransferase 1B (muscle) [Source:HGNC Symbol;Acc:2329]	 CARNITINE PALMITOYLTRANSFERASE I, MUSCLE; CPT1B
+CRISP1	1	LPA2	protein_coding	cysteine-rich secretory protein 1 [Source:HGNC Symbol;Acc:304]	 CYSTEINE-RICH SECRETORY PROTEIN 1; CRISP1
+CSNK1A1L	1	LPA3	protein_coding	casein kinase 1, alpha 1-like [Source:HGNC Symbol;Acc:20289]	
+CTAGE11P	1	LPA5			
+CTSH	1	LPA4	protein_coding	cathepsin H [Source:HGNC Symbol;Acc:2535]	 CATHEPSIN H; CTSH
+CYP4A11	1	LPA4			 CYTOCHROME P450, SUBFAMILY IVA, POLYPEPTIDE 11; CYP4A11
+DGKD	1	LPA5	protein_coding	diacylglycerol kinase, delta 130kDa [Source:HGNC Symbol;Acc:2851]	 DIACYLGLYCEROL KINASE, DELTA, 130-KD; DGKD
+DNAJC13	1	LPA3	protein_coding	DnaJ (Hsp40) homolog, subfamily C, member 13 [Source:HGNC Symbol;Acc:30343]	
+DOK5	1	LPA2			 DOCKING PROTEIN 5; DOK5
+ELMOD3	1	LPA2			
+ELTD1	1	LPA4			
+ERC1	1	LPA1			 RAB6-INTERACTING PROTEIN 2; RAB6IP2
+FBLN1	1	LPA4			 FIBULIN 1; FBLN1
+FBN3	1	LPA2			 FIBRILLIN 3; FBN3
+FILIP1L	1	LPA3			 FILAMIN A-INTERACTING PROTEIN 1-LIKE; FILIP1L
+FLJ45983	1	LPA3			
+FLT3	1	LPA2			 FMS-RELATED TYROSINE KINASE 3; FLT3
+FOXRED1	1	LPA4			 FAD-DEPENDENT OXIDOREDUCTASE DOMAIN-CONTAINING PROTEIN 1; FOXRED1
+GBA3	1	LPA5	polymorphic_pseudogene	glucosidase, beta, acid 3 (cytosolic) [Source:HGNC Symbol;Acc:19069]	 GLUCOSIDASE, BETA, ACID 3; GBA3
+GJB7	1	LPA2	protein_coding	gap junction protein, beta 7, 25kDa [Source:HGNC Symbol;Acc:16690]	 GAP JUNCTION PROTEIN, BETA-7; GJB7
+HLA-DRB5	1	LPA1	protein_coding	major histocompatibility complex, class II, DR beta 5 [Source:HGNC Symbol;Acc:4953]	 MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DR BETA-5; HLA-DRB5
+HMGCR	1	LPA1			 3-@HYDROXY-3-METHYLGLUTARYL-CoA REDUCTASE; HMGCR
+IFIH1	1	LPA2			 INTERFERON-INDUCED HELICASE C DOMAIN-CONTAINING PROTEIN 1; IFIH1
+IGF2AS,INS-IGF2	1	LPA4			
+IMPG1	1	LPA2			 INTERPHOTORECEPTOR MATRIX PROTEOGLYCAN 1; IMPG1
+KLHDC7A	1	LPA2	protein_coding	kelch domain containing 7A [Source:HGNC Symbol;Acc:26791]	
+LAMB3	2	LPA4	protein_coding	laminin, beta 3 [Source:HGNC Symbol;Acc:6490]	 LAMININ, BETA-3; LAMB3
+LAMC3	1	LPA1	protein_coding	laminin, gamma 3 [Source:HGNC Symbol;Acc:6494]	 LAMININ, GAMMA-3; LAMC3
+LOC149620	1	LPA2			
+LOC286467	1	LPA1			
+LPXN	1	LPA4			 LEUPAXIN; LPXN
+LRRC37A3	1	LPA2			
+LRRN1	1	LPA4			
+LTA	1	LPA5	c("protein_coding", "protein_coding", "protein_coding", "protein_coding")	c("lymphotoxin alpha (TNF superfamily, member 1) [Source:HGNC Symbol;Acc:6709]", "lymphotoxin alpha (TNF superfamily, member 1) [Source:HGNC Symbol;Acc:6709]", "lymphotoxin alpha (TNF superfamily, member 1) [Source:HGNC Symbol;Acc:6709]", "lymphotoxin alpha (TNF superfamily, member 1) [Source:HGNC Symbol;Acc:6709]")	c(" LYMPHOTOXIN-ALPHA; LTA", " LYMPHOTOXIN-ALPHA; LTA", " LYMPHOTOXIN-ALPHA; LTA", " LYMPHOTOXIN-ALPHA; LTA", " LYMPHOTOXIN-ALPHA; LTA", " LYMPHOTOXIN-ALPHA; LTA", " LYMPHOTOXIN-ALPHA; LTA")
+MDN1	1	LPA4			
+MELK	1	LPA1			 MATERNAL EMBRYONIC LEUCINE ZIPPER KINASE; MELK
+MLL	1	LPA2			 MYELOID/LYMPHOID OR MIXED LINEAGE LEUKEMIA GENE; MLL
+MON1B	1	LPA3			 MON1, S. CEREVISIAE, HOMOLOG OF, B; MON1B
+MPND	1	LPA2			
+MST1P2	1	LPA5			
+MUC12	1	LPA1			 MUCIN 12; MUC12
+MUC4	1	LPA5			 MUCIN 4, TRACHEOBRONCHIAL; MUC4
+MYO18B	1	LPA2	protein_coding	myosin XVIIIB [Source:HGNC Symbol;Acc:18150]	 MYOSIN XVIIIB; MYO18B
+NCR2	1	LPA3	protein_coding	natural cytotoxicity triggering receptor 2 [Source:HGNC Symbol;Acc:6732]	 NATURAL CYTOTOXICITY TRIGGERING RECEPTOR 2; NCR2
+NOXA1	1	LPA4	protein_coding	NADPH oxidase activator 1 [Source:HGNC Symbol;Acc:10668]	 NADPH OXIDASE ACTIVATOR 1; NOXA1
+NR4A2	1	LPA5	protein_coding	nuclear receptor subfamily 4, group A, member 2 [Source:HGNC Symbol;Acc:7981]	 NUCLEAR RECEPTOR SUBFAMILY 4, GROUP A, MEMBER 2; NR4A2
+OPN3	1	LPA2			 OPSIN 3; OPN3
+OR1J2	1	LPA5			
+OR3A2	1	LPA1			
+PECI	1	LPA5			
+PIK3CG	1	LPA5	protein_coding	phosphoinositide-3-kinase, catalytic, gamma polypeptide [Source:HGNC Symbol;Acc:8978]	 PHOSPHATIDYLINOSITOL 3-KINASE, CATALYTIC, GAMMA; PIK3CG
+PKD1L2	1	LPA2			 POLYCYSTIN 1-LIKE 2; PKD1L2
+POF1B	1	LPA4			 ACTIN-BINDING PROTEIN, 34-KD
+POU6F1	1	LPA1			
+PPP6R2	1	LPA1			 SAPS DOMAIN FAMILY, MEMBER 2; SAPS2
+PPRC1	1	LPA3	protein_coding	peroxisome proliferator-activated receptor gamma, coactivator-related 1 [Source:HGNC Symbol;Acc:30025]	
+PTPRJ	1	LPA2			 PROTEIN-TYROSINE PHOSPHATASE, RECEPTOR-TYPE, J; PTPRJ
+PTPRT	1	LPA4	protein_coding	protein tyrosine phosphatase, receptor type, T [Source:HGNC Symbol;Acc:9682]	 PROTEIN-TYROSINE PHOSPHATASE, RECEPTOR-TYPE, T; PTPRT
+PYHIN1	1	LPA3			 PYRIN AND HIN DOMAIN FAMILY, MEMBER 1; PYHIN1
+RAB4B-EGLN2	1	LPA2			
+RFPL3	1	LPA2	protein_coding	ret finger protein-like 3 [Source:HGNC Symbol;Acc:9980]	 RET FINGER PROTEIN-LIKE 3; RFPL3
+RIC3	1	LPA5			 RESISTANCE TO INHIBITORS OF CHOLINESTERASE 3, C. ELEGANS, HOMOLOG
+RNF170	1	LPA3	protein_coding	ring finger protein 170 [Source:HGNC Symbol;Acc:25358]	
+RPL13AP5	1	LPA5	pseudogene	ribosomal protein L13a pseudogene 5 [Source:HGNC Symbol;Acc:23736]	
+RTEL1	1	LPA5			
+SCMH1;SCMH1	1	LPA3			
+SCUBE1	1	LPA4	protein_coding	signal peptide, CUB domain, EGF-like 1 [Source:HGNC Symbol;Acc:13441]	 SIGNAL PEPTIDE-, CUB DOMAIN-, AND EGF-LIKE DOMAINS-CONTAINING PROTEIN
+SDK1	1	LPA4			 SIDEKICK, DROSOPHILA, HOMOLOG OF, 1; SDK1
+SEMA3F	1	LPA4			 SEMAPHORIN 3F; SEMA3F
+SFSWAP	1	LPA2			 SPLICING FACTOR, ARGININE/SERINE-RICH, 8; SFRS8
+SIRT2	1	LPA5	protein_coding	sirtuin 2 [Source:HGNC Symbol;Acc:10886]	 SIRTUIN 2; SIRT2
+SLC25A38	1	LPA5			 SOLUTE CARRIER FAMILY 25, MEMBER 38; SLC25A38
+SLC4A5	1	LPA1			 SOLUTE CARRIER FAMILY 4 (SODIUM BICARBONATE COTRANSPORTER), MEMBER
+SPAM1	1	LPA2	protein_coding	sperm adhesion molecule 1 (PH-20 hyaluronidase, zona pellucida binding) [Source:HGNC Symbol;Acc:11217]	 SPERM ADHESION MOLECULE 1; SPAM1
+SPATA9	1	LPA2	protein_coding	spermatogenesis associated 9 [Source:HGNC Symbol;Acc:22988]	 NYD-SP16
+SPTB	1	LPA5	protein_coding	spectrin, beta, erythrocytic [Source:HGNC Symbol;Acc:11274]	 SPECTRIN, BETA, ERYTHROCYTIC; SPTB
+STX18	1	LPA2	protein_coding	syntaxin 18 [Source:HGNC Symbol;Acc:15942]	 SYNTAXIN 18; STX18
+SYNE2	1	LPA5			 SYNAPTIC NUCLEAR ENVELOPE PROTEIN 2; SYNE2
+TEKT2	1	LPA4			 TEKTIN 2; TEKT2
+THAP3	1	LPA4			 THAP DOMAIN-CONTAINING PROTEIN 3; THAP3
+USP48	1	LPA4			
+VARS	1	LPA3	c("protein_coding", "protein_coding", "protein_coding")	c("valyl-tRNA synthetase [Source:HGNC Symbol;Acc:12651]", "valyl-tRNA synthetase [Source:HGNC Symbol;Acc:12651]", "valyl-tRNA synthetase [Source:HGNC Symbol;Acc:12651]")	c(" VALYL-tRNA SYNTHETASE; VARS", " VALYL-tRNA SYNTHETASE; VARS", " VALYL-tRNA SYNTHETASE; VARS", " VALYL-tRNA SYNTHETASE; VARS", " VALYL-tRNA SYNTHETASE; VARS", " VALYL-tRNA SYNTHETASE; VARS", " VALYL-tRNA SYNTHETASE; VARS")
+WDR27	1	LPA5			
+XIRP2	1	LPA2			 CARDIOMYOPATHY-ASSOCIATED PROTEIN 3; CMYA3
+ZNF549	1	LPA2			
+ZNF576	1	LPA4	protein_coding	zinc finger protein 576 [Source:HGNC Symbol;Acc:28357]	
+ZNF577	1	LPA5			
+ZNFX1	1	LPA4			

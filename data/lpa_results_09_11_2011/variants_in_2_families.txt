@@ -1,0 +1,2 @@
+chr	start	end	ref	alt	dbSNP	gene	consequence	families
+10	70992664	70992664	C	T	unknown	HKDC1	nonsynonymous SNV	LPA1,LPA3

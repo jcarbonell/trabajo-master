@@ -1,0 +1,35 @@
+chr	start	end	ref	alt	dbSNP_id	X1000genomes_id	gene	c_type
+1	6694119	6694119	C	T	unknown	unknown	THAP3	nonsynonymous SNV
+1	22062956	22062956	C	T	unknown	unknown	USP48	nonsynonymous SNV
+1	36552585	36552585	C	T	unknown	unknown	TEKT2	nonsynonymous SNV
+1	47395917	47395917	C	T	unknown	unknown	CYP4A11	nonsynonymous SNV
+1	57378149	57378149	G	A	unknown	unknown	C8A	nonsynonymous SNV
+1	79403593	79403593	G	A	unknown	unknown	ELTD1	nonsynonymous SNV
+1	209800230	209800230	C	T	unknown	0.249	LAMB3	nonsynonymous SNV
+1	209807815	209807815	T	C	unknown	0.071	LAMB3	nonsynonymous SNV
+3	3887508	3887508	C	G	unknown	0.010	LRRN1	nonsynonymous SNV
+3	50225255	50225255	G	A	unknown	unknown	SEMA3F	nonsynonymous SNV
+3	160804167	160804167	C	T	unknown	0.030	B3GALNT1	nonsynonymous SNV
+4	122765152	122765152	T	C	unknown	unknown	BBS7	nonsynonymous SNV
+5	180432662	180432662	C	G	unknown	0.095	BTNL3	nonsynonymous SNV
+6	90503818	90503818	C	T	unknown	unknown	MDN1	splicing
+7	3681647	3681647	C	G	unknown	unknown	SDK1	nonsynonymous SNV
+7	51095951	51095951	C	A	unknown	unknown	COBL	nonsynonymous SNV
+9	33385808	33385808	G	T	unknown	0.261	AQP7	nonsynonymous SNV
+9	139889162	139889162	C	A	unknown	0.009	CLIC3	nonsynonymous SNV
+9	140327663	140327663	C	T	unknown	0.223	NOXA1	nonsynonymous SNV
+10	93999956	93999956	C	T	unknown	unknown	CPEB3	nonsynonymous SNV
+11	2167572	2167572	G	A	unknown	unknown	IGF2AS,INS-IGF2	ncRNA
+11	58317528	58317528	C	T	unknown	unknown	LPXN	nonsynonymous SNV
+11	126147697	126147697	G	A	unknown	0.136	FOXRED1	ncRNA
+14	104559922	104559922	C	G	unknown	0.394	ASPG	nonsynonymous SNV
+15	79224727	79224727	T	C	unknown	0.008	CTSH	nonsynonymous SNV
+19	44103210	44103210	A	G	unknown	unknown	ZNF576	nonsynonymous SNV
+19	49962986	49962986	C	G	unknown	0.003	ALDH16A1	nonsynonymous SNV
+20	40864875	40864875	T	C	unknown	unknown	PTPRT	nonsynonymous SNV
+20	47887812	47887812	C	T	unknown	unknown	ZNFX1	nonsynonymous SNV
+21	30439335	30439335	C	T	unknown	unknown	CCT8	nonsynonymous SNV
+22	43610207	43610207	A	G	unknown	0.421	SCUBE1	nonsynonymous SNV
+22	45943051	45943051	C	T	unknown	unknown	FBLN1	stopgain SNV
+22	51015838	51015838	T	C	unknown	0.129	CPT1B	nonsynonymous SNV
+X	84586003	84586003	G	A	unknown	0.0041	POF1B	nonsynonymous SNV

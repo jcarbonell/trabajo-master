@@ -1,0 +1,29 @@
+chr	start	end	ref	alt	dbSNP_id	X1000genomes_id	gene	c_type
+1	16973155	16973155	C	G	unknown	0.166	MST1P2	ncRNA
+1	23757529	23757529	G	A	unknown	unknown	ASAP3;ASAP3	nonsynonymous SNV
+2	74702487	74702487	C	T	unknown	unknown	CCDC142	nonsynonymous SNV
+2	157184370	157184370	T	G	unknown	unknown	NR4A2	nonsynonymous SNV
+2	234357944	234357944	C	T	unknown	unknown	DGKD	nonsynonymous SNV
+3	39425226	39425226	A	G	unknown	unknown	SLC25A38	nonsynonymous SNV
+3	195490949	195490949	C	T	unknown	unknown	MUC4	nonsynonymous SNV
+4	22749270	22749270	G	C	unknown	0.006	GBA3	nonsynonymous SNV
+6	4128075	4128075	G	A	unknown	0.008	PECI	ncRNA
+6	31541337	31541337	C	T	unknown	unknown	LTA	nonsynonymous SNV
+6	170033086	170033086	G	A	unknown	0.195	WDR27	nonsynonymous SNV
+7	106522592	106522592	A	G	unknown	0.047	PIK3CG	nonsynonymous SNV
+9	18706945	18706945	C	T	unknown	unknown	ADAMTSL1	nonsynonymous SNV
+9	125273271	125273271	G	T	unknown	unknown	OR1J2	nonsynonymous SNV
+11	8158999	8158999	T	G	unknown	unknown	RIC3	nonsynonymous SNV
+13	75814504	75814504	A	G	unknown	0.701	CTAGE11P	ncRNA
+14	64557734	64557734	A	C	unknown	0.098	SYNE2	nonsynonymous SNV
+14	65249153	65249153	T	C	unknown	0.021	SPTB	nonsynonymous SNV
+15	75501106	75501106	C	T	unknown	unknown	C15orf39	nonsynonymous SNV
+17	79174221	79174221	T	C	unknown	0.931	AZI1	nonsynonymous SNV
+18	24510763	24510763	A	G	unknown	0.544	C18orf16	ncRNA
+19	7831700	7831700	G	C	unknown	0.782	CLEC4M	ncRNA
+19	39369986	39369986	T	G	unknown	0.002	SIRT2	ncRNA
+19	49994372	49994372	C	T	unknown	0.005	RPL13AP5	ncRNA
+19	52376434	52376434	T	C	unknown	0.042	ZNF577	nonsynonymous SNV
+20	62324619	62324619	C	T	unknown	unknown	RTEL1	nonsynonymous SNV
+22	50989678	50989678	A	G	unknown	0.063	C22orf41	nonsynonymous SNV
+22	51018564	51018564	G	A	unknown	0.018	CHKB-CPT1B	ncRNA

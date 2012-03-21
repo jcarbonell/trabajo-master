@@ -1,0 +1,3 @@
+gene	variants	fams	biotype	description	omim_hit
+CHKB-CPT1B	2	LPA2	processed_transcript	CHKB-CPT1B readthrough (non-protein coding) [Source:HGNC Symbol;Acc:41998]	
+HKDC1	2	LPA1			

@@ -1,0 +1,175 @@
+gene	variants	fams	biotype	description	omim_hit
+A1BG-AS1	1	grupo_afectos			
+ACAN	1	grupo_afectos			 AGGRECAN; ACAN
+ACTL9	1	grupo_afectos			
+ADARB1	1	grupo_afectos			 ADENOSINE DEAMINASE, RNA-SPECIFIC, B1; ADARB1
+AGAP11	1	grupo_afectos			
+AHNAK2	1	grupo_afectos			 AHNAK NUCLEOPROTEIN 2
+AIFM3	2	grupo_afectos	protein_coding	apoptosis-inducing factor, mitochondrion-associated, 3 [Source:HGNC Symbol;Acc:26398]	
+ANKDD1A	1	grupo_afectos			
+ANKRD30BL	1	grupo_afectos			
+APOBEC3H	1	grupo_afectos	protein_coding	apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like 3H [Source:HGNC Symbol;Acc:24100]	 APOLIPOPROTEIN B mRNA EDITING ENZYME, CATALYTIC POLYPEPTIDE-LIKE 3H;
+APOL3	1	grupo_afectos	protein_coding	apolipoprotein L, 3 [Source:HGNC Symbol;Acc:14868]	 APOLIPOPROTEIN L-III; APOL3
+APTX	1	grupo_afectos			 APRATAXIN; APTX
+ARHGEF11	1	grupo_afectos			 RHO GUANINE NUCLEOTIDE EXCHANGE FACTOR 11; ARHGEF11
+ARL11	1	grupo_afectos			 ADP-RIBOSYLATION FACTOR-LIKE 11; ARL11
+ASAP2	1	grupo_afectos			 DEVELOPMENT- AND DIFFERENTIATION-ENHANCING FACTOR 2; DDEF2
+ATF5	1	grupo_afectos	protein_coding	activating transcription factor 5 [Source:HGNC Symbol;Acc:790]	 ACTIVATING TRANSCRIPTION FACTOR 5; ATF5
+ATP5S	1	grupo_afectos			
+ATP6V1B1	1	grupo_afectos			 ATPase, H+ TRANSPORTING, LYSOSOMAL, 56/58-KD, V1 SUBUNIT B, ISOFORM
+AZI1	1	grupo_afectos			 5-@AZACYTIDINE-INDUCED GENE 1, MOUSE, HOMOLOG OF; AZI1
+B3GNT4	1	grupo_afectos	protein_coding	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 4 [Source:HGNC Symbol;Acc:15683]	 BETA-1,3-N-ACETYLGLUCOSAMINYLTRANSFERASE 4; B3GNT4
+C10orf113	1	grupo_afectos			
+C15orf40	1	grupo_afectos			
+C17orf101	2	grupo_afectos			
+C18orf16	1	grupo_afectos			
+C19orf46	1	grupo_afectos	protein_coding	chromosome 19 open reading frame 46 [Source:HGNC Symbol;Acc:26703]	
+C1QTNF9	1	grupo_afectos			
+C4orf42	1	grupo_afectos			
+C5orf45	1	grupo_afectos			
+C8orf44	1	grupo_afectos			
+C9orf50	1	grupo_afectos			
+CACNA1I	1	grupo_afectos	protein_coding	calcium channel, voltage-dependent, T type, alpha 1I subunit [Source:HGNC Symbol;Acc:1396]	 CALCIUM CHANNEL, VOLTAGE-DEPENDENT, T TYPE, ALPHA-1I SUBUNIT; CACNA1I
+CALB2	1	grupo_afectos			 CALBINDIN 2; CALB2
+CAP1	3	grupo_afectos			
+CAPN2	1	grupo_afectos	protein_coding	calpain 2, (m/II) large subunit [Source:HGNC Symbol;Acc:1479]	 CALPAIN 2; CAPN2
+CCDC38	1	grupo_afectos			
+CCDC74B	1	grupo_afectos			
+CCL14-CCL15	1	grupo_afectos			
+CCT6P3	1	grupo_afectos			
+CDCP2	1	grupo_afectos			 CUB DOMAIN-CONTAINING PROTEIN 2; CDCP2
+CFLAR	1	grupo_afectos			 CASP8- AND FADD-LIKE APOPTOSIS REGULATOR; CFLAR
+CHD9	1	grupo_afectos			
+CLEC4M	1	grupo_afectos			 C-TYPE LECTIN DOMAIN FAMILY 4, MEMBER M; CLEC4M
+CNN2	1	grupo_afectos	protein_coding	calponin 2 [Source:HGNC Symbol;Acc:2156]	 CALPONIN 2; CNN2
+CSDAP1	1	grupo_afectos			
+CUL4A	1	grupo_afectos			 CULLIN 4A; CUL4A
+CYP4F24P	1	grupo_afectos			
+DDX12	1	grupo_afectos			
+DHRS4L1	1	grupo_afectos			
+DKFZp434J0226	1	grupo_afectos			
+ECT2L;ECT2L	1	grupo_afectos			
+EFCAB5	1	grupo_afectos	protein_coding	EF-hand calcium binding domain 5 [Source:HGNC Symbol;Acc:24801]	
+FAM38A	2	grupo_afectos			 FAMILY WITH SEQUENCE SIMILARITY 38, MEMBER A; FAM38A
+FAM5B	1	grupo_afectos	protein_coding	family with sequence similarity 5, member B [Source:HGNC Symbol;Acc:13746]	
+FBLN2	1	grupo_afectos			 FIBULIN 2; FBLN2
+FLJ31306	2	grupo_afectos			
+FLJ39582,MGC16703	1	grupo_afectos			
+FLJ40852	1	grupo_afectos			
+FLJ43860	1	grupo_afectos			
+FRMPD2	1	grupo_afectos	protein_coding	FERM and PDZ domain containing 2 [Source:HGNC Symbol;Acc:28572]	 FERM AND PDZ DOMAINS-CONTAINING PROTEIN 2; FRMPD2
+FUNDC2P2	1	grupo_afectos			
+GEMIN8P4	1	grupo_afectos			
+GOLGA3	1	grupo_afectos	protein_coding	golgin A3 [Source:HGNC Symbol;Acc:4426]	 GOLGI AUTOANTIGEN, GOLGIN SUBFAMILY A, 3; GOLGA3
+GPR116	1	grupo_afectos			
+GRIN2C	1	grupo_afectos	protein_coding	glutamate receptor, ionotropic, N-methyl D-aspartate 2C [Source:HGNC Symbol;Acc:4587]	 GLUTAMATE RECEPTOR, IONOTROPIC, N-METHYL-D-ASPARTATE, SUBUNIT 2C;
+GRM8	1	grupo_afectos	protein_coding	glutamate receptor, metabotropic 8 [Source:HGNC Symbol;Acc:4600]	 GLUTAMATE RECEPTOR, METABOTROPIC, 8; GRM8
+HLA-A	1	grupo_afectos	c("protein_coding", "protein_coding", "protein_coding")	c("major histocompatibility complex, class I, A [Source:HGNC Symbol;Acc:4931]", "major histocompatibility complex, class I, A [Source:HGNC Symbol;Acc:4931]", "major histocompatibility complex, class I, A [Source:HGNC Symbol;Acc:4931]")	c(" MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS I, A; HLA-A")
+HLA-DPB1	1	grupo_afectos	c("protein_coding", "protein_coding", "protein_coding")	c("major histocompatibility complex, class II, DP beta 1 [Source:HGNC Symbol;Acc:4940]", "major histocompatibility complex, class II, DP beta 1 [Source:HGNC Symbol;Acc:4940]", "major histocompatibility complex, class II, DP beta 1 [Source:HGNC Symbol;Acc:4940]")	c(" MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1", " MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DP BETA-1; HLA-DPB1"
+HLA-DRB5	1	grupo_afectos	protein_coding	major histocompatibility complex, class II, DR beta 5 [Source:HGNC Symbol;Acc:4953]	 MAJOR HISTOCOMPATIBILITY COMPLEX, CLASS II, DR BETA-5; HLA-DRB5
+HLA-H	1	grupo_afectos	c("pseudogene", "pseudogene", "pseudogene")	c("major histocompatibility complex, class I, H (pseudogene) [Source:HGNC Symbol;Acc:4965]", "major histocompatibility complex, class I, H (pseudogene) [Source:HGNC Symbol;Acc:4965]", "major histocompatibility complex, class I, H (pseudogene) [Source:HGNC Symbol;Acc:4965]")	
+IGFN1	1	grupo_afectos			
+IGSF9B	1	grupo_afectos	protein_coding	immunoglobulin superfamily, member 9B [Source:HGNC Symbol;Acc:32326]	 IMMUNOGLOBULIN SUPERFAMILY, MEMBER 9B; IGSF9B
+JRK	1	grupo_afectos	processed_transcript	jerky homolog (mouse) [Source:HGNC Symbol;Acc:6199]	
+KANK4	1	grupo_afectos			
+KCNE1	1	grupo_afectos	protein_coding	potassium voltage-gated channel, Isk-related family, member 1 [Source:HGNC Symbol;Acc:6240]	 POTASSIUM CHANNEL, VOLTAGE-GATED, ISK-RELATED SUBFAMILY, MEMBER 1;
+KIF19	1	grupo_afectos	protein_coding	kinesin family member 19 [Source:HGNC Symbol;Acc:26735]	
+KIR2DS4;KIR2DS4	1	grupo_afectos			
+KRT37	1	grupo_afectos	protein_coding	keratin 37 [Source:HGNC Symbol;Acc:6455]	 KERATIN 37; KRT37
+KRTAP10-7	1	grupo_afectos			
+LAMA4	1	grupo_afectos			 LAMININ, ALPHA-4; LAMA4
+LAMA5	1	grupo_afectos			 LAMININ, ALPHA-5; LAMA5
+LBR	1	grupo_afectos	protein_coding	lamin B receptor [Source:HGNC Symbol;Acc:6518]	 LAMIN B RECEPTOR; LBR
+LENG9	1	grupo_afectos			
+LOC100128338	1	grupo_afectos			
+LOC100132526	1	grupo_afectos			
+LOC100132891	1	grupo_afectos			
+LOC100133991	1	grupo_afectos			
+LOC100302640	1	grupo_afectos			
+LOC100506023	1	grupo_afectos			
+LOC283404	1	grupo_afectos			
+LOC285830	1	grupo_afectos			
+LOC399959	1	grupo_afectos			
+LOC402160	1	grupo_afectos			
+LOC541471	1	grupo_afectos			
+LOC642924	2	grupo_afectos			
+LOC643650	1	grupo_afectos			
+LOC644189	1	grupo_afectos			
+LOC645158	1	grupo_afectos			
+LOC645332	1	grupo_afectos			
+LOC645752	1	grupo_afectos			
+LOC91316	1	grupo_afectos			
+LRRC50	1	grupo_afectos			
+LY86-AS1	1	grupo_afectos			
+MAGEC1	1	grupo_afectos			 MELANOMA ANTIGEN, FAMILY C, 1; MAGEC1
+MC1R	1	grupo_afectos	protein_coding	melanocortin 1 receptor (alpha melanocyte stimulating hormone receptor) [Source:HGNC Symbol;Acc:6929]	 MELANOCORTIN 1 RECEPTOR; MC1R
+MIR548N	1	grupo_afectos	miRNA	microRNA 548n [Source:HGNC Symbol;Acc:35330]	
+MUC16	1	grupo_afectos			 MUCIN 16; MUC16
+MUTED-TXNDC5,PIP5K1P1	1	grupo_afectos			
+MYO3B	1	grupo_afectos			 MYOSIN IIIB; MYO3B
+NBN	1	grupo_afectos	c("protein_coding", "LRG_gene")	c("nibrin [Source:HGNC Symbol;Acc:7652]", "nibrin [Source:HGNC Symbol;Acc:7652]")	c(" NIBRIN; NBN", " NIBRIN; NBN")
+NCAPD2	1	grupo_afectos	protein_coding	non-SMC condensin I complex, subunit D2 [Source:HGNC Symbol;Acc:24305]	
+NCKAP5	1	grupo_afectos			 NCK-ASSOCIATED PROTEIN 5
+NEURL4	1	grupo_afectos			
+NKAIN4	1	grupo_afectos	protein_coding	Na+/K+ transporting ATPase interacting 4 [Source:HGNC Symbol;Acc:16191]	 Na+/K+ TRANSPORTING ATPase-INTERACTING 4; NKAIN4
+OPA1	1	grupo_afectos	protein_coding	optic atrophy 1 (autosomal dominant) [Source:HGNC Symbol;Acc:8140]	 OPA1 GENE; OPA1
+OR2AG2	1	grupo_afectos	protein_coding	olfactory receptor, family 2, subfamily AG, member 2 [Source:HGNC Symbol;Acc:15143]	
+OR2W3	1	grupo_afectos			
+PDE4DIP	1	grupo_afectos			 PHOSPHODIESTERASE 4D-INTERACTING PROTEIN; PDE4DIP
+PDLIM5	1	grupo_afectos			 ENIGMA-LIKE LIM DOMAIN PROTEIN
+PER2	1	grupo_afectos			 PERIOD, DROSOPHILA, HOMOLOG OF, 2; PER2
+PHIP	1	grupo_afectos			 PLECKSTRIN HOMOLOGY DOMAIN-INTERACTING PROTEIN; PHIP
+PIGB	1	grupo_afectos	protein_coding	phosphatidylinositol glycan anchor biosynthesis, class B [Source:HGNC Symbol;Acc:8959]	 PHOSPHATIDYLINOSITOL GLYCAN, CLASS B; PIGB
+PIP4K2A	1	grupo_afectos	protein_coding	phosphatidylinositol-5-phosphate 4-kinase, type II, alpha [Source:HGNC Symbol;Acc:8997]	 PHOSPHATIDYLINOSITOL-4-PHOSPHATE 5-KINASE, TYPE II, ALPHA; PIP5K2A
+PLA2G3	1	grupo_afectos			 PHOSPHOLIPASE A2, GROUP III; PLA2G3
+PLEC	1	grupo_afectos	protein_coding	plectin [Source:HGNC Symbol;Acc:9069]	 PLECTIN 1; PLEC1
+PLIN4	1	grupo_afectos			 PERILIPIN 4; PLIN4
+POTEG	1	grupo_afectos	protein_coding	POTE ankyrin domain family, member G [Source:HGNC Symbol;Acc:33896]	 POTE ANKYRIN DOMAIN FAMILY, MEMBER G; POTEG
+PPP2R2D	2	grupo_afectos	protein_coding	protein phosphatase 2, regulatory subunit B, delta [Source:HGNC Symbol;Acc:23732]	 PROTEIN PHOSPHATASE 2, REGULATORY SUBUNIT B, DELTA; PPP2R2D
+PSG8	1	grupo_afectos			 PREGNANCY-SPECIFIC BETA-1-GLYCOPROTEIN 8; PSG8
+PTGES2	1	grupo_afectos			 PROSTAGLANDIN E SYNTHASE 2; PTGES2
+PTPN7	1	grupo_afectos			 PROTEIN-TYROSINE PHOSPHATASE, NONRECEPTOR-TYPE, 7; PTPN7
+RAG1	1	grupo_afectos	LRG_gene	recombination activating gene 1 [Source:HGNC Symbol;Acc:9831]	c(" RECOMBINATION-ACTIVATING GENE 1; RAG1", " RECOMBINATION-ACTIVATING GENE 1; RAG1")
+RNF121	1	grupo_afectos	protein_coding	ring finger protein 121 [Source:HGNC Symbol;Acc:21070]	
+ROCK1P1	1	grupo_afectos			
+SBF1P1	1	grupo_afectos			
+SCUBE1	1	grupo_afectos	protein_coding	signal peptide, CUB domain, EGF-like 1 [Source:HGNC Symbol;Acc:13441]	 SIGNAL PEPTIDE-, CUB DOMAIN-, AND EGF-LIKE DOMAINS-CONTAINING PROTEIN
+SDC3	1	grupo_afectos	protein_coding	syndecan 3 [Source:HGNC Symbol;Acc:10660]	 SYNDECAN 3; SDC3
+SEC1	1	grupo_afectos			
+SECISBP2L	1	grupo_afectos			
+SIRPB1	1	grupo_afectos	protein_coding	signal-regulatory protein beta 1 [Source:HGNC Symbol;Acc:15928]	 SIGNAL REGULATORY PROTEIN, BETA-1; SIRPB1
+SLC15A3	1	grupo_afectos			 SOLUTE CARRIER FAMILY 15 (OLIGOPEPTIDE TRANSPORTER), MEMBER 3; SLC15A3
+SLC9A10	3	grupo_afectos	protein_coding	solute carrier family 9, member 10 [Source:HGNC Symbol;Acc:31401]	 SOLUTE CARRIER FAMILY 9, MEMBER 10; SLC9A10
+SMPD4	1	grupo_afectos			 SPHINGOMYELIN PHOSPHODIESTERASE 4, NEUTRAL MEMBRANE; SMPD4
+SNAPC4	1	grupo_afectos			 SMALL NUCLEAR RNA-ACTIVATING PROTEIN COMPLEX, POLYPEPTIDE 4; SNAPC4
+SSPO	1	grupo_afectos			
+ST7L	1	grupo_afectos			
+STK40	1	grupo_afectos			 SERINE/THREONINE PROTEIN KINASE 40; STK40
+TAPBPL	2	grupo_afectos	protein_coding	TAP binding protein-like [Source:HGNC Symbol;Acc:30683]	 TAP-BINDING PROTEIN-LIKE; TAPBPL
+TAS2R42	1	grupo_afectos			 TASTE RECEPTOR, TYPE 2, MEMBER 42; TAS2R42
+TAS2R43	1	grupo_afectos			 TASTE RECEPTOR, TYPE 2, MEMBER 43; TAS2R43
+TAS2R46	1	grupo_afectos			 TASTE RECEPTOR, TYPE 2, MEMBER 46; TAS2R46
+TCL6	1	grupo_afectos	lincRNA	T-cell leukemia/lymphoma 6 (non-protein coding) [Source:HGNC Symbol;Acc:13463]	
+TEKT4	1	grupo_afectos	protein_coding	tektin 4 [Source:HGNC Symbol;Acc:31012]	
+TMC3	1	grupo_afectos			
+TMEM135	1	grupo_afectos	protein_coding	transmembrane protein 135 [Source:HGNC Symbol;Acc:26167]	
+TMEM45B	1	grupo_afectos	protein_coding	transmembrane protein 45B [Source:HGNC Symbol;Acc:25194]	
+TMPRSS3	1	grupo_afectos			 TRANSMEMBRANE PROTEASE, SERINE 3; TMPRSS3
+TMX4	1	grupo_afectos	protein_coding	thioredoxin-related transmembrane protein 4 [Source:HGNC Symbol;Acc:25237]	
+TSNAX-DISC1	1	grupo_afectos			
+TTC27	1	grupo_afectos			
+TTLL13	2	grupo_afectos	protein_coding	tubulin tyrosine ligase-like family, member 13 [Source:HGNC Symbol;Acc:32484]	
+TTLL3	1	grupo_afectos			
+TUBGCP6	1	grupo_afectos			 TUBULIN-GAMMA COMPLEX-ASSOCIATED PROTEIN 6; TUBGCP6
+UMODL1	1	grupo_afectos			 UROMODULIN-LIKE 1; UMODL1
+WDFY4	1	grupo_afectos			 WD REPEAT- AND FYVE DOMAIN-CONTAINING PROTEIN 4; WDFY4
+WISP3	1	grupo_afectos			 WNT1-INDUCIBLE SIGNALING PATHWAY PROTEIN 3; WISP3
+XGPY2	1	grupo_afectos			
+ZNF137P	1	grupo_afectos	pseudogene	zinc finger protein 137, pseudogene [Source:HGNC Symbol;Acc:12921]	
+ZNF169	1	grupo_afectos			 ZINC FINGER PROTEIN 169; ZNF169
+ZNF23	1	grupo_afectos			 ZINC FINGER PROTEIN 23; ZNF23
+ZNF438	1	grupo_afectos			
+ZNF468	1	grupo_afectos			
+ZNF469	1	grupo_afectos			 ZINC FINGER PROTEIN 469; ZNF469
+ZNF683	1	grupo_afectos			
+ZNF879	2	grupo_afectos			

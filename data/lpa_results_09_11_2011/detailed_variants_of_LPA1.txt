@@ -1,0 +1,16 @@
+chr	start	end	ref	alt	dbSNP_id	X1000genomes_id	gene	c_type
+1	33558894	33558894	G	A	unknown	unknown	ADC	nonsynonymous SNV
+2	74460572	74460572	T	C	unknown	unknown	SLC4A5	nonsynonymous SNV
+2	238247734	238247734	C	G	unknown	0.040	COL6A3	nonsynonymous SNV
+5	74655086	74655086	A	T	unknown	unknown	HMGCR	nonsynonymous SNV
+6	32489891	32489891	C	T	unknown	0.028	HLA-DRB5	nonsynonymous SNV
+7	100634356	100634356	G	A	unknown	0.025	MUC12	nonsynonymous SNV
+9	36583642	36583642	A	G	unknown	unknown	MELK	nonsynonymous SNV
+9	133924451	133924451	C	T	unknown	0.254	LAMC3	nonsynonymous SNV
+10	70992664	70992664	C	T	unknown	0.542	HKDC1	nonsynonymous SNV
+12	1372114	1372114	A	G	unknown	0.473	ERC1	ncRNA
+12	51585335	51585335	G	A	unknown	0.337	POU6F1	ncRNA
+17	3181284	3181284	C	A	unknown	0.009	OR3A2	nonsynonymous SNV
+17	41216021	41216021	G	A	unknown	0.015	BRCA1	ncRNA
+22	50877144	50877144	C	T	unknown	0.017	PPP6R2	nonsynonymous SNV
+X	130929652	130929652	C	T	unknown	0.0883	LOC286467	ncRNA

@@ -1,0 +1,18 @@
+chr	start	end	ref	alt	dbSNP_id	X1000genomes_id	gene	c_type
+1	26508293	26508293	G	A	unknown	0.216	CNKSR1	ncRNA
+1	41541123	41541123	A	G	unknown	unknown	SCMH1;SCMH1	nonsynonymous SNV
+1	158913694	158913694	C	T	unknown	unknown	PYHIN1	stopgain SNV
+2	197576939	197576939	G	A	unknown	0.013	CCDC150	nonsynonymous SNV
+3	99569571	99569571	C	T	unknown	unknown	FILIP1L	nonsynonymous SNV
+3	132221139	132221139	C	T	unknown	0.011	DNAJC13	nonsynonymous SNV
+6	31747833	31747833	G	A	unknown	0.022	VARS	nonsynonymous SNV
+6	41318424	41318424	T	A	unknown	0.136	NCR2	nonsynonymous SNV
+8	42720581	42720581	C	T	unknown	unknown	RNF170	nonsynonymous SNV
+9	114462239	114462239	C	T	unknown	unknown	C9orf84	nonsynonymous SNV
+10	8093079	8093079	C	T	unknown	0.013	FLJ45983	ncRNA
+10	70992664	70992664	C	T	unknown	0.542	HKDC1	nonsynonymous SNV
+10	103899871	103899871	A	G	unknown	0.062	PPRC1	nonsynonymous SNV
+12	30878976	30878976	G	C	unknown	0.003	CAPRIN2	nonsynonymous SNV
+13	37679273	37679273	C	T	unknown	unknown	CSNK1A1L	nonsynonymous SNV
+15	85401766	85401766	A	G	unknown	unknown	ALPK3	nonsynonymous SNV
+16	77225440	77225440	G	T	unknown	unknown	MON1B	nonsynonymous SNV
