@@ -6,17 +6,24 @@ simulate_family_genes <- function(nfams,numgenes,distance_matrix=NULL,interactom
   
   # select a disease gene per family
   if(is.null(distance_matrix)){
-    cat("computing distance matrix...\n")
+#     cat("computing distance matrix...\n")
     distance_matrix <- compute_distance_matrix(interactome)
   } else {
-    cat("distance matrix provided...\n")
+#     cat("distance matrix provided...\n")
   }
-  row <- as.integer(runif(1,min=1,max=nrow(distance_matrix)))
-  pivot <- colnames(distance_matrix)[row]
-  neighborhood <- names(which(distance_matrix[row,]<3 & distance_matrix[row,]>0))
-  fam_disease_genes <- c(pivot,sample(neighborhood,nfams-1))
-  names(fam_disease_genes) <- fam_names
   
+  correct <- F
+  while(correct==F){
+    row <- as.integer(runif(1,min=1,max=nrow(distance_matrix)))
+    pivot <- colnames(distance_matrix)[row]
+    neighborhood <- names(which(distance_matrix[row,]<3 & distance_matrix[row,]>0))
+    if(length(neighborhood)>nfams){
+      fam_disease_genes <- c(pivot,sample(neighborhood,nfams-1))
+      names(fam_disease_genes) <- fam_names
+      correct <- T
+    } 
+  }
+    
   # add other random genes
   interactors <- rownames(distance_matrix)
   raw_gene_list <- list()
@@ -52,8 +59,8 @@ evaluate_prioritization <- function(scores_frame,fam_simulation,paint=T){
     
   if(paint){
     par(mfrow=c(2,1))
-    paint_evaluation(scores_frame$score_table,fam_genes_scores)
-    paint_evaluation(scores_frame$score_table_with_intermediates,fam_genes_scores,main="Score distribution (with intermediates)")
+    paint_evaluation(scores_frame$score_table$score,fam_genes_scores)
+    paint_evaluation(scores_frame$score_table_with_intermediates$score,fam_genes_scores,main="Score distribution (with intermediates)")
   }
   
   return(list(
@@ -68,12 +75,12 @@ evaluate_prioritization <- function(scores_frame,fam_simulation,paint=T){
   
 }
 
-paint_evaluation <- function(score_table,fam_genes_scores,main="Score distribution"){
+paint_evaluation <- function(all_scores,fam_genes_scores,main="Score distribution",bins=20){
   
-  h <- hist(score_table$score,20,probability=T,main=main,xlab="score")
-  lines(density(scores_frame$score_table$score),col="blue")
+  h <- hist(all_scores,bins,probability=T,main=main,xlab="score")
+  lines(density(all_scores),col="blue")
   for(i in fam_genes_scores){
     lines(c(i,i),c(0,max(h$density*0.9)),col="red",lwd=2)  
-  }  
+  }
   
 }

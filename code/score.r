@@ -6,7 +6,7 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
   subnet <- get.all.shortest.paths.Josete(interactome,all_raw_genes,5)
   subnet_summary <- describe_interactome(subnet,plot=F)
   distance_priors <- subnet_summary["Median",]/sum(subnet_summary["Median",])
-  cat("     (",nrow(subnet),"interactions)\n")
+#   cat("     (",nrow(subnet),"interactions)\n")
     
   # init interactors
   interactors <- unique(c(subnet[,1],subnet[,3]))
