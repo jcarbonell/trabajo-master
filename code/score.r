@@ -1,6 +1,6 @@
 
 
-default_score <- function(node,distance_matrix,weights,distance_priors,super_list_fams){
+default_score <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
   
   scores_by_distance <- numeric(length(weights))
   
@@ -19,7 +19,8 @@ default_score <- function(node,distance_matrix,weights,distance_priors,super_lis
       }
         
       selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-      
+      selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
+            
       if(is.null(selected_distance_fams)){
           scores_by_distance[j] <- 0
       } else {                
@@ -37,7 +38,7 @@ default_score <- function(node,distance_matrix,weights,distance_priors,super_lis
   
 }
 
-default_score2 <- function(node,distance_matrix,weights,distance_priors,super_list_fams){
+default_score2 <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
   
   scores_by_distance <- numeric(length(weights))
   
@@ -58,11 +59,9 @@ default_score2 <- function(node,distance_matrix,weights,distance_priors,super_li
     node_fam <- unique(unlist(super_list_fams[node]))
     
     selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-    
+    selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
     selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
-    
-    
-    
+        
     if(is.null(selected_distance_fams)){
       scores_by_distance[j] <- 0
     } else {                
@@ -79,6 +78,48 @@ default_score2 <- function(node,distance_matrix,weights,distance_priors,super_li
     ))
   
 }
+
+default_score3 <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
+  
+  scores_by_distance <- numeric(length(weights))
+  
+  distance <- 0
+  distance_prior <- 1  
+  
+  for(j in 1:length(weights)){
+    
+    if(distance==0){
+      selected_distance_nodes <- node
+      distance_prior <- 1
+    } else {
+      node_distances <- distance_matrix[node,]
+      selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
+      distance_prior <- distance_priors[distance]
+    }
+    
+    node_fam <- unique(unlist(super_list_fams[node]))
+    
+    selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
+    selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
+    selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
+        
+    if(is.null(selected_distance_fams)){
+      scores_by_distance[j] <- 0
+    } else {                
+      scores_by_distance[j] <- (length(selected_distance_fams)*weights[j])/distance_prior                   
+    }
+    
+    distance <- distance+1
+    
+  }
+  
+  return(list(
+    scores_by_distance=scores_by_distance,
+    score=sum(scores_by_distance)
+    ))
+  
+}
+
 
 compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numinter=1,inter_family="INTER"){
   
@@ -148,7 +189,7 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
                 
         uninteractors <- c(uninteractors,node)
         
-        node_score <- score_function(node,distance_matrix,weights[1],distance_priors,super_list_fams)
+        node_score <- score_function(node,distance_matrix,weights[1],distance_priors,super_list_fams,inter_family=inter_family)
         node_scores[w] <- node_score$score
         scores_by_distance[w,1] <- node_score$scores_by_distance
         
@@ -156,7 +197,7 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
           
     } else {
        
-      node_score <- score_function(node,distance_matrix,weights,distance_priors,super_list_fams)
+      node_score <- score_function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family=inter_family)
       node_scores[w] <- node_score$score
       scores_by_distance[w,] <- node_score$scores_by_distance
           
