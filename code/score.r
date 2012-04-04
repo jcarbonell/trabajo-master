@@ -121,7 +121,7 @@ default_score3 <- function(node,distance_matrix,weights,distance_priors,super_li
 }
 
 
-compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numinter=1,inter_family="INTER"){
+compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numinter=1,inter_family="INTER",verbose=T){
   
   # interactome pruning
   all_raw_genes <- unique(unlist(raw_gene_list))
@@ -251,38 +251,36 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
 }
 
 
-compute_multi_score <- function(raw_gene_list,interactomes,score_function,radio=5,numinter=1,inter_family="INTER",verbose=T,global_score_method=NULL){
+compute_multi_score <- function(raw_gene_list,interactomes,score_function,radio=5,numinter=1,inter_family="INTER",verbose=T,global_score_methods=NULL){
   
   # run and evaluate
   scores_frames <- list()
   
   for(i in 1:length(interactomes)){
     
-    if(verbose){
+    if(verbose==T){
       cat("Computing score with",names(interactomes)[i],"interactome\n")
     }
-    scores_frames[[ names(interactomes)[i] ]] <- compute_score(raw_gene_list,interactomes[[i]],score_function)
+    scores_frames[[ names(interactomes)[i] ]] <- compute_score(raw_gene_list,interactomes[[i]],score_function,verbose=verbose)
     
   }
+
+  global_score_table <- compute_global_score_table(scores_frames,inter=F,method=global_score_methods)
+  global_score_frame <- as.data.frame(global_score_table)
+  global_score_frame$fams <- get_fams_from_score_frame(scores_frames[[1]],rownames(global_score_table))
   
-#   if(!is.null(global_score_method) && length(global_score_method)>1){
-#     global_score_table <- list()
-#     global_score_table_with_inter <- list()
-#     for(k in global_score_method){
-#       global_score_table[[k]] <- compute_global_score_table(scores_frames,inter=F,method=k)
-#       global_score_table_with_inter[[k]] <- compute_global_score_table(scores_frames,inter=T,method=k)
-#     }
-#   } else {
-    global_score_table <- compute_global_score_table(scores_frames,inter=F,method=global_score_method)
-    global_score_table_with_inter <- compute_global_score_table(scores_frames,inter=T,method=global_score_method)  
-#   }
+  global_score_table_with_inter <- compute_global_score_table(scores_frames,inter=T,method=global_score_methods)  
+  global_score_frame_with_inter <- as.data.frame(global_score_table_with_inter)
+  global_score_frame_with_inter$fams <- get_fams_from_score_frame(scores_frames[[1]],rownames(global_score_table_with_inter))
   
-    
   return(list(
-    scores_frame_list=scores_frames,
-    global_score_table=global_score_table,
-    global_score_table_with_inter=global_score_table_with_inter    
+    scores_frame_list = scores_frames,
+    global_score_table = global_score_table,
+    global_score_frame = global_score_frame,
+    global_score_table_with_inter = global_score_table_with_inter,
+    global_score_frame_with_inter = global_score_frame_with_inter
   ))
+  
 }
 
 compute_global_score_table <- function(score_frames,inter=F,method="max"){
@@ -353,6 +351,18 @@ no_zero_mean <- function(scores){
     score <- 0
   } else {
     score <- mean(scores[no_zero])
+  }
+  return(score)
+  
+}
+
+no_zero_min <- function(scores){
+  
+  no_zero <- which(scores!=0)
+  if(length(no_zero)==0){
+    score <- 0
+  } else {
+    score <- min(scores[no_zero])
   }
   return(score)
   

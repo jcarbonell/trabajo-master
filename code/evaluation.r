@@ -2,7 +2,6 @@
 compare_scores <- function(score_functions,nfams=NULL,ngenes=NULL,nsims=NULL,interactome=NULL,distance_matrix=NULL,paint=T,verbose=T){
     
   # prepare variables
-  print(score_functions)
   nscores <- length(score_functions)
 
   # load interactomes
@@ -66,13 +65,11 @@ evaluate_global_prioritization <- function(global_score_table,family_set){
   nfams <- family_set$nfams
   ninteractomes <- ncol(global_score_table)
 
+  # target genes quantiles
   genes_position <- matrix(rep(0,ninteractomes*nfams),nrow=nfams)
-
   rownames(genes_position) <- family_set$fam_disease_genes
   colnames(genes_position) <- colnames(global_score_table)
-  
-  genes_relative_position <- matrix(rep(0,ninteractomes*nfams),nrow=nfams)
-  
+      
   for(i in 1:ninteractomes){
     col <- colnames(global_score_table)[i]
     
@@ -89,11 +86,37 @@ evaluate_global_prioritization <- function(global_score_table,family_set){
   
   genes_quantile <- 1 - (genes_position / nrow(global_score_table))
   
+  # split global_score_table by (INTER,ND_FAM_GENES,DISEASE)
+  genes <- rownames(global_score_table)
+  gene_fams <- sapply(genes,get_gene_fams,family_set=family_set)
+  target_indexes <- which(genes %in% family_set$fam_disease_genes)
+  inter_indexes <- which(gene_fams =="INTER")
+  random_indexes <- setdiff(1:length(genes),target_indexes)
+  random_indexes <- setdiff(random_indexes,inter_indexes)
+  target_global_score_table <- global_score_table[target_indexes,]
+  inter_global_score_table <- global_score_table[inter_indexes,]
+  random_global_score_table <- global_score_table[random_indexes,]
+  group_freqs <- c(nrow(inter_global_score_table),nrow(random_global_score_table),nrow(target_global_score_table))
+  names(group_freqs) <- c("INTER","RANDOM","TARGET")
+  
   return(list(
       genes_position=genes_position,
-      genes_quantile=genes_quantile
+      genes_quantile=genes_quantile,
+      target_global_score_table=target_global_score_table,
+      inter_global_score_table=inter_global_score_table,
+      random_global_score_table=random_global_score_table,
+      group_freqs=group_freqs
   ))
   
+}
+
+get_gene_fams <- function(gene,family_set,inter_family="INTER"){
+  gene_pos_in_fams <- sapply(family_set$raw_gene_list,function(x) which(x==gene))
+  fams <- names(which(lapply(gene_pos_in_fams,length)>0))
+  if(length(fams)==0){
+    fams <- inter_family
+  }
+  return(fams)
 }
 
 paint_scores <- function(all_scores,fam_genes_scores,main="Score distribution",bins=20){
@@ -183,3 +206,54 @@ paint_mrp_comparison <- function(sims,sim_labels){
 }
 
 
+paint_global_scores <- function(score_runs){
+  nscores <- length(score_runs)
+  par(mfrow=c(nscores,1))
+  for(i in 1:nscores){
+    paint_global_score(score_runs[[i]],names(score_runs)[i])
+  }
+}
+
+paint_global_score <- function(score_run,label="Score"){
+  
+  all_quantiles <- do.call("rbind",lapply(score_run$global_evaluation_list,function(x) x$genes_quantile))
+  boxplot(all_quantiles,main=label,cex.axis=0.7,names=F)
+  labels = colnames(all_quantiles)
+  text(1:length(labels), par("usr")[3] - 0.10, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
+  lines(c(0,length(labels)+1),c(0.5,0.5),lty=2)
+  
+  score_summary <- apply(all_quantiles,2,summary)
+  print(score_summary)
+  return(score_summary)
+  
+}
+
+paint_score_density <- function(score_run,score_name=NULL,label="Score density"){
+  
+  if(is.null(score_name)){
+    score_name <- colnames(score_run$multi_score_list[[1]]$global_score_table_with_inter)[1]
+  }
+  
+  all_scores <- do.call("rbind",lapply(score_run$multi_score_list,function(x) x$global_score_table_with_inter))
+  inter_scores <- do.call("rbind",lapply(score_run$global_evaluation_with_inter_list,function(x) x$inter_global_score_table))
+  random_scores <- do.call("rbind",lapply(score_run$global_evaluation_with_inter_list,function(x) x$random_global_score_table))
+  target_scores <- do.call("rbind",lapply(score_run$global_evaluation_with_inter_list,function(x) x$target_global_score_table))
+  
+  all_density <- density(all_scores[,score_name])
+  inter_density <- density(inter_scores[,score_name])
+  random_density <- density(random_scores[,score_name])
+  target_density <- density(target_scores[,score_name])
+  
+  layout(matrix(c(1,1,1,1,1,2,2),nrow=1))
+  hist(all_scores[,score_name],probability=T,50,xlab=score_name,ylab="density",main=label)
+  lines(all_density,col="gray")
+  lines(inter_density,col="blue")
+  lines(random_density,col="green")
+  lines(target_density,col="red")
+  legend("topright",legend=c("inter","random","target"),col=c("blue","green","red"),lwd=1,cex=0.7)
+  
+  boxplot(list(inter_scores[,score_name],random_scores[,score_name],target_scores[,score_name]),cex.axis=0.7,names=F)
+  labels <- c("INTER","RANDOM","TARGET")
+  text(1:length(labels), par("usr")[3] - 0.05, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
+  
+}

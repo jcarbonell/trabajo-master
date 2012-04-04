@@ -121,7 +121,7 @@ simulate_run_and_evaluate <- function(nfams=3,ngenes=20,nsims=5,interactomes,dis
   
 }
 
-run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,score_function_name="default_score",verbose=T,global_score_method=NULL){
+run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,score_function_names="default_score",verbose=T,global_score_methods=NULL){
   
   start <- proc.time()
   
@@ -131,16 +131,12 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
     }
   }
   
-  # ninteractomes
-  ninteractomes <- length(interactomes)
-  
-  # nsims
+  # sizes
   nsims <- length(family_set_series)
+  ninteractomes <- length(interactomes)
+  nscores <- length(score_function_names)
   
-  # init function
-  score_function <- get(score_function_name)
-  
-  # family set simulation params
+  # family set series params
   nfams_vector <- sapply(family_set_series,function(x) x$nfams)
   ngenes_vector <- sapply(family_set_series,function(x) x$ngenes)
   nfams_range <- range(nfams_vector)
@@ -148,35 +144,63 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
   
   if(verbose){
     cat("Run and evaluate",date(),"\n")
-    message("score function: ",score_function_name)
+    message("score functions: [",paste(score_function_names,collapse=","),"]")
     message("params: steps=",nsims,", nfams=[",paste(nfams_range,collapse=","),"],ngenes=[",paste(ngenes_range,collapse=","),"]")
   }
-    
-  # init working lists
-  multi_score_list <- list()
-  global_evaluation_list <- list()
-  global_evaluation_with_inter_list <- list()
+
+  # init result list
+  score_runs <- list()
+  for(s in 1:nscores){
+    score_runs[[score_function_names[s]]] <- list(
+        multi_score_list = list(),
+        global_evaluation_list = list(),
+        global_evaluation_with_inter_list = list()
+    )
+  }
   
-#   evaluation_list <- list()
+  # run and evaluate
+  sim_time <- numeric(nsims)
+  mean_sim_time <- 0
+  expected_time <- 0
+  expected_time_message <- ""
   
   for(k in 1:nsims){
   
-    message("running step",k)
-  
-    # run
-    multi_score_list[[k]] <- compute_multi_score(family_set_series[[k]]$raw_gene_list,interactomes,score_function,global_score_method=global_score_method)
+    if(k>1){
+      expected_time_message <- paste("(",format(digits=3,expected_time),"seconds to finish)")
+    }
+    message("running step",k," ",expected_time_message)
     
-    # evaluate
-    global_evaluation_list[[k]] <- evaluate_global_prioritization(multi_score_list[[k]]$global_score_table,family_set_series[[k]])
-    global_evaluation_with_inter_list[[k]] <- evaluate_global_prioritization(multi_score_list[[k]]$global_score_table_with_inter,family_set_series[[k]])
+    kstart <- proc.time()
+    
+    for(s in 1:nscores){
+      
+        # init function
+        score_function <- get(score_function_names[s])
+        
+        # run
+        score_runs[[s]]$multi_score_list[[k]] <- compute_multi_score(family_set_series[[k]]$raw_gene_list,interactomes,score_function,global_score_methods=global_score_methods,verbose=F)
+        
+        # evaluate
+        score_runs[[s]]$global_evaluation_list[[k]] <- evaluate_global_prioritization(score_runs[[s]]$multi_score_list[[k]]$global_score_table,family_set_series[[k]])
+        score_runs[[s]]$global_evaluation_with_inter_list[[k]] <- evaluate_global_prioritization(score_runs[[s]]$multi_score_list[[k]]$global_score_table_with_inter,family_set_series[[k]])
+      
+    }
+    
+    sim_time[k] <- proc.time() - kstart
+    mean_sim_time <- mean(sim_time[max(1,k-3):k])
+    expected_time <- (nsims - k) * mean_sim_time
+    
   }
-
-  end <- proc.time() - start
   
-  message("finished in ",end["elapsed"]," seconds\n")
+  end <- proc.time() - start
+  mean_sim_time <- end["elapsed"]/nsims
+    
+  message("finished in ",end["elapsed"]," seconds (",format(digits=3,mean_sim_time)," per step)\n")
   
   return(list(
-      score_function_name=score_function_name,
+      score_function_names = score_function_names,
+      global_score_methods = global_score_methods,
       sim_params=list(        
         family_set_series=family_set_series,
         nfams_vector=nfams_vector,
@@ -185,12 +209,12 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
         ngenes_range=ngenes_range,
         nsims=length(family_set_series)
       ),
-      multi_score_list=multi_score_list,
-      global_evaluation_list=global_evaluation_list,
-      global_evaluation_with_inter_list=global_evaluation_with_inter_list,
-      info=list(
+      score_runs = score_runs,
+      info = list(
         date=Sys.Date(),
-        time=end["elapsed"]
+        time=end["elapsed"],
+        sim_time=sim_time,
+        mean_sim_time=mean_sim_time
       )
   ))
   
