@@ -1,4 +1,35 @@
 
+compare_scores <- function(score_functions,nfams=NULL,ngenes=NULL,nsims=NULL,interactome=NULL,distance_matrix=NULL,paint=T,verbose=T){
+    
+  # prepare variables
+  print(score_functions)
+  nscores <- length(score_functions)
+
+  # load interactomes
+  if(is.null(distance_matrix)){
+    if(verbose){
+      cat("Computing distance matrix...\n")
+    }
+    distance_matrix <- compute_distance_matrix(interactome)
+  }
+
+  # do simulations
+  family_genes_set <- simulate_family_genes_set(nfams,ngenes,nsims,distance_matrix=distance_matrix)
+  sims <- list()
+  for(i in 1:nscores){
+    cat("\n\n\n*** SIMULATION ", i,"***\n\n")
+    sims[[score_functions[i]]] <- simulate_and_evaluate(family_genes_set=family_genes_set,interactome=interactome,score_function_name=score_functions[i],distance_matrix=distance_matrix)  
+  }
+  
+  # paint simulation trend comparison
+  if(paint){
+    paint_simulation_trend_comparison(sims,score_functions)
+  }
+  
+  return(sims)
+  
+}
+
 evaluate_prioritization <- function(scores_frame,fam_simulation,paint=T){
   
   fam_genes_scores <- scores_frame$score_table[fam_simulation$fam_disease_genes, "score" ]
@@ -14,8 +45,8 @@ evaluate_prioritization <- function(scores_frame,fam_simulation,paint=T){
     
   if(paint){
     par(mfrow=c(2,1))
-    paint_evaluation(scores_frame$score_table$score,fam_genes_scores)
-    paint_evaluation(scores_frame$score_table_with_intermediates$score,fam_genes_scores,main="Score distribution (with intermediates)")
+    paint_scores(scores_frame$score_table$score,fam_genes_scores)
+    paint_scores(scores_frame$score_table_with_intermediates$score,fam_genes_scores,main="Score distribution (with intermediates)")
   }
   
   return(list(
@@ -26,6 +57,41 @@ evaluate_prioritization <- function(scores_frame,fam_simulation,paint=T){
     fam_genes_relative_positions_with_inter=fam_genes_relative_positions_with_inter,
     mean_relative_position=mean_relative_position,
     mean_relative_position_with_inter=mean_relative_position_with_inter
+  ))
+  
+}
+
+evaluate_global_prioritization <- function(global_score_table,family_set){
+
+  nfams <- family_set$nfams
+  ninteractomes <- ncol(global_score_table)
+
+  genes_position <- matrix(rep(0,ninteractomes*nfams),nrow=nfams)
+
+  rownames(genes_position) <- family_set$fam_disease_genes
+  colnames(genes_position) <- colnames(global_score_table)
+  
+  genes_relative_position <- matrix(rep(0,ninteractomes*nfams),nrow=nfams)
+  
+  for(i in 1:ninteractomes){
+    col <- colnames(global_score_table)[i]
+    
+    score <- as.numeric(global_score_table[,col])
+    names(score) <- rownames(global_score_table)
+    
+    sorted_score <- sort(score,decreasing=T)
+    get_pos <- function(gene){
+      which(names(sorted_score)==gene)
+    }
+    genes_position[,i] <- sapply(family_set$fam_disease_genes,get_pos)
+    
+  }
+  
+  genes_quantile <- 1 - (genes_position / nrow(global_score_table))
+  
+  return(list(
+      genes_position=genes_position,
+      genes_quantile=genes_quantile
   ))
   
 }
@@ -93,6 +159,7 @@ paint_score_groups <- function(scores_frame_list,evaluation_list,label="Scores")
   all_scores <- unlist(sapply(scores_frame_list, function(x) x$score_table$score))
   all_scores_with_inter <- unlist(sapply(scores_frame_list, function(x) x$score_table_with_inter$score))
   boxplot(list(all_with_inter=all_scores_with_inter,all=all_scores,fam=fam_genes_score),main=label,ylabel="score")
+  
 }
 
 paint_mrp_comparison <- function(sims,sim_labels){

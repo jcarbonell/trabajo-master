@@ -1,14 +1,65 @@
 
-simulate_family_genes_set <- function(nfams,ngenes,nsims,distance_matrix=NULL,interactome=NULL,fam_name_prefix="fam_") {
+simulate_family_set_series <- function(nfams=NULL,ngenes=NULL,nsims=NULL,distance_matrix=NULL,interactome=NULL,fam_name_prefix="fam_",verbose=T) {
+  
+  # default
+  if(is.null(nsims)){
+    nsims <- 5
+  }
+  if(verbose){
+    cat("Simulating",nsims,"simulations...\n")
+  }
+  
+  # simulate set
   family_genes_set <- list()
   for(k in 1:nsims){
-    family_genes_set[[k]] <- simulate_family_genes(nfams,ngenes,distance_matrix=distance_matrix,interactome=interactome)
+    family_genes_set[[k]] <- simulate_family_set(nfams,ngenes,distance_matrix=distance_matrix,interactome=interactome)
   }
   return(family_genes_set)
 }
 
-simulate_family_genes <- function(nfams,ngenes,distance_matrix=NULL,interactome=NULL,fam_name_prefix="fam_") {
+simulate_iterative_family_set_series <- function(nfams=NULL,ngenes=NULL,nsims=NULL,all_genes=NULL,distance_matrix=NULL,interactome=NULL,fam_name_prefix="fam_",verbose=T) {
+  
+  # default
+  if(is.null(nsims)){
+    nsims <- 5
+  }
+  if(verbose){
+    cat("Simulating",nsims,"simulations...\n")
+  }
+  
+  # prepare init family genes
+  init_family_genes <- simulate_family_set(nfams,ngenes,distance_matrix=distance_matrix)
+  
+  # init inter genes
+  init_genes <- unique(unlist(init_family_genes$raw_gene_list))
+  prepared_genes <- setdiff(all_genes,init_genes)
+  
+  # simulate
+  family_genes_set <- list()
+  for(i in 1:nsims){
+    inters <- sample(prepared_genes,nfams)
+    new_fam <- init_family_genes
+    for(k in 1:nfams){
+      new_fam$raw_gene_list[[k]] <- c(new_fam$raw_gene_list[[k]],inters[k])
+      new_fam$random_gene_list[[k]] <- c(new_fam$random_gene_list[[k]],inters[k])
+    }
+    new_fam$ngenes <- new_fam$ngenes + 1
+    family_genes_set[[i]] <- new_fam
+  }
+  
+  return(family_genes_set)
+}
 
+simulate_family_set <- function(nfams=NULL,ngenes=NULL,distance_matrix=NULL,interactome=NULL,fam_name_prefix="fam_") {
+
+  # defaults
+  if(is.null(nfams)){
+    nfams <- 3  
+  }
+  if(is.null(ngenes)){
+    ngenes <- 20
+  }
+  
   # family names
   fam_names <- paste(fam_name_prefix,c(1:nfams),sep="")
   
@@ -37,7 +88,7 @@ simulate_family_genes <- function(nfams,ngenes,distance_matrix=NULL,interactome=
   raw_gene_list <- list()
   random_gene_list <- list()
   for(i in 1:nfams){
-    random_list <- sample(interactors,ngenes)
+    random_list <- sample(interactors,ngenes-1)
     raw_gene_list[[fam_names[i]]] <- c(as.character(fam_disease_genes[i]),random_list)  
     random_gene_list[[fam_names[i]]] <- random_list 
   }
@@ -54,7 +105,23 @@ simulate_family_genes <- function(nfams,ngenes,distance_matrix=NULL,interactome=
 }
 
 
-simulate_and_evaluate <- function(family_genes_set=NULL,nfams=3,ngenes=20,nsims=5,interactome,distance_matrix=NULL,score_function_name="default_score",verbose=T){
+simulate_run_and_evaluate <- function(nfams=3,ngenes=20,nsims=5,interactomes,distance_matrix=NULL,score_function_name="default_score",verbose=T,global_score_method=NULL){
+  
+  # prepare distance matrix
+  if(is.null(distance_matrix)){
+    if(verbose){cat(">>constructing distance_matrix for family simulation..\n")}
+    distance_matrix <- compute_distance_matrix(interactomes[["binding"]])
+  }
+  
+  # simulation
+  cat("simulating",nfams,"families",nsims,"times\n")
+  family_genes_set <- simulate_family_set_series(nfams,ngenes,nsims,distance_matrix=distance_matrix)
+  
+  sim <- run_and_evaluate(family_genes_set,interactomes,distance_matrix,score_function_name=score_function_name,verbose=verbose)
+  
+}
+
+run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,score_function_name="default_score",verbose=T,global_score_method=NULL){
   
   start <- proc.time()
   
@@ -64,47 +131,44 @@ simulate_and_evaluate <- function(family_genes_set=NULL,nfams=3,ngenes=20,nsims=
     }
   }
   
-  # nsims
-  if(!is.null(family_genes_set)){
-    nsims <- length(family_genes_set)
-  }
+  # ninteractomes
+  ninteractomes <- length(interactomes)
   
-  score_function <- get(score_function_name) 
+  # nsims
+  nsims <- length(family_set_series)
+  
+  # init function
+  score_function <- get(score_function_name)
+  
+  # family set simulation params
+  nfams_vector <- sapply(family_set_series,function(x) x$nfams)
+  ngenes_vector <- sapply(family_set_series,function(x) x$ngenes)
+  nfams_range <- range(nfams_vector)
+  ngenes_range <- range(ngenes_vector)
   
   if(verbose){
-    cat("Simulation",date(),"\n")
+    cat("Run and evaluate",date(),"\n")
     message("score function: ",score_function_name)
-    message("params: steps=",nsims,", nfams=",nfams,",ngenes=",ngenes)
+    message("params: steps=",nsims,", nfams=[",paste(nfams_range,collapse=","),"],ngenes=[",paste(ngenes_range,collapse=","),"]")
   }
     
-  # prepare distance matrix
-  if(is.null(distance_matrix)){
-    if(verbose){cat(">>constructing distance_matrix..\n")}
-    distance_matrix <- compute_distance_matrix(interactome)
-  }
-  
-  # simulation
-  if(is.null(family_genes_set)){
-    message("simulating ",nsims," families")
-    family_genes_set <- simulate_family_genes_set(nfams,ngenes,nsims,distance_matrix=distance_matrix)
-  }
-
   # init working lists
-  scores_frame_list <- list()
-  evaluation_list <- list()
+  multi_score_list <- list()
+  global_evaluation_list <- list()
+  global_evaluation_with_inter_list <- list()
+  
+#   evaluation_list <- list()
   
   for(k in 1:nsims){
   
-    message("simulation step",k)
+    message("running step",k)
+  
+    # run
+    multi_score_list[[k]] <- compute_multi_score(family_set_series[[k]]$raw_gene_list,interactomes,score_function,global_score_method=global_score_method)
     
-    # score computation
-    #cat("  computing score...\n")
-    scores_frame_list[[k]] <- compute_score(family_genes_set[[k]]$raw_gene_list,interactome,score_function)
-    
-    # evaluation
-    #cat("  evaluating prioritization...\n")
-    evaluation_list[[k]] <- evaluate_prioritization(scores_frame_list[[k]],family_genes_set[[k]],paint=F)
-        
+    # evaluate
+    global_evaluation_list[[k]] <- evaluate_global_prioritization(multi_score_list[[k]]$global_score_table,family_set_series[[k]])
+    global_evaluation_with_inter_list[[k]] <- evaluate_global_prioritization(multi_score_list[[k]]$global_score_table_with_inter,family_set_series[[k]])
   }
 
   end <- proc.time() - start
@@ -114,13 +178,16 @@ simulate_and_evaluate <- function(family_genes_set=NULL,nfams=3,ngenes=20,nsims=
   return(list(
       score_function_name=score_function_name,
       sim_params=list(        
-        family_genes_set=family_genes_set,
-        nfams=nfams,
-        ngenes=ngenes,
-        nsims=length(family_genes_set)
+        family_set_series=family_set_series,
+        nfams_vector=nfams_vector,
+        ngenes_vector=ngenes_vector,
+        nfams_range=nfams_range,
+        ngenes_range=ngenes_range,
+        nsims=length(family_set_series)
       ),
-      scores_frame_list=scores_frame_list,
-      evaluation_list=evaluation_list,
+      multi_score_list=multi_score_list,
+      global_evaluation_list=global_evaluation_list,
+      global_evaluation_with_inter_list=global_evaluation_with_inter_list,
       info=list(
         date=Sys.Date(),
         time=end["elapsed"]
@@ -128,3 +195,5 @@ simulate_and_evaluate <- function(family_genes_set=NULL,nfams=3,ngenes=20,nsims=
   ))
   
 }
+
+

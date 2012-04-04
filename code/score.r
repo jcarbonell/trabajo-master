@@ -20,7 +20,7 @@ default_score <- function(node,distance_matrix,weights,distance_priors,super_lis
         
       selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
       selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
-            
+  
       if(is.null(selected_distance_fams)){
           scores_by_distance[j] <- 0
       } else {                
@@ -128,7 +128,6 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
   subnet <- get.all.shortest.paths.Josete(interactome,all_raw_genes,5)
   subnet_summary <- describe_interactome(subnet,plot=F)
   distance_priors <- subnet_summary["Median",]/sum(subnet_summary["Median",])
-#   cat("     (",nrow(subnet),"interactions)\n")
     
   # init interactors
   interactors <- unique(c(subnet[,1],subnet[,3]))
@@ -220,7 +219,8 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
   result_table <- data.frame(
     gene=super_list[sorting_index],
     score=node_scores[sorting_index],  
-    fams=fam_hits[sorting_index]
+    fams=fam_hits[sorting_index],
+    stringsAsFactors=F
   )
   
   # remove intermediates
@@ -251,4 +251,119 @@ compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numin
 }
 
 
+compute_multi_score <- function(raw_gene_list,interactomes,score_function,radio=5,numinter=1,inter_family="INTER",verbose=T,global_score_method=NULL){
+  
+  # run and evaluate
+  scores_frames <- list()
+  
+  for(i in 1:length(interactomes)){
+    
+    if(verbose){
+      cat("Computing score with",names(interactomes)[i],"interactome\n")
+    }
+    scores_frames[[ names(interactomes)[i] ]] <- compute_score(raw_gene_list,interactomes[[i]],score_function)
+    
+  }
+  
+#   if(!is.null(global_score_method) && length(global_score_method)>1){
+#     global_score_table <- list()
+#     global_score_table_with_inter <- list()
+#     for(k in global_score_method){
+#       global_score_table[[k]] <- compute_global_score_table(scores_frames,inter=F,method=k)
+#       global_score_table_with_inter[[k]] <- compute_global_score_table(scores_frames,inter=T,method=k)
+#     }
+#   } else {
+    global_score_table <- compute_global_score_table(scores_frames,inter=F,method=global_score_method)
+    global_score_table_with_inter <- compute_global_score_table(scores_frames,inter=T,method=global_score_method)  
+#   }
+  
+    
+  return(list(
+    scores_frame_list=scores_frames,
+    global_score_table=global_score_table,
+    global_score_table_with_inter=global_score_table_with_inter    
+  ))
+}
+
+compute_global_score_table <- function(score_frames,inter=F,method="max"){
+  
+  # define scored genes
+  if(inter){
+    scored_genes <- unique(unlist(lapply(score_frames,function(score_frame) return(rownames(score_frame$score_table_with_intermediates)))))  
+  } else {
+    scored_genes <- unique(unlist(lapply(score_frames,function(score_frame) return(rownames(score_frame$score_table)))))
+  }
+  
+  # all scores in a matrix
+  ninteractomes <- length(score_frames)
+  score_matrix <- matrix(rep(0,length(scored_genes)*ninteractomes),ncol=ninteractomes)
+  rownames(score_matrix) <- scored_genes
+  colnames(score_matrix) <- names(interactomes)
+  for(i in 1:ninteractomes){
+    if(inter){
+      score_matrix[,i] <- score_frames[[i]]$score_table_with_intermediates[scored_genes,"score"]
+    } else {
+      score_matrix[,i] <- score_frames[[i]]$score_table[scored_genes,"score"]
+    }
+  }
+  
+  # compute global score
+  global_score <- compute_global_score(score_matrix,method=method)
+  if(ncol(global_score)>1){
+    score_rank <- order(global_score[,1],decreasing=T)  
+  } else {
+    score_rank <- order(global_score,decreasing=T)
+  }
+
+  score_matrix <- cbind(global_score,score_matrix)
+  score_matrix <- score_matrix[score_rank,]
+  
+  # mount data frame
+  score_matrix_frame <- as.data.frame(score_matrix)
+  score_matrix_frame[is.na(score_matrix_frame)] <- 0
+  
+  return(score_matrix_frame)
+  
+}
+
+compute_global_score <- function(score_matrix,method=NULL){
+  
+  if(is.null(method)){
+    method <- "sum"
+  }
+  
+  nmethods <- length(method)
+  
+  global_score <- matrix(rep(0,nrow(score_matrix)*nmethods),ncol=nmethods)
+  colnames(global_score) <- method
+  rownames(global_score) <- rownames(score_matrix)
+  
+  for(m in 1:nmethods){
+    method_function <- get(method[m])
+    global_score[,m] <- apply(score_matrix,1,method_function)
+  }
+ 
+  return(global_score)
+}
+
+no_zero_mean <- function(scores){
+  
+  no_zero <- which(scores!=0)
+  if(length(no_zero)==0){
+    score <- 0
+  } else {
+    score <- mean(scores[no_zero])
+  }
+  return(score)
+  
+}
+
+get_fams_from_score_frame <- function(scores_frame,genes,inter_family="INTER"){
+  
+  fams <- scores_frame$fam_hits[genes]  
+  fams[is.na(fams)] <- inter_family
+  names(fams) <- genes
+  return(fams)
+  
+}
 

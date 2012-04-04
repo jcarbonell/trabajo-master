@@ -50,7 +50,6 @@ for(i in 1:length(interactomes)){
 
 scored_genes <- unique(unlist(lapply(scores_frames,function(score_frame) return(rownames(score_frame$score_table)))))
 
-
 score_matrix <- matrix(rep(0,length(scored_genes)*ninteractomes),ncol=ninteractomes)
 rownames(score_matrix) <- scored_genes
 colnames(score_matrix) <- names(interactomes)

@@ -1,0 +1,9 @@
+echo
+echo "updating github...."
+git push -u github master
+echo
+echo "updating gitorious..."
+git push -u gitorious master
+echo
+echo "updating bitbucket..."
+git push -u bitbucket master

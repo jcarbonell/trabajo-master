@@ -36,6 +36,10 @@ load_interactome <- function(interactome_file){
     return(interactome)
 }
 
+get_meta_interactome <- function(interactomes){  
+  return(unique(do.call("rbind",interactomes)))
+}
+
 get_subnets <- function(genes,interactomes,ninter){
   
   subnets <- list()
@@ -144,6 +148,20 @@ get.all.shortest.paths.Josete <- function(sif, list, numinterm,verbose=F){
   return(subnet)
 }
 
-
-
+add_hgnc_symbol <- function(ens2hgnc_file,data_file,ens_col,outfile=NULL){
+  
+  if(is.null(outfile)){
+    outfile <- paste(data_file,".hgnc",sep="") 
+  }
+  
+  raw <- read.delim(ens2hgnc_file,sep="\t",header=T,stringsAsFactors=F)
+  ens2hgnc <- raw$Associated.Gene.Name
+  names(ens2hgnc) <- raw$Ensembl.Gene.ID
+  
+  data <- read.delim(data_file,sep="\t",header=F,stringsAsFactors=F)
+  
+  data$hgnc <-ens2hgnc[data[,1]]
+  
+  write.table(data,file=outfile,quote=F,row.names=F,col.names=F,sep="\t")
+}
 
