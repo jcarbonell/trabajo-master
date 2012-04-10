@@ -120,6 +120,48 @@ default_score3 <- function(node,distance_matrix,weights,distance_priors,super_li
   
 }
 
+default_score4 <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
+  
+  scores_by_distance <- numeric(length(weights))
+  
+  distance <- 0
+  distance_prior <- 1  
+  
+  for(j in 1:length(weights)){
+    
+    if(distance==0){
+      selected_distance_nodes <- node
+      distance_prior <- distance_priors[1]
+    } else {
+      node_distances <- distance_matrix[node,]
+      selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
+      distance_prior <- distance_priors[distance]
+    }
+    
+    node_fam <- unique(unlist(super_list_fams[node]))
+    
+    selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
+    selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
+    if(distance>0){
+      selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
+    }
+    
+    if(is.null(selected_distance_fams)){
+      scores_by_distance[j] <- 0
+    } else {                
+      scores_by_distance[j] <- (length(selected_distance_fams)*weights[j])/(distance_prior)
+    }
+    
+    distance <- distance+1
+    
+  }
+  
+  return(list(
+    scores_by_distance=scores_by_distance,
+    score=sum(scores_by_distance)
+    ))
+  
+}
 
 compute_score <- function(raw_gene_list,interactome,score_function,radio=5,numinter=1,inter_family="INTER",verbose=T){
   
@@ -261,7 +303,7 @@ compute_multi_score <- function(raw_gene_list,interactomes,score_function,radio=
     if(verbose==T){
       cat("Computing score with",names(interactomes)[i],"interactome\n")
     }
-    scores_frames[[ names(interactomes)[i] ]] <- compute_score(raw_gene_list,interactomes[[i]],score_function,verbose=verbose)
+    scores_frames[[ names(interactomes)[i] ]] <- compute_score(raw_gene_list,interactomes[[i]],score_function,verbose=verbose,radio=radio)
     
   }
 
@@ -363,6 +405,18 @@ no_zero_min <- function(scores){
     score <- 0
   } else {
     score <- min(scores[no_zero])
+  }
+  return(score)
+  
+}
+
+no_zero_max <- function(scores){
+  
+  no_zero <- which(scores!=0)
+  if(length(no_zero)==0){
+    score <- 0
+  } else {
+    score <- max(scores[no_zero])
   }
   return(score)
   

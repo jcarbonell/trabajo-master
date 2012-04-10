@@ -96,6 +96,14 @@ describe_interactome <- function(interactome,plot=T,max_dist=15){
   
 }
 
+describe_gene_series <- function(genes_series,interactome){
+ per_serie <- function(genes,interactome){
+  get.all.shortest.paths.Josete(interactome,genes,numinterm=5)  
+  }
+  all_subnets <- do.call("rbind",lapply(genes_series,per_serie,interactome=interactome))
+  describe_interactome(all_subnets)
+}
+
 convert_interactome_ids <- function(interactome_file,xref_file,outfile,id_col=1){
   
   interactome <- load_interactome(interactome_file)
@@ -113,6 +121,7 @@ get.all.shortest.paths.Josete <- function(sif, list, numinterm,verbose=F){
   list <- clean.list.exits(sif, list)
   sif <- clean.sif(sif)
   
+  
   # get igraph
   my.igraph <- graph.data.frame(sif[,c(1,3)], directed=FALSE, vertices=NULL) # get an igraph  
   destiny <- (which(V(my.igraph)$name %in% list)-1)
@@ -123,10 +132,11 @@ get.all.shortest.paths.Josete <- function(sif, list, numinterm,verbose=F){
 #   }
 #   out2 <- lapply(list,per_node)
   
-
   out <- NULL
-  for(i in list){
-    out <- c(out, get.shortest.paths(my.igraph,from=(which(V(my.igraph)$name==i)-1),to=destiny,mode = "all"))
+  if(length(list)>1){
+    for(i in list){
+      out <- c(out, get.shortest.paths(my.igraph,from=(which(V(my.igraph)$name==i)-1),to=destiny,mode = "all"))
+    }
   }
   
   if(length(out)>1){
@@ -163,5 +173,62 @@ add_hgnc_symbol <- function(ens2hgnc_file,data_file,ens_col,outfile=NULL){
   data$hgnc <-ens2hgnc[data[,1]]
   
   write.table(data,file=outfile,quote=F,row.names=F,col.names=F,sep="\t")
+}
+
+
+load_known_disease_genes_series <- function(annot_file,nfams){
+  
+  size <- length(nfams)
+  
+  dannot <- read.delim(annot_file,sep="\t",header=T,stringsAsFactors=F)
+  dsize <- by(dannot,dannot$disease,nrow,simplify=T)
+  
+  fam_disease_genes <- list()
+  selected_diseases <- character(size)
+
+  for(i in 1:size){
+    available_indexes <- which(dsize>=nfams[i])
+    if(length(available_indexes)>0){
+      selected_index <- sample(available_indexes,1)
+      selected_disease <- names(dsize)[selected_index]
+      selected_diseases[i] <- selected_disease
+      fam_disease_genes[[i]] <- sample(dannot$gene[which(dannot$disease==selected_disease)],nfams[i])
+    } else {
+      fam_disease_genes[[i]] <- NULL
+    }
+  } 
+  
+  return(list(
+    fam_disease_genes=fam_disease_genes,
+    selected_diseases=selected_diseases
+  ))
+  
+}
+
+get_gene_distance_matrix <- function(genes,interactome){
+  
+  ngenes <- length(genes)
+  subnet <- get.all.shortest.paths.Josete(interactome,genes,numinterm=5)
+  subnet_genes <- c(subnet$V1,subnet$V3)
+  
+  distance_matrix <- matrix(rep(Inf,ngenes*ngenes),ncol=ngenes)
+  colnames(distance_matrix) <- genes
+  rownames(distance_matrix) <- genes
+  
+  if(!is.null(subnet)){
+    raw_distance_matrix <- compute_distance_matrix(subnet)
+    for(i in 1:ngenes){
+      for(j in 1:ngenes){
+        if((genes[i] %in% subnet_genes) & (genes[j] %in% subnet_genes)){        
+          distance <- raw_distance_matrix[genes[i],genes[j]]
+          distance_matrix[genes[i],genes[j]] <- distance
+          distance_matrix[genes[j],genes[i]] <- distance
+        }
+      }
+    }
+
+  }
+  
+  return(distance_matrix)
 }
 

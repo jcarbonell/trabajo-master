@@ -228,7 +228,10 @@ paint_global_score <- function(score_run,label="Score"){
   
 }
 
-paint_score_density <- function(score_run,score_name=NULL,label="Score density"){
+paint_score_density <- function(score_run,score_name=NULL,label="Score density",norm_densities=F){
+  
+  thecols <- c("grey","cornflowerblue","darkolivegreen4","brown2")
+  names(thecols) <- c("all","inter","random","target")
   
   if(is.null(score_name)){
     score_name <- colnames(score_run$multi_score_list[[1]]$global_score_table_with_inter)[1]
@@ -244,16 +247,29 @@ paint_score_density <- function(score_run,score_name=NULL,label="Score density")
   random_density <- density(random_scores[,score_name])
   target_density <- density(target_scores[,score_name])
   
-  layout(matrix(c(1,1,1,1,1,2,2),nrow=1))
-  hist(all_scores[,score_name],probability=T,50,xlab=score_name,ylab="density",main=label)
-  lines(all_density,col="gray")
-  lines(inter_density,col="blue")
-  lines(random_density,col="green")
-  lines(target_density,col="red")
-  legend("topright",legend=c("inter","random","target"),col=c("blue","green","red"),lwd=1,cex=0.7)
+  if(norm_densities){
+    inter_ratio <- nrow(inter_scores)/nrow(all_scores)
+    random_ratio <- nrow(random_scores)/nrow(all_scores)
+    target_ratio <- nrow(target_scores)/nrow(all_scores)    
+  } else {
+    inter_ratio <- 1
+    random_ratio <- 1
+    target_ratio <- 1
+  }
   
-  boxplot(list(inter_scores[,score_name],random_scores[,score_name],target_scores[,score_name]),cex.axis=0.7,names=F)
+  max_density <- max(c(all_density$y,random_density$y,target_density$y))*1.1
+  
+  layout(matrix(c(1,1,1,1,2,2,2),ncol=1))
+  par(mar=c(2,4,3,3))
+  hist(all_scores[,score_name],probability=T,50,xlab="",ylab="density",main=label,ylim=c(0,max_density))
+  lines(all_density$x,all_density$y,col=thecols[1],lty=2)
+  lines(inter_density$x,inter_density$y*inter_ratio,col=thecols[2],lwd=2)
+  lines(random_density$x,random_density$y*random_ratio,col=thecols[3],lwd=2)
+  lines(target_density$x,target_density$y*target_ratio,col=thecols[4],lwd=2)
+  legend("topright",legend=c("all","inter","random","target"),col=thecols,lty=c(2,1,1,1),lwd=2,cex=0.7)
+  par(mar=c(5,4,2,3))
+  boxplot(at=c(4,3,2,1),xlab=score_name,horizontal=T,list(all_scores[,score_name],inter_scores[,score_name],random_scores[,score_name],target_scores[,score_name]),cex.axis=0.7,names=F,col=thecols)
   labels <- c("INTER","RANDOM","TARGET")
-  text(1:length(labels), par("usr")[3] - 0.05, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
+#   text(1:length(labels), par("usr")[3] - 0.05, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
   
 }

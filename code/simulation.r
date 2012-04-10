@@ -1,4 +1,56 @@
 
+simulate_known_family_set_series <- function(disease_annot_file,random_genes,nfams=NULL,ngenes=NULL,nsims=NULL,fam_name_prefix="fam_",verbose=T) {
+  
+  # default
+  if(is.null(nfams)){
+    nfams <- 3
+  }
+  if(is.null(ngenes)){
+    ngenes <- 20
+  }
+  if(is.null(nsims)){
+    nsims <- 5
+  }
+  if(verbose){
+    cat("Simulating",nsims,"simulations from known disease genes...\n")
+  }
+  
+  # prepare
+  nfams_series <- floor(runif(nsims,min=min(nfams),max=(max(nfams)+1)))
+  ngenes_series <- floor(runif(nsims,min=min(ngenes),max=(max(ngenes)+1)))
+  known_series <- load_known_disease_genes_series(annot_file=disease_annot_file,nfams=nfams_series)
+  
+  print(length(known_series$fam_disease_genes))
+  # simulate set
+  family_set_series <- list()
+  for(k in 1:nsims){
+    
+    all_randoms <- setdiff(random_genes,known_series$fam_disease_genes[[k]])
+    
+    fam_names <- paste(fam_name_prefix,c(1:nfams_series[k]),sep="")
+  
+    family_set_series[[k]] <- list()
+    
+    family_set_series[[k]]$fam_disease_genes <- known_series$fam_disease_genes[[k]]
+    names(family_set_series[[k]]$fam_disease_genes) <- fam_names
+    
+    family_set_series[[k]]$raw_gene_list <- list()
+    family_set_series[[k]]$random_gene_list <- list()
+    for(j in 1:nfams_series[k]){
+      randoms <- sample(all_randoms,ngenes_series[k]-1)
+      family_set_series[[k]]$raw_gene_list[[fam_names[j]]] <- c(known_series$fam_disease_genes[[k]][[j]],randoms)
+      family_set_series[[k]]$random_gene_list[[fam_names[j]]] <- randoms
+    }
+    
+    family_set_series[[k]]$nfams <- nfams_series[k]
+    family_set_series[[k]]$ngenes <- ngenes_series[k]
+    family_set_series[[k]]$selected_disease <- known_series$selected_disease[[k]]
+  }
+                      
+  return(family_set_series)
+                      
+}
+
 simulate_family_set_series <- function(nfams=NULL,ngenes=NULL,nsims=NULL,distance_matrix=NULL,interactome=NULL,fam_name_prefix="fam_",verbose=T) {
   
   # default
@@ -105,7 +157,7 @@ simulate_family_set <- function(nfams=NULL,ngenes=NULL,distance_matrix=NULL,inte
 }
 
 
-simulate_run_and_evaluate <- function(nfams=3,ngenes=20,nsims=5,interactomes,distance_matrix=NULL,score_function_name="default_score",verbose=T,global_score_method=NULL){
+simulate_run_and_evaluate <- function(nfams=3,ngenes=20,nsims=5,interactomes,distance_matrix=NULL,score_function_name="default_score",verbose=T,global_score_method=NULL,radio=5){
   
   # prepare distance matrix
   if(is.null(distance_matrix)){
@@ -117,11 +169,11 @@ simulate_run_and_evaluate <- function(nfams=3,ngenes=20,nsims=5,interactomes,dis
   cat("simulating",nfams,"families",nsims,"times\n")
   family_genes_set <- simulate_family_set_series(nfams,ngenes,nsims,distance_matrix=distance_matrix)
   
-  sim <- run_and_evaluate(family_genes_set,interactomes,distance_matrix,score_function_name=score_function_name,verbose=verbose)
+  sim <- run_and_evaluate(family_genes_set,interactomes,distance_matrix,score_function_name=score_function_name,verbose=verbose,radio=radio)
   
 }
 
-run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,score_function_names="default_score",verbose=T,global_score_methods=NULL){
+run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,score_function_names="default_score",verbose=T,global_score_methods=NULL,radio=5){
   
   start <- proc.time()
   
@@ -179,7 +231,7 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
         score_function <- get(score_function_names[s])
         
         # run
-        score_runs[[s]]$multi_score_list[[k]] <- compute_multi_score(family_set_series[[k]]$raw_gene_list,interactomes,score_function,global_score_methods=global_score_methods,verbose=F)
+        score_runs[[s]]$multi_score_list[[k]] <- compute_multi_score(family_set_series[[k]]$raw_gene_list,interactomes,score_function,global_score_methods=global_score_methods,verbose=F,radio=radio)
         
         # evaluate
         score_runs[[s]]$global_evaluation_list[[k]] <- evaluate_global_prioritization(score_runs[[s]]$multi_score_list[[k]]$global_score_table,family_set_series[[k]])

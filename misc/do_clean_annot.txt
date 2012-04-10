@@ -1,0 +1,1704 @@
+gene	disease
+A2M	Alzheimer's disease
+AASS	hyperlysinemia
+ABCA1	Tangier disease
+ABCA12	congenital ichthyosiform erythroderma
+ABCA4	age related macular degeneration
+ABCA4	retinitis pigmentosa
+ABCB4	cholecystitis
+ABCC2	Dubin-Johnson syndrome
+ABCC6	pseudoxanthoma elasticum
+ABCC8	hyperinsulinemic hypoglycemia
+ABCC8	type 2 diabetes mellitus
+ABCC9	dilated cardiomyopathy
+ABCD1	adrenoleukodystrophy
+ABHD5	congenital ichthyosiform erythroderma
+ABL1	chronic myeloid leukemia
+ABR	medulloblastoma
+AC217779.2	Parkinson's disease
+AC217779.2	Pick's disease
+AC217779.2	frontotemporal dementia
+AC217779.2	progressive supranuclear palsy
+ACAN	osteochondritis dissecans
+ACAT1	beta-ketothiolase deficiency
+ACE	Alzheimer's disease
+ACE	cerebrovascular accident
+ACTA2	thoracic aortic aneurysm
+ACTC1	atrial heart septal defect
+ACTC1	dilated cardiomyopathy
+ACTC1	familial hypertrophic cardiomyopathy
+ACTC1	hypertrophic cardiomyopathy
+ACTN2	dilated cardiomyopathy
+ACTN4	focal segmental glomerulosclerosis
+ACVR1	fibrodysplasia ossificans progressiva
+ACVRL1	hereditary hemorrhagic telangiectasia
+ADCK3	spinocerebellar ataxia
+ADD1	essential hypertension
+ADH1C	Parkinson's disease
+ADIPOQ	type 2 diabetes mellitus
+ADRB2	obesity
+ADRB3	obesity
+AFG3L2	spinocerebellar ataxia
+AGGF1	Klippel-Trenaunay syndrome
+AGL	glycogen storage disease III
+AGPS	rhizomelic chondrodysplasia punctata
+AGRP	obesity
+AGT	essential hypertension
+AGTR1	essential hypertension
+AGXT	primary hyperoxaluria
+AIP	ACTH-secreting pituitary adenoma
+AIP	growth hormone secreting pituitary adenoma
+AIP	prolactinoma
+AIPL1	Leber congenital amaurosis
+AKAP9	long QT syndrome
+AKT1	Proteus syndrome
+AKT1	breast cancer
+AKT1	colon carcinoma
+AKT1	colorectal cancer
+AKT1	hereditary breast ovarian cancer
+AKT1	ovarian cancer
+AKT1	schizophrenia
+AKT2	type 2 diabetes mellitus
+AL731683.2	celiac disease
+ALDH3A2	Sjogren-Larsson syndrome
+ALG10	long QT syndrome
+ALG10B	long QT syndrome
+ALK	neuroblastoma
+ALOX12B	congenital ichthyosiform erythroderma
+ALOX5AP	cerebrovascular accident
+ALOXE3	congenital ichthyosiform erythroderma
+ALPL	hypophosphatasia
+ALS2	amyotrophic lateral sclerosis
+AMELX	amelogenesis imperfecta
+AMT	glycine encephalopathy
+ANG	amyotrophic lateral sclerosis
+ANKRD1	scimitar syndrome
+ANKRD11	KBG syndrome
+ANO5	distal muscular dystrophy
+ANO5	limb-girdle muscular dystrophy
+AP3B1	Hermansky-Pudlak syndrome
+APBB2	Alzheimer's disease
+APC	colon carcinoma
+APC	colorectal cancer
+APC	hepatocellular carcinoma
+APC	medulloblastoma
+APC	stomach cancer
+APOA1	Tangier disease
+APOA1	multiple myeloma
+APOA5	hyperlipoproteinemia type V
+APOB	abetalipoproteinemia
+APOE	Alzheimer's disease
+APOE	age related macular degeneration
+APOE	sea-blue histiocyte syndrome
+APOL1	focal segmental glomerulosclerosis
+APOL1	schizophrenia
+APOL2	schizophrenia
+APOL4	schizophrenia
+APP	Alzheimer's disease
+APP	cerebral amyloid angiopathy
+AR	androgen insensitivity syndrome
+AR	hypospadias
+AR	prostate cancer
+ARG1	hyperargininemia
+ARHGEF12	acute myeloid leukemia
+ARHGEF9	infantile epileptic encephalopathy
+ARL6	Bardet-Biedl syndrome
+ARL6	retinitis pigmentosa
+ARSA	metachromatic leukodystrophy
+ARSB	mucopolysaccharidosis VI
+ASL	argininosuccinic aciduria
+ASPA	Canavan disease
+ASPM	microcephaly
+ASPSCR1	alveolar soft part sarcoma
+ASS1	citrullinemia
+ATL1	hereditary spastic paraplegia
+ATM	ataxia telangiectasia
+ATM	breast cancer
+ATP10A	Angelman syndrome
+ATP1B1	essential hypertension
+ATP2A2	keratosis follicularis
+ATP7A	Menkes disease
+ATP7B	Wilson disease
+ATRX	alpha thalassemia
+ATXN1	olivopontocerebellar atrophy
+ATXN1	spinocerebellar ataxia
+ATXN10	spinocerebellar ataxia
+ATXN2	olivopontocerebellar atrophy
+ATXN3	Machado-Joseph disease
+ATXN7	olivopontocerebellar atrophy
+AURKA	colon carcinoma
+AURKA	colorectal cancer
+AVP	neurohypophyseal diabetes insipidus
+AXIN1	hepatocellular carcinoma
+AXIN2	colon carcinoma
+AXIN2	colorectal cancer
+BANK1	systemic lupus erythematosus
+BAP1	malignant mesothelioma
+BARD1	breast cancer
+BAZ1B	Williams-Beuren syndrome
+BAZ1B	supravalvular aortic stenosis
+BBS1	Bardet-Biedl syndrome
+BBS10	Bardet-Biedl syndrome
+BBS12	Bardet-Biedl syndrome
+BBS2	Bardet-Biedl syndrome
+BBS4	Bardet-Biedl syndrome
+BBS5	Bardet-Biedl syndrome
+BBS7	Bardet-Biedl syndrome
+BBS9	Bardet-Biedl syndrome
+BCKDHA	maple syrup urine disease
+BCKDHB	maple syrup urine disease
+BCL10	colon carcinoma
+BCL10	colorectal cancer
+BCL10	malignant mesothelioma
+BCL10	seminoma
+BCL10	testicular cancer
+BCL10	testicular germ cell cancer
+BCL7B	Williams-Beuren syndrome
+BCL7B	supravalvular aortic stenosis
+BCOR	microphthalmia
+BCR	chronic myeloid leukemia
+BCS1L	Leigh disease
+BEAN1	spinocerebellar ataxia
+BEST1	retinitis pigmentosa
+BLM	bloom syndrome
+BLMH	Alzheimer's disease
+BLNK	agammaglobulinemia
+BLOC1S3	Hermansky-Pudlak syndrome
+BMP15	premature ovarian failure
+BMP2	hemochromatosis
+BMP4	microphthalmia
+BMPR1A	Cowden disease
+BMPR1A	Cowden syndrome
+BMPR2	primary pulmonary hypertension
+BMPR2	pulmonary venoocclusive disease
+BRAF	LEOPARD syndrome
+BRAF	Noonan syndrome
+BRAF	colon carcinoma
+BRAF	colorectal cancer
+BRAF	lung carcinoma
+BRCA1	breast cancer
+BRCA1	hereditary breast ovarian cancer
+BRCA1	ovarian cancer
+BRCA2	Fanconi's anemia
+BRCA2	breast cancer
+BRCA2	hereditary breast ovarian cancer
+BRCA2	malignant glioma
+BRCA2	medulloblastoma
+BRCA2	nephroblastoma
+BRCA2	pancreatic carcinoma
+BRCA2	prostate cancer
+BRIP1	Fanconi's anemia
+BRIP1	breast cancer
+BSCL2	hereditary spastic paraplegia
+BSND	Bartter disease
+BTD	biotinidase deficiency
+BTK	Bruton-type agammaglobulinemia
+BUB1B	colon carcinoma
+BUB1B	colorectal cancer
+C2	age related macular degeneration
+C2orf71	retinitis pigmentosa
+C3	age related macular degeneration
+C4A	systemic lupus erythematosus
+C4B	systemic lupus erythematosus
+C5	complement component 5 deficiency
+C8orf38	Leigh disease
+CA4	retinitis pigmentosa
+CACNA1A	episodic ataxia
+CACNA1A	spinocerebellar ataxia
+CACNA1C	long QT syndrome
+CACNA1S	hypokalemic periodic paralysis
+CACNA1S	malignant hyperthermia
+CACNB4	juvenile myoclonic epilepsy
+CAPN3	limb-girdle muscular dystrophy
+CARD9	chronic mucocutaneous candidiasis
+CARTPT	obesity
+CASK	FG syndrome
+CASP10	autoimmune lymphoproliferative syndrome
+CASP10	stomach cancer
+CASP8	autoimmune lymphoproliferative syndrome
+CASP8	breast cancer
+CASP8	hepatocellular carcinoma
+CASP8	lung carcinoma
+CAV3	familial hypertrophic cardiomyopathy
+CAV3	hypertrophic cardiomyopathy
+CAV3	limb-girdle muscular dystrophy
+CAV3	long QT syndrome
+CAV3	sudden infant death syndrome
+CBFB	acute myeloid leukemia
+CBX2	46 XY gonadal dysgenesis
+CCDC28B	Bardet-Biedl syndrome
+CCDC6	papillary thyroid carcinoma
+CCL26	eosinophilic esophagitis
+CCND1	colon carcinoma
+CCND1	colorectal cancer
+CCND1	multiple myeloma
+CCND1	von Hippel-Lindau disease
+CD19	common variable immunodeficiency
+CD244	rheumatoid arthritis
+CD2AP	focal segmental glomerulosclerosis
+CD79A	agammaglobulinemia
+CD79B	agammaglobulinemia
+CD81	common variable immunodeficiency
+CD82	prostate cancer
+CDAN1	congenital dyserythropoietic anemia
+CDC73	parathyroid carcinoma
+CDH1	breast cancer
+CDH1	endometrial carcinoma
+CDH1	ovarian cancer
+CDH1	prostate cancer
+CDH1	stomach cancer
+CDK5RAP2	microcephaly
+CDKAL1	type 2 diabetes mellitus
+CDKL5	Angelman syndrome
+CDKL5	Rett syndrome
+CDKL5	infantile epileptic encephalopathy
+CDKN1C	Beckwith-Wiedemann syndrome
+CDKN2A	Li-Fraumeni syndrome
+CDKN2A	familial atypical multiple mole-melanoma
+CDKN3	hepatocellular carcinoma
+CEBPA	acute myeloid leukemia
+CENPJ	microcephaly
+CEP152	microcephaly
+CEP290	Bardet-Biedl syndrome
+CEP290	Leber congenital amaurosis
+CERKL	retinitis pigmentosa
+CFB	age related macular degeneration
+CFC1	double outlet right ventricle
+CFH	age related macular degeneration
+CFH	retinal drusen
+CFHR1	age related macular degeneration
+CFHR3	age related macular degeneration
+CFTR	bronchiectasis
+CFTR	cystic fibrosis
+CHD7	Kallmann syndrome
+CHEK2	Li-Fraumeni syndrome
+CHEK2	breast cancer
+CHEK2	osteosarcoma
+CHEK2	prostate cancer
+CHI3L1	schizophrenia
+CHIC2	acute myeloid leukemia
+CHM	choroideremia
+CHN1	Duane retraction syndrome
+CHRM2	endogenous depression
+CHRNA1	myasthenia gravis
+CHRNE	myasthenia gravis
+CIITA	MHC class II deficiency
+CIITA	multiple sclerosis
+CIITA	rheumatoid arthritis
+CISD2	Wolfram syndrome
+CITED2	tetralogy of Fallot
+CLCN1	Thomsen disease
+CLCN2	juvenile myoclonic epilepsy
+CLCNKA	Bartter disease
+CLCNKB	Bartter disease
+CLEC7A	chronic mucocutaneous candidiasis
+CLIP2	Williams-Beuren syndrome
+CLIP2	supravalvular aortic stenosis
+CNBP	myotonic dystrophy
+CNGA1	retinitis pigmentosa
+CNGA3	achromatopsia
+CNGB1	retinitis pigmentosa
+CNGB3	achromatopsia
+CNTNAP2	autistic disorder
+COA5	cytochrome-c oxidase deficiency
+COCH	Meniere's disease
+COL1A1	Caffey disease
+COL1A1	osteogenesis imperfecta
+COL1A1	type I Ehlers-Danlos syndrome
+COL1A2	osteogenesis imperfecta
+COL2A1	Legg-Calve-Perthes Disease
+COL2A1	spondyloepiphyseal dysplasia congenita
+COL3A1	abdominal aortic aneurysm
+COL3A1	autosomal dominant type IV Ehlers-Danlos syndrome
+COL3A1	type III Ehlers-Danlos syndrome
+COL4A3	Alport syndrome
+COL4A4	Alport syndrome
+COL4A5	Alport syndrome
+COL5A1	type I Ehlers-Danlos syndrome
+COL5A2	type I Ehlers-Danlos syndrome
+COL8A2	Fuchs' endothelial dystrophy
+COMT	schizophrenia
+COX10	Leigh disease
+COX10	cytochrome-c oxidase deficiency
+COX15	Leigh disease
+COX15	cytochrome-c oxidase deficiency
+COX6B1	cytochrome-c oxidase deficiency
+CPOX	hereditary coproporphyria
+CPS1	carbamoyl phosphate synthetase I deficiency disease
+CPS1	persistent fetal circulation syndrome
+CRB1	retinitis pigmentosa
+CREBBP	Rubinstein-Taybi syndrome
+CRTAP	osteogenesis imperfecta
+CRX	retinitis pigmentosa
+CSRP3	dilated cardiomyopathy
+CSRP3	familial hypertrophic cardiomyopathy
+CST3	age related macular degeneration
+CSTB	Unverricht-Lundborg syndrome
+CTLA4	Graves' disease
+CTLA4	systemic lupus erythematosus
+CTLA4	thyrotoxicosis
+CTNNB1	colon carcinoma
+CTNNB1	colorectal cancer
+CTNNB1	hepatocellular carcinoma
+CTNNB1	malignant mesothelioma
+CTNNB1	medulloblastoma
+CTNNB1	ovarian cancer
+CTNNB1	pilomatrixoma
+CTNNB1	pleomorphic adenoma
+CTNND2	Cri-Du-Chat syndrome
+CTNS	cystinosis
+CTSC	Papillon-Lefevre disease
+CTSC	aggressive periodontitis
+CX3CR1	age related macular degeneration
+CYBA	chronic granulomatous disease
+CYBB	chronic granulomatous disease
+CYFIP1	Angelman syndrome
+CYP11B1	glucocorticoid-remediable aldosteronism
+CYP11B2	glucocorticoid-remediable aldosteronism
+CYP1B1	buphthalmos
+CYP1B1	open-angle glaucoma
+CYP1B1	primary open anle glaucoma
+CYP27A1	cerebrotendinous xanthomatosis
+CYP2A6	lung carcinoma
+CYP3A5	essential hypertension
+CYP7B1	hereditary spastic paraplegia
+DAO	schizophrenia
+DAOA	schizophrenia
+DAZ1	azoospermia
+DAZ2	azoospermia
+DAZ4	azoospermia
+DBH	Parkinson's disease
+DBT	maple syrup urine disease
+DCTN1	amyotrophic lateral sclerosis
+DDIT3	myxoid liposarcoma
+DEC1	esophagus squamous cell carcinoma
+DEFB4A	ulcerative colitis
+DEFB4B	ulcerative colitis
+DES	dilated cardiomyopathy
+DHCR7	Smith-Lemli-Opitz syndrome
+DHH	46 XY gonadal dysgenesis
+DIAPH2	premature ovarian failure
+DICER1	pleuropulmonary blastoma
+DISC1	schizophrenia
+DLD	Leigh disease
+DLD	maple syrup urine disease
+DLEC1	esophagus squamous cell carcinoma
+DLEC1	lung carcinoma
+DLG5	ulcerative colitis
+DLX3	amelogenesis imperfecta
+DMBT1	malignant glioma
+DMBT1	medulloblastoma
+DMD	Becker muscular dystrophy
+DMD	Duchenne muscular dystrophy
+DMD	dilated cardiomyopathy
+DMPK	myotonic dystrophy
+DNAAF1	primary ciliary dyskinesia
+DNAAF2	primary ciliary dyskinesia
+DNAH11	primary ciliary dyskinesia
+DNAH5	primary ciliary dyskinesia
+DNAI1	primary ciliary dyskinesia
+DNAI2	primary ciliary dyskinesia
+DNAJC30	Williams-Beuren syndrome
+DNAJC30	supravalvular aortic stenosis
+DNASE1	systemic lupus erythematosus
+DPYD	dihydropyrimidine dehydrogenase deficiency
+DRD3	schizophrenia
+DRD4	Parkinson's disease
+DRD5	blepharospasm
+DSG2	dilated cardiomyopathy
+DSPP	dentin dysplasia
+DSPP	dentinogenesis imperfecta
+DTNBP1	Hermansky-Pudlak syndrome
+DTNBP1	schizophrenia
+DYSF	distal muscular dystrophy
+DYSF	limb-girdle muscular dystrophy
+ECE1	essential hypertension
+ECM1	lipoid proteinosis
+EDA	hypohidrotic ectodermal dysplasia
+EDAR	hypohidrotic ectodermal dysplasia
+EDARADD	hypohidrotic ectodermal dysplasia
+EDN3	Hirschsprung's disease
+EDN3	Waardenburg's syndrome
+EDNRA	migraine
+EDNRB	Hirschsprung's disease
+EDNRB	Waardenburg's syndrome
+EFHC1	juvenile myoclonic epilepsy
+EFNB1	craniofrontonasal syndrome
+EGF	colon carcinoma
+EGF	colorectal cancer
+EGFR	lung carcinoma
+EIF4H	Williams-Beuren syndrome
+EIF4H	supravalvular aortic stenosis
+ELAC2	prostate cancer
+ELANE	cyclic hematopoiesis
+ELN	Williams-Beuren syndrome
+ELN	supravalvular aortic stenosis
+EMD	Emery-Dreifuss muscular dystrophy
+ENAM	amelogenesis imperfecta
+ENG	hereditary hemorrhagic telangiectasia
+ENPP1	obesity
+ENPP1	type 2 diabetes mellitus
+EP300	Rubinstein-Taybi syndrome
+EP300	colon carcinoma
+EP300	colorectal cancer
+EPB41	hereditary elliptocytosis
+EPHA3	colon carcinoma
+EPHA3	colorectal cancer
+EPHB2	prostate cancer
+EPHX1	pre-eclampsia
+EPM2A	Lafora disease
+ERBB2	lung carcinoma
+ERBB2	malignant glioma
+ERBB2	ovarian cancer
+ERBB2	stomach cancer
+ERC1	papillary thyroid carcinoma
+ERCC2	photosensitive trichthiodystrophy
+ERCC3	photosensitive trichthiodystrophy
+ERCC6	Cockayne syndrome
+ERCC6	age related macular degeneration
+ERCC6	lung carcinoma
+ERCC8	Cockayne syndrome
+ERG	peripheral primitive neuroectodermal tumor
+ESCO2	Roberts syndrome
+ESR1	migraine
+ETV1	peripheral primitive neuroectodermal tumor
+ETV4	peripheral primitive neuroectodermal tumor
+ETV6	acute myeloid leukemia
+EVC	Ellis-Van Creveld syndrome
+EVC2	Ellis-Van Creveld syndrome
+EWSR1	peripheral primitive neuroectodermal tumor
+EXT1	Langer-Giedion syndrome
+EXT1	chondrosarcoma
+EXT1	hereditary multiple exostoses
+EXT2	hereditary multiple exostoses
+EYA1	branchiootorenal syndrome
+EYA4	dilated cardiomyopathy
+EYS	retinitis pigmentosa
+F11	factor XI deficiency
+F12	factor XII deficiency
+F12	hereditary angioedema
+F13A1	factor XIII deficiency
+F13A1	thrombophilia
+F13B	factor XIII deficiency
+F2	cerebrovascular accident
+F2	prothrombin deficiency
+F2	thrombophilia
+F5	cerebrovascular accident
+F5	factor V deficiency
+F8	factor VIII deficiency
+F9	hemophilia B
+FAM161A	retinitis pigmentosa
+FAM83H	amelogenesis imperfecta
+FANCA	Fanconi's anemia
+FANCB	Fanconi's anemia
+FANCC	Fanconi's anemia
+FANCD2	Fanconi's anemia
+FANCE	Fanconi's anemia
+FANCF	Fanconi's anemia
+FANCG	Fanconi's anemia
+FANCI	Fanconi's anemia
+FANCL	Fanconi's anemia
+FANCM	Fanconi's anemia
+FAS	autoimmune lymphoproliferative syndrome
+FASLG	autoimmune lymphoproliferative syndrome
+FASLG	systemic lupus erythematosus
+FASTKD2	cytochrome-c oxidase deficiency
+FBLN5	age related macular degeneration
+FBN1	Marfan syndrome
+FBP1	fructose-1,6-bisphosphatase deficiency
+FBXO7	Parkinson's disease
+FCGR2B	systemic lupus erythematosus
+FCGR2C	autoimmune thrombocytopenic purpura
+FCGR3A	systemic lupus erythematosus
+FCRL3	rheumatoid arthritis
+FECH	erythropoietic protoporphyria
+FERMT3	leukocyte adhesion deficiency
+FEV	sudden infant death syndrome
+FGA	congenital afibrinogenemia
+FGB	congenital afibrinogenemia
+FGD1	Aarskog-Scott syndrome
+FGF14	spinocerebellar ataxia
+FGF20	Parkinson's disease
+FGF8	Kallmann syndrome
+FGFR1	Kallmann syndrome
+FGFR1	Pfeiffer syndrome
+FGFR2	Crouzon syndrome
+FGFR2	Pfeiffer syndrome
+FGFR2	Saethre-Chotzen syndrome
+FGFR2	acrocephalosyndactylia
+FGFR2	stomach cancer
+FGFR3	Saethre-Chotzen syndrome
+FGFR3	achondroplasia
+FGFR3	cervix carcinoma
+FGFR3	colon carcinoma
+FGFR3	colorectal cancer
+FGFR3	multiple myeloma
+FGFR3	seborrheic keratosis
+FGFR3	seminoma
+FGFR3	testicular cancer
+FGFR3	testicular germ cell cancer
+FGFR3	thanatophoric dysplasia
+FGFR3	urinary bladder cancer
+FGG	congenital afibrinogenemia
+FGGY	amyotrophic lateral sclerosis
+FHL1	Emery-Dreifuss muscular dystrophy
+FIG4	amyotrophic lateral sclerosis
+FIGLA	premature ovarian failure
+FKBP10	age related macular degeneration
+FKBP10	osteogenesis imperfecta
+FKBP5	endogenous depression
+FKBP6	Williams-Beuren syndrome
+FKBP6	supravalvular aortic stenosis
+FKRP	limb-girdle muscular dystrophy
+FKTN	limb-girdle muscular dystrophy
+FLCN	colon carcinoma
+FLCN	colorectal cancer
+FLG	atopic dermatitis
+FLG	ichthyosis vulgaris
+FLI1	peripheral primitive neuroectodermal tumor
+FLNA	FG syndrome
+FLNB	Larsen syndrome
+FLT3	acute myeloid leukemia
+FMR1	fragile X syndrome
+FMR1	premature ovarian failure
+FOXC1	Axenfeld-Rieger syndrome
+FOXE3	congenital aphakia
+FOXF1	persistent fetal circulation syndrome
+FOXG1	Rett syndrome
+FOXL2	blepharophimosis, ptosis, and epicanthus inversus syndrome
+FOXL2	premature ovarian failure
+FOXO1	alveolar rhabdomyosarcoma
+FOXP3	type 1 diabetes mellitus
+FOXRED1	Leigh disease
+FSCN2	retinitis pigmentosa
+FSHR	ovarian hyperstimulation syndrome
+FST	polycystic ovary syndrome
+FTO	obesity
+FUCA1	fucosidosis
+FUS	amyotrophic lateral sclerosis
+FUS	myxoid liposarcoma
+FXN	Friedreich ataxia
+FXYD6	schizophrenia
+G6PC	glycogen storage disease I
+G6PD	glucosephosphate dehydrogenase deficiency
+GAA	glycogen storage disease II
+GABRA1	juvenile myoclonic epilepsy
+GABRG2	infantile epileptic encephalopathy
+GALC	Krabbe disease
+GALK1	galactokinase deficiency
+GALNS	mucopolysaccharidosis IV
+GATA1	Down syndrome
+GATA2	acute myeloid leukemia
+GATA4	atrial heart septal defect
+GBA	Gaucher's disease
+GBA	Parkinson's disease
+GBE1	glycogen storage disease IV
+GC	Graves' disease
+GC	thyrotoxicosis
+GCGR	type 2 diabetes mellitus
+GCK	hyperinsulinemic hypoglycemia
+GCK	type 2 diabetes mellitus
+GCSH	glycine encephalopathy
+GDF1	double outlet right ventricle
+GDF1	tetralogy of Fallot
+GDF3	Klippel-Feil syndrome
+GDF3	microphthalmia
+GDF6	Klippel-Feil syndrome
+GDF6	coloboma
+GDF6	microphthalmia
+GDNF	Hirschsprung's disease
+GFAP	Alexander disease
+GHR	Laron syndrome
+GHRL	obesity
+GIGYF2	Parkinson's disease
+GJA1	Hallermann-Streiff syndrome
+GJA1	hypoplastic left heart syndrome
+GJB6	Clouston syndrome
+GJC2	hereditary spastic paraplegia
+GLA	Fabry disease
+GLB1	gangliosidosis GM1
+GLB1	mucopolysaccharidosis IV
+GLDC	glycine encephalopathy
+GLI2	holoprosencephaly
+GLI3	Greig cephalopolysyndactyly syndrome
+GLI3	Pallister-Hall syndrome
+GLI3	acrocallosal syndrome
+GLI3	polydactyly
+GLIS2	nephronopthisis
+GLO1	autistic disorder
+GLUD1	hyperinsulinemic hypoglycemia
+GM2A	Tay-Sachs disease AB variant
+GMPS	acute myeloid leukemia
+GNAS	ACTH-secreting pituitary adenoma
+GNAS	McCune Albright Syndrome
+GNAS	colon carcinoma
+GNAS	colorectal cancer
+GNAS	growth hormone secreting pituitary adenoma
+GNAS	pseudohypoparathyroidism
+GNAS	pseudopseudohypoparathyroidism
+GNB3	essential hypertension
+GNE	sialuria
+GNPAT	rhizomelic chondrodysplasia punctata
+GNS	mucopolysaccharidosis III
+GOLGA5	papillary thyroid carcinoma
+GP1BA	Bernard-Soulier syndrome
+GP1BB	Bernard-Soulier syndrome
+GP9	Bernard-Soulier syndrome
+GPC3	nephroblastoma
+GPD1L	sudden infant death syndrome
+GPD2	type 2 diabetes mellitus
+GPIHBP1	hyperlipoproteinemia type V
+GRHPR	primary hyperoxaluria
+GRK1	hereditary night blindness
+GTF2H5	photosensitive trichthiodystrophy
+GTF2I	Williams-Beuren syndrome
+GTF2I	supravalvular aortic stenosis
+GTF2IRD1	Williams-Beuren syndrome
+GTF2IRD1	supravalvular aortic stenosis
+GUCY2D	Leber congenital amaurosis
+GUSB	mucopolysaccharidosis VII
+HABP2	thrombophilia
+HADH	hyperinsulinemic hypoglycemia
+HAMP	hemochromatosis
+HBA1	alpha thalassemia
+HBA1	thalassemia
+HBA2	alpha thalassemia
+HBA2	thalassemia
+HBB	beta thalassemia
+HBB	sickle cell anemia
+HBB	thalassemia
+HCCS	microphthalmia
+HEXA	Tay-Sachs disease
+HEXB	Sandhoff disease
+HFE	Alzheimer's disease
+HFE	hemochromatosis
+HFE	porphyria cutanea tarda
+HFE	variegate porphyria
+HFE2	hemochromatosis
+HGD	alkaptonuria
+HGSNAT	mucopolysaccharidosis III
+HIP1	prostate cancer
+HLA-A	spondyloarthropathy
+HLA-B	Behcet's disease
+HLA-B	spondyloarthropathy
+HLA-DQA1	celiac disease
+HLA-DQB1	Creutzfeldt-Jakob syndrome
+HLA-DQB1	celiac disease
+HLA-DQB1	multiple sclerosis
+HLA-DQB1	type 1 diabetes mellitus
+HLA-DRB1	multiple sclerosis
+HLA-DRB1	rheumatoid arthritis
+HLCS	holocarboxylase synthetase deficiency
+HMBS	acute intermittent porphyria
+HMCN1	age related macular degeneration
+HMGA1	type 2 diabetes mellitus
+HMGA2	lipoma
+HMGA2	uterine fibroid
+HMMR	breast cancer
+HNF1A	type 1 diabetes mellitus
+HNF1A	type 2 diabetes mellitus
+HNF1B	prostate cancer
+HNF1B	type 2 diabetes mellitus
+HNF4A	type 2 diabetes mellitus
+HOGA1	primary hyperoxaluria
+HOXD13	VACTERL association
+HPGD	primary hypertrophic osteoarthropathy
+HPRT1	Lesch-Nyhan syndrome
+HPS1	Hermansky-Pudlak syndrome
+HPS3	Hermansky-Pudlak syndrome
+HPS4	Hermansky-Pudlak syndrome
+HPS5	Hermansky-Pudlak syndrome
+HPS6	Hermansky-Pudlak syndrome
+HRAS	follicular thyroid carcinoma
+HRAS	thyroid hurthle cell carcinoma
+HRAS	urinary bladder cancer
+HSPD1	hereditary spastic paraplegia
+HTR2A	endogenous depression
+HTR2A	schizophrenia
+HTRA1	age related macular degeneration
+HTRA2	Parkinson's disease
+HTT	Huntington's disease
+ICOS	common variable immunodeficiency
+IDH1	malignant glioma
+IDH3B	retinitis pigmentosa
+IFIH1	Graves' disease
+IFIH1	thyrotoxicosis
+IFNG	aplastic anemia
+IFNG	tuberous sclerosis
+IGF2	Beckwith-Wiedemann syndrome
+IGF2	Silver-Russell syndrome
+IGF2BP2	type 2 diabetes mellitus
+IGHG1	multiple myeloma
+IGHM	agammaglobulinemia
+IGLL1	agammaglobulinemia
+IKBKAP	Riley-Day syndrome
+IKBKG	Bloch-Sulzberger syndrome
+IKBKG	hypohidrotic ectodermal dysplasia
+IL10	Behcet's disease
+IL10	rheumatoid arthritis
+IL12RB2	Behcet's disease
+IL1B	stomach cancer
+IL1RN	stomach cancer
+IL23R	Behcet's disease
+IL23R	ulcerative colitis
+IL4	cerebrovascular accident
+IL6	Kaposi's sarcoma
+IL6	type 2 diabetes mellitus
+IL6	ulcerative colitis
+IL7R	multiple sclerosis
+IMMP2L	Gilles de la Tourette syndrome
+IMPDH1	retinitis pigmentosa
+IMPG2	retinitis pigmentosa
+INF2	focal segmental glomerulosclerosis
+INPPL1	type 2 diabetes mellitus
+INSL3	cryptorchidism
+INSR	hyperinsulinemic hypoglycemia
+INSR	type 2 diabetes mellitus
+INVS	nephronopthisis
+IRF1	lung carcinoma
+IRF1	stomach cancer
+IRF4	multiple myeloma
+IRF5	rheumatoid arthritis
+IRS1	type 2 diabetes mellitus
+IRS2	type 2 diabetes mellitus
+ITGA2B	Glanzmann's thrombasthenia
+ITGAX	systemic lupus erythematosus
+ITGB2	leukocyte adhesion deficiency
+ITGB3	Glanzmann's thrombasthenia
+ITPKC	Kawasaki disease
+ITPR1	spinocerebellar ataxia
+ITPR3	type 1 diabetes mellitus
+IVD	isovaleric acidemia
+J01415.24	Kearns-Sayre syndrome
+JAG1	Alagille syndrome
+JAG1	tetralogy of Fallot
+JAK2	acute myeloid leukemia
+JAK2	hemorrhagic thrombocythemia
+JAK2	myelofibrosis
+JAK2	polycythemia vera
+KCNA1	episodic ataxia
+KCNC3	spinocerebellar ataxia
+KCNE1	Jervell-Lange Nielsen syndrome
+KCNE1	long QT syndrome
+KCNE2	long QT syndrome
+KCNE3	hyperkalemic periodic paralysis
+KCNE3	hypokalemic periodic paralysis
+KCNH2	long QT syndrome
+KCNJ1	Bartter disease
+KCNJ11	hyperinsulinemic hypoglycemia
+KCNJ11	type 2 diabetes mellitus
+KCNJ2	long QT syndrome
+KCNJ5	long QT syndrome
+KCNJ8	sudden infant death syndrome
+KCNQ1	Jervell-Lange Nielsen syndrome
+KCNQ1	long QT syndrome
+KCNQ2	infantile epileptic encephalopathy
+KCTD7	progressive myoclonic epilepsy
+KIAA0196	hereditary spastic paraplegia
+KIAA0415	hereditary spastic paraplegia
+KIF1B	neuroblastoma
+KIF5A	hereditary spastic paraplegia
+KIF7	Bardet-Biedl syndrome
+KIF7	Pallister-Hall syndrome
+KIF7	acrocallosal syndrome
+KIT	acute myeloid leukemia
+KIT	gastrointestinal stromal tumor
+KIT	mastocytosis
+KIT	piebaldism
+KIT	seminoma
+KIT	testicular cancer
+KIT	testicular germ cell cancer
+KIT	urticaria pigmentosa
+KLF1	congenital dyserythropoietic anemia
+KLF6	prostate cancer
+KLF6	stomach cancer
+KLHDC8B	Hodgkin's lymphoma
+KLHL7	retinitis pigmentosa
+KLK4	amelogenesis imperfecta
+KRAS	Noonan syndrome
+KRAS	acute myeloid leukemia
+KRAS	breast cancer
+KRAS	lung carcinoma
+KRAS	pancreatic carcinoma
+KRAS	stomach cancer
+KRAS	urinary bladder cancer
+KRT1	epidermolytic hyperkeratosis
+KRT10	epidermolytic hyperkeratosis
+L1CAM	Hirschsprung's disease
+LAT2	Williams-Beuren syndrome
+LAT2	supravalvular aortic stenosis
+LBR	Pelger-Huet anomaly
+LCA5	Leber congenital amaurosis
+LCAT	Norum disease
+LCT	lactose intolerance
+LDB3	dilated cardiomyopathy
+LEMD3	melorheostosis
+LEP	obesity
+LEPRE1	osteogenesis imperfecta
+LGI1	malignant glioma
+LGR4	schizophrenia
+LIG4	multiple myeloma
+LIMK1	Williams-Beuren syndrome
+LIMK1	supravalvular aortic stenosis
+LIPC	type 2 diabetes mellitus
+LMBR1	polydactyly
+LMNA	Emery-Dreifuss muscular dystrophy
+LMNA	Werner syndrome
+LMNA	dilated cardiomyopathy
+LMNA	limb-girdle muscular dystrophy
+LMNA	progeria
+LMX1B	nail-patella syndrome
+LMX1B	open-angle glaucoma
+LOXL1	exfoliation syndrome
+LPL	familial combined hyperlipidemia
+LPL	familial lipoprotein lipase deficiency
+LPL	hyperlipoproteinemia type V
+LPP	acute myeloid leukemia
+LRAT	Leber congenital amaurosis
+LRRC8A	agammaglobulinemia
+LRRK2	Parkinson's disease
+LYST	Chediak-Higashi syndrome
+LZTS1	esophagus squamous cell carcinoma
+MAD1L1	prostate cancer
+MAMLD1	hypospadias
+MAN2B1	alpha-mannosidosis
+MANBA	beta-mannosidosis
+MANF	pancreatic carcinoma
+MAP3K1	46 XY gonadal dysgenesis
+MAP3K8	lung carcinoma
+MAPK8IP1	type 2 diabetes mellitus
+MAPT	Parkinson's disease
+MAPT	Pick's disease
+MAPT	frontotemporal dementia
+MAPT	progressive supranuclear palsy
+MBNL1	myotonic dystrophy
+MC1R	familial atypical multiple mole-melanoma
+MC1R	protein-losing enteropathy
+MC1R	skin melanoma
+MC3R	obesity
+MC4R	obesity
+MCF2L2	type 2 diabetes mellitus
+MCM6	lactose intolerance
+MCPH1	microcephaly
+MECP2	Angelman syndrome
+MECP2	Rett syndrome
+MECP2	autistic disorder
+MED12	FG syndrome
+MEFV	familial Mediterranean fever
+MEN1	Wermer syndrome
+MERTK	retinitis pigmentosa
+MET	colon carcinoma
+MET	colorectal cancer
+MET	hepatocellular carcinoma
+MET	papillary renal cell carcinoma
+MFRP.1	microphthalmia
+MGAT2	congenital disorder of glycosylation
+MICB	rheumatoid arthritis
+MINPP1	follicular thyroid carcinoma
+MITF	Waardenburg's syndrome
+MKKS	Bardet-Biedl syndrome
+MKKS	Laurence-Moon syndrome
+MKS1	Bardet-Biedl syndrome
+MLF1	acute myeloid leukemia
+MLH1	endometrial carcinoma
+MLH3	colon carcinoma
+MLH3	colorectal cancer
+MLH3	endometrial carcinoma
+MLLT10	acute myeloid leukemia
+MLXIPL	Williams-Beuren syndrome
+MLXIPL	supravalvular aortic stenosis
+MMAA	methylmalonic acidemia
+MMAB	methylmalonic acidemia
+MMP20	amelogenesis imperfecta
+MN1	familial meningioma
+MPL	hemorrhagic thrombocythemia
+MPL	polycythemia vera
+MPO	Alzheimer's disease
+MPZ	Adie syndrome
+MS4A1	common variable immunodeficiency
+MSH2	Lynch syndrome
+MSH2	endometrial carcinoma
+MSH2	malignant glioma
+MSH2	neurofibromatosis
+MSH3	endometrial carcinoma
+MSH6	endometrial carcinoma
+MSH6	hereditary breast ovarian cancer
+MSR1	prostate cancer
+MSX1	tooth and nail syndrome
+MSX2	craniosynostosis
+MT-ATP6	Leigh disease
+MT-ATP6	leber hereditary optic neuropathy
+MT-ATP6	striatonigral degeneration
+MT-CO1	colon carcinoma
+MT-CO1	colorectal cancer
+MT-CO1	cytochrome-c oxidase deficiency
+MT-CO1	leber hereditary optic neuropathy
+MT-CO2	cytochrome-c oxidase deficiency
+MT-CO3	MELAS syndrome
+MT-CO3	cytochrome-c oxidase deficiency
+MT-CO3	leber hereditary optic neuropathy
+MT-CYB	leber hereditary optic neuropathy
+MT-ND1	MELAS syndrome
+MT-ND1	leber hereditary optic neuropathy
+MT-ND2	leber hereditary optic neuropathy
+MT-ND3	Leigh disease
+MT-ND4	MELAS syndrome
+MT-ND4	leber hereditary optic neuropathy
+MT-ND4L	leber hereditary optic neuropathy
+MT-ND5	Leigh disease
+MT-ND5	MELAS syndrome
+MT-ND5	leber hereditary optic neuropathy
+MT-ND6	Leigh disease
+MT-ND6	MELAS syndrome
+MT-ND6	leber hereditary optic neuropathy
+MTHFD1	colon carcinoma
+MTHFD1	colorectal cancer
+MTHFR	cerebrovascular accident
+MTHFR	schizophrenia
+MTHFR	thrombophilia
+MTR	Down syndrome
+MTTP	abetalipoproteinemia
+MTTP	metabolic syndrome X
+MTUS1	hepatocellular carcinoma
+MUTYH	pilomatrixoma
+MUTYH	stomach cancer
+MXI1	prostate cancer
+MYBPC3	dilated cardiomyopathy
+MYBPC3	familial hypertrophic cardiomyopathy
+MYC	Burkitt's lymphoma
+MYF6	Becker muscular dystrophy
+MYF6	Duchenne muscular dystrophy
+MYH11	thoracic aortic aneurysm
+MYH6	dilated cardiomyopathy
+MYH6	familial hypertrophic cardiomyopathy
+MYH6	hypertrophic cardiomyopathy
+MYH7	dilated cardiomyopathy
+MYH7	familial hypertrophic cardiomyopathy
+MYH7	hypertrophic cardiomyopathy
+MYL2	familial hypertrophic cardiomyopathy
+MYL3	familial hypertrophic cardiomyopathy
+MYLK2	familial hypertrophic cardiomyopathy
+MYLK2	hypertrophic cardiomyopathy
+MYOC	buphthalmos
+MYOC	open-angle glaucoma
+MYOT	limb-girdle muscular dystrophy
+NAGLU	mucopolysaccharidosis III
+NAIP	Werdnig-Hoffmann disease
+NAIP	juvenile spinal muscular atrophy
+NBN	Nijmegen breakage syndrome
+NBN	aplastic anemia
+NBN	breast cancer
+NCF1	chronic granulomatous disease
+NCF2	chronic granulomatous disease
+NCOA4	papillary thyroid carcinoma
+NCSTN	hidradenitis suppurativa
+NDN	Prader-Willi syndrome
+NDP	Coats disease
+NDUFA10	Leigh disease
+NDUFA13	thyroid hurthle cell carcinoma
+NDUFA2	Leigh disease
+NDUFAF2	Leigh disease
+NDUFS1	Leigh disease
+NDUFS3	Leigh disease
+NDUFS4	Leigh disease
+NDUFS7	Leigh disease
+NDUFS8	Leigh disease
+NDUFV1	Alexander disease
+NDUFV1	Leigh disease
+NDUFV2	Parkinson's disease
+NEFH	amyotrophic lateral sclerosis
+NEUROD1	type 2 diabetes mellitus
+NEXN	dilated cardiomyopathy
+NF1	colon carcinoma
+NF1	colorectal cancer
+NF1	neurofibromatosis
+NF2	familial meningioma
+NF2	malignant mesothelioma
+NF2	neurilemmomatosis
+NF2	neurofibromatosis
+NFKBIL1	rheumatoid arthritis
+NHLRC1	Lafora disease
+NIPA1	hereditary spastic paraplegia
+NIPAL4	congenital ichthyosiform erythroderma
+NIPBL	Cornelia de Lange syndrome
+NKX2-5	double outlet right ventricle
+NKX2-5	tetralogy of Fallot
+NKX2-6	double outlet right ventricle
+NLGN3	autistic disorder
+NLGN4X	autistic disorder
+NLRP1	vitiligo
+NLRP2	gestational trophoblastic neoplasm
+NLRP7	gestational trophoblastic neoplasm
+NME1	neuroblastoma
+NOBOX	premature ovarian failure
+NOD2	ulcerative colitis
+NODAL	situs inversus
+NOS2	essential hypertension
+NOS3	Alzheimer's disease
+NOS3	cerebrovascular accident
+NOS3	essential hypertension
+NOS3	pre-eclampsia
+NOTCH1	congenital aortic valve stenosis
+NOTCH2	Alagille syndrome
+NOTCH2	Hajdu-Cheney syndrome
+NPAS2	endogenous depression
+NPC1	Niemann-Pick disease
+NPC2	Niemann-Pick disease
+NPHP1	nephronopthisis
+NPHP3	nephronopthisis
+NPHP4	nephronopthisis
+NPM1	acute myeloid leukemia
+NQO2	breast cancer
+NR0B1	46 XY gonadal dysgenesis
+NR0B2	obesity
+NR2E3	retinitis pigmentosa
+NR4A2	Parkinson's disease
+NR4A3	extraskeletal myxoid chondrosarcoma
+NR4A3	peripheral primitive neuroectodermal tumor
+NR5A1	46 XY gonadal dysgenesis
+NR5A1	premature ovarian failure
+NRAS	Noonan syndrome
+NRAS	colon carcinoma
+NRAS	colorectal cancer
+NRAS	follicular thyroid carcinoma
+NRL	retinitis pigmentosa
+NRTN	Hirschsprung's disease
+NRXN1	autistic disorder
+NSD1	Beckwith-Wiedemann syndrome
+NSD1	Sotos syndrome
+NSD1	Weaver syndrome
+NSD1	acute myeloid leukemia
+NT5C3	hemolytic anemia
+NTF4	open-angle glaucoma
+NTRK1	papillary thyroid carcinoma
+NUP214	acute myeloid leukemia
+NUP62	striatonigral degeneration
+OAS1	type 1 diabetes mellitus
+OCRL	oculocerebrorenal syndrome
+ODC1	colon carcinoma
+ODC1	colorectal cancer
+OFD1	orofaciodigital syndrome
+OPCML	hereditary breast ovarian cancer
+OPCML	ovarian cancer
+OPTN	amyotrophic lateral sclerosis
+OPTN	primary open anle glaucoma
+OTC	ornithine carbamoyltransferase deficiency
+OTX2	microphthalmia
+PABPN1	oculopharyngeal muscular dystrophy
+PADI4	rheumatoid arthritis
+PAH	phenylketonuria
+PALB2	Fanconi's anemia
+PALB2	breast cancer
+PALLD	pancreatic carcinoma
+PANK2	Hallervorden-Spatz syndrome
+PARK2	Parkinson's disease
+PARK2	hereditary breast ovarian cancer
+PARK2	lung carcinoma
+PARK2	ovarian cancer
+PARK7	Parkinson's disease
+PAX3	Waardenburg's syndrome
+PAX3	alveolar rhabdomyosarcoma
+PAX4	diabetic ketoacidosis
+PAX4	type 1 diabetes mellitus
+PAX4	type 2 diabetes mellitus
+PAX6	aniridia
+PAX6	coloboma
+PAX6	coloboma of optic nerve
+PAX7	alveolar rhabdomyosarcoma
+PAXIP1	Alzheimer's disease
+PC	pyruvate carboxylase deficiency disease
+PCCA	propionic acidemia
+PCCB	propionic acidemia
+PCDH19	infantile epileptic encephalopathy
+PCM1	papillary thyroid carcinoma
+PDCD1	multiple sclerosis
+PDCD1	systemic lupus erythematosus
+PDE6C	achromatopsia
+PDE6G	retinitis pigmentosa
+PDE8B	striatonigral degeneration
+PDGFB	familial meningioma
+PDGFRA	gastrointestinal stromal tumor
+PDGFRL	colon carcinoma
+PDGFRL	colorectal cancer
+PDGFRL	hepatocellular carcinoma
+PDHA1	pyruvate decarboxylase deficiency
+PDHB	pyruvate decarboxylase deficiency
+PDX1	type 2 diabetes mellitus
+PDYN	spinocerebellar ataxia
+PEX1	Refsum disease
+PEX1	Zellweger syndrome
+PEX1	adrenoleukodystrophy
+PEX10	Refsum disease
+PEX10	Zellweger syndrome
+PEX10	adrenoleukodystrophy
+PEX12	Refsum disease
+PEX12	Zellweger syndrome
+PEX12	adrenoleukodystrophy
+PEX13	Refsum disease
+PEX13	Zellweger syndrome
+PEX13	adrenoleukodystrophy
+PEX14	Refsum disease
+PEX14	Zellweger syndrome
+PEX14	adrenoleukodystrophy
+PEX16	Refsum disease
+PEX16	Zellweger syndrome
+PEX16	adrenoleukodystrophy
+PEX19	Refsum disease
+PEX19	Zellweger syndrome
+PEX19	adrenoleukodystrophy
+PEX2	Refsum disease
+PEX2	Zellweger syndrome
+PEX2	adrenoleukodystrophy
+PEX26	Refsum disease
+PEX26	Zellweger syndrome
+PEX26	adrenoleukodystrophy
+PEX3	Refsum disease
+PEX3	Zellweger syndrome
+PEX3	adrenoleukodystrophy
+PEX5	Refsum disease
+PEX5	Zellweger syndrome
+PEX5	adrenoleukodystrophy
+PEX6	Refsum disease
+PEX6	Zellweger syndrome
+PEX6	adrenoleukodystrophy
+PEX7	Refsum disease
+PEX7	rhizomelic chondrodysplasia punctata
+PFKM	glycogen storage disease VII
+PHB	breast cancer
+PHOX2B	Hirschsprung's disease
+PHOX2B	neuroblastoma
+PHYH	Refsum disease
+PICALM	acute myeloid leukemia
+PIGR	IgA glomerulonephritis
+PIK3CA	breast cancer
+PIK3CA	colon carcinoma
+PIK3CA	colorectal cancer
+PIK3CA	hepatocellular carcinoma
+PIK3CA	hereditary breast ovarian cancer
+PIK3CA	lung carcinoma
+PIK3CA	ovarian cancer
+PIK3CA	seborrheic keratosis
+PIK3CA	stomach cancer
+PINK1	Parkinson's disease
+PITX1	clubfoot
+PITX2	Axenfeld-Rieger syndrome
+PKD1	polycystic kidney disease
+PKD2	polycystic kidney disease
+PKHD1	polycystic kidney disease
+PLA2G2A	colon carcinoma
+PLA2G2A	colorectal cancer
+PLA2G6	Parkinson's disease
+PLAG1	pleomorphic adenoma
+PLAU	Alzheimer's disease
+PLCB1	infantile epileptic encephalopathy
+PLEKHA1	age related macular degeneration
+PLEKHG4	spinocerebellar ataxia
+PLG	thrombophilia
+PLN	dilated cardiomyopathy
+PLOD1	Ehlers-Danlos syndrome
+PLOD1	Sotos syndrome
+PLOD1	type VI Ehlers-Danlos syndrome
+PLP1	Pelizaeus-Merzbacher disease
+PLP1	hereditary spastic paraplegia
+PMM2	congenital disorder of glycosylation
+PMP22	Guillain-Barre syndrome
+PNKP	infantile epileptic encephalopathy
+PNMT	essential hypertension
+PNP	purine nucleoside phosphorylase deficiency
+PNPLA6	hereditary spastic paraplegia
+POLG	Alpers syndrome
+POLG	Leigh disease
+POLR1C	Treacher Collins syndrome
+POLR1D	Treacher Collins syndrome
+POMC	obesity
+POMGNT1	limb-girdle muscular dystrophy
+POMT1	limb-girdle muscular dystrophy
+POMT2	limb-girdle muscular dystrophy
+PORCN	focal dermal hypoplasia
+POU3F4	sensorineural hearing loss
+PPARG	malignant glioma
+PPARG	obesity
+PPARG	type 2 diabetes mellitus
+PPARGC1B	obesity
+PPIB	osteogenesis imperfecta
+PPM1D	breast cancer
+PPOX	variegate porphyria
+PPP1R3A	type 2 diabetes mellitus
+PPP2R1B	lung carcinoma
+PPP2R2B	spinocerebellar ataxia
+PRCC	papillary renal cell carcinoma
+PRCD	retinitis pigmentosa
+PRF1	aplastic anemia
+PRICKLE1	progressive myoclonic epilepsy
+PRKAG2	Wolff-Parkinson-White syndrome
+PRKAG2	familial hypertrophic cardiomyopathy
+PRKAR1A	acrodysostosis
+PRKAR1A	papillary thyroid carcinoma
+PRKCG	spinocerebellar ataxia
+PRKCH	cerebrovascular accident
+PRNP	Creutzfeldt-Jakob syndrome
+PRNP	Gerstmann-Straussler-Scheinker disease
+PROC	thrombophilia
+PRODH	schizophrenia
+PROK2	Kallmann syndrome
+PROKR2	Kallmann syndrome
+PROM1	retinitis pigmentosa
+PRPF3	retinitis pigmentosa
+PRPF31	retinitis pigmentosa
+PRPF8	retinitis pigmentosa
+PRPH	amyotrophic lateral sclerosis
+PRPH2	fundus albipunctatus
+PRPH2	partial central choroid dystrophy
+PRPH2	retinitis pigmentosa
+PRTN3	Wegener's granulomatosis
+PSEN1	Alzheimer's disease
+PSEN1	Pick's disease
+PSEN1	frontotemporal dementia
+PSEN1	hidradenitis suppurativa
+PSEN2	Alzheimer's disease
+PSEN2	dilated cardiomyopathy
+PSENEN	hidradenitis suppurativa
+PTCH1	holoprosencephaly
+PTCH1	medulloblastoma
+PTCH1	nevoid basal cell carcinoma syndrome
+PTCH2	medulloblastoma
+PTEN	Cowden disease
+PTEN	Cowden syndrome
+PTEN	Proteus syndrome
+PTEN	VACTERL association
+PTEN	endometrial carcinoma
+PTEN	familial atypical multiple mole-melanoma
+PTEN	familial meningioma
+PTEN	follicular thyroid carcinoma
+PTEN	malignant glioma
+PTEN	prostate cancer
+PTEN	skin melanoma
+PTGIS	essential hypertension
+PTH1R	Ollier disease
+PTPN1	type 2 diabetes mellitus
+PTPN11	LEOPARD syndrome
+PTPN11	Noonan syndrome
+PTPN22	rheumatoid arthritis
+PTPN22	systemic lupus erythematosus
+PTPN22	type 1 diabetes mellitus
+PTPRC	multiple sclerosis
+PTPRJ	colon carcinoma
+PTPRJ	colorectal cancer
+PYGM	glycogen storage disease V
+PYY	obesity
+RAD51	breast cancer
+RAD51B	uterine fibroid
+RAD54L	breast cancer
+RAF1	LEOPARD syndrome
+RAF1	Noonan syndrome
+RASGRP1	systemic lupus erythematosus
+RASSF1	lung carcinoma
+RAX	microphthalmia
+RAX2	age related macular degeneration
+RB1	lung small cell carcinoma
+RB1	osteosarcoma
+RB1	retinoblastoma
+RB1	urinary bladder cancer
+RB1CC1	breast cancer
+RBM20	dilated cardiomyopathy
+RBMY1A1	azoospermia
+RD3	Leber congenital amaurosis
+RDH12	Leber congenital amaurosis
+RDH12	retinitis pigmentosa
+RDH5	fundus albipunctatus
+RECQL4	Rothmund-Thomson syndrome
+REEP1	hereditary spastic paraplegia
+RET	Hirschsprung's disease
+RET	Wagenmann-Froboese syndrome
+RET	colon carcinoma
+RET	colorectal cancer
+RET	papillary thyroid carcinoma
+RET	renal agenesis
+RETN	type 2 diabetes mellitus
+RFC2	Williams-Beuren syndrome
+RFC2	supravalvular aortic stenosis
+RFX5	MHC class II deficiency
+RFXANK	MHC class II deficiency
+RFXAP	MHC class II deficiency
+RGR	retinitis pigmentosa
+RGS4	schizophrenia
+RGS5	essential hypertension
+RHO	fundus albipunctatus
+RHO	retinitis pigmentosa
+RLBP1	fundus albipunctatus
+RLBP1	retinitis pigmentosa
+RNASEL	prostate cancer
+RNF6	esophagus squamous cell carcinoma
+ROBO2	vesicoureteral reflux
+ROM1	retinitis pigmentosa
+RP1	retinitis pigmentosa
+RP2	retinitis pigmentosa
+RP9	retinitis pigmentosa
+RPE65	Leber congenital amaurosis
+RPE65	retinitis pigmentosa
+RPGR	retinitis pigmentosa
+RPL11	Diamond-Blackfan anemia
+RPL35A	Diamond-Blackfan anemia
+RPL5	Diamond-Blackfan anemia
+RPS10	Diamond-Blackfan anemia
+RPS17	Diamond-Blackfan anemia
+RPS17L	Diamond-Blackfan anemia
+RPS19	Diamond-Blackfan anemia
+RPS24	Diamond-Blackfan anemia
+RPS26	Diamond-Blackfan anemia
+RPS6KA3	Coffin-Lowry syndrome
+RPS7	Diamond-Blackfan anemia
+RRAS2	ovarian cancer
+RSPH4A	primary ciliary dyskinesia
+RSPH9	primary ciliary dyskinesia
+RTN4R	schizophrenia
+RUNX1	acute myeloid leukemia
+RUNX1	chronic myeloid leukemia
+RUNX1	rheumatoid arthritis
+RUNX1T1	colon carcinoma
+RUNX1T1	colorectal cancer
+RUNX2	cleidocranial dysplasia
+RXFP2	cryptorchidism
+RYR1	central core myopathy
+RYR1	malignant hyperthermia
+SAG	hereditary night blindness
+SATB2	cleft palate
+SBDS	aplastic anemia
+SCN1A	infantile epileptic encephalopathy
+SCN1B	infantile epileptic encephalopathy
+SCN2A	infantile epileptic encephalopathy
+SCN4A	hyperkalemic periodic paralysis
+SCN4A	hypokalemic periodic paralysis
+SCN4B	long QT syndrome
+SCN5A	dilated cardiomyopathy
+SCN5A	long QT syndrome
+SCN5A	sudden infant death syndrome
+SCN9A	infantile epileptic encephalopathy
+SCNN1B	bronchiectasis
+SCO1	cytochrome-c oxidase deficiency
+SDC3	obesity
+SDHA	Leigh disease
+SDHA	dilated cardiomyopathy
+SDHB	gastrointestinal stromal tumor
+SDHC	gastrointestinal stromal tumor
+SEC23B	congenital dyserythropoietic anemia
+SELE	IgA glomerulonephritis
+SELE	essential hypertension
+SELL	IgA glomerulonephritis
+SELP	cerebrovascular accident
+SEMA4A	retinitis pigmentosa
+SEMA5A	Cri-Du-Chat syndrome
+SEPT9	amyotrophic neuralgia
+SERPINA1	alpha 1-antitrypsin deficiency
+SERPINC1	thrombophilia
+SERPIND1	thrombophilia
+SERPING1	hereditary angioedema
+SETX	amyotrophic lateral sclerosis
+SETX	spinocerebellar ataxia
+SFTPA1	newborn respiratory distress syndrome
+SFTPB	newborn respiratory distress syndrome
+SFTPC	desquamative interstitial pneumonia
+SFTPC	newborn respiratory distress syndrome
+SGCA	limb-girdle muscular dystrophy
+SGCB	limb-girdle muscular dystrophy
+SGCD	dilated cardiomyopathy
+SGCD	limb-girdle muscular dystrophy
+SGCG	limb-girdle muscular dystrophy
+SGSH	mucopolysaccharidosis III
+SH2B3	hemorrhagic thrombocythemia
+SH2B3	myelofibrosis
+SH2B3	type 1 diabetes mellitus
+SH3BP2	cherubism
+SH3GL1	acute myeloid leukemia
+SHANK2	autistic disorder
+SHH	coloboma
+SHH	holoprosencephaly
+SHH	polydactyly
+SIM1	obesity
+SIX3	holoprosencephaly
+SIX5	branchiootorenal syndrome
+SLC12A1	Bartter disease
+SLC16A1	hyperinsulinemic hypoglycemia
+SLC17A3	glycogen storage disease I
+SLC1A3	episodic ataxia
+SLC22A18	breast cancer
+SLC22A18	lung carcinoma
+SLC22A4	rheumatoid arthritis
+SLC22A4	ulcerative colitis
+SLC22A5	systemic primary carnitine deficiency disease
+SLC25A22	infantile epileptic encephalopathy
+SLC25A4	familial hypertrophic cardiomyopathy
+SLC25A4	hypertrophic cardiomyopathy
+SLC26A2	diastrophic dysplasia
+SLC2A4	type 2 diabetes mellitus
+SLC30A8	type 2 diabetes mellitus
+SLC33A1	hereditary spastic paraplegia
+SLC34A1	Fanconi syndrome
+SLC34A2	pulmonary alveolar microlithiasis
+SLC35C1	leukocyte adhesion deficiency
+SLC37A4	glycogen storage disease I
+SLC3A1	cystinuria
+SLC40A1	hemochromatosis
+SLC4A1	hereditary elliptocytosis
+SLC4A11	Fuchs' endothelial dystrophy
+SLC5A2	renal glycosuria
+SLC6A19	Hartnup disease
+SLC7A9	cystinuria
+SLC9A9	autistic disorder
+SLITRK1	Gilles de la Tourette syndrome
+SMAD1	primary pulmonary hypertension
+SMAD3	colon carcinoma
+SMAD3	colorectal cancer
+SMAD4	colon carcinoma
+SMAD4	colorectal cancer
+SMAD4	pancreatic carcinoma
+SMAD4	primary pulmonary hypertension
+SMAD7	colon carcinoma
+SMAD7	colorectal cancer
+SMAD9	primary pulmonary hypertension
+SMARCB1	atypical teratoid rhabdoid tumor
+SMARCB1	familial meningioma
+SMARCB1	neurilemmomatosis
+SMN1	Werdnig-Hoffmann disease
+SMN1	juvenile spinal muscular atrophy
+SMN2	Werdnig-Hoffmann disease
+SMN2	juvenile spinal muscular atrophy
+SMPD1	Niemann-Pick disease
+SNAI2	Waardenburg's syndrome
+SNAI2	piebaldism
+SNCA	Lewy body dementia
+SNCA	Parkinson's disease
+SNCAIP	Parkinson's disease
+SNCB	Lewy body dementia
+SNRNP200	retinitis pigmentosa
+SNRPN	Prader-Willi syndrome
+SNTA1	long QT syndrome
+SOD1	amyotrophic lateral sclerosis
+SORL1	Alzheimer's disease
+SOS1	Noonan syndrome
+SOX10	Waardenburg's syndrome
+SOX2	microphthalmia
+SOX3	46 XX gonadal dysgenesis
+SOX9	46 XX gonadal dysgenesis
+SPAST	hereditary spastic paraplegia
+SPATA7	Leber congenital amaurosis
+SPATA7	retinitis pigmentosa
+SPG11	hereditary spastic paraplegia
+SPG20	hereditary spastic paraplegia
+SPG7	hereditary spastic paraplegia
+SPTA1	hereditary elliptocytosis
+SPTAN1	infantile epileptic encephalopathy
+SPTB	hereditary elliptocytosis
+SPTBN2	spinocerebellar ataxia
+SQSTM1	Paget's disease of bone
+SRY	46 XX gonadal dysgenesis
+SSTR5	growth hormone secreting pituitary adenoma
+SSX1	synovial sarcoma
+STAT3	Job's syndrome
+STAT4	rheumatoid arthritis
+STAT4	systemic lupus erythematosus
+STIL	microcephaly
+STK10	seminoma
+STK10	testicular cancer
+STK10	testicular germ cell cancer
+STK11	Peutz-Jeghers syndrome
+STK11	seminoma
+STK11	testicular cancer
+STK11	testicular germ cell cancer
+STOX1	pre-eclampsia
+STRA6	microphthalmia
+STS	X-linked ichthyosis
+STX16	pseudohypoparathyroidism
+STXBP1	infantile epileptic encephalopathy
+SUFU	medulloblastoma
+SURF1	Leigh disease
+SYN2	schizophrenia
+SYNE1	Emery-Dreifuss muscular dystrophy
+SYNE1	spinocerebellar ataxia
+SYNE2	Emery-Dreifuss muscular dystrophy
+T	chordoma
+TACC3	urinary bladder cancer
+TACO1	Leigh disease
+TAF15	extraskeletal myxoid chondrosarcoma
+TAP2	MHC class II deficiency
+TARDBP	amyotrophic lateral sclerosis
+TAZ	dilated cardiomyopathy
+TBL2	Williams-Beuren syndrome
+TBL2	supravalvular aortic stenosis
+TBP	Parkinson's disease
+TBP	spinocerebellar ataxia
+TBX1	DiGeorge syndrome
+TBX1	double outlet right ventricle
+TBX1	velocardiofacial syndrome
+TBX20	atrial heart septal defect
+TCAP	dilated cardiomyopathy
+TCAP	familial hypertrophic cardiomyopathy
+TCAP	hypertrophic cardiomyopathy
+TCAP	limb-girdle muscular dystrophy
+TCF4	Pallister-Hall syndrome
+TCF7L2	type 2 diabetes mellitus
+TCOF1	Treacher Collins syndrome
+TDP1	spinocerebellar ataxia
+TERT	aplastic anemia
+TET2	hemorrhagic thrombocythemia
+TET2	myelofibrosis
+TET2	polycythemia vera
+TFE3	alveolar soft part sarcoma
+TFE3	papillary renal cell carcinoma
+TFG	extraskeletal myxoid chondrosarcoma
+TFG	papillary thyroid carcinoma
+TFR2	hemochromatosis
+TGFB1	Camurati-Engelmann disease
+TGFB1	cystic fibrosis
+TGFBR2	Marfan syndrome
+TGFBR2	esophagus squamous cell carcinoma
+TGIF1	holoprosencephaly
+TGM1	congenital ichthyosiform erythroderma
+THPO	hemorrhagic thrombocythemia
+THRB	thyroid hormone resistance syndrome
+TKT	Wernicke-Korsakoff syndrome
+TLL1	atrial heart septal defect
+TLR2	colon carcinoma
+TLR2	colorectal cancer
+TLR3	age related macular degeneration
+TLR4	age related macular degeneration
+TLR4	colon carcinoma
+TLR4	colorectal cancer
+TMC6	epidermodysplasia verruciformis
+TMC8	epidermodysplasia verruciformis
+TMEM67	Bardet-Biedl syndrome
+TMEM67	nephronopthisis
+TMPRSS6	microcytic anemia
+TNF	migraine
+TNFRSF11A	Paget's disease of bone
+TNFRSF11A	osteosarcoma
+TNFRSF13B	common variable immunodeficiency
+TNFRSF13C	common variable immunodeficiency
+TNFSF4	systemic lupus erythematosus
+TNNC1	dilated cardiomyopathy
+TNNC1	familial hypertrophic cardiomyopathy
+TNNC1	hypertrophic cardiomyopathy
+TNNI3	dilated cardiomyopathy
+TNNI3	familial hypertrophic cardiomyopathy
+TNNT2	dilated cardiomyopathy
+TNNT2	familial hypertrophic cardiomyopathy
+TNXB	type III Ehlers-Danlos syndrome
+TOPORS	retinitis pigmentosa
+TP53	Li-Fraumeni syndrome
+TP53	breast cancer
+TP53	choroid plexus papilloma
+TP53	colon carcinoma
+TP53	colorectal cancer
+TP53	esophagus squamous cell carcinoma
+TP53	hepatocellular carcinoma
+TP53	lung carcinoma
+TP53	nasopharynx carcinoma
+TP53	osteosarcoma
+TP53	pancreatic carcinoma
+TPH2	endogenous depression
+TPM1	dilated cardiomyopathy
+TPM1	familial hypertrophic cardiomyopathy
+TPM3	papillary thyroid carcinoma
+TPR	papillary thyroid carcinoma
+TRAPPC9	intellectual disability
+TREX1	systemic lupus erythematosus
+TRIM24	papillary thyroid carcinoma
+TRIM27	papillary thyroid carcinoma
+TRIM32	Bardet-Biedl syndrome
+TRIM32	limb-girdle muscular dystrophy
+TRIM33	papillary thyroid carcinoma
+TRPC6	focal segmental glomerulosclerosis
+TRPS1	Langer-Giedion syndrome
+TRPS1	trichorhinophalangeal syndrome type I
+TSC1	tuberous sclerosis
+TSC2	tuberous sclerosis
+TSG101	breast cancer
+TTBK2	spinocerebellar ataxia
+TTC21B	Bardet-Biedl syndrome
+TTC8	Bardet-Biedl syndrome
+TTC8	retinitis pigmentosa
+TTN	dilated cardiomyopathy
+TTN	limb-girdle muscular dystrophy
+TTR	carpal tunnel syndrome
+TULP1	retinitis pigmentosa
+TUSC3	prostate cancer
+TWIST1	Saethre-Chotzen syndrome
+TWIST1	craniosynostosis
+TXNDC3	primary ciliary dyskinesia
+UBB	cleft palate
+UBE3A	Angelman syndrome
+UBR1	Johanson-Blizzard syndrome
+UCHL1	Parkinson's disease
+UCP1	obesity
+UCP2	obesity
+UCP3	obesity
+UGT1A1	Crigler-Najjar syndrome
+UGT1A1	Gilbert syndrome
+UGT1A10	Crigler-Najjar syndrome
+UGT1A10	Gilbert syndrome
+UGT1A3	Crigler-Najjar syndrome
+UGT1A3	Gilbert syndrome
+UGT1A4	Crigler-Najjar syndrome
+UGT1A4	Gilbert syndrome
+UGT1A5	Crigler-Najjar syndrome
+UGT1A5	Gilbert syndrome
+UGT1A6	Crigler-Najjar syndrome
+UGT1A6	Gilbert syndrome
+UGT1A7	Crigler-Najjar syndrome
+UGT1A7	Gilbert syndrome
+UGT1A8	Crigler-Najjar syndrome
+UGT1A8	Gilbert syndrome
+UGT1A9	Crigler-Najjar syndrome
+UGT1A9	Gilbert syndrome
+UPK3A	renal agenesis
+UROD	porphyria cutanea tarda
+UROS	cutaneous porphyria
+USF1	familial combined hyperlipidemia
+USH2A	retinitis pigmentosa
+USP9Y	azoospermia
+VAPB	amyotrophic lateral sclerosis
+VCL	dilated cardiomyopathy
+VCL	familial hypertrophic cardiomyopathy
+VEGFA	type 2 diabetes mellitus
+VHL	von Hippel-Lindau disease
+VSX2	microphthalmia
+VWF	von Willebrand's disease
+WAS	Wiskott-Aldrich syndrome
+WBSCR16	Williams-Beuren syndrome
+WBSCR16	supravalvular aortic stenosis
+WBSCR22	Williams-Beuren syndrome
+WBSCR22	supravalvular aortic stenosis
+WBSCR27	Williams-Beuren syndrome
+WBSCR27	supravalvular aortic stenosis
+WDPCP	Bardet-Biedl syndrome
+WDR11	malignant glioma
+WDR36	open-angle glaucoma
+WDR36	primary open anle glaucoma
+WDR72	amelogenesis imperfecta
+WFS1	Wolfram syndrome
+WFS1	type 2 diabetes mellitus
+WHSC1L1	acute myeloid leukemia
+WNT10A	hypohidrotic ectodermal dysplasia
+WRN	Werner syndrome
+WRN	colon carcinoma
+WRN	colorectal cancer
+WT1	Denys-Drash syndrome
+WT1	WAGR syndrome
+WT1	malignant mesothelioma
+WT1	nephroblastoma
+WWOX	esophagus squamous cell carcinoma
+XRCC3	breast cancer
+XYLT1	pseudoxanthoma elasticum
+XYLT2	pseudoxanthoma elasticum
+ZEB1	Fuchs' endothelial dystrophy
+ZFHX3	prostate cancer
+ZFPM2	congenital diaphragmatic hernia
+ZFPM2	tetralogy of Fallot
+ZFYVE26	hereditary spastic paraplegia
+ZFYVE27	hereditary spastic paraplegia
+ZIC1	Dandy-Walker syndrome
+ZIC2	holoprosencephaly
+ZIC4	Dandy-Walker syndrome
+ZNF469	type VI Ehlers-Danlos syndrome
+ZNF513	retinitis pigmentosa
+ZNF592	spinocerebellar ataxia

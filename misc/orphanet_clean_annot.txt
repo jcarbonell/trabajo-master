@@ -1,0 +1,3913 @@
+gene	disease
+AAAS	Triple A syndrome
+AARS	Autosomal dominant Charcot-Marie-Tooth disease type 2N
+AARS2	Fatal infantile cytochrome C oxidase deficiency
+AASS	Hyperlysinemia
+AASS	Saccharopinuria
+ABAT	Gamma aminobutyric acid transaminase deficiency
+ABCA1	Apolipoprotein A-I deficiency
+ABCA1	Tangier disease
+ABCA12	Congenital nonbullous ichthyosiform erythroderma
+ABCA12	Harlequin ichthyosis
+ABCA12	Lamellar ichthyosis
+ABCA3	Congenital pulmonary alveolar proteinosis
+ABCA4	Cone rod dystrophy
+ABCA4	Retinitis pigmentosa
+ABCA4	Stargardt disease
+ABCB11	Progressive familial intrahepatic cholestasis type 2
+ABCB4	Intrahepatic cholestasis of pregnancy
+ABCB4	Low phospholipid associated cholelithiasis
+ABCB4	Progressive familial intrahepatic cholestasis type 3
+ABCB7	X-linked sideroblastic anemia - ataxia
+ABCC2	Dubin-Johnson syndrome
+ABCC6	Pseudoxanthoma elasticum
+ABCC8	Autosomal recessive hyperinsulinism due to SUR1 deficiency
+ABCC8	Permanent neonatal diabetes mellitus
+ABCC8	Transient neonatal diabetes mellitus
+ABCC9	Familial atrial fibrillation
+ABCC9	Familial isolated dilated cardiomyopathy
+ABCD1	Adrenomyeloneuropathy
+ABCD1	X-linked cerebral adrenoleukodystrophy
+ABCG5	Sitosterolemia
+ABCG8	Sitosterolemia
+ABHD12	Peripheral neuropathy, Fiskerstrand type
+ABHD5	Congenital nonbullous ichthyosiform erythroderma
+ABHD5	Dorfman-Chanarin disease
+ABL1	Chronic myeloid leukemia
+ABL1	Precursor B-cell acute lymphoblastic leukemia
+ABL1	Precursor T-cell acute lymphoblastic leukemia
+AC021066.1	Monilethrix
+ACAA1	Pseudo-Zellweger syndrome
+ACAD8	Isobutyryl-CoA dehydrogenase deficiency
+ACAD9	Acyl-CoA dehydrogenase 9 deficiency
+ACAD9	Isolated NADH-CoQ reductase deficiency
+ACADL	Long chain Acyl-CoA dehydrogenase deficiency
+ACADM	Medium chain acyl-CoA dehydrogenase deficiency
+ACADS	Deficiency of short chain acyl-CoA dehydrogenase
+ACADSB	Developmental delay due to 2-methylbutyryl-CoA dehydrogenase deficiency
+ACADVL	Very long chain acyl-CoA dehydrogenase deficiency
+ACAN	Familial osteochondritis dissecans
+ACAN	Spondyloepimetaphyseal dysplasia, aggrecan type
+ACAN	Spondyloepiphyseal dysplasia, Kimberley type
+ACAT1	Ketoacidosis due to betaketothiolase deficiency
+ACE	Renal tubular dysgenesis of genetic origin
+ACOX1	Peroxisomal acyl-CoA oxidase deficiency
+ACP2	Acid phosphatase deficiency
+ACP5	Spondyloenchondrodysplasia
+ACSL4	Alport syndrome - intellectual deficit - midface hypoplasia - elliptocytosis
+ACSL4	X-linked nonsyndromic intellectual deficit
+ACTA1	Congenital fiber-type disproportion myopathy
+ACTA1	Intermediate nemaline myopathy
+ACTA1	Mild nemaline myopathy
+ACTA1	Severe congenital nemaline myopathy
+ACTA1	Typical nemaline myopathy
+ACTA2	Familial thoracic aortic aneurysm
+ACTA2	Moyamoya disease
+ACTB	Developmental malformations - deafness - dystonia
+ACTC1	Atrial septal defect, ostium secundum type
+ACTC1	Familial isolated dilated cardiomyopathy
+ACTC1	Left ventricular noncompaction
+ACTG1	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+ACTN2	Familial isolated dilated cardiomyopathy
+ACTN4	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+ACVR1	Fibrodysplasia ossificans progressiva
+ACVR2B	Situs ambiguus
+ACVRL1	Idiopathic and/or familial pulmonary arterial hypertension
+ACVRL1	Rendu-Osler-Weber disease
+ACY1	Neurological conditions associated with aminoacylase 1 deficiency
+ADA	Severe combined immunodeficiency due to adenosine deaminase deficiency
+ADAM9	Cone rod dystrophy
+ADAMTS10	Weill-Marchesani syndrome
+ADAMTS13	Congenital thrombotic thrombocytopenic purpura due to ADAMTS-13 deficiency
+ADAMTS2	Ehlers-Danlos syndrome, dermatosparaxis type
+ADAMTSL2	Geleophysic dysplasia
+ADAMTSL4	Ectopia lentis syndrome
+ADAR	Acropigmentation of Dohi
+ADCK3	Autosomal recessive ataxia due to ubiquinone deficiency
+ADCY10	Idiopathic hypercalciuria
+ADSL	Adenylosuccinate lyase deficiency
+AFF1	Precursor B-cell acute lymphoblastic leukemia
+AFF2	FRAXE intellectual deficiency
+AFG3L2	Spinocerebellar ataxia type 28
+AFP	Congenital deficiency in alpha-fetoprotein
+AFP	Hereditary persistence of alpha-fetoprotein
+AGA	Aspartylglucosaminuria
+AGGF1	Klippel-Trenaunay syndrome
+AGL	Glycogen debranching enzyme deficiency
+AGPAT2	Berardinelli-Seip congenital lipodystrophy
+AGPS	Rhizomelic chondrodysplasia punctata
+AGRN	Postsynaptic congenital myasthenic syndromes
+AGT	Renal tubular dysgenesis of genetic origin
+AGTR1	Renal tubular dysgenesis of genetic origin
+AGTR2	X-linked nonsyndromic intellectual deficit
+AGXT	Primary hyperoxaluria type 1
+AHCY	Psychomotor retardation due to S-adenosylhomocysteine hydrolase deficiency
+AHI1	Joubert syndrome with ocular defect
+AICDA	Hyper-IgM syndrome type 2
+AIFM1	Severe X-linked mitochondrial encephalomyopathy
+AIMP1	Pelizaeus-Merzbacher-like due to AIMP1 mutation
+AIP	Acromegaly
+AIP	Familial prolactinoma
+AIPL1	Cone rod dystrophy
+AIPL1	Congenital Leber amaurosis
+AIPL1	Retinitis pigmentosa
+AIRE	Autoimmune polyendocrinopathy type 1
+AK1	Hemolytic anemia due to adenylate kinase deficiency
+AKR1D1	Congenital bile acid synthesis defect type 2
+AKT1	Proteus syndrome
+AKT2	Familial partial lipodystrophy due to AKT2 mutations
+ALAD	Porphyria due to ALA dehydratase deficiency
+ALAS2	Erythropoietic protoporphyria
+ALAS2	X-linked sideroblastic anemia
+ALB	Congenital analbuminemia
+ALDH18A1	Neurocutaneous syndrome, Bicknell type
+ALDH3A2	Sjögren-Larsson syndrome
+ALDH4A1	Hyperprolinemia type II
+ALDH5A1	4-hydroxybutyricaciduria
+ALDH7A1	Pyridoxine-dependent epilepsy
+ALDOA	Aldolase A deficiency
+ALDOB	Fructose intolerance
+ALG1	CDG syndrome type Ik
+ALG12	CDG syndrome type Ig
+ALG2	CDG syndrome type Ii
+ALG3	CDG syndrome type Id
+ALG6	CDG syndrome type Ic
+ALG8	CDG syndrome type Ih
+ALG9	CDG syndrome type IL
+ALK	Anaplastic large cell lymphoma
+ALK	Neuroblastoma
+ALMS1	Alström syndrome
+ALOX12B	Congenital nonbullous ichthyosiform erythroderma
+ALOX12B	Lamellar ichthyosis
+ALOX12B	Self-healing collodion baby
+ALOXE3	Congenital nonbullous ichthyosiform erythroderma
+ALOXE3	Self-healing collodion baby
+ALPL	Adult hypophosphatasia
+ALPL	Childhood-onset hypophosphatasia
+ALPL	Infantile hypophosphatasia
+ALPL	Odontohypophosphatasia
+ALPL	Perinatal lethal hypophosphatasia
+ALPL	Prenatal benign hypophosphatasia
+ALS2	Amyotrophic lateral sclerosis
+ALS2	Juvenile primary lateral sclerosis
+ALX3	Frontonasal dysplasia
+ALX4	Frontonasal dysplasia with alopecia and genital anomaly
+ALX4	Parietal foramina
+ALX4	Potocki-Shaffer syndrome
+AMACR	Congenital bile acid synthesis defect type 4
+AMELX	Hypomaturation amelogenesis imperfecta
+AMH	Persistent Mullerian duct syndrome
+AMHR2	Persistent Mullerian duct syndrome
+AMMECR1	Alport syndrome - intellectual deficit - midface hypoplasia - elliptocytosis
+AMN	Gräsbeck-Imerslund disease
+AMPD1	Adenosine monophosphate deaminase deficiency
+AMPD3	Adenosine monophosphate deaminase deficiency
+AMT	Isolated nonketotic hyperglycinemia
+ANG	Amyotrophic lateral sclerosis
+ANGPTL3	Benign familial hypobetalipoproteinemia
+ANK1	8p11.2 deletion syndrome
+ANK1	Hereditary spherocytosis
+ANK2	Romano-Ward syndrome
+ANKH	Craniometaphyseal dysplasia
+ANKH	Familial articular chondrocalcinosis
+ANKRD11	16q24.3 microdeletion syndrome
+ANKRD11	KBG syndrome
+ANKRD26	Autosomal thrombocytopenia with normal platelets
+ANO10	Adult-onset autosomal recessive cerebellar ataxia
+ANO5	Autosomal recessive limb-girdle muscular dystrophy type 2L
+ANO5	Gnathodiaphyseal dysplasia
+ANO5	Miyoshi myopathy
+ANO6	Scott syndrome
+ANTXR2	Infantile systemic hyalinosis
+ANTXR2	Juvenile hyaline fibromatosis
+AP1S1	MEDNIK syndrome
+AP1S2	Fried syndrome
+AP3B1	Hermansky-Pudlak syndrome with neutropenia
+AP4B1	Severe intellectual deficit and progressive spastic paraplegia
+AP4E1	Severe intellectual deficit and progressive spastic paraplegia
+AP4M1	Severe intellectual deficit and progressive spastic paraplegia
+AP4S1	Severe intellectual deficit and progressive spastic paraplegia
+APC	APC-related attenuated familial adenomatous polyposis
+APC	Desmoid disease
+APC	Familial adenomatous polyposis
+APC	Familial adenomatous polyposis due to 5q22.2 microdeletion
+APC	Gardner syndrome
+APC	Turcot syndrome with polyposis
+APCDD1	Hypotrichosis simplex
+APOA1	Apolipoprotein A-I deficiency
+APOA1	Familial renal amyloidosis due to Apolipoprotein AI variant
+APOA1	Primary amyloidosis
+APOA2	Familial renal amyloidosis due to Apolipoprotein AII variant
+APOA5	Hyperlipoproteinemia type 4
+APOA5	Hyperlipoproteinemia type 5
+APOB	Abetalipoproteinemia
+APOB	Benign familial hypobetalipoproteinemia
+APOC2	Hyperlipoproteinemia type 1
+APOC3	Cholesterol-ester transfer protein deficiency
+APOC4	Hyperlipoproteinemia type 1
+APOE	Hyperlipidemia type 3
+APOE	Sea-blue histiocytosis
+APOL1	Sporadic idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+APP	Early-onset autosomal dominant Alzheimer disease
+APP	Hereditary cerebral hemorrhage with amyloidosis
+APRT	2,8 dihydroxyadenine urolithiasis
+APTX	Ataxia - oculomotor apraxia type 1
+AQP2	Nephrogenic diabetes insipidus
+AR	Complete androgen insensitivity syndrome
+AR	Familial hypospadias
+AR	Kennedy disease
+AR	Partial androgen insensitivity syndrome
+ARFGEF2	Periventricular nodular heterotopia
+ARG1	Argininemia
+ARHGAP31	Adams-Oliver syndrome
+ARHGEF6	X-linked nonsyndromic intellectual deficit
+ARHGEF9	Hyperekplexia - epilepsy
+ARL11	Chronic B-cell lymphocytic leukemia
+ARL13B	Joubert syndrome
+ARL6	Bardet-Biedl syndrome
+ARL6	Retinitis pigmentosa
+ARSA	Metachromatic leukodystrophy
+ARSB	Mucopolysaccharidosis type 6, rapidly progressing
+ARSB	Mucopolysaccharidosis type 6, slowly progressing
+ARSB	Multiple sulfatase deficiency
+ARSE	Brachytelephalangic chondrodysplasia punctata
+ARVCF	Monosomy 22q11
+ARX	Early infantile epileptic encephalopathy
+ARX	Micrencephaly - corpus callosum agenesis - abnormal genitalia
+ARX	Partington syndrome
+ARX	Spasticity - intellectual deficit - X-linked epilepsy
+ARX	West syndrome
+ARX	X-linked lissencephaly with abnormal genitalia
+ARX	X-linked nonsyndromic intellectual deficit
+ASAH1	Farber lipogranulomatosis
+ASCL1	Haddad syndrome
+ASCL1	Ondine syndrome
+ASL	Argininosuccinic aciduria
+ASPA	Canavan disease
+ASPM	Autosomal recessive primary microcephaly
+ASPSCR1	Alveolar soft-part sarcoma
+ASS1	Acute neonatal citrullinemia type I
+ASS1	Adult-onset citrullinemia type I
+ATCAY	Cerebellar ataxia, Cayman type
+ATF1	Melanoma of soft part
+ATIC	AICA-ribosiduria
+ATL1	Autosomal dominant spastic paraplegia type 3
+ATL1	Hereditary sensory and autonomic neuropathy type 1
+ATM	Ataxia-telangiectasia
+ATM	Chronic B-cell lymphocytic leukemia
+ATM	Mantle cell lymphoma
+ATN1	Dentatorubral-pallidoluysian atrophy
+ATP10A	Angelman syndrome
+ATP13A2	Young adult-onset Parkinsonism
+ATP1A2	Alternating hemiplegia of childhood
+ATP1A2	Familial or sporadic hemiplegic migraine
+ATP1A3	Rapid-onset dystonia-parkinsonism
+ATP2A1	Brody myopathy
+ATP2A2	Acrokeratosis verruciformis of Hopf
+ATP2A2	Darier disease
+ATP2C1	Familial benign chronic pemphigus
+ATP5E	Isolated ATP synthase deficiency
+ATP6AP2	X-linked intellectual deficit - epilepsy
+ATP6V0A2	Autosomal recessive cutis laxa type 2
+ATP6V0A2	Wrinkly skin syndrome
+ATP6V0A4	Distal renal tubular acidosis
+ATP6V1B1	Distal renal tubular acidosis
+ATP7A	Menkes disease
+ATP7A	Occipital horn syndrome
+ATP7A	X-linked distal spinal muscular atrophy
+ATP7B	Wilson disease
+ATP8B1	Benign recurrent intrahepatic cholestasis
+ATP8B1	Intrahepatic cholestasis of pregnancy
+ATP8B1	Progressive familial intrahepatic cholestasis type 1
+ATPAF2	Isolated ATP synthase deficiency
+ATR	Seckel syndrome
+ATRX	Alpha thalassemia - X-linked intellectual deficit
+ATRX	Alpha-thalassemia - myelodysplastic syndrome
+ATRX	Carpenter-Waziri syndrome
+ATRX	Chudley-Lowry-Hoar syndrome
+ATRX	Holmes-Gang syndrome
+ATRX	Juberg-Marsidi syndrome
+ATRX	Smith-Fineman-Myers syndrome
+ATXN1	Spinocerebellar ataxia type 1
+ATXN10	Joubert syndrome
+ATXN10	Spinocerebellar ataxia type 10
+ATXN2	Amyotrophic lateral sclerosis
+ATXN2	Spinocerebellar ataxia type 2
+ATXN3	Machado-Joseph disease type 1
+ATXN3	Machado-Joseph disease type 2
+ATXN3	Machado-Joseph disease type 3
+ATXN7	Autosomal dominant spinocerebellar ataxia type 7
+AUH	3-methylglutaconic aciduria type 1
+AURKC	Male infertility associated with large-headed multiflagellar polyploid spermatozoa
+AVP	Non-acquired isolated central diabetes insipidus
+AVPR2	Inappropriate antidiuretic hormone secretion syndrome
+AVPR2	Nephrogenic diabetes insipidus
+B2M	Beta2-microglobulinic amyloidosis
+B3GALTL	Peters-plus syndrome
+B3GAT3	Larsen-like syndrome, B3GAT3 type
+B4GALT1	CDG syndrome type IId
+B4GALT7	Ehlers-Danlos syndrome, progeroid type
+B9D1	Meckel syndrome
+B9D2	Meckel syndrome
+BAAT	Familial hypercholanemia
+BAG3	Familial isolated dilated cardiomyopathy
+BAG3	Muscular dystrophy, Selcen type
+BANF1	Nestor-Guillermo progeria syndrome
+BARD1	Hereditary breast and ovarian cancer syndrome
+BAZ1B	Williams syndrome
+BBS1	Bardet-Biedl syndrome
+BBS10	Bardet-Biedl syndrome
+BBS12	Bardet-Biedl syndrome
+BBS2	Bardet-Biedl syndrome
+BBS4	Bardet-Biedl syndrome
+BBS5	Bardet-Biedl syndrome
+BBS7	Bardet-Biedl syndrome
+BBS9	Bardet-Biedl syndrome
+BCHE	Butyrylcholinesterase deficiency
+BCKDHA	Maple syrup urine disease
+BCKDHB	Maple syrup urine disease
+BCL11A	Hereditary persistence of fetal hemoglobin - beta-thalassemia
+BCL2	Diffuse large B-cell lymphoma
+BCL2	Follicular lymphoma
+BCL6	Diffuse large B-cell lymphoma
+BCL6	Follicular lymphoma
+BCL7B	Williams syndrome
+BCMO1	Hereditary hypercarotenemia and vitamin A deficiency
+BCOR	Microphthalmia, Lenz type
+BCOR	Oculofaciocardiodental syndrome
+BCR	Chronic myeloid leukemia
+BCR	Monosomy 22q11
+BCR	Precursor B-cell acute lymphoblastic leukemia
+BCR	Precursor T-cell acute lymphoblastic leukemia
+BCS1L	Björnstad syndrome
+BCS1L	GRACILE syndrome
+BCS1L	Isolated CoQ-cytochrome C reductase deficiency
+BCS1L	Leigh syndrome with nephrotic syndrome
+BCS1L	Renal tubulopathy - encephalopathy - liver failure
+BDNF	Ondine syndrome
+BDNF	WAGR syndrome
+BEST1	Adult-onset foveomacular vitelliform dystrophy
+BEST1	Autosomal dominant vitreoretinochoroidopathy
+BEST1	Best disease
+BEST1	MRCS syndrome
+BEST1	Retinitis pigmentosa
+BEST1	Retinopathy, Burgess-Black type
+BFSP1	Childhood-onset cortical cataract
+BFSP2	Partial congenital cataract
+BIN1	Autosomal recessive centronuclear myopathy
+BIRC3	MALT lymphoma
+BLK	MODY syndrome
+BLM	Bloom syndrome
+BLNK	Autosomal agammaglobulinemia
+BLOC1S3	Hermansky-Pudlak syndrome type 8
+BLVRA	Hyperbiliverdinemia
+BMP15	46,XX gonadal dysgenesis
+BMP2	20p12.3  microdeletion syndrome
+BMP2	Brachydactyly type A2
+BMP4	14q22q23 microdeletion syndrome
+BMP4	Microphthalmia with brain and digit anomalies
+BMPER	Diaphanospondylodysostosis
+BMPR1A	Hereditary mixed polyposis syndrome
+BMPR1A	Hereditary nonpolyposis colon cancer
+BMPR1A	Juvenile gastrointestinal polyposis
+BMPR1A	Juvenile polyposis of infancy
+BMPR1B	Brachydactyly type A2
+BMPR1B	Brachydactyly type C
+BMPR2	Idiopathic and/or familial pulmonary arterial hypertension
+BMPR2	Pulmonary venoocclusive disease
+BPGM	Hemolytic anemia due to diphosphoglycerate mutase deficiency
+BRAF	Cardiofaciocutaneous syndrome
+BRAF	LEOPARD syndrome
+BRAF	Noonan syndrome
+BRCA1	Familial prostate cancer
+BRCA1	Hereditary breast and ovarian cancer syndrome
+BRCA1	Primary peritoneal carcinoma
+BRCA2	Familial pancreatic carcinoma
+BRCA2	Familial prostate cancer
+BRCA2	Fanconi anemia
+BRCA2	Hereditary breast and ovarian cancer syndrome
+BRCA2	Nephroblastoma
+BRCC3	Moyamoya disease - short stature - facial dysmorphism - hypergonadotropic hypogonadism
+BRIP1	Fanconi anemia
+BRIP1	Hereditary breast and ovarian cancer syndrome
+BSCL2	Autosomal dominant spastic paraplegia type 17
+BSCL2	Berardinelli-Seip congenital lipodystrophy
+BSND	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+BSND	Infantile Bartter syndrome with deafness
+BTD	Biotinidase deficiency
+BTK	Short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia
+BTK	X-linked agammaglobulinemia
+BUB1B	Mosaic variegated aneuploidy syndrome
+C10orf2	Autosomal dominant progressive external ophthalmoplegia
+C10orf2	Infantile onset spinocerebellar ataxia
+C12orf65	Combined oxidative phosphorylation defect type 7
+C12orf65	Leigh syndrome with cardiomyopathy
+C14orf133	Arthrogryposis - renal dysfunction - cholestasis
+C16orf57	Dyskeratosis congenita
+C16orf57	Poikiloderma with neutropenia
+C1QA	Immunodeficiency due to an early component of complement deficiency
+C1QB	Immunodeficiency due to an early component of complement deficiency
+C1QC	Immunodeficiency due to an early component of complement deficiency
+C1QTNF5	Late-onset retinal degeneration
+C1S	Immunodeficiency due to an early component of complement deficiency
+C2	Immunodeficiency due to an early component of complement deficiency
+C20orf54	Brown-Vialetto-van Laere syndrome
+C20orf7	Isolated NADH-CoQ reductase deficiency
+C2orf71	Retinitis pigmentosa
+C3	Atypical hemolytic uremic syndrome with C3 anomaly
+C3	Complement component 3 deficiency
+C4A	Immunodeficiency due to an early component of complement deficiency
+C4B	Immunodeficiency due to an early component of complement deficiency
+C5	Immunodeficiency due to a late component of complements deficiency
+C6	Immunodeficiency due to a late component of complements deficiency
+C7	Immunodeficiency due to a late component of complements deficiency
+C7orf10	Glutaric acidemia type 3
+C7orf11	BIDS syndrome
+C8A	Immunodeficiency due to a late component of complements deficiency
+C8B	Immunodeficiency due to a late component of complements deficiency
+C8G	Immunodeficiency due to a late component of complements deficiency
+C8orf38	Leigh syndrome with leukodystrophy
+C9	Immunodeficiency due to a late component of complements deficiency
+CA2	Osteopetrosis with renal tubular acidosis
+CA4	Retinitis pigmentosa
+CABP4	Congenital stationary night blindness
+CACNA1A	Alternating hemiplegia of childhood
+CACNA1A	Benign paroxysmal torticollis of infancy
+CACNA1A	Familial or sporadic hemiplegic migraine
+CACNA1A	Familial paroxysmal ataxia
+CACNA1A	Spinocerebellar ataxia type 6
+CACNA1C	Brugada syndrome
+CACNA1C	Timothy syndrome
+CACNA1F	Cone rod dystrophy
+CACNA1F	Congenital stationary night blindness
+CACNA1F	Åland Island eye disease
+CACNA1S	Hypokalemic periodic paralysis
+CACNA1S	Malignant hyperthermia
+CACNA1S	Thyrotoxic periodic paralysis
+CACNA2D4	Cone rod dystrophy
+CACNB2	Brugada syndrome
+CACNB4	Episodic ataxia type 5
+CACNB4	Juvenile myoclonic epilepsy
+CAMKMT	2p21 microdeletion syndrome
+CAMKMT	Atypical hypotonia - cystinuria syndrome
+CANT1	Desbuquois syndrome
+CAPN3	Autosomal recessive limb girdle muscular dystrophy type 2A
+CARD9	Chronic mucocutaneous candidiasis
+CASP10	Autoimmune lymphoproliferative syndrome
+CASP8	Autoimmune lymphoproliferative syndrome
+CASQ2	Catecholinergic polymorphic ventricular tachycardia
+CASR	Autosomal dominant hypocalcemia
+CASR	Bartter syndrome with hypocalcemia
+CASR	Familial hypocalciuric hypercalcemia
+CASR	Familial isolated hypoparathyroidism due to impaired PTH secretion
+CASR	Neonatal severe primary hyperparathyroidism
+CAT	Acatalasemia
+CATSPER1	CATSPER1-related non syndromic male infertility
+CATSPER2	Deafness-infertility syndrome
+CAV1	Berardinelli-Seip congenital lipodystrophy
+CAV3	Autosomal dominant limb-girdle muscular dystrophy type 1C
+CAV3	Rippling muscle disease
+CAV3	Romano-Ward syndrome
+CBFB	Acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)
+CBL	Noonan syndrome
+CBS	Homocystinuria due to cystathionine beta-synthase deficiency
+CBX2	46,XY complete gonadal dysgenesis
+CC2D1A	Autosomal recessive nonsyndromic intellectual deficit
+CC2D2A	Joubert syndrome with hepatic defect
+CC2D2A	Joubert syndrome with oculorenal defect
+CC2D2A	Meckel syndrome
+CCBE1	Hennekam syndrome
+CCDC39	Primary ciliary dyskinesia
+CCDC40	Primary ciliary dyskinesia
+CCDC50	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+CCDC6	Papillary or follicular thyroid carcinoma
+CCDC8	3M syndrome
+CCM2	Hereditary cerebral cavernous malformation
+CCND1	Chronic B-cell lymphocytic leukemia
+CCND1	Mantle cell lymphoma
+CCT5	Sensory neuropathy - spastic paraplegia
+CD19	Common variable immunodeficiency due to an intrinsic B cell defect
+CD247	Severe combined immunodeficiency T- B+ due to CD3delta/CD3epsilon/CD3zeta
+CD2AP	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+CD320	Methylmalonic aciduria due to transcobalamin receptor defect
+CD3D	Severe combined immunodeficiency T- B+ due to CD3delta/CD3epsilon/CD3zeta
+CD3E	Severe combined immunodeficiency T- B+ due to CD3delta/CD3epsilon/CD3zeta
+CD3G	Combined immunodeficiency due to CD3gamma deficiency
+CD40	Hyper-IgM syndrome type 3
+CD40LG	Hyper-IgM syndrome type 1
+CD46	Atypical hemolytic uremic syndrome with MCP/CD46 anomaly
+CD59	CD59 deficiency
+CD79A	Autosomal agammaglobulinemia
+CD79B	Autosomal agammaglobulinemia
+CD81	Common variable immunodeficiency due to an intrinsic B cell defect
+CD8A	Susceptibility to respiratory infections associated with CD8alpha chain mutation
+CD96	C syndrome
+CDAN1	Congenital dyserythropoietic anemia type 1
+CDC6	Ear-patella-short stature syndrome
+CDC73	Familial isolated hyperparathyroidism
+CDC73	Familial parathyroid adenoma
+CDC73	Hyperparathyroidism - jaw tumor syndrome
+CDC73	Parathyroid carcinoma
+CDH1	Familial gastric cancer
+CDH1	Gastric linitis plastica
+CDH15	Autosomal dominant nonsyndromic intellectual deficit
+CDH23	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+CDH23	Usher syndrome type 1
+CDH3	EEM syndrome
+CDH3	Hypotrichosis with juvenile macular degeneration
+CDHR1	Cone rod dystrophy
+CDK4	Familial melanoma
+CDK5RAP2	Autosomal recessive primary microcephaly
+CDKL5	Atypical Rett syndrome
+CDKL5	West syndrome
+CDKN1B	Multiple endocrine neoplasia type 1
+CDKN1B	Multiple endocrine neoplasia type 4
+CDKN1C	Beckwith-Wiedemann syndrome due to CDKN1C mutation
+CDKN2A	Familial melanoma
+CDKN2A	Familial pancreatic carcinoma
+CDKN2A	Melanoma neural system tumor syndrome
+CDKN2A	Melanoma-pancreatic cancer syndrome
+CDKN2A	Precursor B-cell acute lymphoblastic leukemia
+CDKN2A	Precursor T-cell acute lymphoblastic leukemia
+CDON	Holoprosencephaly
+CDSN	Generalized peeling skin syndrome type B
+CDSN	Hypotrichosis simplex of the scalp
+CDT1	Ear-patella-short stature syndrome
+CEACAM16	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+CEBPA	Acute myeloid leukemia with t(8;21)(q22;q22) translocation
+CEBPE	Recurrent infection due to specific granule deficiency
+CECR1	Cat-eye syndrome
+CECR2	Cat-eye syndrome
+CEL	MODY syndrome
+CENPJ	Autosomal recessive primary microcephaly
+CENPJ	Seckel syndrome
+CEP152	Autosomal recessive primary microcephaly
+CEP152	Seckel syndrome
+CEP290	Bardet-Biedl syndrome
+CEP290	Congenital Leber amaurosis
+CEP290	Joubert syndrome with oculorenal defect
+CEP290	Meckel syndrome
+CEP290	Senior-Loken syndrome
+CEP57	Mosaic variegated aneuploidy syndrome
+CERKL	Retinitis pigmentosa
+CETP	Cholesterol-ester transfer protein deficiency
+CFB	Atypical hemolytic uremic syndrome with B factor anomaly
+CFD	Recurrent Neisseria infections due to factor D deficiency
+CFH	Atypical hemolytic uremic syndrome with H factor anomaly
+CFH	Familial drusen
+CFH	Immunodeficiency with factor H anomaly
+CFH	Membranoproliferative glomerulonephritis
+CFI	Atypical hemolytic uremic syndrome with I factor anomaly
+CFI	C3 deposition glomerulonephritis without proliferation
+CFI	Immunodeficiency with factor I anomaly
+CFL2	Nemaline myopathy
+CFP	Properdin deficiency
+CFTR	Congenital bilateral absence of vas deferens
+CFTR	Cystic fibrosis
+CFTR	Hereditary chronic pancreatitis
+CHAT	Presynaptic congenital myasthenic syndromes
+CHD7	CHARGE syndrome
+CHD7	Normosmic congenital hypogonadotropic hypogonadism
+CHEK2	Familial prostate cancer
+CHEK2	Hereditary breast and ovarian cancer syndrome
+CHEK2	Li-Fraumeni syndrome
+CHEK2	Osteosarcoma
+CHGB	Amyotrophic lateral sclerosis
+CHKB	Congenital muscular dystrophy due to phosphatidyl choline biosynthesis defect
+CHL1	Distal monosomy 3p
+CHM	Choroideremia
+CHMP2B	Frontotemporal dementia
+CHMP4B	Posterior polar cataract
+CHN1	Duane syndrome
+CHRNA1	Lethal multiple pterygium syndrome
+CHRNA1	Postsynaptic congenital myasthenic syndromes
+CHRNA2	Nocturnal frontal lobe epilepsy
+CHRNA4	Nocturnal frontal lobe epilepsy
+CHRNA7	15q13.3 microdeletion syndrome
+CHRNB1	Postsynaptic congenital myasthenic syndromes
+CHRNB2	Nocturnal frontal lobe epilepsy
+CHRND	Lethal multiple pterygium syndrome
+CHRND	Postsynaptic congenital myasthenic syndromes
+CHRNE	Postsynaptic congenital myasthenic syndromes
+CHRNG	Autosomal recessive multiple pterygium syndrome
+CHRNG	Lethal multiple pterygium syndrome
+CHST14	Adducted thumbs-arthrogryposis, Dundar type
+CHST14	Brittle cornea syndrome
+CHST3	Chondrodysplasia with multiple dislocations
+CHST3	Humerospinal dysostosis
+CHST3	Larsen syndrome
+CHST3	Spondyloepiphyseal dysplasia, Omani type
+CIC	Oligodendroglioma
+CIITA	Immunodeficiency by defective expression of HLA class 2
+CIRH1A	Hereditary North American Indian childhood cirrhosis
+CISD2	Wolfram syndrome
+CITED2	Atrial septal defect, ostium secundum type
+CITED2	Atrial septal defect, sinus venosus type
+CITED2	Single ventricular septal defect
+CITED2	Situs inversus totalis
+CITED2	Tetralogy of Fallot
+CLCF1	Cold-induced sweating syndrome
+CLCN1	Thomsen and Becker disease
+CLCN2	Juvenile myoclonic epilepsy
+CLCN5	Dent disease type 1
+CLCN7	Albers-Schönberg osteopetrosis
+CLCN7	Autosomal recessive malignant osteopetrosis
+CLCN7	Intermediate osteopetrosis
+CLCNKA	Infantile Bartter syndrome with deafness
+CLCNKB	Classic Bartter syndrome
+CLCNKB	Gitelman syndrome
+CLCNKB	Infantile Bartter syndrome with deafness
+CLDN1	Ichthyosis - hypotrichosis - sclerosing cholangitis
+CLDN14	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+CLDN16	Familial hypomagnesemia with hypercalciuria and nephrocalcinosis
+CLDN16	Hypomagnesemia with normocalciuria
+CLDN19	Familial hypomagnesemia - hypercalciuria - nephrocalcinosis - severe ocular involvement
+CLEC7A	Chronic mucocutaneous candidiasis
+CLIP2	Williams syndrome
+CLN3	CLN3 disease
+CLN5	CLN5 disease
+CLN6	CLN4A disease
+CLN6	CLN6 disease
+CLN8	CLN8 disease
+CLN8	Progressive epilepsy - intellectual deficit, Finnish type
+CLRN1	Retinitis pigmentosa
+CLRN1	Usher syndrome type 3
+CNBP	Proximal myotonic myopathy
+CNGA1	Retinitis pigmentosa
+CNGA3	Achromatopsia
+CNGB1	Retinitis pigmentosa
+CNGB3	Achromatopsia
+CNGB3	Progressive cone dystrophy
+CNNM4	Jalili syndrome
+CNTN1	Congenital lethal myopathy, Compton-North type
+CNTN4	Distal monosomy 3p
+CNTNAP2	Cortical dysplasia - focal epilepsy syndrome
+CNTNAP2	Pitt-Hopkins-like syndrome
+COA5	Isolated cytochrome C oxidase deficiency
+COA5	Leigh syndrome with cardiomyopathy
+COCH	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+COCH	Meniere disease
+COG1	CDG syndrome type IIg
+COG4	CDG syndrome type IIj
+COG5	CDG syndrome type IIi
+COG7	CDG syndrome type IIe
+COG8	CDG syndrome type IIh
+COL10A1	Metaphyseal chondrodysplasia, Schmid type
+COL11A1	Fibrochondrogenesis
+COL11A1	Marshall syndrome
+COL11A1	Stickler syndrome type 2
+COL11A2	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+COL11A2	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+COL11A2	Otospondylomegaepiphyseal dysplasia
+COL11A2	Stickler syndrome type 3
+COL11A2	Weissenbacher- Zweymuller syndrome
+COL17A1	Generalized junctional epidermolysis bullosa, non-Herlitz type
+COL17A1	Localized junctional epidermolysis bullosa, non-Herlitz type
+COL18A1	Knobloch syndrome
+COL1A1	Caffey disease
+COL1A1	Dermatofibrosarcoma protuberans
+COL1A1	Ehlers-Danlos syndrome type 1
+COL1A1	Ehlers-Danlos syndrome type 7A
+COL1A1	Ehlers-Danlos syndrome, vascular-like type
+COL1A1	Ehlers-Danlos/osteogenesis imperfecta syndrome
+COL1A1	Osteogenesis imperfecta type 1
+COL1A1	Osteogenesis imperfecta type 2
+COL1A1	Osteogenesis imperfecta type 3
+COL1A1	Osteogenesis imperfecta type 4
+COL1A2	Ehlers-Danlos syndrome type 7B
+COL1A2	Ehlers-Danlos syndrome, cardiac valvular  type
+COL1A2	Ehlers-Danlos/osteogenesis imperfecta syndrome
+COL1A2	Osteogenesis imperfecta type 1
+COL1A2	Osteogenesis imperfecta type 2
+COL1A2	Osteogenesis imperfecta type 3
+COL1A2	Osteogenesis imperfecta type 4
+COL2A1	Achondrogenesis type 2
+COL2A1	Autosomal dominant rhegmatogenous retinal detachment
+COL2A1	Czech dysplasia, metatarsal type
+COL2A1	Familial avascular necrosis of femoral head
+COL2A1	Hypochondrogenesis
+COL2A1	Kniest dysplasia
+COL2A1	Legg-Calve-Perthes disease
+COL2A1	Mild spondyloepiphyseal dysplasia due to COL2A1 mutation with early-onset osteoarthritis
+COL2A1	Multiple epiphyseal dysplasia, Beighton type
+COL2A1	Otospondylomegaepiphyseal dysplasia
+COL2A1	Platyspondylic dysplasia, Torrance type
+COL2A1	Spondyloepimetaphyseal dysplasia congenita, Strudwick type
+COL2A1	Spondyloepiphyseal dysplasia congenita
+COL2A1	Spondylometaphyseal dysplasia, 'corner fracture' type
+COL2A1	Spondyloperipheral dysplasia - short ulna
+COL2A1	Stickler syndrome type 1
+COL3A1	Acrogeria
+COL3A1	Ehlers-Danlos syndrome, hypermobile type
+COL3A1	Ehlers-Danlos syndrome, vascular type
+COL3A1	Familial abdominal aortic aneurysm
+COL4A1	Autosomal dominant familial hematuria - retinal arteriolar tortuosity - contractures
+COL4A1	Familial vascular leukoencephalopathy
+COL4A1	Porencephaly
+COL4A1	Walker-Warburg syndrome
+COL4A3	Autosomal recessive Alport syndrome
+COL4A4	Autosomal recessive Alport syndrome
+COL4A5	X-linked Alport syndrome
+COL4A5	X-linked diffuse leiomyomatosis -  Alport syndrome
+COL4A6	X-linked diffuse leiomyomatosis -  Alport syndrome
+COL5A1	Ehlers-Danlos syndrome type 1
+COL5A1	Ehlers-Danlos syndrome type 2
+COL5A2	Ehlers-Danlos syndrome type 1
+COL5A2	Ehlers-Danlos syndrome type 2
+COL6A1	Bethlem myopathy
+COL6A1	Congenital muscular dystrophy, Ullrich type
+COL6A2	Bethlem myopathy
+COL6A2	Congenital muscular dystrophy, Ullrich type
+COL6A3	Bethlem myopathy
+COL6A3	Congenital muscular dystrophy, Ullrich type
+COL7A1	Autosomal dominant dystrophic epidermolysis bullosa, Cockayne-Touraine type
+COL7A1	Autosomal dominant dystrophic epidermolysis bullosa, Pasini type
+COL7A1	Autosomal recessive dystrophic epidermolysis bullosa, Hallopeau-Siemens type
+COL7A1	Autosomal recessive dystrophic epidermolysis bullosa, non-Hallopeau-Siemens type
+COL7A1	Centripetal dystrophic epidermolysis bullosa
+COL7A1	Dystrophic epidermolysis bullosa inversa
+COL7A1	Epidermolysis bullosa simplex superficialis
+COL7A1	Pretibial dystrophic epidermolysis bullosa
+COL7A1	Pruriginous dystrophic epidermolysis bullosa
+COL7A1	Transient bullous dermolysis of the newborn
+COL8A2	Fuchs endothelial corneal dystrophy
+COL9A1	Autosomal recessive Stickler syndrome
+COL9A1	Multiple epiphyseal dysplasia due to collagen 9 anomaly
+COL9A2	Multiple epiphyseal dysplasia due to collagen 9 anomaly
+COL9A3	Multiple epiphyseal dysplasia due to collagen 9 anomaly
+COLEC11	Carnevale syndrome
+COLQ	Synaptic congenital myasthenic syndromes
+COMP	Multiple epiphyseal dysplasia type 1
+COMP	Pseudoachondroplasia
+COQ2	Autosomal recessive ataxia due to ubiquinone deficiency
+COQ2	Leigh syndrome with nephrotic syndrome
+COQ6	Familial steroid-resistant nephrotic syndrome with sensorineural deafness
+COQ9	Autosomal recessive ataxia due to ubiquinone deficiency
+CORO1A	Severe combined immunodeficiency due to CORO1A deficiency
+COX10	Fatal infantile cytochrome C oxidase deficiency
+COX10	Leigh syndrome with cardiomyopathy
+COX10	Leigh syndrome with leukodystrophy
+COX15	Fatal infantile cytochrome C oxidase deficiency
+COX15	Leigh syndrome with cardiomyopathy
+COX4I2	Pancreatic insufficiency - anemia - hyperostosis
+COX6B1	Isolated cytochrome C oxidase deficiency
+COX6B1	Leigh syndrome with cardiomyopathy
+CP	Aceruloplasminemia
+CPA6	Duane syndrome
+CPOX	Hereditary coproporphyria
+CPS1	Carbamoylphosphate synthetase deficiency
+CPT1A	Carnitine palmitoyl transferase 1A deficiency
+CPT2	Carnitine palmitoyl transferase II deficiency, myopathic form
+CPT2	Carnitine palmitoyl transferase II deficiency, neonatal form
+CPT2	Carnitine palmitoyl transferase II deficiency, severe infantile form
+CRB1	Congenital Leber amaurosis
+CRB1	Pigmented paravenous retinochoroidal atrophy
+CRB1	Retinitis pigmentosa
+CRBN	Autosomal recessive nonsyndromic intellectual deficit
+CRBN	Distal monosomy 3p
+CREB1	Melanoma of soft part
+CREB3L1	Myxofibrosarcoma
+CREB3L2	Myxofibrosarcoma
+CREBBP	Rubinstein-Taybi syndrome
+CRELD1	Partial atrioventricular canal
+CRLF1	Cold-induced sweating syndrome
+CRLF1	Crisponi syndrome
+CRTAP	Osteogenesis imperfecta type 2
+CRTAP	Osteogenesis imperfecta type 3
+CRTAP	Osteogenesis imperfecta type 4
+CRX	Cone rod dystrophy
+CRX	Congenital Leber amaurosis
+CRX	Retinitis pigmentosa
+CRYAA	Nuclear cataract
+CRYAA	Zonular cataract
+CRYAB	Alpha-crystallinopathy
+CRYAB	Fatal infantile hypertonic myofibrillar myopathy
+CRYAB	Posterior polar cataract
+CRYAB	Zonular cataract
+CRYBA1	Cataract with Y-shaped suture opacities
+CRYBA1	Zonular cataract
+CRYBA4	Microphthalmia - cataract
+CRYBA4	Zonular cataract
+CRYBB1	Cerulean cataract
+CRYBB1	Nuclear cataract
+CRYBB2	Cataract with Y-shaped suture opacities
+CRYBB2	Cataract, Coppock-like
+CRYBB2	Cerulean cataract
+CRYBB2	Nuclear cataract
+CRYGC	Cataract, Coppock-like
+CRYGC	Pulverulent cataract
+CRYGC	Zonular cataract
+CRYGD	Cataract, Coppock-like
+CRYGD	Cerulean cataract
+CRYGD	Coralliform cataract
+CRYGD	Nuclear cataract
+CRYGD	Zonular cataract
+CRYGS	Childhood-onset cortical cataract
+CRYM	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+CSF2RA	Congenital pulmonary alveolar proteinosis
+CSF2RB	Congenital pulmonary alveolar proteinosis
+CSF3R	Hereditary neutrophilia
+CSNK1D	Familial advanced sleep-phase syndrome
+CSRP3	Familial isolated dilated cardiomyopathy
+CST3	Hereditary cerebral hemorrhage with amyloidosis
+CSTB	Unverricht-Lundborg disease
+CTDP1	Congenital cataracts - facial dysmorphism - neuropathy
+CTGF	Diffuse cutaneous systemic sclerosis
+CTGF	Limited cutaneous systemic sclerosis
+CTH	Cystathioninuria
+CTLA4	Hashimoto struma
+CTNNB1	Desmoid disease
+CTNNB1	Hepatocellular carcinoma, childhood-onset
+CTNNB1	Pilomatrixoma
+CTNND2	Monosomy 5p
+CTNS	Cystinosis
+CTRC	Hereditary chronic pancreatitis
+CTSA	Galactosialidosis
+CTSC	Haim-Munk syndrome
+CTSC	Papillon-Lefèvre syndrome
+CTSD	CLN10 disease
+CTSK	Pycnodysostosis
+CUBN	Gräsbeck-Imerslund disease
+CUL4B	Cabezas syndrome
+CUL7	3M syndrome
+CXCR4	WHIM syndrome
+CYB5A	46,XY disorder of sex development due to isolated 17, 20 lyase deficiency
+CYB5A	Hereditary methemoglobinemia
+CYB5R3	Recessive hereditary methemoglobinemia type 1
+CYB5R3	Recessive hereditary methemoglobinemia type 2
+CYBA	Chronic granulomatous disease
+CYBB	Chronic granulomatous disease
+CYBB	Mendelian susceptibility to atypical mycobacteria
+CYCS	Autosomal thrombocytopenia with normal platelets
+CYFIP1	Angelman syndrome
+CYLD	Familial cylindromatosis
+CYLD	Familial multiple trichoepithelioma
+CYP11A1	46,XY disorder of sex development - adrenal insufficiency
+CYP11A1	Congenital lipoid adrenal hyperplasia
+CYP11B1	Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency
+CYP11B1	Familial hyperaldosteronism type 1
+CYP11B2	Familial hyperaldosteronism type 1
+CYP11B2	Familial hyperreninemic hypoaldosteronism type 1
+CYP11B2	Familial hyperreninemic hypoaldosteronism type 2
+CYP17A1	46,XY disorder of sex development due to isolated 17, 20 lyase deficiency
+CYP17A1	Congenital adrenal hyperplasia due to 17-alpha-hydroxylase deficiency
+CYP19A1	Aromatase deficiency
+CYP19A1	Aromatase excess syndrome
+CYP1A2	Susceptibility to adverse reaction due to clozapine
+CYP1B1	Congenital glaucoma
+CYP1B1	Juvenile glaucoma
+CYP1B1	Peters anomaly
+CYP21A2	Congenital adrenal hyperplasia due to 21-hydroxylase deficiency, classic form
+CYP21A2	Nonclassic congenital adrenal hyperplasia due to 21-hydroxylase deficiency
+CYP24A1	Familial hypocalciuric hypercalcemia
+CYP27A1	Cerebrotendinous xanthomatosis
+CYP27B1	Hypocalcemic rickets
+CYP2R1	Hypocalcemic rickets
+CYP4F22	Lamellar ichthyosis
+CYP4V2	Bietti's crystalline dystrophy
+CYP7A1	Hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency
+CYP7B1	Autosomal recessive spastic paraplegia type 5A
+CYP7B1	Congenital bile acid synthesis defect type 3
+D2HGDH	2-hydroxyglutaricaciduria
+DAG1	Autosomal recessive limb-girdle muscular dystrophy - dystroglycanopathy type C7
+DAO	Amyotrophic lateral sclerosis
+DARS2	Leukoencephalopathy with brain stem and spinal cord involvement - lactate elevation
+DAZ1	Partial chromosome Y deletion
+DAZ2	Partial chromosome Y deletion
+DBH	Dopamine beta-hydroxylase deficiency
+DBT	Maple syrup urine disease
+DCAF17	Woodhouse-Sakati syndrome
+DCC	Familial congenital mirror movements
+DCLRE1C	Omenn syndrome
+DCLRE1C	Severe combined immunodeficiency, alymphocytotic type
+DCTN1	Amyotrophic lateral sclerosis
+DCTN1	Distal hereditary motor neuropathy type 7
+DCTN1	Perry syndrome
+DCX	Lissencephaly type 1 due to doublecortin gene mutation
+DCXR	Pentosuria
+DDB2	Xeroderma pigmentosum complementation group E
+DDC	Aromatic L-aminoacid decarboxylase deficiency
+DDR2	Spondyloepimetaphyseal dysplasia - short limb - abnormal calcification
+DDX11	Warsaw breakage syndrome
+DDX3Y	Partial chromosome Y deletion
+DES	Desminopathy
+DES	Familial isolated dilated cardiomyopathy
+DES	Scapuloperoneal amyotrophy
+DFNA5	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+DFNB31	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+DFNB31	Usher syndrome type 2
+DFNB59	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+DGUOK	Mitochondrial DNA depletion syndrome, hepatocerebral form due to DGUOK deficiency
+DHCR24	Desmosterolosis
+DHCR7	Smith-Lemli-Opitz syndrome
+DHDDS	Retinitis pigmentosa
+DHFR	Gräsbeck-Imerslund disease
+DHH	46,XY complete gonadal dysgenesis
+DHH	46,XY gonadal dysgenesis - motor and sensory neuropathy
+DHH	Gonadal dysgenesis, XY type - associated anomalies
+DHODH	Postaxial acrofacial dysostosis
+DIABLO	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+DIAPH1	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+DICER1	Familial multinodular goiter
+DICER1	Pleuropulmonary blastoma family tumor susceptibility syndrome
+DIRC1	Familial renal cell carcinoma
+DIRC2	Familial renal cell carcinoma
+DISP1	Holoprosencephaly
+DKC1	Dyskeratosis congenita
+DKC1	Hoyeraal-Hreidarsson syndrome
+DLAT	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex deficiency
+DLD	Dihydrolipoyl dehydrogenasee deficiency
+DLD	Leigh syndrome with nephrotic syndrome
+DLD	Maple syrup urine disease
+DLEC1	Esophageal carcinoma
+DLG3	X-linked nonsyndromic intellectual deficit
+DLK1	Maternal uniparental disomy of chromosome 14
+DLK1	Paternal uniparental disomy of chromosome 14
+DLL1	Holoprosencephaly
+DLL3	Autosomal recessive spondylocostal dysostosis
+DLX3	Hypomaturation-hypoplastic amelogenesis imperfecta with taurodontism
+DLX3	Tricho-dento-osseous syndrome
+DMD	Becker muscular dystrophy
+DMD	Congenital stationary night blindness
+DMD	Duchenne muscular dystrophy
+DMD	Familial isolated dilated cardiomyopathy
+DMD	Symptomatic form of muscular dystrophy of Duchenne and Becker in female carriers
+DMGDH	Dimethylglycine dehydrogenase deficiency
+DMP1	Hypophosphatemic rickets
+DMPK	Steinert myotonic dystrophy
+DMRT1	46,XY complete gonadal dysgenesis
+DMRT2	46,XY complete gonadal dysgenesis
+DNAAF1	Primary ciliary dyskinesia
+DNAAF2	Primary ciliary dyskinesia
+DNAH11	Primary ciliary dyskinesia
+DNAH11	Primary ciliary dyskinesia, Kartagener type
+DNAH5	Primary ciliary dyskinesia
+DNAI1	Primary ciliary dyskinesia
+DNAI1	Primary ciliary dyskinesia, Kartagener type
+DNAI2	Primary ciliary dyskinesia
+DNAI2	Primary ciliary dyskinesia, Kartagener type
+DNAJC19	Dilated cardiomyopathy with ataxia
+DNAJC30	Williams syndrome
+DNAJC5	CLN4B disease
+DNAL1	Primary ciliary dyskinesia
+DNM2	Autosomal dominant Charcot-Marie-Tooth disease type 2M
+DNM2	Autosomal dominant centronuclear myopathy
+DNM2	Autosomal dominant intermediate Charcot-Marie-Tooth disease type B
+DNMT1	Hereditary sensory and autonomic neuropathy type 1
+DNMT3B	ICF syndrome
+DOCK6	Adams-Oliver syndrome
+DOCK8	Autosomal dominant nonsyndromic intellectual deficit
+DOCK8	Severe combined immunodeficiency due to DOCK8 deficiency
+DOK7	Fetal akinesia deformation sequence
+DOK7	Postsynaptic congenital myasthenic syndromes
+DOLK	CDG syndrome type Im
+DPAGT1	CDG syndrome type Ij
+DPCR1	Diffuse panbronchiolitis
+DPM1	CDG syndrome type Ie
+DPM3	CDG syndrome type Io
+DPP6	Idiopathic ventricular fibrillation, not Brugada type
+DPY19L2	Globozoospermia
+DPYD	Dihydropyrimidine dehydrogenase deficiency
+DPYS	Dihydropyrimidinuria
+DRD2	Myoclonic dystonia
+DRD5	Benign essential blepharospasm
+DRD5	Cervical dystonia
+DSC2	Familial isolated arrhythmogenic right ventricular dysplasia
+DSC3	Hereditary hypotrichosis with recurrent skin vesicles
+DSG1	Keratosis palmoplantaris striata
+DSG2	Familial isolated arrhythmogenic right ventricular dysplasia
+DSG2	Familial isolated dilated cardiomyopathy
+DSG4	Hypotrichosis simplex
+DSP	Familial isolated arrhythmogenic right ventricular dysplasia
+DSP	Keratosis palmoplantaris striata
+DSP	Lethal acantholytic epidermolysis bullosa
+DSP	Woolly hair - palmoplantar keratoderma - dilated cardiomyopathy
+DSPP	Dentin dysplasia
+DSPP	Dentinogenesis imperfecta type 2
+DSPP	Dentinogenesis imperfecta type 3
+DTNA	Left ventricular noncompaction
+DTNBP1	Hermansky-Pudlak syndrome type 7
+DUOX2	Familial thyroid dyshormonogenesis
+DUOX2	Genetic transient congenital hypothyroidism
+DUOXA2	Familial thyroid dyshormonogenesis
+DUX4L2	Facioscapulohumeral dystrophy
+DYM	Dyggve-Melchior-Clausen disease
+DYM	Smith-McCort dysplasia
+DYNC1H1	Autosomal dominant Charcot-Marie-Tooth disease type 2O
+DYRK1A	Autosomal dominant nonsyndromic intellectual deficit
+DYSF	Autosomal recessive limb-girdle muscular dystrophy type 2B
+DYSF	Congenital myopathy, Paradas type
+DYSF	Distal myopathy with anterior tibial onset
+DYSF	Miyoshi myopathy
+EBP	X-linked dominant chondrodysplasia punctata
+ECE1	Hirschsprung disease
+ECM1	Lipoid proteinosis
+EDA	Christ-Siemens-Touraine syndrome
+EDAR	Autosomal dominant hypohidrotic ectodermal dysplasia
+EDAR	Autosomal recessive hypohidrotic ectodermal dysplasia
+EDARADD	Autosomal dominant hypohidrotic ectodermal dysplasia
+EDARADD	Autosomal recessive hypohidrotic ectodermal dysplasia
+EDN3	Hirschsprung disease
+EDN3	Ondine syndrome
+EDN3	Waardenburg-Shah syndrome
+EDNRB	ABCD syndrome
+EDNRB	Hirschsprung disease
+EDNRB	Waardenburg-Shah syndrome
+EFEMP1	Familial drusen
+EFEMP2	Autosomal recessive cutis laxa type 1
+EFHC1	Juvenile myoclonic epilepsy
+EFNA4	Isolated plagiocephaly
+EFNB1	Craniofrontonasal dysplasia
+EGF	Adult hepatocellular carcinoma
+EGF	Hypomagnesemia with normocalciuria
+EGFR	Glioblastoma
+EGLN1	Autosomal dominant secondary polycythemia
+EGR2	Charcot-Marie-Tooth disease type 1D
+EGR2	Charcot-Marie-Tooth disease type 4E
+EGR2	Dejerine-Sottas syndrome
+EHHADH	Zellweger-like syndrome without peroxisomal anomalies
+EHMT1	Kleefstra syndrome due to a point mutation
+EHMT1	Kleefstra syndrome due to monosomy 9q34
+EIF2AK3	Wolcott-Rallison syndrome
+EIF2B1	Cree leukoencephalopathy
+EIF2B1	Ovarioleukodystrophy
+EIF2B2	Cree leukoencephalopathy
+EIF2B2	Ovarioleukodystrophy
+EIF2B3	Cree leukoencephalopathy
+EIF2B3	Ovarioleukodystrophy
+EIF2B4	Cree leukoencephalopathy
+EIF2B4	Ovarioleukodystrophy
+EIF2B5	Cree leukoencephalopathy
+EIF2B5	Ovarioleukodystrophy
+EIF4G1	Young adult-onset Parkinsonism
+EIF4H	Williams syndrome
+ELAC2	Familial prostate cancer
+ELANE	Autosomal dominant severe congenital neutropenia
+ELANE	Cyclic neutropenia
+ELOVL4	Stargardt disease
+EMD	X-linked Emery-Dreifuss muscular dystrophy
+EMX2	Schizencephaly
+ENAM	Hypoplastic amelogenesis imperfecta
+ENG	Juvenile gastrointestinal polyposis
+ENG	Rendu-Osler-Weber disease
+ENO3	Beta-enolase deficiency
+ENPP1	Generalized arterial calcification of infancy
+ENPP1	Hypophosphatemic rickets
+EOMES	Microcephaly - polymicrogyria - corpus callosum agenesis
+EP300	Rubinstein-Taybi syndrome
+EPAS1	Autosomal dominant secondary polycythemia
+EPB41	Hereditary elliptocytosis
+EPB42	Hereditary spherocytosis
+EPCAM	Hereditary nonpolyposis colon cancer
+EPCAM	Intestinal epithelial dysplasia
+EPHA2	Posterior polar cataract
+EPHA2	Total congenital cataract
+EPHB2	Familial prostate cancer
+EPHX1	Familial hypercholanemia
+EPHX1	Fetal hydantoin syndrome
+EPM2A	Lafora disease
+EPOR	Primary familial polycythemia
+ERBB3	Lethal congenital contracture syndrome type 2
+ERC1	Papillary or follicular thyroid carcinoma
+ERCC1	COFS syndrome
+ERCC2	Beta-thalassemia - trichothiodystrophy
+ERCC2	COFS syndrome
+ERCC2	IBIDS syndrome
+ERCC2	PIBIDS syndrome
+ERCC2	Xeroderma pigmentosum complementation group D
+ERCC2	Xeroderma pigmentosum/Cockayne syndrome complex
+ERCC3	IBIDS syndrome
+ERCC3	PIBIDS syndrome
+ERCC3	Xeroderma pigmentosum complementation group B
+ERCC3	Xeroderma pigmentosum/Cockayne syndrome complex
+ERCC4	Xeroderma pigmentosum complementation group F
+ERCC5	COFS syndrome
+ERCC5	Xeroderma pigmentosum complementation group G
+ERCC5	Xeroderma pigmentosum/Cockayne syndrome complex
+ERCC6	COFS syndrome
+ERCC6	Cockayne syndrome type 1
+ERCC6	Cockayne syndrome type 2
+ERCC6	Cockayne syndrome type 3
+ERCC6	UV-sensitive syndrome
+ERCC8	Cockayne syndrome type 1
+ERCC8	Cockayne syndrome type 2
+ERCC8	Cockayne syndrome type 3
+ERCC8	UV-sensitive syndrome
+ERG	Ewing sarcoma
+ERLIN2	Recessive intellectual disability - motor dysfunction - multiple joint contractures
+ESCO2	Roberts syndrome
+ESPN	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+ESR1	Estrogen resistance syndrome
+ESRRB	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+ETFA	Glutaric acidemia type 2
+ETFB	Glutaric acidemia type 2
+ETFDH	Glutaric acidemia type 2
+ETHE1	Ethylmalonic encephalopathy
+ETV1	Ewing sarcoma
+ETV4	Ewing sarcoma
+ETV6	Fibrosarcoma
+ETV6	Precursor B-cell acute lymphoblastic leukemia
+EVC	Acrofacial dysostosis, Weyers type
+EVC	Ellis Van Creveld syndrome
+EVC2	Acrofacial dysostosis, Weyers type
+EVC2	Ellis Van Creveld syndrome
+EWSR1	Desmoplastic small round cell tumor
+EWSR1	Ewing sarcoma
+EWSR1	Melanoma of soft part
+EXT1	Chondrosarcoma
+EXT1	Langer-Giedion syndrome
+EXT1	Multiple osteochondromas
+EXT2	Multiple osteochondromas
+EXT2	Potocki-Shaffer syndrome
+EYA1	BOR syndrome
+EYA1	Branchio-otic syndrome
+EYA1	Otofaciocervical syndrome
+EYA4	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+EYA4	Sensorineural deafness with dilated cardiomyopathy
+F10	Congenital factor X deficiency
+F11	Congenital factor XI deficiency
+F12	Congenital factor XII deficiency
+F12	Hereditary angioedema type 3
+F13A1	Congenital factor XIII deficiency
+F13B	Congenital factor XIII deficiency
+F2	Congenital factor II deficiency
+F5	Budd-Chiari syndrome
+F5	Congenital factor V deficiency
+F7	Congenital factor VII deficiency
+F8	Mild hemophilia A
+F8	Moderately severe hemophilia A
+F8	Severe hemophilia A
+F8	Symptomatic form of hemophilia A in female carriers
+F9	Mild hemophilia B
+F9	Moderately severe hemophilia B
+F9	Severe hemophilia B
+F9	Symptomatic form of hemophilia B in female carriers
+FA2H	Autosomal recessive spastic paraplegia type 35
+FA2H	Leukodystrophy - spastic paraplegia - dystonia
+FAH	Tyrosinemia type 1
+FAM123B	Osteopathia striata - cranial sclerosis
+FAM126A	Hypomyelination - congenital cataract
+FAM134B	Hereditary sensory and autonomic neuropathy type 2
+FAM161A	Retinitis pigmentosa
+FAM20A	Amelogenesis imperfecta and gingival hyperplasia syndrome
+FAM20C	Lethal osteosclerotic bone dysplasia
+FAM58A	Syndactyly - telecanthus - anogenital and renal malformations
+FAM83H	Hypocalcified amelogenesis imperfecta
+FANCA	Fanconi anemia
+FANCB	Fanconi anemia
+FANCB	VACTERL with hydrocephalus
+FANCC	Fanconi anemia
+FANCD2	Fanconi anemia
+FANCE	Fanconi anemia
+FANCF	Fanconi anemia
+FANCG	Fanconi anemia
+FANCI	Fanconi anemia
+FANCL	Fanconi anemia
+FANCM	Fanconi anemia
+FAS	Autoimmune lymphoproliferative syndrome
+FASLG	Autoimmune lymphoproliferative syndrome
+FASTKD2	FASTKD2-related infantile mitochondrial encephalomyopathy
+FASTKD2	Isolated cytochrome C oxidase deficiency
+FBLN1	Syndactyly type 2
+FBLN5	Autosomal dominant cutis laxa
+FBLN5	Autosomal recessive cutis laxa type 1
+FBLN5	Hereditary sensorimotor neuropathy with hyperelastic skin
+FBN1	Acromicric dysplasia
+FBN1	Ectopia lentis syndrome
+FBN1	Familial thoracic aortic aneurysm
+FBN1	Geleophysic dysplasia
+FBN1	Glaucoma - ectopia - microspherophakia - stiff joints - short stature
+FBN1	Marfan syndrome type 1
+FBN1	Neonatal Marfan syndrome
+FBN1	Shprintzen-Goldberg syndrome
+FBN1	Stiff skin syndrome
+FBN1	Weill-Marchesani syndrome
+FBN2	Congenital contractural arachnodactyly
+FBP1	Fructose-1,6-bisphosphatase deficiency
+FBXO7	Parkinsonian-pyramidal syndrome
+FBXW4	Split hand - split foot
+FCGR3B	Hashimoto struma
+FECH	Erythropoietic protoporphyria
+FERMT1	Hereditary  acrokeratotic poikiloderma, Weary type
+FERMT1	Kindler syndrome
+FERMT3	Leukocyte adhesion deficiency type III
+FGA	Familial afibrinogenemia
+FGA	Familial dysfibrinogenemia
+FGA	Familial hypodysfibrinogenemia
+FGA	Familial hypofibrinogenemia
+FGA	Familial renal amyloidosis due to fibrinogen A alpha-chain variant
+FGB	Familial afibrinogenemia
+FGB	Familial dysfibrinogenemia
+FGB	Familial hypodysfibrinogenemia
+FGB	Familial hypofibrinogenemia
+FGD1	Aarskog-Scott syndrome
+FGD4	Charcot-Marie-Tooth disease type 4H
+FGF10	Aplasia of lacrimal and salivary glands
+FGF14	Spinocerebellar ataxia type 27
+FGF23	Hypophosphatemic rickets
+FGF23	Tumoral calcinosis
+FGF3	Deafness with labyrinthine aplasia, microtia, and microdontia
+FGF3	Otodental syndrome
+FGF8	Holoprosencephaly
+FGF8	Kallmann syndrome
+FGF8	Normosmic congenital hypogonadotropic hypogonadism
+FGF9	Multiple synostoses
+FGFR1	Isolated trigonocephaly
+FGFR1	Kallmann syndrome
+FGFR1	Kallmann syndrome - heart disease
+FGFR1	Myeloid neoplasm associated with FGFR1 rearrangement
+FGFR1	Normosmic congenital hypogonadotropic hypogonadism
+FGFR1	Osteoglophonic dwarfism
+FGFR1	Pfeiffer syndrome type 1
+FGFR2	Antley-Bixler syndrome type 1
+FGFR2	Apert syndrome
+FGFR2	Crouzon disease
+FGFR2	Cutis gyrata - acanthosis nigricans - craniosynostosis
+FGFR2	Familial scaphocephaly syndrome, McGillivray type
+FGFR2	Jackson-Weiss syndrome
+FGFR2	Lacrimo-auriculo-dento-digital syndrome
+FGFR2	Pfeiffer syndrome type 1
+FGFR2	Pfeiffer syndrome type 2
+FGFR2	Pfeiffer syndrome type 3
+FGFR2	Saethre-Chotzen syndrome
+FGFR3	Achondroplasia
+FGFR3	Camptodactyly - tall stature - scoliosis - hearing loss
+FGFR3	Crouzon syndrome - acanthosis nigricans
+FGFR3	Cutis gyrata - acanthosis nigricans - craniosynostosis
+FGFR3	Hypochondroplasia
+FGFR3	Isolated brachycephaly
+FGFR3	Isolated cloverleaf skull syndrome
+FGFR3	Isolated plagiocephaly
+FGFR3	Lacrimo-auriculo-dento-digital syndrome
+FGFR3	Muenke syndrome
+FGFR3	Saethre-Chotzen syndrome
+FGFR3	Severe achondroplasia - developmental delay - acanthosis nigricans
+FGFR3	Thanatophoric dwarfism type I
+FGFR3	Thanatophoric dwarfism type II
+FGG	Familial afibrinogenemia
+FGG	Familial dysfibrinogenemia
+FGG	Familial hypodysfibrinogenemia
+FGG	Familial hypofibrinogenemia
+FH	Familial leiomyomatosis
+FH	Fumaric aciduria
+FHIT	Familial renal cell carcinoma
+FHL1	Reducing body myopathy
+FHL1	Scapuloperoneal amyotrophy
+FHL1	X-linked Emery-Dreifuss muscular dystrophy
+FHL1	X-linked myopathy with postural muscle atrophy
+FHL2	Familial isolated dilated cardiomyopathy
+FIG4	Amyotrophic lateral sclerosis
+FIG4	Charcot-Marie-Tooth disease type 4J
+FIG4	Primary lateral sclerosis
+FIP1L1	Idiopathic hypereosinophilic syndrome
+FKBP10	Osteogenesis imperfecta type 5
+FKBP6	Williams syndrome
+FKRP	Autosomal recessive limb-girdle muscular dystrophy type 2I
+FKRP	Congenital muscular dystrophy type 1C
+FKRP	Muscle eye brain disease
+FKRP	Walker-Warburg syndrome
+FKTN	Autosomal recessive limb-girdle muscular dystrophy type 2M
+FKTN	Congenital muscular dystrophy, Fukuyama type
+FKTN	Familial isolated dilated cardiomyopathy
+FKTN	Walker-Warburg syndrome
+FLCN	Birt-Hogg-Dube syndrome
+FLCN	Familial spontaneous pneumothorax
+FLI1	Ewing sarcoma
+FLI1	Paris-Trousseau thrombocytopenia
+FLII	Smith-Magenis syndrome
+FLNA	Chronic intestinal pseudo-obstruction
+FLNA	Congenital valvular dysplasia
+FLNA	Ehlers-Danlos syndrome with periventricular heterotopia
+FLNA	Frontometaphyseal dysplasia
+FLNA	Osteodysplasty, Melnick-Needles type
+FLNA	Otopalatodigital syndrome type 1
+FLNA	Otopalatodigital syndrome type 2
+FLNA	Periventricular nodular heterotopia
+FLNA	Terminal osseous dysplasia - pigmentary defects
+FLNB	Atelosteogenesis I
+FLNB	Atelosteogenesis type III
+FLNB	Boomerang dysplasia
+FLNB	Larsen syndrome
+FLNB	Synspondylism
+FLNC	Distal myopathy with posterior leg and anterior upper limb involvement
+FLNC	Muscle filaminopathy
+FLT3	Acute leukemia of ambiguous lineage
+FLT4	Congenital lymphedema
+FLVCR1	Posterior column ataxia - retinitis pigmentosa
+FLVCR2.1	Fowler syndrome
+FMO3	Trimethylaminuria
+FMR1	Fragile X syndrome
+FMR1	Fragile X-associated tremor/ataxia syndrome
+FMR1	Xq27.3q28 duplication syndrome
+FN1	Fibronectin glomerulopathy
+FOLR1	Neurodegenerative syndrome due to cerebral folate transport deficiency
+FOXC1	Axenfeld-Rieger syndrome
+FOXC1	Peters anomaly
+FOXC1	Rieger-Axenfeld anomaly
+FOXC2	Lymphedema - distichiasis
+FOXC2	Yellow nail syndrome
+FOXD3	Vitiligo-associated autoimmune disease
+FOXE1	Athyreosis
+FOXE1	Bamforth syndrome
+FOXE1	Thyroid hypoplasia
+FOXE3	Congenital primary aphakia
+FOXE3	Familial ocular anterior segment mesenchymal dysgenesis
+FOXF1	Congenital alveolar capillary dysplasia
+FOXG1	14q11.2 microduplication syndrome
+FOXG1	14q12 microdeletion syndrome
+FOXG1	Atypical Rett syndrome
+FOXH1	Holoprosencephaly
+FOXI1	Pendred syndrome
+FOXL2	Blepharophimosis - epicanthus inversus - ptosis
+FOXL2	Blepharophimosis - epicanthus inversus - ptosis, due to 3q23 microdeletion
+FOXN1	Severe T-cell immunodeficiency - congenital alopecia - nail dystrophy
+FOXO1	Alveolar rhabdomyosarcoma
+FOXP1	MALT lymphoma
+FOXP2	7q31 microdeletion syndrome
+FOXP2	Speech-language disorder type 1
+FOXP3	X-linked immune dysregulation - polyendocrinopathy - enteropathy
+FOXRED1	Isolated NADH-CoQ reductase deficiency
+FRAS1	Fraser syndrome
+FREM1	BNAR syndrome
+FREM1	Oculotrichoanal syndrome
+FREM2	Fraser syndrome
+FRG1	Facioscapulohumeral dystrophy
+FSCN2	Retinitis pigmentosa
+FSHB	Isolated follicle stimulating hormone deficiency
+FSHR	46,XX gonadal dysgenesis
+FSHR	Ovarian hyperstimulation syndrome
+FTCD	Formiminoglutamic aciduria
+FTH1	FTH1-related iron overload
+FTL	Genetic hyperferritinemia without iron overload
+FTL	Hereditary hyperferritinemia with congenital cataracts
+FTL	Neuroferritinopathy
+FTO	Lethal polymalformative syndrome, Boissel type
+FTSJ1	X-linked nonsyndromic intellectual deficit
+FUBP1	Oligodendroglioma
+FUCA1	Fucosidosis
+FUS	Amyotrophic lateral sclerosis
+FUS	Frontotemporal dementia
+FUS	Myxofibrosarcoma
+FUS	Myxoid liposarcoma
+FXN	Friedreich ataxia
+FXYD2	Isolated dominant hypomagnesemia
+FYCO1	Nuclear cataract
+FZD4	Familial exudative vitreoretinopathy
+FZD4	Persistent hyperplastic primary vitreous
+FZD4	Retinopathy of prematurity
+FZD6	Autosomal recessive nail dysplasia
+G6PC	Glycogenosis due to glucose-6-phosphatase deficiency type a
+G6PC3	Autosomal dominant severe congenital neutropenia
+G6PC3	Dursun syndrome
+GAA	Glycogen storage disease type 2
+GABRA1	Childhood absence epilepsy
+GABRA1	Juvenile myoclonic epilepsy
+GABRA3	Thyrotoxic periodic paralysis
+GABRB3	Childhood absence epilepsy
+GABRD	Generalized epilepsy with febrile seizures-plus context
+GABRD	Monosomy 1p36
+GABRG2	Childhood absence epilepsy
+GABRG2	Dravet syndrome
+GABRG2	Generalized epilepsy with febrile seizures-plus context
+GAD1	Inherited congenital spastic tetraplegia
+GALC	Adult Krabbe disease
+GALC	Infantile Krabbe disease
+GALC	Late-infantile or juvenile Krabbe disease
+GALE	Galactosemia
+GALE	UDP-galactose-4-epimerase deficiency
+GALK1	Galactokinase deficiency
+GALK1	Galactosemia
+GALNS	Mucopolysaccharidosis type 4
+GALNT3	Tumoral calcinosis
+GALT	Galactosemia
+GAMT	Guanidinoacetate methyltransferase deficiency
+GAN	Giant axonal neuropathy
+GARS	Autosomal dominant Charcot-Marie-Tooth disease type 2D
+GARS	Distal hereditary motor neuropathy type 5
+GATA1	Beta-thalassemia - X-linked thrombocytopenia
+GATA1	Dyserythropoietic anemia with thrombocytopenia
+GATA2	Monocytopenia with susceptibility to infections
+GATA3	Hypoparathyroidism - deafness - renal disease
+GATA4	46,XY partial gonadal dysgenesis
+GATA4	Atrial septal defect, ostium secundum type
+GATA4	Ventricular septal defect
+GATM	Arginine:glycine amidinotransferase deficiency
+GBA	Gaucher disease - ophthalmoplegia - cardiovascular calcification
+GBA	Gaucher disease type 1
+GBA	Gaucher disease type 2
+GBA	Gaucher disease type 3
+GBA	Perinatal-lethal Gaucher disease
+GBE1	Adult polyglucosan body disease
+GBE1	Glycogen branching enzyme deficiency
+GCDH	Glutaric acidemia type 1
+GCH1	Autosomal dominant dopa-responsive dystonia
+GCH1	GTP cyclohydrolase I deficiency
+GCK	Hyperinsulinism due to glucokinase deficiency
+GCK	MODY syndrome
+GCK	Permanent neonatal diabetes mellitus
+GCLC	Gamma-glutamylcysteine synthetase deficiency
+GCM2	Familial isolated hypoparathyroidism due to agenesis of parathyroid gland
+GCSH	Isolated nonketotic hyperglycinemia
+GDAP1	Autosomal dominant Charcot-Marie-Tooth disease type 2K
+GDAP1	Autosomal recessive Charcot-Marie-Tooth disease with hoarseness
+GDAP1	Autosomal recessive intermediate Charcot-Marie-Tooth disease type A
+GDAP1	Charcot-Marie-Tooth disease type 2H
+GDAP1	Charcot-Marie-Tooth disease type 4A
+GDF1	Conotruncal heart malformations
+GDF1	Tetralogy of Fallot
+GDF3	Colobomatous microphthalmia
+GDF3	Isolated Klippel-Feil syndrome
+GDF3	Isolated anophthalmia - microphthalmia
+GDF5	Acromesomelic dysplasia, Grebe type
+GDF5	Acromesomelic dysplasia, Hunter-Thomson type
+GDF5	Brachydactyly type A2
+GDF5	Brachydactyly type C
+GDF5	Fibular aplasia - complex brachydactyly
+GDF5	Multiple synostoses
+GDF5	Proximal symphalangism
+GDF6	Colobomatous microphthalmia
+GDF6	Isolated Klippel-Feil syndrome
+GDI1	X-linked nonsyndromic intellectual deficit
+GDNF	Hirschsprung disease
+GDNF	Ondine syndrome
+GFAP	Alexander disease
+GFI1	Adult  idiopathic neutropenia
+GFI1	Autosomal dominant severe congenital neutropenia
+GFM1	Hepatoencephalopathy due to combined oxidative phosphorylation deficiency type 1
+GFPT1	Congenital myasthenic syndromes
+GGCX	Body skin hyperlaxity due to vitamin K-dependent coagulation factor deficiency
+GGCX	Hereditary combined deficiency of vitamin K-dependent clotting factors
+GGT1	Gamma-glutamyl transpeptidase deficiency
+GH1	Isolated growth hormone deficiency type IA
+GH1	Isolated growth hormone deficiency type IB
+GH1	Isolated growth hormone deficiency type II
+GH1	Short stature due to growth hormone qualitative anomaly
+GHR	Laron syndrome
+GHRHR	Isolated growth hormone deficiency type IB
+GHSR	Isolated growth hormone deficiency type IB
+GIF	Congenital intrinsic factor deficiency
+GIGYF2	Young adult-onset Parkinsonism
+GIPC3	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+GJA1	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+GJA1	Hypoplastic left heart syndrome
+GJA1	Oculodentodigital dysplasia
+GJA1	Syndactyly type 3
+GJA3	Pulverulent cataract
+GJA5	Atrial cardiomyopathy with heart block
+GJA5	Familial atrial fibrillation
+GJA8	Cataract-microcornea syndrome
+GJA8	Pulverulent cataract
+GJB1	X-linked Charcot-Marie-Tooth disease type 1
+GJB2	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+GJB2	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+GJB2	KID syndrome
+GJB2	Keratoderma hereditarium mutilans
+GJB2	Knuckle pads - leuconychia - sensorineural deafness
+GJB2	Palmoplantar keratoderma - deafness
+GJB3	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+GJB3	Erythrokeratodermia variabilis, Mendes da Costa type
+GJB3	Greither's disease
+GJB3	Neuropathy with hearing impairment
+GJB4	Erythrokeratodermia variabilis, Mendes da Costa type
+GJB6	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+GJB6	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+GJB6	Clouston syndrome
+GJB6	KID syndrome
+GJC2	Congenital lymphedema
+GJC2	Pelizaeus-Merzbacher-like due to GJC2 mutation
+GLA	Fabry disease
+GLB1	GM1 gangliosidosis type 1
+GLB1	GM1 gangliosidosis type 2
+GLB1	GM1 gangliosidosis type 3
+GLB1	Mucopolysaccharidosis type 4
+GLDC	Isolated nonketotic hyperglycinemia
+GLE1	Lethal arthrogryposis - anterior horn cell disease
+GLE1	Lethal congenital contracture syndrome type 1
+GLI2	Combined pituitary hormone deficiencies, genetic forms
+GLI2	Holoprosencephaly
+GLI3	Acrocallosal syndrome
+GLI3	Greig cephalopolysyndactyly syndrome
+GLI3	Pallister-Hall syndrome
+GLI3	Polysyndactyly
+GLI3	Postaxial polydactyly  type B
+GLI3	Postaxial polydactyly type A
+GLIS2	Juvenile autosomal recessive medullary cystic kidney disease
+GLIS3	Neonatal diabetes - congenital hypothyroidism - congenital glaucoma - hepatic fibrosis - polycystic kidneys
+GLMN	Glomuvenous malformation
+GLRA1	Hereditary hyperekplexia
+GLRB	Hereditary hyperekplexia
+GLRX5	Autosomal recessive pyridoxine-refractory sideroblastic anemia
+GLUD1	Hyperinsulinism-hyperammonemia syndrome
+GLUL	Congenital brain dysgenesis due to glutamine synthetase deficiency
+GLYCTK	D-glycericacidemia
+GM2A	Tay-Sachs disease
+GNAS	Fibrous dysplasia of bone
+GNAS	McCune-Albright syndrome
+GNAS	Progressive osseous heteroplasia
+GNAS	Pseudohypoparathyroidism type 1A
+GNAS	Pseudohypoparathyroidism type 1B
+GNAS	Pseudohypoparathyroidism type 1C
+GNAS	Pseudopseudohypoparathyroidism
+GNAT1	Congenital stationary night blindness
+GNAT2	Achromatopsia
+GNAT2	Progressive cone dystrophy
+GNE	Distal myopathy, Nonaka type
+GNE	Sialuria, French type
+GNPAT	Rhizomelic chondrodysplasia punctata
+GNPTAB	Mucolipidosis type 2
+GNPTAB	Mucolipidosis type 3
+GNPTG	Mucolipidosis type 3
+GNRH1	Normosmic congenital hypogonadotropic hypogonadism
+GNRHR	Normosmic congenital hypogonadotropic hypogonadism
+GNS	Sanfilippo syndrome type D
+GOLGA5	Papillary or follicular thyroid carcinoma
+GORAB	Geroderma osteodysplastica
+GOSR2	Progressive myoclonic epilepsy type 6
+GP1BA	Bernard-Soulier syndrome
+GP1BA	Pseudo-Von Willebrand disease
+GP1BB	Bernard-Soulier syndrome
+GP6	Bleeding diathesis due to glycoprotein VI deficiency
+GP9	Bernard-Soulier syndrome
+GPC3	Nephroblastoma
+GPC3	Simpson-Golabi-Behmel syndrome
+GPC4	Simpson-Golabi-Behmel syndrome
+GPC6	Autosomal recessive omodysplasia
+GPD1L	Brugada syndrome
+GPHN	Encephalopathy due to sulfite oxidase deficiency
+GPHN	Hereditary hyperekplexia
+GPI	Hemolytic anemia due to glucophosphate isomerase deficiency
+GPIHBP1	Hyperlipoproteinemia type 1
+GPIHBP1	Hyperlipoproteinemia type 5
+GPR143	X-linked recessive ocular albinism
+GPR56	Bilateral frontoparietal polymicrogyria
+GPR98	Usher syndrome type 2
+GPSM2	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+GRHL2	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+GRHPR	D-glycerate dehydrogenase deficiency
+GRIA3	X-linked nonsyndromic intellectual deficit
+GRIK2	Autosomal recessive nonsyndromic intellectual deficit
+GRIN1	Autosomal dominant nonsyndromic intellectual deficit
+GRIN2B	Autosomal dominant nonsyndromic intellectual deficit
+GRK1	Oguchi disease
+GRM6	Congenital stationary night blindness
+GRN	Frontotemporal dementia with motor neuron disease
+GRXCR1	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+GSN	Familial amyloidosis, Finnish type
+GSR	Hemolytic anemia due to glutathione reductase deficiency
+GSS	Glutathione synthetase deficiency
+GTF2H5	IBIDS syndrome
+GTF2H5	PIBIDS syndrome
+GTF2I	Williams syndrome
+GTF2IRD1	Williams syndrome
+GUCA1A	Cone rod dystrophy
+GUCA1A	Progressive cone dystrophy
+GUCA1B	Retinitis pigmentosa
+GUCY2D	Cone rod dystrophy
+GUCY2D	Congenital Leber amaurosis
+GUSB	Mucopolysaccharidosis type 7
+GYG1	Glycogen storage disease type 15
+GYS1	Cardiomyopathy-exercise intolerance due to muscle and heart glycogen deficiency
+GYS2	Hepatic glycogen synthase deficiency
+H6PD	Hyperandrogenism due to cortisone reductase deficiency
+HADH	Hyperinsulinism due to 3-hydroxylacyl-CoA dehydrogenase deficiency
+HADH	Hyperinsulinism due to glutamodehydrogenase deficiency
+HADHA	Acute fatty liver of pregnancy
+HADHA	Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency
+HADHA	Mitochondrial trifunctional protein deficiency
+HADHB	Mitochondrial trifunctional protein deficiency
+HAL	Histidinemia
+HAMP	Hemochromatosis type 2
+HARS2	Perrault syndrome
+HAX1	Kostmann syndrome
+HBA1	Alpha thalassemia - intellectual deficit syndrome
+HBA1	Hemoglobin H disease
+HBA1	Hydrops fetalis of Bart
+HBA2	Alpha thalassemia - intellectual deficit syndrome
+HBA2	Hemoglobin H disease
+HBA2	Hydrops fetalis of Bart
+HBB	Beta-thalassemia intermedia
+HBB	Beta-thalassemia major
+HBB	Delta-beta thalassemia
+HBB	Dominant beta-thalassemia
+HBB	Heinz body anemia
+HBB	Hemoglobin C disease
+HBB	Hemoglobin E disease
+HBB	Hereditary persistence of fetal hemoglobin - beta-thalassemia
+HBB	Hereditary persistence of fetal hemoglobin - sickle cell disease
+HBB	Sickle cell - beta-thalassemia disease
+HBB	Sickle cell - hemoglobin C disease
+HBB	Sickle cell - hemoglobin D disease
+HBB	Sickle cell - hemoglobin E disease
+HBB	Sickle cell anemia
+HBD	Delta-beta thalassemia
+HBG1	Delta-beta thalassemia
+HBG1	Hereditary persistence of fetal hemoglobin - beta-thalassemia
+HBG1	Hereditary persistence of fetal hemoglobin - sickle cell disease
+HBG2	Hemoglobinopathy Toms River
+HBG2	Hereditary persistence of fetal hemoglobin - beta-thalassemia
+HBG2	Hereditary persistence of fetal hemoglobin - sickle cell disease
+HBZ	Hemoglobin H disease
+HBZ	Hydrops fetalis of Bart
+HCCS	MIDAS syndrome
+HCN4	Brugada syndrome
+HCN4	Sick sinus syndrome
+HCRT	Narcolepsy-cataplexy
+HDAC4	2q37 microdeletion syndrome
+HDAC6	X-linked dominant chondrodysplasia, Chassaing-Lacombe type
+HDAC9	Peters anomaly
+HEPACAM	Megalencephalic leukoencephalopathy with subcortical cysts
+HES7	Autosomal recessive spondylocostal dysostosis
+HESX1	Combined pituitary hormone deficiencies, genetic forms
+HESX1	Hypothyroidism due to deficient transcription factors involved in pituitary development or function
+HESX1	Pituitary stalk interruption syndrome
+HESX1	Septo-optic dysplasia
+HEXA	Tay-Sachs disease
+HEXB	Sandhoff disease
+HFE	Porphyria variegata
+HFE2	Hemochromatosis type 2
+HGD	Alkaptonuria
+HGF	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+HGSNAT	Sanfilippo syndrome type C
+HIBCH	Neurodegeneration due to 3-hydroxyisobutyryl-CoA hydrolase deficiency
+HIC1	Miller-Dieker syndrome
+HK1	Charcot-Marie-Tooth disease type 4G
+HK1	Nonspherocytic hemolytic anemia due to hexokinase deficiency
+HLA-A	Chorioretinopathy, Birdshot type
+HLA-B	Behcet disease
+HLA-B	Stevens-Johnson syndrome
+HLA-DRA	Graham Little-Piccardi-Lassueur syndrome
+HLA-DRB1	Narcolepsy-cataplexy
+HLA-DRB1	Sarcoidosis
+HLCS	Holocarboxylase synthetase deficiency
+HLF	Precursor B-cell acute lymphoblastic leukemia
+HMBS	Acute intermittent porphyria
+HMGA2	12q14 microdeletion syndrome
+HMGCL	3-hydroxy-3-methylglutaric aciduria
+HMGCS2	3-hydroxy 3-methylglutaryl-CoA synthase deficiency
+HMX1	Oculoauricular syndrome, Schorderet type
+HNF1A	MODY syndrome
+HNF1B	17q12 microdeletion syndrome
+HNF1B	Familial prostate cancer
+HNF1B	Mullerian aplasia
+HNF1B	Renal cysts and diabetes syndrome
+HNF4A	Hyperinsulinism due to HNF4A deficiency
+HNF4A	MODY syndrome
+HOGA1	Hyperoxaluria non1-non2 type
+HOXA1	Athabaskan brainstem dysgenesis syndrome
+HOXA1	Bosley-Salih-Alorainy syndrome
+HOXA11	Radio-ulnar synostosis - amegakaryocytic thrombocytopenia
+HOXA13	Guttmacher syndrome
+HOXA13	Hand-foot-genital syndrome
+HOXA2	Anotia
+HOXA2	Bilateral microtia - deafness - cleft palate
+HOXD10	Isolated congenital vertical talus
+HOXD13	Brachydactyly type E
+HOXD13	Brachydactyly-syndactyly, Zhao type
+HOXD13	Syndactyly type 2
+HOXD13	Syndactyly type 5
+HOXD13	VACTERL/VATER association
+HPD	Hawkinsinuria
+HPD	Tyrosinemia type 3
+HPGD	Cranio-osteoarthropathy
+HPGD	Isolated congenital digital clubbing
+HPGD	Pachydermoperiostosis
+HPRT1	Kelley-Seegmiller syndrome
+HPRT1	Lesch-Nyhan syndrome
+HPS1	Hermansky-Pudlak syndrome with pulmonary fibrosis
+HPS3	Hermansky-Pudlak syndrome without pulmonary fibrosis
+HPS4	Hermansky-Pudlak syndrome with pulmonary fibrosis
+HPS5	Hermansky-Pudlak syndrome without pulmonary fibrosis
+HPS6	Hermansky-Pudlak syndrome without pulmonary fibrosis
+HPSE2	Ochoa syndrome
+HR	Alopecia universalis
+HR	Atrichia with papular lesions
+HR	Marie Unna congenital hypotrichosis
+HRAS	Costello syndrome
+HRG	Hereditary thrombophilia due to congenital histidine-rich (poly-L) glycoprotein deficiency
+HS6ST1	Kallmann syndrome
+HS6ST1	Normosmic congenital hypogonadotropic hypogonadism
+HSD11B1	Hyperandrogenism due to cortisone reductase deficiency
+HSD11B2	Apparent mineralocorticoid excess
+HSD17B10	Intellectual deficit, X-linked - choreoathetosis - abnormal behavior
+HSD17B10	Short chain 3-hydroxyacyl-CoA dehydrogenase deficiency
+HSD17B3	46,XY disorder of sex development due to 17-beta-hydroxysteroid dehydrogenase 3 deficiency
+HSD17B3	Familial prostate cancer
+HSD17B4	Bifunctional enzyme deficiency
+HSD17B4	Perrault syndrome
+HSD17B4	Pseudo-Zellweger syndrome
+HSD17B4	Zellweger syndrome
+HSD3B2	Congenital adrenal hyperplasia due to 3-beta-hydroxysteroid dehydrogenase deficiency
+HSD3B2	Familial prostate cancer
+HSD3B7	Congenital bile acid synthesis defect type 1
+HSF4	Zonular cataract
+HSPB1	Autosomal dominant Charcot-Marie-Tooth disease type 2F
+HSPB1	Distal hereditary motor neuropathy type 2
+HSPB3	Distal hereditary motor neuropathy type 2
+HSPB8	Autosomal dominant Charcot-Marie-Tooth disease type 2L
+HSPB8	Distal hereditary motor neuropathy type 2
+HSPBAP1	Familial renal cell carcinoma
+HSPD1	Autosomal dominant spastic paraplegia type 13
+HSPD1	Pelizaeus-Merzbacher-like due to HSPD1 mutation
+HSPG2	Dyssegmental dysplasia, Silverman-Handmaker type
+HSPG2	Schwartz-Jampel syndrome
+HTRA1	CARASIL syndrome
+HTRA2	Young adult-onset Parkinsonism
+HTT	Huntington disease
+HTT	Juvenile Huntington disease
+HUWE1	Intellectual deficit, X-linked, Turner type
+HYAL1	Hyaluronidase deficiency
+HYLS1	Hydrolethalus
+ICAM1	Chronic mucocutaneous candidiasis
+ICK	Endocrine-cerebro-osteodysplasia syndrome
+ICOS	Common variable immunodeficiency due to an intrinsic T cell defect
+IDH2	2-hydroxyglutaricaciduria
+IDH3B	Retinitis pigmentosa
+IDS	Mucopolysaccharidosis type 2A
+IDS	Mucopolysaccharidosis type 2B
+IDUA	Hurler syndrome
+IDUA	Hurler-Scheie syndrome
+IDUA	Scheie syndrome
+IER3IP1	Wolcott-Rallison syndrome
+IFNG	Idiopathic aplastic anemia
+IFNGR1	Mendelian susceptibility to atypical mycobacteria
+IFNGR2	Mendelian susceptibility to atypical mycobacteria
+IFRD1	Spinocerebellar ataxia type 18
+IFT122	Sensenbrenner syndrome
+IFT43	Sensenbrenner syndrome
+IFT80	Jeune syndrome
+IFT80	Short rib-polydactyly syndrome, Verma-Naumoff type
+IGBP1	Agenesis of the corpus callosum - intellectual deficit - coloboma - micrognathia
+IGF1	Growth delay due to insulin-like growth factor I deficiency
+IGF1R	Growth delay due to insulin-like growth factor I resistance
+IGF2	Beckwith-Wiedemann syndrome due to imprinting defect of 11p15
+IGF2	Hemihypertrophy
+IGF2	Silver-Russell syndrome due to 11p15 microduplication
+IGF2	Silver-Russell syndrome due to imprinting defect of 11p15
+IGFALS	Short stature due to primary acid-labile subunit deficiency
+IGFBP7	Familial retinal arterial macroaneurysm
+IGHG1	Chronic B-cell lymphocytic leukemia
+IGHG1	Primary amyloidosis
+IGHG2	Recurrent infections associated with rare immunoglobulin isotypes deficiency
+IGHM	Autosomal agammaglobulinemia
+IGHMBP2	Spinal muscular atrophy with respiratory distress
+IGHV3-23	Chronic B-cell lymphocytic leukemia
+IGKC	Recurrent infections associated with rare immunoglobulin isotypes deficiency
+IGKV1D-39	Recurrent infections associated with rare immunoglobulin isotypes deficiency
+IGKV2D-40	Recurrent infections associated with rare immunoglobulin isotypes deficiency
+IGLL1	Autosomal agammaglobulinemia
+IHH	Acrocapitofemoral dysplasia
+IHH	Brachydactyly type A1
+IKBKAP	Familial dysautonomia
+IKBKG	Anhidrotic ectodermal dysplasia - immunodeficiency - osteopetrosis - lymphedema
+IKBKG	Hypohidrotic ectodermal dysplasia with immunodeficiency
+IKBKG	Incontinentia pigmenti
+IKBKG	Mendelian susceptibility to atypical mycobacteria
+IL10	Behcet disease
+IL10RA	Autosomal recessive early-onset inflammatory bowel disease
+IL10RB	Autosomal recessive early-onset inflammatory bowel disease
+IL11RA	Craniosynostosis and dental anomalies
+IL12A	Primary biliary cirrhosis
+IL12B	Mendelian susceptibility to atypical mycobacteria
+IL12RB1	Mendelian susceptibility to atypical mycobacteria
+IL12RB1	Primary biliary cirrhosis
+IL12RB2	Behcet disease
+IL17F	Chronic mucocutaneous candidiasis
+IL17RA	Chronic mucocutaneous candidiasis
+IL1RAPL1	X-linked nonsyndromic intellectual deficit
+IL1RN	Autoinflammatory disease due to interleukin-1 receptor antagonist deficiency
+IL23R	Behcet disease
+IL28B	Response to polyethylene glycol/interferon-ribavirin in hepatitis C virus
+IL2RA	Immunodeficiency due to CD25 deficiency
+IL2RG	Severe combined immunodeficiency T- B+ due to gamma chain deficiency
+IL31RA	Lichen amyloidosis
+IL36RN	Generalized pustular psoriasis
+IL6	Idiopathic juvenile-onset systemic arthritis
+IL7R	Severe combined immunodeficiency T- B+ due to IL-7Ralpha deficiency
+ILDR1	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+IMPAD1	Chondrodysplasia with joint dislocations, gPAPP type
+IMPDH1	Congenital Leber amaurosis
+IMPDH1	Retinitis pigmentosa
+IMPG2	Retinitis pigmentosa
+INF2	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+ING1	Squamous cell carcinoma of head and neck
+ING3	Squamous cell carcinoma of head and neck
+INPP5E	Joubert syndrome
+INPP5E	MORM syndrome
+INS	MODY syndrome
+INS	Permanent neonatal diabetes mellitus
+INSR	Hyperinsulinism due to INSR deficiency
+INSR	Insulin-resistance syndrome type A
+INSR	Leprechaunism
+INSR	Rabson-Mendenhall syndrome
+INVS	Autosomal recessive medullary cystic kidney disease
+IQCB1	Senior-Loken syndrome
+IQSEC2	X-linked nonsyndromic intellectual deficit
+IRAK4	Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency
+IRF5	Primary biliary cirrhosis
+IRF6	Autosomal dominant popliteal pterygium syndrome
+IRF6	Van Der Woude syndrome
+ISCU	Aconitase deficiency
+ITCH	Syndromic multisystem autoimmune disease due to Itch deficiency
+ITGA2	Fetal and neonatal alloimmune thrombocytopenia
+ITGA2B	Glanzmann thrombasthenia
+ITGA6	Junctional epidermolysis bullosa - pyloric atresia
+ITGA7	Congenital muscular dystrophy with integrin deficiency
+ITGB2	Leukocyte adhesion deficiency type I
+ITGB3	Autosomal dominant macrothrombocytopenia
+ITGB3	Glanzmann thrombasthenia
+ITGB4	Epidermolysis bullosa simplex, Weber-Cockayne type
+ITGB4	Generalized junctional epidermolysis bullosa, non-Herlitz type
+ITGB4	Junctional epidermolysis bullosa - pyloric atresia
+ITK	Autosomal recessive lymphoproliferative disease
+ITM2B	Familial dementia, British type
+ITM2B	Familial dementia, Danish type
+ITPA	Susceptibility to adverse reaction due to mercaptopurine
+ITPR1	Spinocerebellar ataxia type 15
+ITPR1	Spinocerebellar ataxia type 16
+IVD	Isovaleric acidemia
+IYD	Familial thyroid dyshormonogenesis
+J01415.24	Kearns-Sayre syndrome
+JAG1	Alagille syndrome due to 20p12 microdeletion
+JAG1	Alagille syndrome due to a JAG1 point mutation
+JAG1	Tetralogy of Fallot
+JAK2	Budd-Chiari syndrome
+JAK2	Essential thrombocythemia
+JAK2	Myelofibrosis with myeloid metaplasia
+JAK2	Polycythemia vera
+JAK3	Severe combined immunodeficiency T- B+ due to JAK3 deficiency
+JPH3	Huntington disease-like 2
+JUP	Familial isolated arrhythmogenic right ventricular dysplasia
+JUP	Naxos disease
+KAL1	Kallmann syndrome
+KANK1	Familial congenital palsy of trochlear nerve
+KANK1	Inherited congenital spastic tetraplegia
+KARS	Autosomal recessive intermediate Charcot-Marie-Tooth disease type B
+KBTBD13	Nemaline myopathy
+KCNA1	Episodic ataxia type 1
+KCNA1	Hereditary continuous muscle fiber activity
+KCNA1	Isolated autosomal dominant hypomagnesemia, Glaudemans type
+KCNA5	Familial atrial fibrillation
+KCNC3	Spinocerebellar ataxia type 13
+KCNE1	Jervell and Lange-Nielsen syndrome
+KCNE1	Romano-Ward syndrome
+KCNE1L	Alport syndrome - intellectual deficit - midface hypoplasia - elliptocytosis
+KCNE2	Familial atrial fibrillation
+KCNE2	Romano-Ward syndrome
+KCNE3	Brugada syndrome
+KCNE3	Hypokalemic periodic paralysis
+KCNH2	Familial short QT syndrome
+KCNH2	Romano-Ward syndrome
+KCNJ1	Antenatal Bartter syndrome
+KCNJ10	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+KCNJ10	SeSAME syndrome
+KCNJ11	Autosomal recessive hyperinsulinism due to Kir6.2 deficiency
+KCNJ11	DEND syndrome
+KCNJ11	Permanent neonatal diabetes mellitus
+KCNJ11	Transient neonatal diabetes mellitus
+KCNJ13	Congenital Leber amaurosis
+KCNJ13	Snowflake vitreoretinal degeneration
+KCNJ2	Cardiodysrythmic potassium-sensitive periodic paralysis
+KCNJ2	Familial atrial fibrillation
+KCNJ2	Familial short QT syndrome
+KCNJ5	Familial hyperaldosteronism type 3
+KCNJ5	Romano-Ward syndrome
+KCNK9	Intellectual deficit, Birk-Barel type
+KCNMA1	Generalized Epilepsy - paroxysmal dyskinesia
+KCNQ1	Familial atrial fibrillation
+KCNQ1	Familial short QT syndrome
+KCNQ1	Jervell and Lange-Nielsen syndrome
+KCNQ1	Romano-Ward syndrome
+KCNQ2	Benign familial infantile seizures
+KCNQ2	Benign familial neonatal seizures
+KCNQ2	Early infantile epileptic encephalopathy
+KCNQ3	Benign familial neonatal seizures
+KCNQ3	Juvenile myoclonic epilepsy
+KCNQ4	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+KCNV2	Cone dystrophy with supernormal rod response
+KCTD7	Progressive myoclonic epilepsy type 3
+KDM5C	Syndromic X-linked intellectual deficit due to JARID1C mutation
+KDR	Familial capillary hemangioma
+KERA	Congenital cornea plana
+KHK	Fructosuria
+KIAA0196	Autosomal dominant spastic paraplegia type 8
+KIAA1033	Autosomal recessive nonsyndromic intellectual deficit
+KIAA1279	Goldberg-Shprintzen megacolon syndrome
+KIAA2022	Intellectual deficit, X-linked, Cantagrel type
+KIF1A	Autosomal dominant nonsyndromic intellectual deficit
+KIF1A	Autosomal recessive spastic paraplegia type 30
+KIF1A	Hereditary sensory and autonomic neuropathy type 2
+KIF1B	Autosomal dominant Charcot-Marie-Tooth disease type 2A1
+KIF21A	Congenital fibrosis of extraocular muscles
+KIF5A	Autosomal dominant spastic paraplegia type 10
+KIF7	Acrocallosal syndrome
+KIF7	Hydrolethalus
+KIF7	Joubert syndrome
+KIF7	Joubert syndrome with ocular defect
+KIF7	Joubert syndrome with orofaciodigital defect
+KIRREL3	Autosomal dominant nonsyndromic intellectual deficit
+KISS1R	Normosmic congenital hypogonadotropic hypogonadism
+KIT	Aggressive systemic mastocytosis
+KIT	Cutaneous mastocytoma
+KIT	Diffuse cutaneous mastocytosis
+KIT	Gastrointestinal stromal tumor
+KIT	Indolent systemic mastocytosis
+KIT	Mast cell leukemia
+KIT	Piebaldism
+KIT	Systemic mastocytosis with an associated clonal hematologic non-mast cell lineage disease
+KIT	Urticaria pigmentosa
+KITLG	Familial progressive hyper- and hypopigmentation
+KITLG	Familial progressive hyperpigmentation
+KL	Tumoral calcinosis
+KLF1	Hereditary persistence of fetal hemoglobin - beta-thalassemia
+KLF1	Hereditary persistence of fetal hemoglobin - sickle cell disease
+KLF11	MODY syndrome
+KLHL7	Retinitis pigmentosa
+KLK4	Hypomaturation amelogenesis imperfecta
+KLKB1	Congenital prekallikrein deficiency
+KNG1	Congenital high-molecular-weight kininogen deficiency
+KRAS	Cardiofaciocutaneous syndrome
+KRAS	Familial pancreatic carcinoma
+KRAS	Noonan syndrome
+KRIT1	Hereditary cerebral cavernous malformation
+KRT1	Annular epidermolytic ichthyosis
+KRT1	Epidermolytic ichthyosis
+KRT1	Ichthyosis Curth-Macklin
+KRT1	Keratosis palmoplantaris striata
+KRT1	Localized epidermolytic palmoplantar hyperkeratosis
+KRT1	Thost-Unna palmoplantar keratoderma
+KRT10	Annular epidermolytic ichthyosis
+KRT10	Congenital reticular ichthyosiform erythroderma
+KRT10	Epidermolytic ichthyosis
+KRT12	Meesmann juvenile epithelial corneal dystrophy
+KRT13	White sponge nevus
+KRT14	Autosomal recessive epidermolysis bullosa simplex
+KRT14	Dermatopathia pigmentosa reticularis
+KRT14	Epidermolysis bullosa simplex, Dowling-Meara type
+KRT14	Epidermolysis bullosa simplex, Köbner type
+KRT14	Epidermolysis bullosa simplex, Weber-Cockayne type
+KRT14	Naegeli-Franceschetti-Jadassohn syndrome
+KRT16	Pachyonychia congenita
+KRT16	Thost-Unna palmoplantar keratoderma
+KRT17	Pachyonychia congenita
+KRT17	Sebocystomatosis
+KRT2	Superficial epidermolytic ichthyosis
+KRT3	Meesmann juvenile epithelial corneal dystrophy
+KRT4	White sponge nevus
+KRT5	Dowling-Degos disease
+KRT5	Epidermolysis bullosa simplex with migratory circinate erythema
+KRT5	Epidermolysis bullosa simplex with mottled pigmentation
+KRT5	Epidermolysis bullosa simplex, Dowling-Meara type
+KRT5	Epidermolysis bullosa simplex, Köbner type
+KRT5	Epidermolysis bullosa simplex, Weber-Cockayne type
+KRT6A	Pachyonychia congenita
+KRT6B	Pachyonychia congenita
+KRT6C	Thost-Unna palmoplantar keratoderma
+KRT74	Hypotrichosis simplex of the scalp
+KRT74	Woolly hair
+KRT81	Monilethrix
+KRT83	Monilethrix
+KRT85	Ectodermal dysplasia, ''pure'' hair-nail type
+KRT9	Localized epidermolytic palmoplantar hyperkeratosis
+KYNU	Encephalopathy due to hydroxykynureninuria
+L1CAM	Hirschsprung disease
+L1CAM	Hydrocephalus with stenosis of aqueduct of Sylvius
+L1CAM	MASA syndrome
+L1CAM	X-linked complicated corpus callosum dysgenesis
+L2HGDH	2-hydroxyglutaricaciduria
+LAMA2	Congenital muscular dystrophy type 1A
+LAMA3	Generalized junctional epidermolysis bullosa, non-Herlitz type
+LAMA3	Junctional epidermolysis bullosa, Herlitz type
+LAMA3	LOGIC syndrome
+LAMB2	Pierson syndrome
+LAMB2	Synaptic congenital myasthenic syndromes
+LAMB3	Generalized junctional epidermolysis bullosa, non-Herlitz type
+LAMB3	Junctional epidermolysis bullosa, Herlitz type
+LAMC2	Generalized junctional epidermolysis bullosa, non-Herlitz type
+LAMC2	Junctional epidermolysis bullosa, Herlitz type
+LAMC3	Occipital pachygyria and polymicrogyria
+LAMP2	Glycogen storage disease due to LAMP-2 deficiency
+LARGE	Congenital muscular dystrophy type 1D
+LARGE	Walker-Warburg syndrome
+LAT2	Williams syndrome
+LBR	Greenberg dysplasia
+LBR	Reynolds syndrome
+LCA5	Congenital Leber amaurosis
+LCAT	Familial LCAT deficiency
+LCAT	Fish-eye disease
+LCK	Severe combined immunodeficiency due to LCK deficiency
+LCT	Congenital lactase deficiency
+LDB3	Arrhythmogenic right ventricular dysplasia
+LDB3	Familial isolated dilated cardiomyopathy
+LDB3	Left ventricular noncompaction
+LDB3	Tibial muscular dystrophy
+LDB3	ZASP-related myofibrillar myopathy
+LDHA	Lactate dehydrogenase M-subunit deficiency
+LDHB	Lactate dehydrogenase H-subunit deficiency
+LEFTY2	Situs ambiguus
+LEMD3	12q14 microdeletion syndrome
+LEMD3	Buschke-Ollendorff syndrome
+LEMD3	Isolated osteopoikilosis
+LEMD3	Melorheostosis
+LEP	Obesity due to congenital leptin deficiency
+LEPR	Obesity due to leptin receptor gene deficiency
+LEPRE1	Osteogenesis imperfecta type 2
+LEPRE1	Osteogenesis imperfecta type 3
+LFNG	Autosomal recessive spondylocostal dysostosis
+LGI1	Autosomal dominant lateral temporal lobe epilepsy
+LHB	Leydig cell hypoplasia
+LHCGR	Leydig cell hypoplasia
+LHCGR	Testotoxicosis
+LHFPL5	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+LHX3	Hypothyroidism due to deficient transcription factors involved in pituitary development or function
+LHX3	Nonacquired combined pituitary hormone deficiency with spine abnormalities
+LHX4	Hypothyroidism due to deficient transcription factors involved in pituitary development or function
+LHX4	Pituitary stalk interruption syndrome
+LHX4	Short stature - pituitary and cerebellar defects - small sella turcica
+LIFR	Stuve-Wiedemann syndrome
+LIG4	LIG4 syndrome
+LIG4	Omenn syndrome
+LIM2	Pulverulent cataract
+LIMK1	Williams syndrome
+LIPA	Cholesteryl ester storage disease
+LIPA	Wolman disease
+LIPC	Hyperlipidemia due to hepatic triglyceride lipase deficiency
+LIPH	Hypotrichosis simplex
+LIPH	Woolly hair
+LIPI	Hyperlipoproteinemia type 4
+LIPN	Lamellar ichthyosis
+LITAF	Charcot-Marie-Tooth disease type 1C
+LMAN1	Combined deficiency of factor V and factor VIII
+LMBR1	Acheiropodia
+LMBR1	Polydactyly of a triphalangeal thumb
+LMBR1	Syndactyly type 4
+LMBR1	Triphalangeal thumb - polysyndactyly syndrome
+LMBRD1	Methylmalonicacidemia - homocystinuria, type cbl F
+LMF1	Hyperlipoproteinemia type 1
+LMNA	Autosomal dominant Emery-Dreifuss muscular dystrophy
+LMNA	Autosomal dominant limb-girdle muscular dystrophy type 1B
+LMNA	Autosomal recessive Emery-dreifuss muscular dystrophy
+LMNA	Charcot-Marie-Tooth disease type 2B1
+LMNA	Congenital muscular dystrophy due to lamine A/C deficiency
+LMNA	Dilated cardiomyopathy - hypergonadotropic hypogonadism
+LMNA	Familial isolated dilated cardiomyopathy
+LMNA	Familial partial lipodystrophy, Dunnigan type
+LMNA	Heart-hand syndrome, Slovenian type
+LMNA	Hutchinson-Gilford progeria syndrome
+LMNA	Laminopathy type Decaudain-Vigouroux
+LMNA	Left ventricular noncompaction
+LMNA	Lethal restrictive dermopathy
+LMNA	Mandibuloacral dysplasia with type A lipodystrophy
+LMNA	Severe dilated cardiomyopathy due to lamin A/C mutation
+LMNA	Severe lipodystrophic laminopathy
+LMNA	Werner syndrome
+LMNB1	Adult-onset autosomal dominant leukodystrophy
+LMNB2	Partial acquired lipodystrophy
+LMX1B	Nail-patella syndrome
+LOR	Loricrin keratoderma
+LOR	Progressive symmetric erythrokeratodermia
+LOXHD1	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+LPAR6	Hypotrichosis simplex
+LPAR6	Woolly hair
+LPIN1	Genetic recurrent myoglobinuria
+LPIN2	Majeed syndrome
+LPL	Hyperlipoproteinemia type 1
+LPL	Hyperlipoproteinemia type 5
+LRAT	Congenital Leber amaurosis
+LRAT	Retinitis pigmentosa
+LRP2	Donnai-Barrow syndrome
+LRP4	Cenani-Lenz syndrome
+LRP5	Autosomal dominant osteopetrosis type 1
+LRP5	Autosomal dominant osteosclerosis, Worth type
+LRP5	Familial exudative vitreoretinopathy
+LRP5	Hyperostosis corticalis generalisata
+LRP5	Osteoporosis - pseudoglioma
+LRP5	Osteosclerosis - developmental delay - craniosynostosis
+LRP5	Retinopathy of prematurity
+LRP6	Coronary artery disease - hyperlipidemia - hypertension - diabetes - osteoporosis
+LRPPRC	Saguenay-Lac-St. Jean cytochrome oxidase deficiency
+LRRC8A	Autosomal agammaglobulinemia
+LRRK2	Young adult-onset Parkinsonism
+LRTOMT	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+LTBP2	Congenital glaucoma
+LTBP2	Megalocornea - spherophakia - secondary glaucoma
+LTBP3	Oligodontia
+LTBP4	Cutis laxa with severe pulmonary, gastrointestinal and urinary anomalies
+LTC4S	Hypotonia - failure to thrive - microcephaly
+LYST	Chediak-Higashi syndrome
+LYZ	Familial renal amyloidosis due to lysozyme variant
+MACROD2	Kabuki syndrome
+MAF	Cerulean cataract
+MAF	Pulverulent cataract
+MAGT1	X-linked nonsyndromic intellectual deficit
+MAK	Retinitis pigmentosa
+MALT1	MALT lymphoma
+MAMLD1	Familial hypospadias
+MAMLD1	X-linked centronuclear myopathy
+MAN1B1	Autosomal recessive nonsyndromic intellectual deficit
+MAN2B1	Alpha-mannosidosis
+MANBA	Beta-mannosidosis
+MANF	Familial pancreatic carcinoma
+MAOA	Monoamine oxidase-A deficiency
+MAP2K1	Cardiofaciocutaneous syndrome
+MAP2K2	Cardiofaciocutaneous syndrome
+MAP3K1	46,XY complete gonadal dysgenesis
+MAPK1	Monosomy 22q11
+MAPK10	Lennox-Gastaut syndrome
+MAPT	Familial Parkinson's disease dementia
+MAPT	Frontotemporal dementia
+MARVELD2	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+MASP1	Carnevale syndrome
+MASP1	Malpuech syndrome
+MASP1	Michels syndrome
+MASTL	Autosomal thrombocytopenia with normal platelets
+MAT1A	Brain demyelination due to methionine adenosyltransferase deficiency
+MATN3	Multiple epiphyseal dysplasia type 5
+MATN3	Spondyloepimetaphyseal dysplasia, matrilin-3 type
+MATR3	Distal myopathy with vocal cord weakness
+MBD5	2q23.1 microdeletion syndrome
+MBD5	Autosomal dominant nonsyndromic intellectual deficit
+MBTPS2	Ichthyosis follicularis - alopecia - photophobia
+MBTPS2	Keratosis follicularis spinulosa decalvans
+MC2R	Familial glucocorticoid deficiency
+MC3R	Obesity due MC3R deficiency
+MC4R	Obesity due to melanocortin-4 receptor deficiency
+MCCC1	3-methylcrotonylglycinuria
+MCCC2	3-methylcrotonylglycinuria
+MCEE	Vitamin B12-unresponsive methylmalonic aciduria
+MCFD2	Combined deficiency of factor V and factor VIII
+MCOLN1	Mucolipidosis type 4
+MCPH1	Autosomal recessive primary microcephaly
+MCPH1	Premature chromosome condensation with microcephaly and intellectual deficit
+MECOM	Myelodysplastic syndromes
+MECP2	Atypical Rett syndrome
+MECP2	Intellectual deficit, X-linked - psychosis - macroorchidism
+MECP2	Rett syndrome
+MECP2	Severe neonatal-onset encephalopathy with microcephaly
+MECP2	Trisomy Xq28
+MECP2	X-linked nonsyndromic intellectual deficit
+MED12	FG syndrome type 1
+MED12	Marfanoid habitus - intellectual deficit, X-linked
+MED23	Autosomal recessive nonsyndromic intellectual deficit
+MED25	Charcot-Marie-Tooth disease type 2B2
+MEF2C	5q14.3 microdeletion syndrome
+MEFV	Familial mediterranean fever
+MEN1	Familial isolated hyperparathyroidism
+MEN1	Familial parathyroid adenoma
+MEN1	Multiple endocrine neoplasia type 1
+MEN1	Zollinger-Ellison syndrome
+MERTK	Retinitis pigmentosa
+MESP2	Autosomal recessive spondylocostal dysostosis
+MET	Familial papillary renal cell carcinoma
+MET	Hepatocellular carcinoma, childhood-onset
+MFAP4	Smith-Magenis syndrome
+MFN2	Autosomal dominant Charcot-Marie-Tooth disease type 2A2
+MFN2	Hereditary motor and sensory neuropathy type 6
+MFRP.1	Microphthalmia - retinitis pigmentosa - foveoschisis - optic disc drusen
+MFRP.1	Nanophthalmia
+MFSD8	CLN7 disease
+MGAT2	CDG syndrome type IIa
+MGP	Keutel syndrome
+MID1	Opitz BBB/G syndrome
+MIF	Idiopathic juvenile-onset systemic arthritis
+MIP	Zonular cataract
+MIPOL1	Laurin-Sandrow syndrome
+MITF	Tietz syndrome
+MITF	Waardenburg syndrome type 2
+MKKS	Bardet-Biedl syndrome
+MKKS	Laurence-Moon syndrome
+MKKS	McKusick-Kaufman syndrome
+MKS1	Bardet-Biedl syndrome
+MKS1	Meckel syndrome
+MLC1	Megalencephalic leukoencephalopathy with subcortical cysts
+MLH1	Hereditary nonpolyposis colon cancer
+MLH1	Muir-Torre syndrome
+MLH3	Hereditary nonpolyposis colon cancer
+MLL	Acute leukemia of ambiguous lineage
+MLL	Acute myeloid leukemia with 11q23 abnormalities
+MLL	Precursor B-cell acute lymphoblastic leukemia
+MLL2	Kabuki syndrome
+MLLT10	Meningioma
+MLPH	Griscelli disease type 3
+MLXIPL	Williams syndrome
+MLYCD	Malonic aciduria
+MMAA	Vitamin B12 responsive methylmalonic acidemia type cbl A
+MMAB	Vitamin B12 responsive methylmalonic acidemia type cbl B
+MMACHC	Methylmalonicacidemia - homocystinuria, type cbl C
+MMADHC	Methylmalonicacidemia - homocystinuria, type cbl D
+MMEL1	Primary biliary cirrhosis
+MMP13	Metaphyseal anadysplasia
+MMP13	Spondyloepimetaphyseal dysplasia, Missouri type
+MMP2	Nodulosis-arthropathy-osteolysis syndrome
+MMP2	Torg-Winchester syndrome
+MMP20	Hypomaturation amelogenesis imperfecta
+MMP9	Metaphyseal anadysplasia
+MN1	Familial multiple meningioma
+MNX1	Currarino triad
+MOCOS	Xanthinuria type II
+MOCS1	Encephalopathy due to sulfite oxidase deficiency
+MOCS2	Encephalopathy due to sulfite oxidase deficiency
+MOG	Narcolepsy-cataplexy
+MOGS	CDG syndrome type IIb
+MPDU1	CDG syndrome type If
+MPI	CDG syndrome type Ib
+MPL	Congenital amegakaryocytic thrombocytopenia
+MPL	Familial thrombocytosis
+MPL	Polycythemia vera
+MPO	Myeloperoxidase deficiency
+MPST	Encephalopathy due to beta-mercaptolactate-cysteine disulfiduria
+MPV17	Navajo neurohepatopathy
+MPZ	Autosomal dominant Charcot-Marie-Tooth disease type 2I
+MPZ	Autosomal dominant Charcot-Marie-Tooth disease type 2J
+MPZ	Autosomal dominant intermediate Charcot-Marie-Tooth disease type D
+MPZ	Charcot-Marie-Tooth disease type 1B
+MPZ	Charcot-Marie-Tooth disease type 4E
+MPZ	Dejerine-Sottas syndrome
+MPZ	Roussy-Levy syndrome
+MRAP	Familial glucocorticoid deficiency
+MRE11A	Ataxia-telangiectasia-like disorder
+MRPS16	Combined oxidative phosphorylation defect type 2
+MRPS22	Hypotonia with lactic acidemia and hyperammonemia
+MS4A1	Common variable immunodeficiency due to an intrinsic T cell defect
+MSH2	Hereditary nonpolyposis colon cancer
+MSH2	Muir-Torre syndrome
+MSH6	Hereditary nonpolyposis colon cancer
+MSMB	Familial prostate cancer
+MSRB3	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+MSTN	Myostatin-related muscle hypertrophy
+MSX1	Cleft lip/palate
+MSX1	Hypodontia - dysplasia of nails
+MSX2	Craniosynostosis, Boston type
+MSX2	Parietal foramina
+MSX2	Parietal foramina with cleidocranial dysplasia
+MT-ATP6	Familial infantile bilateral striatal necrosis
+MT-ATP6	Leber hereditary optic neuropathy
+MT-ATP6	Maternally-inherited Leigh syndrome
+MT-ATP6	NARP syndrome
+MT-CO1	Genetic recurrent myoglobinuria
+MT-CO1	Isolated cytochrome C oxidase deficiency
+MT-CO1	Leber hereditary optic neuropathy
+MT-CO1	Maternally-inherited Leigh syndrome
+MT-CO1	Mitochondrial nonsyndromic sensorineural deafness
+MT-CO1	Mitochondrial nonsyndromic sensorineural deafness with susceptibility to aminoglycoside exposure
+MT-CO2	Isolated cytochrome C oxidase deficiency
+MT-CO2	Maternally-inherited Leigh syndrome
+MT-CO3	Genetic recurrent myoglobinuria
+MT-CO3	Isolated cytochrome C oxidase deficiency
+MT-CO3	Leber hereditary optic neuropathy
+MT-CO3	MELAS syndrome
+MT-CO3	Maternally-inherited Leigh syndrome
+MT-CYB	Histiocytoid cardiomyopathy
+MT-CYB	Isolated CoQ-cytochrome C reductase deficiency
+MT-CYB	Leber hereditary optic neuropathy
+MT-ND1	Leber hereditary optic neuropathy
+MT-ND1	MELAS syndrome
+MT-ND1	Maternally-inherited Leigh syndrome
+MT-ND2	Isolated NADH-CoQ reductase deficiency
+MT-ND2	Leber hereditary optic neuropathy
+MT-ND2	Maternally-inherited Leigh syndrome
+MT-ND3	Leber hereditary optic neuropathy
+MT-ND3	Maternally-inherited Leigh syndrome
+MT-ND3	Sporadic Leigh syndrome
+MT-ND4	Leber hereditary optic neuropathy
+MT-ND4	MELAS syndrome
+MT-ND4	Maternally-inherited Leigh syndrome
+MT-ND4	Mitochondrial nonsyndromic sensorineural deafness with susceptibility to aminoglycoside exposure
+MT-ND4L	Leber hereditary optic neuropathy
+MT-ND5	Leber hereditary optic neuropathy
+MT-ND5	MELAS syndrome
+MT-ND5	Maternally-inherited Leigh syndrome
+MT-ND5	NARP syndrome
+MT-ND5	Sporadic Leigh syndrome
+MT-ND6	Leber hereditary optic neuropathy
+MT-ND6	MELAS syndrome
+MT-ND6	Maternally-inherited Leigh syndrome
+MT-ND6	NARP syndrome
+MT-ND6	Sporadic Leigh syndrome
+MTCP1	Moyamoya disease
+MTCP1	Moyamoya disease - short stature - facial dysmorphism - hypergonadotropic hypogonadism
+MTHFR	Homocystinuria due to methylenetetrahydrofolate reductase deficiency
+MTHFR	Methotrexate toxicity
+MTM1	X-linked centronuclear myopathy
+MTMR14	Autosomal dominant centronuclear myopathy
+MTMR2	Charcot-Marie-Tooth disease type 4B1
+MTR	Methylcobalamin deficiency, cbl G type
+MTRR	Methylcobalamin deficiency type cbl E
+MTTP	Abetalipoproteinemia
+MUC5B	Diffuse panbronchiolitis
+MUC5B	Idiopathic pulmonary fibrosis
+MUSK	Postsynaptic congenital myasthenic syndromes
+MUT	Vitamin B12 responsive methylmalonic acidemia type mut-
+MUT	Vitamin B12-unresponsive methylmalonic aciduria
+MUTYH	Familial adenomatous polyposis
+MUTYH	Familial gastric cancer
+MUTYH	MUTYH-related attenuated familial adenomatous polyposis
+MVK	Hyperimmunoglobulinemia D with periodic fever
+MVK	Mevalonic aciduria
+MXI1	Familial prostate cancer
+MYB	Precursor T-cell acute lymphoblastic leukemia
+MYBPC1	Digitotalar dysmorphism
+MYBPC3	Familial isolated dilated cardiomyopathy
+MYBPC3	Left ventricular noncompaction
+MYC	Burkitt lymphoma
+MYCN	Feingold syndrome
+MYCN	Neuroblastoma
+MYD88	Pyogenic bacterial infections due to MyD88 deficiency
+MYF6	Autosomal dominant centronuclear myopathy
+MYH11	Acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)
+MYH11	Familial aortic dissection
+MYH11	Familial thoracic aortic aneurysm
+MYH14	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+MYH2	Hereditary inclusion body myopathy - joint contractures - ophthalmoplegia
+MYH3	Freeman-Sheldon syndrome
+MYH3	Sheldon-Hall syndrome
+MYH6	Atrial septal defect, ostium secundum type
+MYH6	Familial isolated dilated cardiomyopathy
+MYH6	Sick sinus syndrome
+MYH7	Familial isolated dilated cardiomyopathy
+MYH7	Hyaline body myopathy
+MYH7	Laing distal myopathy
+MYH7	Left ventricular noncompaction
+MYH7	Scapuloperoneal amyotrophy
+MYH8	Carney complex
+MYH8	Distal arthrogryposis type 7
+MYH9	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+MYH9	Epstein syndrome
+MYH9	Fechtner syndrome
+MYH9	May-Hegglin thrombocytopenia
+MYH9	Sebastian syndrome
+MYLK	Familial thoracic aortic aneurysm
+MYO15A	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+MYO1A	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+MYO1E	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+MYO3A	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+MYO5A	Elejalde disease
+MYO5A	Griscelli disease type 1
+MYO5A	Griscelli disease type 3
+MYO5B	Microvillous inclusion disease
+MYO6	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+MYO6	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+MYO6	Progressive sensorineural hearing loss - hypertrophic cardiomyopathy
+MYO7A	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+MYO7A	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+MYO7A	Usher syndrome type 1
+MYOC	Congenital glaucoma
+MYOC	Juvenile glaucoma
+MYOT	Autosomal dominant limb-girdle muscular dystrophy type 1A
+MYOT	Myotilin-related myofibrillar myopathy without spheroid body
+NAA10	Aged appearance - cranofacial anomalies - hypotonia - developmental delay - cryptorchidism - cardiac arrhythmia
+NAGA	Alpha-N-acetylgalactosaminidase deficiency
+NAGLU	Sanfilippo syndrome type B
+NAGS	Hyperammonemia due to N-acetylglutamate synthetase deficiency
+NAIP	Proximal spinal muscular atrophy type 1
+NAIP	Proximal spinal muscular atrophy type 2
+NAIP	Proximal spinal muscular atrophy type 3
+NBEAL2	Gray platelet syndrome
+NBN	Nijmegen breakage syndrome
+NCF1	Chronic granulomatous disease
+NCF2	Chronic granulomatous disease
+NCF4	Chronic granulomatous disease
+NCOA4	Papillary or follicular thyroid carcinoma
+NDE1	Microlissencephaly
+NDN	Prader-Willi syndrome
+NDP	Coats disease
+NDP	Familial exudative vitreoretinopathy
+NDP	Norrie disease
+NDP	Persistent hyperplastic primary vitreous
+NDP	Retinopathy of prematurity
+NDRG1	Charcot-Marie-Tooth disease type 4D
+NDUFA1	Isolated NADH-CoQ reductase deficiency
+NDUFA10	Leigh syndrome with leukodystrophy
+NDUFA11	Isolated NADH-CoQ reductase deficiency
+NDUFA2	Isolated NADH-CoQ reductase deficiency
+NDUFA2	Leigh syndrome with leukodystrophy
+NDUFAF2	Isolated NADH-CoQ reductase deficiency
+NDUFAF2	Mitochondrial myopathy - lactic acidosis
+NDUFAF3	Isolated NADH-CoQ reductase deficiency
+NDUFAF4	Isolated NADH-CoQ reductase deficiency
+NDUFS1	Isolated NADH-CoQ reductase deficiency
+NDUFS1	Leigh syndrome with leukodystrophy
+NDUFS2	Isolated NADH-CoQ reductase deficiency
+NDUFS3	Isolated NADH-CoQ reductase deficiency
+NDUFS3	Leigh syndrome with leukodystrophy
+NDUFS4	Isolated NADH-CoQ reductase deficiency
+NDUFS4	Leigh syndrome with leukodystrophy
+NDUFS6	Isolated NADH-CoQ reductase deficiency
+NDUFS7	Isolated NADH-CoQ reductase deficiency
+NDUFS7	Leigh syndrome with leukodystrophy
+NDUFS8	Isolated NADH-CoQ reductase deficiency
+NDUFS8	Leigh syndrome with leukodystrophy
+NDUFV1	Alexander disease
+NDUFV1	Isolated NADH-CoQ reductase deficiency
+NDUFV1	Leigh syndrome with leukodystrophy
+NDUFV2	Isolated NADH-CoQ reductase deficiency
+NEB	Intermediate nemaline myopathy
+NEB	Mild nemaline myopathy
+NEB	Severe congenital nemaline myopathy
+NEB	Typical nemaline myopathy
+NEFH	Amyotrophic lateral sclerosis
+NEK1	Short rib-polydactyly syndrome, Majewski type
+NEK8	Autosomal recessive medullary cystic kidney disease
+NELF	Kallmann syndrome
+NELF	Normosmic congenital hypogonadotropic hypogonadism
+NEU1	Congenital sialidosis type 2
+NEU1	Juvenile sialidosis type 2
+NEU1	Sialidosis type 1
+NEUROD1	MODY syndrome
+NEUROG3	Congenital malabsorptive diarrhea due to paucity of enteroendocrine cells
+NEXN	Familial isolated dilated cardiomyopathy
+NF1	17q11 microdeletion syndrome
+NF1	17q11.2 microduplication syndrome
+NF1	Familial segmental neurofibromatosis
+NF1	Familial spinal neurofibromatosis
+NF1	Neurofibromatosis type 1
+NF1	Noonan syndrome
+NF1	Watson syndrome
+NF2	Neurofibromatosis type 2
+NF2	Neurofibromatosis type 3
+NFIX	Marshall-Smith syndrome
+NFKBIA	Hypohidrotic ectodermal dysplasia with immunodeficiency
+NGF	Hereditary sensory and autonomic neuropathy type 5
+NHEJ1	Bilateral generalised polymicrogyria
+NHEJ1	Severe combined immunodeficiency - microcephaly - growth retardation - sensitivity to ionizing radiation
+NHLRC1	Lafora disease
+NHP2	Dyskeratosis congenita
+NHS	Nance-Horan syndrome
+NHS	Nuclear cataract
+NHS	Total congenital cataract
+NIPA1	Autosomal dominant spastic paraplegia type 6
+NIPAL4	Congenital nonbullous ichthyosiform erythroderma
+NIPAL4	Lamellar ichthyosis
+NIPBL	Cornelia de Lange syndrome
+NKX2-1	Athyreosis
+NKX2-1	Benign familial chorea
+NKX2-1	Brain-lung-thyroid syndrome
+NKX2-1	Thyroid hypoplasia
+NKX2-5	Athyreosis
+NKX2-5	Atrial septal defect - atrioventricular conduction defects
+NKX2-5	Atrial septal defect, ostium secundum type
+NKX2-5	Familial progressive cardiac conduction defect
+NKX2-5	Tetralogy of Fallot
+NKX2-5	Thyroid hypoplasia
+NKX2-6	Truncus arteriosus
+NKX3-2	Spondylo-megaepiphyseal-metaphyseal dysplasia
+NLRP12	NALP12-associated hereditary periodic fever syndrome
+NLRP2	Hydatidiform complete mole
+NLRP2	Hydatidiform partial mole
+NLRP3	CINCA syndrome
+NLRP3	Familial cold urticaria
+NLRP3	Muckle-Wells syndrome
+NLRP7	Hydatidiform complete mole
+NLRP7	Hydatidiform partial mole
+NOD2	Early-onset sarcoidosis
+NODAL	Situs ambiguus
+NODAL	Situs inversus totalis
+NOG	Brachydactyly type B2
+NOG	Multiple synostoses
+NOG	Proximal symphalangism
+NOG	Stapes ankylosis with broad thumbs and toes
+NOG	Tarsal-carpal coalition syndrome
+NOP10	Dyskeratosis congenita
+NOP56	Spinocerebellar ataxia type 36
+NOTCH2	Acroosteolysis dominant type
+NOTCH2	Alagille syndrome due to a NOTCH2 point mutation
+NOTCH3	CADASIL syndrome
+NPC1	Niemann-Pick disease type C, adult neurologic onset
+NPC1	Niemann-Pick disease type C, juvenile neurologic onset
+NPC1	Niemann-Pick disease type C, late infantile neurologic onset
+NPC1	Niemann-Pick disease type C, severe early infantile neurologic onset
+NPC1	Niemann-Pick disease type C, severe perinatal
+NPC2	Niemann-Pick disease type C, adult neurologic onset
+NPC2	Niemann-Pick disease type C, juvenile neurologic onset
+NPC2	Niemann-Pick disease type C, late infantile neurologic onset
+NPC2	Niemann-Pick disease type C, severe early infantile neurologic onset
+NPC2	Niemann-Pick disease type C, severe perinatal
+NPHP1	Autosomal recessive medullary cystic kidney disease
+NPHP1	Joubert syndrome with renal defect
+NPHP1	Senior-Loken syndrome
+NPHP3	Autosomal recessive medullary cystic kidney disease
+NPHP3	Renal-hepatic-pancreatic dysplasia - Dandy-Walker cysts
+NPHP3	Senior-Loken syndrome
+NPHP4	Autosomal recessive medullary cystic kidney disease
+NPHP4	Senior-Loken syndrome
+NPHS1	Congenital nephrotic syndrome, Finnish type
+NPHS1	Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial proliferation
+NPHS1	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+NPHS1	Familial idiopathic steroid-resistant nephrotic syndrome with minimal changes
+NPHS2	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+NPHS2	Familial idiopathic steroid-resistant nephrotic syndrome with minimal changes
+NPHS2	Sporadic idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+NPHS2	Sporadic idiopathic steroid-resistant nephrotic syndrome with minimal changes
+NPM1	Acute promyelocytic leukemia
+NPPA	Familial atrial fibrillation
+NPR2	Acromesomelic dysplasia, Maroteaux type
+NR0B1	46,XY complete gonadal dysgenesis
+NR0B1	Cytomegalic congenital adrenal hypoplasia
+NR1H3	Amyotrophic lateral sclerosis
+NR2E3	Goldmann-Favre syndrome
+NR2E3	Retinitis pigmentosa
+NR3C1	Glucocorticoid resistance
+NR3C2	Pseudohyperaldosteronism type 2
+NR3C2	Renal pseudohypoaldosteronism type 1
+NR4A2	Young adult-onset Parkinsonism
+NR5A1	46,XY complete gonadal dysgenesis
+NR5A1	46,XY disorder of sex development - adrenal insufficiency
+NR5A1	46,XY partial gonadal dysgenesis
+NRAS	Autoimmune lymphoproliferative syndrome
+NRAS	Noonan syndrome
+NRL	Retinitis pigmentosa
+NRTN	Hirschsprung disease
+NRXN1	Pitt-Hopkins-like syndrome
+NSD1	5q35 microduplication syndrome
+NSD1	Beckwith-Wiedemann syndrome due to NSD1 mutation
+NSD1	Sotos syndrome
+NSD1	Weaver syndrome
+NSDHL	CHILD syndrome
+NSDHL	CK syndrome
+NT5C3	Hemolytic anemia due to pyrimidine 5' nucleotidase deficiency
+NTNG1	Atypical Rett syndrome
+NTRK1	Hereditary sensory and autonomic neuropathy type 4
+NTRK1	Hereditary sensory and autonomic neuropathy type 5
+NTRK3	Fibrosarcoma
+NUBPL	Isolated NADH-CoQ reductase deficiency
+NUP155	Familial atrial fibrillation
+NUP62	Familial infantile bilateral striatal necrosis
+NYX	Congenital stationary night blindness
+OAT	Hyperornithinemia
+OBSL1	3M syndrome
+OCA2	Oculocutaneous albinism type 2
+OCA2	Prader-Willi syndrome
+OCLN	Congenital intrauterine infection-like syndrome
+OCRL	Dent disease type 2
+OCRL	Oculocerebrorenal syndrome
+OFD1	Joubert syndrome with orofaciodigital defect
+OFD1	Oral-facial-digital syndrome type 1
+OFD1	Primary ciliary dyskinesia
+OFD1	Simpson-Golabi-Behmel syndrome type 2
+OGDH	Oxoglutaricaciduria
+OGG1	Familial renal cell carcinoma
+OPA1	Autosomal dominant optic atrophy and congenital deafness
+OPA1	Autosomal dominant optic atrophy, classic type
+OPA3	3-methylglutaconic aciduria type 3
+OPA3	Autosomal dominant optic atrophy and cataract
+OPHN1	Intellectual deficit, X-linked - cerebellar hypoplasia
+OPN1LW	Blue cone monochromatism
+OPN1LW	Cone rod dystrophy
+OPN1MW	Blue cone monochromatism
+OPN1MW	Cone rod dystrophy
+OPN1MW2	Blue cone monochromatism
+OPN1MW2	Cone rod dystrophy
+OPN1SW	Tritanopia
+OPTN	Amyotrophic lateral sclerosis
+OPTN	Congenital glaucoma
+ORAI1	Severe combined immunodeficiency due to CRAC channel dysfunction
+ORC1	Ear-patella-short stature syndrome
+ORC4	Ear-patella-short stature syndrome
+ORC6	Ear-patella-short stature syndrome
+OSMR	Lichen amyloidosis
+OSTM1	Autosomal recessive malignant osteopetrosis
+OTC	Ornithine transcarbamylase deficiency
+OTOA	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+OTOF	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+OTX2	Combined pituitary hormone deficiencies, genetic forms
+OTX2	Septo-optic dysplasia
+OTX2	Syndromic microphthalmia type 5
+OXCT1	Succinyl-CoA acetoacetate transferase deficiency
+P2RY12	P2Y12 deficiency
+PABPN1	Oculopharyngeal muscular dystrophy
+PACRG	Young adult-onset Parkinsonism
+PAFAH1B1	17p13.3 microduplication syndrome
+PAFAH1B1	Lissencephaly due to LIS1 mutation
+PAFAH1B1	Miller-Dieker syndrome
+PAH	Phenylketonuria
+PAK3	X-linked nonsyndromic intellectual deficit
+PALB2	Familial pancreatic carcinoma
+PALB2	Fanconi anemia
+PALB2	Hereditary breast and ovarian cancer syndrome
+PANK2	Atypical pantothenate kinase associated neurodegeneration
+PANK2	Classic pantothenate kinase associated neurodegeneration
+PAPSS2	Spondyloepimetaphyseal dysplasia, Pakistani type
+PARK2	Young adult-onset Parkinsonism
+PARK7	Amyotrophic lateral sclerosis-parkinsonism-dementia complex
+PARK7	Young adult-onset Parkinsonism
+PAX2	Oligomeganephronia
+PAX2	Papillo-renal syndrome
+PAX3	Alveolar rhabdomyosarcoma
+PAX3	Craniofacial-deafness-hand syndrome
+PAX3	Waardenburg syndrome type 1
+PAX3	Waardenburg syndrome type 3
+PAX4	MODY syndrome
+PAX6	Aniridia - cerebellar ataxia - intellectual deficit
+PAX6	Foveal hypoplasia - presenile cataract
+PAX6	Hereditary keratitis
+PAX6	Isolated aniridia
+PAX6	Isolated optic nerve hypoplasia
+PAX6	Peters anomaly
+PAX6	WAGR syndrome
+PAX7	Alveolar rhabdomyosarcoma
+PAX8	Athyreosis
+PAX8	Thyroid hypoplasia
+PBX1	Precursor B-cell acute lymphoblastic leukemia
+PC	Pyruvate carboxylase deficiency
+PCBD1	Dehydratase deficiency
+PCCA	Propionic acidemia
+PCCB	Propionic acidemia
+PCDH15	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+PCDH15	Usher syndrome type 1
+PCDH19	Female restricted epilepsy with intellectual deficit
+PCK1	Phosphoenolpyruvate carboxykinase deficiency
+PCK2	Phosphoenolpyruvate carboxykinase deficiency
+PCM1	Papillary or follicular thyroid carcinoma
+PCNT	Microcephalic osteodysplastic primordial short stature type 2
+PCNT	Seckel syndrome
+PCSK1	Obesity due to prohormone convertase-I deficiency
+PCSK9	Benign familial hypobetalipoproteinemia
+PDCD10	Hereditary cerebral cavernous malformation
+PDE11A	Primary pigmented nodular adrenocortical disease
+PDE6A	Retinitis pigmentosa
+PDE6B	Congenital stationary night blindness
+PDE6B	Retinitis pigmentosa
+PDE6C	Achromatopsia
+PDE6C	Progressive cone dystrophy
+PDE6G	Retinitis pigmentosa
+PDE6H	Cone dystrophy with supernormal rod response
+PDE8B	Autosomal dominant striatal neurodegeneration
+PDE8B	Primary pigmented nodular adrenocortical disease
+PDGFB	Dermatofibrosarcoma protuberans
+PDGFB	Familial multiple meningioma
+PDGFRA	Gastrointestinal stromal tumor
+PDGFRA	Idiopathic hypereosinophilic syndrome
+PDGFRA	Myeloid neoplasm associated with PDGFRA rearrangement
+PDGFRA	Precursor B-cell acute lymphoblastic leukemia
+PDGFRB	Chronic myelomonocytic leukemia
+PDGFRB	Idiopathic hypereosinophilic syndrome
+PDGFRB	Myeloid neoplasm associated with PDGFRB rearrangement
+PDGFRB	Unclassified chronic myeloproliferative disease
+PDGFRL	Hereditary nonpolyposis colon cancer
+PDHA1	Leigh syndrome with cardiomyopathy
+PDHA1	Pyruvate dehydrogenase complex E1 component subunit alpha deficiency
+PDHB	Pyruvate dehydrogenase complex E1 component subunit beta deficiency
+PDHX	Pyruvate dehydrogenase protein X component deficiency
+PDP1	Pyruvate dehydrogenase phosphatase deficiency
+PDSS1	Deafness - encephaloneuropathy - obesity - valvulopathy
+PDSS2	Autosomal recessive ataxia due to ubiquinone deficiency
+PDSS2	Leigh syndrome with nephrotic syndrome
+PDX1	MODY syndrome
+PDX1	Partial pancreas agenesis
+PDX1	Permanent neonatal diabetes mellitus
+PDYN	Spinocerebellar ataxia type 23
+PDZD7	Usher syndrome type 2
+PEPD	Prolidase deficiency
+PER2	Familial advanced sleep-phase syndrome
+PEX1	Infantile Refsum disease
+PEX1	Neonatal adrenoleukodystrophy
+PEX1	Zellweger syndrome
+PEX10	Autosomal recessive ataxia due to PEX10 deficiency
+PEX10	Infantile Refsum disease
+PEX10	Neonatal adrenoleukodystrophy
+PEX10	Zellweger syndrome
+PEX12	Infantile Refsum disease
+PEX12	Neonatal adrenoleukodystrophy
+PEX12	Zellweger syndrome
+PEX13	Infantile Refsum disease
+PEX13	Neonatal adrenoleukodystrophy
+PEX13	Zellweger syndrome
+PEX14	Infantile Refsum disease
+PEX14	Neonatal adrenoleukodystrophy
+PEX14	Zellweger syndrome
+PEX16	Infantile Refsum disease
+PEX16	Neonatal adrenoleukodystrophy
+PEX16	Pseudo-Zellweger syndrome
+PEX16	Zellweger syndrome
+PEX19	Infantile Refsum disease
+PEX19	Neonatal adrenoleukodystrophy
+PEX19	Zellweger syndrome
+PEX2	Infantile Refsum disease
+PEX2	Neonatal adrenoleukodystrophy
+PEX2	Zellweger syndrome
+PEX26	Infantile Refsum disease
+PEX26	Neonatal adrenoleukodystrophy
+PEX26	Zellweger syndrome
+PEX3	Infantile Refsum disease
+PEX3	Neonatal adrenoleukodystrophy
+PEX3	Zellweger syndrome
+PEX5	Infantile Refsum disease
+PEX5	Neonatal adrenoleukodystrophy
+PEX5	Zellweger syndrome
+PEX6	Infantile Refsum disease
+PEX6	Neonatal adrenoleukodystrophy
+PEX6	Zellweger syndrome
+PEX7	Refsum disease
+PEX7	Rhizomelic chondrodysplasia punctata
+PFKM	Muscle phosphofructokinase deficiency
+PGAM2	Myopathy due to phosphoglycerate mutase deficiency
+PGK1	Phosphoglycerate kinase 1 deficiency
+PGM1	Glycogen storage disease type 14
+PHEX	X-linked hypophosphatemia
+PHF6	Borjeson-Forssman-Lehmann syndrome
+PHF8	Intellectual deficit, X-linked, Siderius type
+PHGDH	3-Phosphoglycerate dehydrogenase deficiency
+PHKA1	Glycogen storage disease due to muscle phosphorylase kinase deficiency
+PHKA2	Glycogen storage disease due to liver phosphorylase kinase deficiency
+PHKB	Glycogen storage disease due to liver and muscle phosphorylase kinase deficiency
+PHKG2	Glycogen storage disease due to liver phosphorylase kinase deficiency
+PHOX2A	Congenital fibrosis of extraocular muscles
+PHOX2B	Haddad syndrome
+PHOX2B	Neuroblastoma
+PHOX2B	Ondine syndrome
+PHYH	Refsum disease
+PIGA	Paroxysmal nocturnal hemoglobinuria
+PIGM	Hypercoagulability syndrome due to glycosylphosphatidylinositol deficiency
+PIGN	Multiple congenital anomalies - hypotonia - seizures syndrome
+PIGV	Hyperphosphatasia intellectual deficiency syndrome
+PIK3CA	Hereditary nonpolyposis colon cancer
+PIKFYVE	Corneal flecked dystrophy, Francois-Neetens type
+PINK1	Young adult-onset Parkinsonism
+PIP5K1C	Lethal congenital contracture syndrome type 3
+PITPNM3	Cone rod dystrophy
+PITX1	Tibial hemimelia - clubfoot
+PITX2	Axenfeld-Rieger syndrome
+PITX2	Peters anomaly
+PITX2	Rieger-Axenfeld anomaly
+PITX2	Ring dermoid of cornea
+PITX3	Cataract-glaucoma
+PITX3	Familial ocular anterior segment mesenchymal dysgenesis
+PITX3	Posterior polar cataract
+PKD1	Autosomal dominant polycystic kidney disease type 1 with tuberous sclerosis
+PKLR	Hemolytic anemia due to red cell pyruvate kinase deficiency
+PKP1	Ectodermal dysplasia - skin fragility syndrome
+PKP2	Familial isolated arrhythmogenic right ventricular dysplasia
+PLA2G6	Dystonia-parkinsonism, Paisan-Ruiz type
+PLA2G6	Infantile neuroaxonal dystrophy
+PLAGL1	Paternal uniparental disomy of chromosome 6
+PLAU	Quebec platelet disorder
+PLCB1	Early infantile epileptic encephalopathy
+PLCD1	Leukonychia totalis
+PLCE1	Esophageal squamous cell carcinoma
+PLCE1	Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis
+PLCE1	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+PLDN	Hermansky-Pudlak syndrome type 9
+PLEC	Autosomal recessive limb-girdle muscular dystrophy due to plectin deficiency
+PLEC	Epidermolysis bullosa simplex - limb girdle muscular dystrophy
+PLEC	Epidermolysis bullosa simplex - pyloric atresia
+PLEC	Epidermolysis bullosa simplex, Ogna type
+PLEKHG4	Spinocerebellar ataxia type 4
+PLEKHG5	Autosomal recessive lower motor neuron disease with childhood onset
+PLEKHM1	Intermediate osteopetrosis
+PLG	Hypoplasminogenemia
+PLG	Ligneous conjunctivitis
+PLIN1	Familial partial lipodystrophy associated with PLIN1 mutations
+PLN	Familial isolated dilated cardiomyopathy
+PLOD1	Ehlers-Danlos syndrome type 6A
+PLOD1	Nevo syndrome
+PLOD2	Bruck syndrome
+PLP1	Complicated spastic paraplegia type 2
+PLP1	Null syndrome
+PLP1	Pelizaeus-Merzbacher disease in female carriers
+PLP1	Pelizaeus-Merzbacher disease, classic form
+PLP1	Pelizaeus-Merzbacher disease, connatal form
+PLP1	Pelizaeus-Merzbacher disease, transitional form
+PLP1	Pure spastic paraplegia type 2
+PLP1	Spastic paraplegia type 2
+PML	Acute promyelocytic leukemia
+PMM2	CDG syndrome type Ia
+PMP22	Charcot-Marie-Tooth disease type 1A
+PMP22	Charcot-Marie-Tooth disease type 1E
+PMP22	Dejerine-Sottas syndrome
+PMP22	Hereditary neuropathy with liability to pressure palsies
+PMP22	Roussy-Levy syndrome
+PMS1	Hereditary nonpolyposis colon cancer
+PMS2	Hereditary nonpolyposis colon cancer
+PNKD	Paroxysmal non-kinesigenic dyskinesia
+PNKP	Microcephaly - seizures - developmental delay
+PNP	Purine nucleoside phosphorylase deficiency
+PNPLA2	Neutral lipid storage myopathy
+PNPLA6	Autosomal recessive spastic paraplegia type 39
+PNPO	Pyridoxal phosphate-responsive seizures
+POLG	Alpers syndrome
+POLG	Autosomal dominant progressive external ophthalmoplegia
+POLG	Autosomal recessive progressive external ophthalmoplegia
+POLG	Mitochondrial neurogastrointestinal encephalomyopathy
+POLG	Recessive mitochondrial ataxic syndrome
+POLG	Sensory ataxic neuropathy - dysarthria - ophthalmoparesis
+POLG	Spinocerebellar ataxia with epilepsy
+POLG2	Autosomal dominant progressive external ophthalmoplegia
+POLH	Xeroderma pigmentosum variant
+POLR1C	Treacher-Collins syndrome
+POLR1D	Treacher-Collins syndrome
+POLR3A	Hypomyelination - hypogonadotropic hypogonadism - hypodontia
+POLR3A	Odontoleukodystrophy
+POLR3B	Hypomyelination - hypogonadotropic hypogonadism - hypodontia
+POMC	Obesity due to pro-opiomelanocortin deficiency
+POMGNT1	Muscle eye brain disease
+POMGNT1	Walker-Warburg syndrome
+POMP	Keratosis linearis - ichthyosis congenita - sclerosing keratoderma
+POMT1	Autosomal recessive limb-girdle muscular dystrophy type 2K
+POMT1	Walker-Warburg syndrome
+POMT2	Autosomal recessive limb-girdle muscular dystrophy type 2N
+POMT2	Walker-Warburg syndrome
+PON1	Amyotrophic lateral sclerosis
+PON2	Amyotrophic lateral sclerosis
+PON3	Amyotrophic lateral sclerosis
+POP1	Anauxetic dysplasia
+POR	Antley-Bixler-like syndrome - ambiguous genitalia - disordered steroidogenesis
+POR	Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase deficiency
+PORCN	Focal dermal hypoplasia
+POU1F1	Combined pituitary hormone deficiencies, genetic forms
+POU1F1	Hypothyroidism due to deficient transcription factors involved in pituitary development or function
+POU3F4	Developmental delay - deafness, Hildebrand type
+POU3F4	Gusher syndrome
+POU4F3	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+POU6F2	Wilms tumor - radial bilateral aplasia
+PPARG	Familial partial lipodystrophy associated with PPARG mutations
+PPARG	Glioblastoma
+PPIB	Osteogenesis imperfecta type 2
+PPIB	Osteogenesis imperfecta type 3
+PPIB	Osteogenesis imperfecta type 4
+PPM1B	2p21 microdeletion syndrome
+PPOX	Porphyria variegata
+PPP2R2B	Spinocerebellar ataxia type 12
+PPT1	CLN1 disease
+PQBP1	Hamel cerebro-palato-cardiac syndrome
+PQBP1	Intellectual deficit, X-linked, Fichera type
+PQBP1	Intellectual deficit, X-linked, Porteous type
+PQBP1	X-linked intellectual deficit, Golabi-Ito-Hall type
+PQBP1	X-linked intellectual deficit, Sutherland-Haan type
+PRCC	Familial papillary renal cell carcinoma
+PRCD	Retinitis pigmentosa
+PRDM5	Brittle cornea syndrome
+PREPL	2p21 microdeletion syndrome
+PREPL	Atypical hypotonia - cystinuria syndrome
+PREPL	Hypotonia - cystinuria syndrome
+PRF1	Familial hemophagocytic lymphohistiocytosis
+PRF1	Idiopathic aplastic anemia
+PRG4	Camptodactyly-arthropathy-coxa-vara-pericarditis syndrome
+PRICKLE1	Unverricht-Lundborg disease
+PRKAR1A	Acrodysostosis with multiple hormone resistance
+PRKAR1A	Carney complex
+PRKAR1A	Familial atrial myxoma
+PRKAR1A	Primary pigmented nodular adrenocortical disease
+PRKCG	Spinocerebellar ataxia type 14
+PRKCSH	Polycystic liver disease
+PRKRA	Dystonia 16
+PRLR	Mammary polyadenomatosis
+PRNP	Creutzfeldt-Jakob disease
+PRNP	Familial prion disease Alzheimer-like
+PRNP	Fatal familial insomnia
+PRNP	Gerstmann-Straussler-Scheinker syndrome
+PRNP	Huntington disease-like 1
+PROC	Hereditary thrombophilia due to congenital protein C deficiency
+PRODH	Hyperprolinemia type 1
+PROK2	Kallmann syndrome
+PROK2	Normosmic congenital hypogonadotropic hypogonadism
+PROKR2	Kallmann syndrome
+PROKR2	Normosmic congenital hypogonadotropic hypogonadism
+PROM1	Cone rod dystrophy
+PROM1	Retinitis pigmentosa
+PROM1	Stargardt disease
+PROP1	Combined pituitary hormone deficiencies, genetic forms
+PROP1	Hypothyroidism due to deficient transcription factors involved in pituitary development or function
+PROP1	Panhypopituitarism
+PROS1	Hereditary thrombophilia due to congenital protein S deficiency
+PRPF3	Retinitis pigmentosa
+PRPF31	Retinitis pigmentosa
+PRPF6	Retinitis pigmentosa
+PRPF8	Retinitis pigmentosa
+PRPH	Amyotrophic lateral sclerosis
+PRPH2	Adult-onset foveomacular vitelliform dystrophy
+PRPH2	Butterfly-shaped pigment dystrophy
+PRPH2	Central areolar choroidal dystrophy
+PRPH2	Cone rod dystrophy
+PRPH2	Fundus albipunctatus
+PRPH2	Retinitis pigmentosa
+PRPH2	Retinitis punctata albescens
+PRPS1	Lethal ataxia with deafness and optic atrophy
+PRPS1	Phosphoribosylpyrophosphate synthetase superactivity
+PRPS1	X-linked Charcot-Marie-Tooth disease type 5
+PRPS1	X-linked nonsyndromic sensorineural deafness type DFN
+PRRX1	Agnathia - holoprosencephaly - situs inversus
+PRSS1	Hereditary chronic pancreatitis
+PRSS12	Autosomal recessive nonsyndromic intellectual deficit
+PRTN3	Wegener granulomatosis
+PRX	Charcot-Marie-Tooth disease type 4F
+PSAP	Encephalopathy due to prosaposin deficiency
+PSAP	Gaucher disease
+PSAP	Metachromatic leukodystrophy
+PSAT1	Phosphoserine aminotransferase deficiency
+PSEN1	Early-onset autosomal dominant Alzheimer disease
+PSEN1	Familial isolated dilated cardiomyopathy
+PSEN1	Frontotemporal dementia
+PSEN2	Early-onset autosomal dominant Alzheimer disease
+PSEN2	Familial isolated dilated cardiomyopathy
+PSMB8	Joint contractures - muscle atrophy - microcytic anemia -panniculitis-induced lipodystrophy
+PSPH	3-Phosphoserine phosphatase deficiency
+PSTPIP1	Pyogenic arthritis - pyoderma gangrenosum - acne
+PTCH1	Gorlin syndrome
+PTCH1	Holoprosencephaly
+PTCH2	Commissural facial cleft
+PTEN	Bannayan-Riley-Ruvalcaba syndrome
+PTEN	Cowden syndrome
+PTEN	Familial prostate cancer
+PTEN	Hereditary breast and ovarian cancer syndrome
+PTEN	Juvenile polyposis of infancy
+PTEN	Lhermitte-Duclos disease
+PTEN	Macrocephaly-autism syndrome
+PTEN	Proteus-like syndrome - intellectual deficit - eye defects
+PTEN	Segmental outgrowth - lipomatosis - arteriovenous malformation - epidermal nevus
+PTEN	Squamous cell carcinoma of head and neck
+PTF1A	Permanent neonatal diabetes mellitus - pancreatic and cerebellar agenesis
+PTH	Familial isolated hypoparathyroidism due to impaired PTH secretion
+PTH1R	Ankylosis of teeth
+PTH1R	Chondrodysplasia, Blomstrand type
+PTH1R	Eiken syndrome
+PTH1R	Enchondromatosis
+PTH1R	Maffucci syndrome
+PTH1R	Metaphyseal chondrodysplasia, Jansen type
+PTHLH	Brachydactyly type E
+PTPN11	LEOPARD syndrome
+PTPN11	Metachondromatosis
+PTPN11	Noonan syndrome
+PTPRC	Severe combined immunodeficiency T- B+ due to CD45 deficiency
+PTPRO	Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial proliferation
+PTPRO	Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis
+PTPRO	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+PTPRO	Familial idiopathic steroid-resistant nephrotic syndrome with minimal changes
+PTPRQ	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+PTRF	Generalized congenital lipodystrophy with myopathy
+PTS	6-pyruvoyl-tetrahydropterin synthase deficiency
+PUS1	Mitochondrial myopathy and sideroblastic anemia
+PVRL1	Zlotogora-Ogur syndrome
+PVRL4	Ectodermal dysplasia - syndactyly syndrome
+PXDN	Cataract-microcornea syndrome
+PXDN	Congenital glaucoma
+PYCR1	Autosomal recessive cutis laxa type 2
+PYCR1	De Barsy syndrome
+PYCR1	Geroderma osteodysplastica
+PYCR1	Wrinkly skin syndrome
+PYGL	Liver phosphorylase deficiency
+PYGM	Myophosphorylase deficiency
+QDPR	Dihydropteridine reductase deficiency
+RAB18	Micro syndrome
+RAB23	Carpenter syndrome
+RAB27A	Griscelli disease type 2
+RAB39B	X-linked nonsyndromic intellectual deficit
+RAB3GAP1	Micro syndrome
+RAB3GAP2	Cataract - intellectual deficit - hypogonadism
+RAB7A	Autosomal dominant Charcot-Marie-Tooth disease type 2B
+RAC2	Neutrophil immunodeficiency syndrome
+RAD50	Nijmegen breakage syndrome-like disorder
+RAD51	Hereditary breast and ovarian cancer syndrome
+RAD51C	Fanconi anemia
+RAD51C	Hereditary breast and ovarian cancer syndrome
+RAF1	LEOPARD syndrome
+RAF1	Noonan syndrome
+RAG1	Omenn syndrome
+RAG1	Primary immunodeficiency with skin granulomas
+RAG1	Severe combined immunodeficiency T+ B+ due to partial RAG1 deficiency
+RAG1	Severe combined immunodeficiency, alymphocytotic type
+RAG2	Omenn syndrome
+RAG2	Primary immunodeficiency with skin granulomas
+RAG2	Severe combined immunodeficiency, alymphocytotic type
+RAI1	17p11.2 microduplication syndrome
+RAI1	Smith-Magenis syndrome
+RANBP2	Familial acute necrotizing encephalopathy
+RAPSN	Fetal akinesia deformation sequence
+RAPSN	Lethal multiple pterygium syndrome
+RAPSN	Postsynaptic congenital myasthenic syndromes
+RARA	Acute promyelocytic leukemia
+RARS2	Pontocerebellar hypoplasia type 6
+RASA1	Capillary malformation-arteriovenous malformation
+RASA1	Parkes-Weber syndrome
+RAX	Isolated anophthalmia - microphthalmia
+RAX2	Cone rod dystrophy
+RB1	Retinoblastoma
+RBM10	TARP syndrome
+RBM20	Familial isolated dilated cardiomyopathy
+RBM28	ANE syndrome
+RBMY1A1	Partial chromosome Y deletion
+RD3	Congenital Leber amaurosis
+RDH12	Congenital Leber amaurosis
+RDH12	Retinitis pigmentosa
+RDH5	Fundus albipunctatus
+RDH5	Retinitis punctata albescens
+RDX	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+REEP1	Autosomal dominant spastic paraplegia type 31
+REG1A	Hereditary chronic pancreatitis
+RELN	Lissencephaly syndrome, Norman-Roberts type
+REN	Hyperuricemia - anemia - renal failure
+REN	Renal tubular dysgenesis of genetic origin
+RET	Bilateral renal agenesis
+RET	Bilateral renal dysplasia
+RET	Hirschsprung disease
+RET	Medullary thyroid carcinoma
+RET	Multiple endocrine neoplasia type 2A
+RET	Multiple endocrine neoplasia type 2B
+RET	Ondine syndrome
+RET	Papillary or follicular thyroid carcinoma
+RET	Unilateral renal dysplasia
+RFC2	Williams syndrome
+RFT1	CDG syndrome type In
+RFX5	Immunodeficiency by defective expression of HLA class 2
+RFXANK	Immunodeficiency by defective expression of HLA class 2
+RFXAP	Immunodeficiency by defective expression of HLA class 2
+RGR	Retinitis pigmentosa
+RGS9	Bradyopsia
+RGS9BP	Bradyopsia
+RHAG	Overhydrated hereditary stomatocytosis
+RHAG	Rh deficiency syndrome
+RHCE	Rh deficiency syndrome
+RHO	Congenital stationary night blindness
+RHO	Retinitis pigmentosa
+RHO	Retinitis punctata albescens
+RIMS1	Cone rod dystrophy
+RIN2	MACS syndrome
+RLBP1	Bothnia retinal dystrophy
+RLBP1	Fundus albipunctatus
+RLBP1	Retinitis pigmentosa
+RLBP1	Retinitis punctata albescens
+RNASEH2A	Aicardi-Goutieres syndrome
+RNASEH2B	Aicardi-Goutieres syndrome
+RNASEH2C	Aicardi-Goutieres syndrome
+RNASEL	Familial prostate cancer
+RNASET2	Cystic leukoencephalopathy without megalencephaly
+RNF135	17q11 microdeletion syndrome
+RNF135	Excessive growth - learning disabilities - facial dysmorphism
+RNF139	Familial renal cell carcinoma
+RNF213	Moyamoya disease
+ROBO3	Horizontal gaze palsy with progressive scoliosis
+ROM1	Retinitis pigmentosa
+ROR2	Autosomal recessive Robinow syndrome
+ROR2	Brachydactyly type B
+RP1	Retinitis pigmentosa
+RP11-566K11.2.1	Familial melanoma
+RP11-566K11.2.1	Oculocutaneous albinism type 2
+RP2	Retinitis pigmentosa
+RP4-559A3.7.1	Autosomal recessive cutis laxa type 2
+RP4-559A3.7.1	De Barsy syndrome
+RP4-559A3.7.1	Geroderma osteodysplastica
+RP4-559A3.7.1	Wrinkly skin syndrome
+RP9	Retinitis pigmentosa
+RPE65	Congenital Leber amaurosis
+RPE65	Retinitis pigmentosa
+RPGR	Achromatopsia
+RPGR	Cone rod dystrophy
+RPGR	Primary ciliary dyskinesia
+RPGR	Primary ciliary dyskinesia - retinitis pigmentosa
+RPGR	Retinitis pigmentosa
+RPGRIP1	Cone rod dystrophy
+RPGRIP1	Congenital Leber amaurosis
+RPGRIP1	Meckel syndrome
+RPGRIP1L	Joubert syndrome with hepatic defect
+RPGRIP1L	Joubert syndrome with renal defect
+RPGRIP1L	Meckel syndrome
+RPL11	Blackfan-Diamond disease
+RPL35A	Blackfan-Diamond disease
+RPL5	Blackfan-Diamond disease
+RPS10	Blackfan-Diamond disease
+RPS14	Myelodysplastic syndrome associated with isolated del(5q) chromosome abnormality
+RPS17	Blackfan-Diamond disease
+RPS19	Blackfan-Diamond disease
+RPS24	Blackfan-Diamond disease
+RPS26	Blackfan-Diamond disease
+RPS6KA3	Coffin-Lowry syndrome
+RPS6KA3	X-linked nonsyndromic intellectual deficit
+RPS7	Blackfan-Diamond disease
+RS1	X-linked retinoschisis
+RSPH4A	Primary ciliary dyskinesia
+RSPH9	Primary ciliary dyskinesia
+RSPO1	Palmoplantar keratoderma - XX sex reversal - predisposition to squamous cell carcinoma
+RSPO4	Congenital anonychia
+RTL1	Maternal uniparental disomy of chromosome 14
+RTL1	Paternal uniparental disomy of chromosome 14
+RUNX1	Chronic myeloid leukemia
+RUNX1	Familial platelet syndrome with predisposition to acute myelogenous leukemia
+RUNX1	Precursor B-cell acute lymphoblastic leukemia
+RUNX1T1	Acute myeloid leukemia with t(8;21)(q22;q22) translocation
+RUNX2	Cleidocranial dysplasia
+RYR1	Autosomal dominant centronuclear myopathy
+RYR1	Central core disease
+RYR1	Congenital multicore myopathy with external ophthalmoplegia
+RYR1	King-Denborough syndrome
+RYR1	Malignant hyperthermia
+RYR1	Multiminicore myopathy
+RYR2	Catecholinergic polymorphic ventricular tachycardia
+RYR2	Familial isolated arrhythmogenic right ventricular dysplasia
+SACS	Spastic ataxia, Charlevoix-Saguenay type
+SAG	Oguchi disease
+SAG	Retinitis pigmentosa
+SALL1	Townes-Brocks syndrome
+SALL4	Acro-renal-ocular syndrome
+SALL4	IVIC syndrome
+SALL4	Okihiro syndrome
+SALL4	Okihiro syndrome due to 20q13 microdeletion
+SAMD9	Tumoral calcinosis
+SAMHD1	Aicardi-Goutieres syndrome
+SAMHD1	Chilblain lupus
+SAR1B	Chylomicron retention disease
+SARDH	Sarcosinemia
+SART3	Disseminated superficial actinic porokeratosis
+SAT1	Keratosis follicularis spinulosa decalvans
+SATB2	2q32q33 microdeletion syndrome
+SATB2	2q33.1 microdeletion syndrome
+SATB2	Cleft lip/palate
+SBDS	Idiopathic aplastic anemia
+SBDS	Shwachman-Diamond syndrome
+SBF2	Charcot-Marie-Tooth disease type 4B2
+SC5DL	Lathosterolosis
+SCARB2	Action myoclonus - renal failure syndrome
+SCARB2	Unverricht-Lundborg disease
+SCARF2	Van den Ende-Gupta syndrome
+SCN1A	Dravet syndrome
+SCN1A	Familial or sporadic hemiplegic migraine
+SCN1A	Generalized epilepsy with febrile seizures-plus context
+SCN1B	Brugada syndrome
+SCN1B	Dravet syndrome
+SCN1B	Generalized epilepsy with febrile seizures-plus context
+SCN2A	Benign familial neonatal-infantile seizures
+SCN2A	Early infantile epileptic encephalopathy
+SCN2A	Generalized epilepsy with febrile seizures-plus context
+SCN3B	Brugada syndrome
+SCN4A	Acetazolamide-responsive myotonia
+SCN4A	Hyperkalemic periodic paralysis
+SCN4A	Hypokalemic periodic paralysis
+SCN4A	Myotonia fluctuans
+SCN4A	Myotonia permanens
+SCN4A	Paramyotonia congenita of Von Eulenburg
+SCN4A	Postsynaptic congenital myasthenic syndromes
+SCN4B	Romano-Ward syndrome
+SCN5A	Atrial cardiomyopathy with heart block
+SCN5A	Brugada syndrome
+SCN5A	Familial atrial fibrillation
+SCN5A	Familial isolated dilated cardiomyopathy
+SCN5A	Familial progressive cardiac conduction defect
+SCN5A	Idiopathic ventricular fibrillation, not Brugada type
+SCN5A	Romano-Ward syndrome
+SCN5A	Sick sinus syndrome
+SCN9A	Congenital insensitivity to pain
+SCN9A	Erythromelalgia
+SCN9A	Generalized epilepsy with febrile seizures-plus context
+SCN9A	Paroxysmal extreme pain disorder
+SCN9A	Primary erythermalgia
+SCNN1A	Generalized pseudohypoaldosteronism type 1
+SCNN1B	Generalized pseudohypoaldosteronism type 1
+SCNN1B	Liddle syndrome
+SCNN1G	Generalized pseudohypoaldosteronism type 1
+SCNN1G	Liddle syndrome
+SCO1	Fatal infantile cytochrome C oxidase deficiency
+SCO2	Fatal infantile cytochrome C oxidase deficiency
+SCO2	Leigh syndrome with cardiomyopathy
+SCP2	Leukoencephalopathy - dystonia - motor neuropathy
+SDCCAG8	Bardet-Biedl syndrome
+SDCCAG8	Senior-Loken syndrome
+SDHA	Familial isolated dilated cardiomyopathy
+SDHA	Hereditary pheochromocytoma-paraganglioma
+SDHA	Isolated succinate-CoQ reductase deficiency
+SDHA	Leigh syndrome with leukodystrophy
+SDHAF1	Isolated succinate-CoQ reductase deficiency
+SDHAF2	Hereditary pheochromocytoma-paraganglioma
+SDHB	Carney-Stratakis syndrome
+SDHB	Cowden syndrome
+SDHB	Hereditary pheochromocytoma-paraganglioma
+SDHC	Carney-Stratakis syndrome
+SDHC	Gastrointestinal stromal tumor
+SDHC	Hereditary pheochromocytoma-paraganglioma
+SDHD	Carney-Stratakis syndrome
+SDHD	Cowden syndrome
+SDHD	Hereditary pheochromocytoma-paraganglioma
+SEC23A	Craniolenticulosutural dysplasia
+SEC23B	Congenital dyserythropoietic anemia type 2
+SEC63	Polycystic liver disease
+SECISBP2	Short stature-delayed bone age due to thyroid hormone metabolism deficiency
+SEMA3E	CHARGE syndrome
+SEMA4A	Cone rod dystrophy
+SEMA4A	Retinitis pigmentosa
+SEMA5A	Monosomy 5p
+SEPN1	Congenital fiber-type disproportion myopathy
+SEPN1	Desmin-related myopathy with Mallory body-like inclusions
+SEPN1	Multiminicore myopathy
+SEPN1	Rigid spine syndrome
+SEPSECS	Pontocerebellar hypoplasia type 2
+SEPSECS	Progressive cerebello-cerebral atrophy
+SEPT9	Hereditary neuralgic amyotrophy
+SERPINA1	Alpha-1 antitrypsin deficiency
+SERPINA1	Hemorrhagic disease due to alpha-1 antitrypsin Pittsburgh mutation
+SERPINA6	Corticosteroid-binding globulin deficiency
+SERPINA7	Congenital isolated thyroxine-binding globulin deficiency
+SERPINB6	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+SERPINC1	Hereditary thrombophilia due to congenital antithrombin deficiency
+SERPINE1	Congenital plasminogen activator inhibitor type 1 deficiency
+SERPINF2	Congenital alpha2 antiplasmin deficiency
+SERPING1	Hereditary angioedema type 1
+SERPING1	Hereditary angioedema type 2
+SERPING1	Immunodeficiency due to an early component of complement deficiency
+SERPINH1	Osteogenesis imperfecta type 3
+SERPINI1	Familial encephalopathy with neuroserpin inclusion bodies
+SETBP1	Schinzel-Giedion syndrome
+SETX	Amyotrophic lateral sclerosis
+SETX	Spinocerebellar ataxia with axonal neuropathy type 2
+SFTPA1	Idiopathic pulmonary fibrosis
+SFTPA2	Idiopathic pulmonary fibrosis
+SFTPB	Congenital pulmonary alveolar proteinosis
+SFTPB	Infant acute respiratory distress syndrome
+SFTPB	Neonatal acute respiratory distress with surfactant metabolism deficiency
+SFTPC	Chronic respiratory distress with surfactant metabolism deficiency
+SFTPC	Congenital pulmonary alveolar proteinosis
+SFTPC	Desquamative interstitial pneumonia
+SFTPC	Idiopathic pulmonary fibrosis
+SFTPC	Infant acute respiratory distress syndrome
+SFTPC	Neonatal acute respiratory distress with surfactant metabolism deficiency
+SGCA	Autosomal recessive limb-girdle muscular dystrophy type 2D
+SGCB	Autosomal recessive limb-girdle muscular dystrophy type 2E
+SGCD	Autosomal recessive limb-girdle muscular dystrophy type 2F
+SGCD	Familial isolated dilated cardiomyopathy
+SGCE	Myoclonic dystonia
+SGCG	Autosomal recessive limb-girdle muscular dystrophy type 2C
+SGSH	CLN4B disease
+SGSH	Sanfilippo syndrome type A
+SH2D1A	X-linked lymphoproliferative disease
+SH3BP2	Cherubism
+SH3PXD2B	Frank-Ter Haar syndrome
+SH3TC2	Charcot-Marie-Tooth disease type 4C
+SHFM1	Split hand - split foot
+SHFM1	Split hand - split foot - deafness
+SHH	Colobomatous microphthalmia
+SHH	Familial triphalangeal thumbs - duplication of the big toes
+SHH	Holoprosencephaly
+SHH	Polydactyly of a triphalangeal thumb
+SHH	Schizencephaly
+SHH	Solitary median maxillary central incisor syndrome
+SHOC2	Noonan-like syndrome with loose anagen hair
+SHOX	Idiopathic short stature
+SHOX	Langer mesomelic dysplasia
+SHOX	Léri-Weill dyschondrosteosis
+SHROOM4	Intellectual deficit, X-linked, Stocco Dos Santos type
+SI	Congenital sucrase-isomaltase deficiency
+SIL1	Marinesco-Sjögren syndrome
+SIM1	Deletion 6q16 syndrome
+SIX1	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+SIX1	BOR syndrome
+SIX1	Branchio-otic syndrome
+SIX3	Holoprosencephaly
+SIX3	Schizencephaly
+SIX5	BOR syndrome
+SIX6	14q22q23 microdeletion syndrome
+SIX6	Microphthalmia - cataract
+SLC11A1	Tuberculosis
+SLC11A2	Microcytic anemia with liver iron overload
+SLC12A1	Antenatal Bartter syndrome
+SLC12A3	Gitelman syndrome
+SLC12A6	Corpus callosum agenesis - neuronopathy
+SLC16A1	Exercise-induced hyperinsulinism
+SLC16A1	Metabolic myopathy due to lactate transporter defect
+SLC16A12	Juvenile cataract - microcornea - renal glucosuria
+SLC16A2	Allan-Herndon-Dudley syndrome
+SLC16A2	Pelizaeus-Merzbacher-like due to SLC16A2 mutation
+SLC17A5	Free sialic acid storage disease
+SLC17A8	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+SLC19A2	Thiamine-responsive megaloblastic anemia syndrome
+SLC19A3	Biotin-responsive basal ganglia disease
+SLC19A3	Infantile spams - psychomotor retardation - progressive brain atrophy - basal ganglia disease
+SLC19A3	Thiamine-responsive encephalopathy
+SLC1A3	Alternating hemiplegia of childhood
+SLC1A3	Episodic ataxia type 6
+SLC22A12	Hereditary renal hypouricemia
+SLC22A5	Carnitine uptake deficiency
+SLC24A1	Congenital stationary night blindness
+SLC25A13	Citrullinemia type II
+SLC25A13	Neonatal intrahepatic cholestasis due to citrin deficiency
+SLC25A15	Triple H syndrome
+SLC25A19	Amish lethal microcephaly
+SLC25A19	Progressive demyelinating neuropathy with bilateral striatal necrosis
+SLC25A20	Carnitine-acylcarnitine translocase deficiency
+SLC25A22	Early infantile epileptic encephalopathy
+SLC25A22	Early myoclonic encephalopathy
+SLC25A3	Cardiomyopathy - hypotonia - lactic acidosis
+SLC25A38	Autosomal recessive pyridoxine-refractory sideroblastic anemia
+SLC25A4	Autosomal dominant progressive external ophthalmoplegia
+SLC26A2	Achondrogenesis type 1B
+SLC26A2	Atelosteogenesis type II
+SLC26A2	Diastrophic dwarfism
+SLC26A2	Multiple epiphyseal dysplasia type 4
+SLC26A3	Congenital chloride diarrhea
+SLC26A4	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+SLC26A4	Pendred syndrome
+SLC26A5	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+SLC27A4	Ichthyosis prematurity syndrome
+SLC29A3	Faisalabad histiocytosis
+SLC29A3	Familial sinus histiocytosis with massive lymphadenopathy
+SLC29A3	H syndrome
+SLC29A3	Pigmented hypertrichosis with insulin dependent diabetes mellitus syndrome
+SLC29A3	Sinus histiocytosis with massive lymphadenopathy
+SLC2A1	Childhood absence epilepsy
+SLC2A1	Epilepsy with myoclonic-astatic seizures
+SLC2A1	Episodic choreoathetosis/spasticity
+SLC2A1	Glucose transporter type 1 deficiency syndrome
+SLC2A1	Paroxysmal exertion-induced dyskinesia
+SLC2A10	Arterial tortuosity syndrome
+SLC2A2	Bickel-Fanconi glycogenosis
+SLC2A9	Hereditary renal hypouricemia
+SLC33A1	Autosomal dominant spastic paraplegia type 42
+SLC34A1	Dominant hypophosphatemia with nephrolithiasis or osteoporosis
+SLC34A1	Primary Fanconi syndrome
+SLC34A2	Pulmonary alveolar microlithiasis
+SLC34A3	Hypophosphatemic rickets with hypercalciuria
+SLC35A1	CDG syndrome type IIf
+SLC35C1	Leukocyte adhesion deficiency type II
+SLC35D1	Schneckenbecken dysplasia
+SLC36A2	Iminoglycinuria
+SLC39A13	Ehlers-Danlos syndrome, spondylocheiro dysplastic type
+SLC39A4	Acrodermatitis enteropathica, zinc deficiency type
+SLC3A1	2p21 microdeletion syndrome
+SLC3A1	Atypical hypotonia - cystinuria syndrome
+SLC3A1	Cystinuria
+SLC3A1	Hypotonia - cystinuria syndrome
+SLC40A1	Hemochromatosis type 4
+SLC44A4	Congenital sialidosis type 2
+SLC44A4	Juvenile sialidosis type 2
+SLC44A4	Sialidosis type 1
+SLC45A2	Oculocutaneous albinism type 4
+SLC46A1	Hereditary folate malabsorption
+SLC4A1	Distal renal tubular acidosis
+SLC4A1	Hereditary elliptocytosis
+SLC4A1	Hereditary spherocytosis
+SLC4A11	Congenital hereditary endothelial dystrophy
+SLC4A11	Corneal dystrophy - perceptive deafness
+SLC4A11	Fuchs endothelial corneal dystrophy
+SLC4A3	Distal renal tubular acidosis
+SLC4A3	Hereditary elliptocytosis
+SLC4A3	Hereditary spherocytosis
+SLC4A4	Proximal renal tubular acidosis with ocular abnormalities and intellectual deficit
+SLC5A1	Glucose-galactose malabsorption
+SLC5A2	Renal glucosuria
+SLC5A5	Familial thyroid dyshormonogenesis
+SLC6A18	Iminoglycinuria
+SLC6A19	Hartnup syndrome
+SLC6A19	Iminoglycinuria
+SLC6A20	Iminoglycinuria
+SLC6A3	Infantile dystonia-parkinsonism
+SLC6A5	Hereditary hyperekplexia
+SLC6A8	X-linked creatine transporter deficiency
+SLC7A7	Lysinuric protein intolerance
+SLC7A9	Cystinuria
+SLC9A3R1	Dominant hypophosphatemia with nephrolithiasis or osteoporosis
+SLC9A6	Intellectual deficit, X-linked, South African type
+SLCO5A1	8q13 microdeletion syndrome
+SLURP1	Mal de Meleda
+SLX4	Fanconi anemia
+SMAD3	Aneurysm - osteoarthritis syndrome
+SMAD4	Familial pancreatic carcinoma
+SMAD4	Juvenile gastrointestinal polyposis
+SMAD4	Rendu-Osler-Weber disease
+SMAD9	Idiopathic and/or familial pulmonary arterial hypertension
+SMARCA4	Familial rhabdoid tumor
+SMARCAL1	Schimke immuno-osseous dysplasia
+SMARCB1	Familial multiple meningioma
+SMARCB1	Familial rhabdoid tumor
+SMARCB1	Neurofibromatosis type 3
+SMARCB1	Rhabdoid tumor
+SMC1A	Cornelia de Lange syndrome
+SMC3	Cornelia de Lange syndrome
+SMN1	Neurogenic arthrogryposis multiplex congenita
+SMN1	Proximal spinal muscular atrophy type 1
+SMN1	Proximal spinal muscular atrophy type 2
+SMN1	Proximal spinal muscular atrophy type 3
+SMN1	Proximal spinal muscular atrophy type 4
+SMN2	Neurogenic arthrogryposis multiplex congenita
+SMN2	Proximal spinal muscular atrophy type 1
+SMN2	Proximal spinal muscular atrophy type 2
+SMN2	Proximal spinal muscular atrophy type 3
+SMN2	Proximal spinal muscular atrophy type 4
+SMOC1	Microphthalmia with limb anomalies
+SMPD1	Niemann-Pick disease type A
+SMPD1	Niemann-Pick disease type B
+SMPX	X-linked nonsyndromic sensorineural deafness type DFN
+SMS	Intellectual deficit, X-linked, Snyder type
+SNAI2	Piebaldism
+SNAI2	Waardenburg syndrome type 2
+SNAP29	CEDNIK syndrome
+SNCA	Lewy body dementia
+SNCA	Young adult-onset Parkinsonism
+SNCB	Lewy body dementia
+SNRNP200	Retinitis pigmentosa
+SNRPN	Prader-Willi syndrome
+SNTA1	Romano-Ward syndrome
+SNURF	Prader-Willi syndrome
+SNX3	MMEP syndrome
+SOD1	Amyotrophic lateral sclerosis
+SOS1	Autosomal dominant gingival fibromatosis
+SOS1	Noonan syndrome
+SOST	Craniodiaphyseal dysplasia
+SOST	Hyperostosis corticalis generalisata
+SOST	Sclerosteosis
+SOX10	Deaf blind hypopigmentation syndrome, Yemenite type
+SOX10	Neurologic Waardenburg-Shah syndrome
+SOX10	Waardenburg-Shah syndrome
+SOX18	Hypotrichosis - lymphedema - telangiectasia
+SOX2	Anophthalmia/microphthalmia - esophageal atresia
+SOX2	Septo-optic dysplasia
+SOX3	Panhypopituitarism
+SOX3	Septo-optic dysplasia
+SOX3	X-linked congenital generalized hypertrichosis
+SOX3	X-linked intellectual deficit with isolated growth hormone deficiency
+SOX9	Campomelic dysplasia
+SP110	Hepatic veno-occlusive disease - immunodeficiency
+SP7	Osteogenesis imperfecta type 4
+SPAST	Autosomal dominant spastic paraplegia type 4
+SPATA7	Congenital Leber amaurosis
+SPATA7	Retinitis pigmentosa
+SPECC1L	Commissural facial cleft
+SPECC1L	Tessier number 4 facial cleft
+SPG11	Autosomal recessive spastic paraplegia type 11
+SPG20	Autosomal recessive spastic paraplegia type 20
+SPG21	Autosomal recessive spastic paraplegia type 21
+SPG7	Autosomal recessive spastic paraplegia type 7
+SPIB	Primary biliary cirrhosis
+SPINK1	Hereditary chronic pancreatitis
+SPINK5	Netherton syndrome
+SPINT2	Congenital sodium diarrhea
+SPR	Dopa responsive dystonia due to sepiapterin reductase deficiency
+SPRED1	Legius syndrome
+SPTA1	Common hereditary elliptocytosis
+SPTA1	Hereditary elliptocytosis
+SPTA1	Hereditary pyropoikilocytosis
+SPTA1	Hereditary spherocytosis
+SPTAN1	Early infantile epileptic encephalopathy
+SPTB	Hereditary spherocytosis
+SPTBN2	Spinocerebellar ataxia type 5
+SPTLC1	Hereditary sensory and autonomic neuropathy type 1
+SPTLC2	Hereditary sensory and autonomic neuropathy type 1
+SRD5A3	Al-Gazali-Dattani syndrome
+SRD5A3	Intellectual deficit, Kahrizi type
+SRPX2	Benign familial epilepsy of childhood with rolandic spikes
+SRPX2	Bilateral perisylvian polymicrogyria
+SRPX2	Rolandic epilepsy - speech dyspraxia
+SRY	45,X/46,XY mixed gonadal dysgenesis
+SRY	46,XX testicular disorder of sex development
+SRY	46,XY complete gonadal dysgenesis
+SRY	46,XY partial gonadal dysgenesis
+SRY	Bilateral anorchia
+SS18	Synovialosarcoma
+SSTR5	Acromegaly
+SSX1	Synovialosarcoma
+SSX2	Synovialosarcoma
+SSX2B	Synovialosarcoma
+SSX2IP	Synovialosarcoma
+ST14	Ichthyosis hypotrichosis syndrome
+ST3GAL5	Amish infantile epilepsy syndrome
+STAR	Congenital lipoid adrenal hyperplasia
+STAT1	Chronic mucocutaneous candidiasis
+STAT1	Mendelian susceptibility to atypical mycobacteria
+STAT3	Autosomal dominant hyper IgE syndrome
+STAT5B	Laron syndrome with immunodeficiency
+STIL	Autosomal recessive primary microcephaly
+STIL	Precursor T-cell acute lymphoblastic leukemia
+STIM1	Severe combined immunodeficiency due to CRAC channel dysfunction
+STK11	Peutz-Jeghers syndrome
+STRA6	Matthew-Wood syndrome
+STRC	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+STRC	Deafness-infertility syndrome
+STS	Nonsyndromic X-linked ichthyosis
+STX11	Familial hemophagocytic lymphohistiocytosis
+STXBP1	Early infantile epileptic encephalopathy
+STXBP2	Familial hemophagocytic lymphohistiocytosis
+SUCLA2	Mitochondrial DNA depletion syndrome, encephalomyopathic form with methylmalonic aciduria
+SUCLG1	Fatal infantile lactic acidosis with methylmalonic aciduria
+SUFU	Desmoplastic/nodular medulloblastoma
+SUFU	Medulloblastoma with extensive nodularity
+SULF1	8q13 microdeletion syndrome
+SUMF1	Multiple sulfatase deficiency
+SUOX	Encephalopathy due to sulfite oxidase deficiency
+SURF1	Fatal infantile cytochrome C oxidase deficiency
+SURF1	Leigh syndrome with cardiomyopathy
+SURF1	Leigh syndrome with leukodystrophy
+SUZ12	17q11 microdeletion syndrome
+SYCP3	Male infertility with normal virilization due to meiosis defect
+SYN1	X-linked epilepsy - learning disabilities - behavior disorders
+SYNE1	Arthrogryposis multiplex congenita
+SYNE1	Autosomal dominant Emery-Dreifuss muscular dystrophy
+SYNE1	Autosomal recessive ataxia, Beauce type
+SYNE2	Autosomal dominant Emery-Dreifuss muscular dystrophy
+SYNGAP1	Autosomal dominant nonsyndromic intellectual deficit
+SYP	X-linked nonsyndromic intellectual deficit
+SYT14	Autosomal recessive cerebellar ataxia - psychomotor retardation
+T	Caudal regression sequence
+T	Isolated spina bifida
+TAC3	Normosmic congenital hypogonadotropic hypogonadism
+TACO1	Leigh syndrome with cardiomyopathy
+TACR3	Normosmic congenital hypogonadotropic hypogonadism
+TACSTD2	Gelatinous drop-like corneal dystrophy
+TAF1	X-linked dystonia-parkinsonism
+TAL1	Precursor T-cell acute lymphoblastic leukemia
+TALDO1	Transaldolase deficiency
+TAP1	Immunodeficiency by defective expression of HLA class 1
+TAP2	Immunodeficiency by defective expression of HLA class 1
+TAP2	Immunodeficiency by defective expression of HLA class 2
+TAPBP	Immunodeficiency by defective expression of HLA class 1
+TARDBP	Amyotrophic lateral sclerosis
+TARDBP	Frontotemporal dementia
+TARDBP	Frontotemporal dementia with motor neuron disease
+TAT	Tyrosinemia type 2
+TAZ	Barth syndrome
+TAZ	Familial isolated dilated cardiomyopathy
+TAZ	Left ventricular noncompaction
+TBC1D24	Myoclonic epilepsy of infancy
+TBCE	Autosomal recessive Kenny-Caffey syndrome
+TBCE	Sanjad-Sakati syndrome
+TBL2	Williams syndrome
+TBP	Spinocerebellar ataxia type 17
+TBX1	22q11.2 microduplication syndrome
+TBX1	Conotruncal heart malformations
+TBX1	Double outlet right ventricle
+TBX1	Monosomy 22q11
+TBX15	Pelviscapular dysplasia
+TBX19	Congenital isolated ACTH deficiency
+TBX2	17q23.1q23.2 microdeletion syndrome
+TBX20	Atrial septal defect, ostium secundum type
+TBX22	Cleft hard  palate
+TBX22	Submucosal cleft palate
+TBX3	Ulnar-mammary syndrome
+TBX4	17q23.1q23.2 microdeletion syndrome
+TBX4	Coxo-podo-patellar syndrome
+TBX5	Holt-Oram syndrome
+TBXAS1	Bleeding diathesis due to thromboxane synthesis deficiency
+TBXAS1	Ghosal hematodiaphyseal dysplasia
+TCAP	Autosomal recessive limb-girdle muscular dystrophy type 2G
+TCAP	Familial isolated dilated cardiomyopathy
+TCF3	Precursor B-cell acute lymphoblastic leukemia
+TCF4	Pallister-Hall syndrome
+TCF4	Pitt-Hopkins syndrome
+TCIRG1	Autosomal recessive malignant osteopetrosis
+TCN2	Transcobalamin II deficiency
+TCOF1	Treacher-Collins syndrome
+TCTN1	Joubert syndrome
+TCTN2	Joubert syndrome
+TCTN2	Meckel syndrome
+TDGF1	Holoprosencephaly
+TEAD1	Helicoid peripapillary chorioretinal degeneration
+TECR	Autosomal recessive nonsyndromic intellectual deficit
+TECTA	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+TECTA	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+TEK	Mucocutaneous venous malformations
+TERT	Dyskeratosis congenita
+TERT	Idiopathic aplastic anemia
+TERT	Idiopathic pulmonary fibrosis
+TET2	Acute myeloid leukemia with multilineage dysplasia
+TET2	Essential thrombocythemia
+TET2	Idiopathic acquired sideroblastic anemia
+TET2	Myelofibrosis with myeloid metaplasia
+TET2	Polycythemia vera
+TET2	Refractory anemia
+TET2	Refractory anemia with excess blasts
+TF	Atransferrinemia
+TFAP2A	Branchio-oculo-facial syndrome
+TFAP2B	Char syndrome
+TFB1M	Mitochondrial nonsyndromic sensorineural deafness
+TFE3	Alveolar soft-part sarcoma
+TFE3	Familial papillary renal cell carcinoma
+TFG	Papillary or follicular thyroid carcinoma
+TFR2	Hemochromatosis type 3
+TGFB1	Camurati-Engelmann disease
+TGFB1	Corneal dystrophy, Avellino type
+TGFB2	Peters anomaly
+TGFB3	Familial isolated arrhythmogenic right ventricular dysplasia
+TGFBI	Corneal dystrophy, Avellino type
+TGFBI	Corneal dystrophy, Groenouw type
+TGFBI	Corneal dystrophy, Reis-Buckler type
+TGFBI	Corneal dystrophy, Thiel-Behnke type
+TGFBI	Lattice corneal dystrophy type 1
+TGFBI	Lattice corneal dystrophy type 3a
+TGFBI	Microcystic corneal dystrophy
+TGFBR1	Familial thoracic aortic aneurysm
+TGFBR1	Loeys-Dietz syndrome type 1
+TGFBR1	Multiple keratoacanthoma, Ferguson-Smith type
+TGFBR2	Aortic dilatation - joint hypermobility - arterial tortuosity
+TGFBR2	Familial thoracic aortic aneurysm
+TGFBR2	Hereditary nonpolyposis colon cancer
+TGFBR2	Loeys-Dietz syndrome type 1
+TGFBR2	Marfan syndrome type 2
+TGIF1	Holoprosencephaly
+TGM1	Acral self-healing collodion baby
+TGM1	Bathing suit ichthyosis
+TGM1	Congenital nonbullous ichthyosiform erythroderma
+TGM1	Self-healing collodion baby
+TGM5	Generalized peeling skin syndrome type A
+TGM6	Spinocerebellar ataxia type 35
+TH	Autosomal recessive dopa-responsive dystonia
+THAP1	Primary dystonia, DYT6 type
+THBD	Atypical hemolytic uremic syndrome with thrombomodulin anomaly
+THBD	Familial thrombomodulin anomalies
+THPO	Familial thrombocytosis
+THRB	Generalized resistance to thyroid hormone
+THRB	Peripheral resistance to thyroid hormones
+THRB	Selective pituitary resistance to thyroid hormone
+TIMM8A	Deafness - opticoacoustic nerve atrophy - dementia
+TIMM8A	Mohr-Tranebjaerg syndrome
+TIMP3	Sorsby's fundus dystrophy
+TINF2	Dyskeratosis congenita
+TINF2	Retinopathy - anemia- central nervous system anomalies
+TJP2	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+TJP2	Familial hypercholanemia
+TK2	Mitochondrial DNA depletion syndrome, myopathic form
+TLL1	Atrial septal defect, ostium primum type
+TLL1	Atrial septal defect, ostium secundum type
+TLR3	Herpetic encephalitis
+TMC1	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+TMC1	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+TMC6	Epidermodysplasia verruciformis
+TMC8	Epidermodysplasia verruciformis
+TMCO1	TMCO1 defect syndrome
+TMEM114	Microphthalmia - cataract
+TMEM126A	Autosomal recessive optic atrophy, OPA7 type
+TMEM127	Hereditary pheochromocytoma-paraganglioma
+TMEM185A	FRAXF syndrome
+TMEM216	Joubert syndrome with oculorenal defect
+TMEM216	Joubert syndrome with orofaciodigital defect
+TMEM216	Meckel syndrome
+TMEM43	Autosomal dominant Emery-Dreifuss muscular dystrophy
+TMEM43	Familial isolated arrhythmogenic right ventricular dysplasia
+TMEM67	Bardet-Biedl syndrome
+TMEM67	Joubert syndrome
+TMEM67	Joubert syndrome with hepatic defect
+TMEM67	Meckel syndrome
+TMEM67	Senior-Boichis syndrome
+TMEM70	Isolated ATP synthase deficiency
+TMEM70	Mitochondrial encephalo-cardio-myopathy due to TMEM70 deficiency
+TMIE	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+TMPO	Familial isolated dilated cardiomyopathy
+TMPRSS15	Congenital enteropathy due to enteropeptidase deficiency
+TMPRSS3	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+TMPRSS6	IRIDA syndrome
+TNFRSF10B	Squamous cell carcinoma of head and neck
+TNFRSF11A	Autosomal recessive malignant osteopetrosis
+TNFRSF11A	Familial expansile osteolysis
+TNFRSF11A	Osteopetrosis - hypogammaglobulinemia
+TNFRSF11B	Juvenile Paget's disease
+TNFRSF13B	Common variable immunodeficiency due to TNFR deficiency
+TNFRSF13C	Common variable immunodeficiency due to TNFR deficiency
+TNFRSF1A	TRAPS syndrome
+TNFSF11	Autosomal recessive malignant osteopetrosis
+TNNC1	Familial isolated dilated cardiomyopathy
+TNNI2	Sheldon-Hall syndrome
+TNNI3	Familial isolated dilated cardiomyopathy
+TNNI3	Familial restrictive cardiomyopathy type 1
+TNNT1	Amish nemaline myopathy
+TNNT2	Familial isolated dilated cardiomyopathy
+TNNT2	Familial restrictive cardiomyopathy type 3
+TNNT2	Left ventricular noncompaction
+TNNT3	Sheldon-Hall syndrome
+TNPO3	Primary biliary cirrhosis
+TOPORS	Retinitis pigmentosa
+TOR1A	Early onset torsion dystonia
+TOR1A	Myoclonic dystonia
+TP53	Chronic B-cell lymphocytic leukemia
+TP53	Familial pancreatic carcinoma
+TP53	Glioblastoma
+TP53	Li-Fraumeni syndrome
+TP53	Papilloma of choroid plexus
+TP63	ADULT syndrome
+TP63	Ankyloblepharon - ectodermal defects - cleft lip/palate
+TP63	EEC syndrome
+TP63	Limb-mammary syndrome
+TP63	Split hand - split foot
+TPI1	Triose phosphate-isomerase deficiency
+TPM1	Familial isolated dilated cardiomyopathy
+TPM1	Left ventricular noncompaction
+TPM2	Cap myopathy
+TPM2	Digitotalar dysmorphism
+TPM2	Escobar syndrome
+TPM2	Mild nemaline myopathy
+TPM2	Sheldon-Hall syndrome
+TPM2	Typical nemaline myopathy
+TPM3	Congenital fiber-type disproportion myopathy
+TPM3	Intermediate nemaline myopathy
+TPM3	Mild nemaline myopathy
+TPMT	Thiopurine S-methyltransferase deficiency
+TPO	Familial thyroid dyshormonogenesis
+TPP1	CLN2 disease
+TPR	Papillary or follicular thyroid carcinoma
+TPRN	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+TRAPPC9	Autosomal recessive nonsyndromic intellectual deficit
+TREH	Diarrhea-vomiting due to trehalase deficiency
+TREM2	Polycystic lipomembranous osteodysplasia - sclerosing leukoencephalopathy
+TREX1	Aicardi-Goutieres syndrome
+TREX1	Cerebroretinal vasculopathy
+TREX1	Chilblain lupus
+TREX1	HERNS syndrome
+TREX1	Hereditary vascular retinopathy
+TRH	Resistance to thyrotropin-releasing hormone syndrome
+TRHR	Resistance to thyrotropin-releasing hormone syndrome
+TRIM24	Papillary or follicular thyroid carcinoma
+TRIM27	Papillary or follicular thyroid carcinoma
+TRIM32	Autosomal recessive limb-girdle muscular dystrophy type 2H
+TRIM32	Bardet-Biedl syndrome
+TRIM33	Papillary or follicular thyroid carcinoma
+TRIM37	MULIBREY nanism
+TRIOBP	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+TRIP11	Achondrogenesis type 1A
+TRMU	Acute infantile liver failure due to mtDNA-encoded proteins synthesis defect
+TRMU	Mitochondrial nonsyndromic sensorineural deafness
+TRPC6	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+TRPM1	Congenital stationary night blindness
+TRPM4	Familial progressive cardiac conduction defect
+TRPM6	Hypomagnesemia caused by selective magnesium malabsorption
+TRPM7	Amyotrophic lateral sclerosis-parkinsonism-dementia complex
+TRPS1	Langer-Giedion syndrome
+TRPS1	Trichorhinophalangeal syndrome type 1 and 3
+TSC1	Isolated focal cortical dysplasia
+TSC1	Lymphangioleiomyomatosis
+TSC1	Tuberous sclerosis
+TSC2	Autosomal dominant polycystic kidney disease type 1 with tuberous sclerosis
+TSC2	Lymphangioleiomyomatosis
+TSC2	Tuberous sclerosis
+TSEN2	Pontocerebellar hypoplasia type 2
+TSEN34	Pontocerebellar hypoplasia type 2
+TSEN54	Pontocerebellar hypoplasia type 2
+TSEN54	Pontocerebellar hypoplasia type 4
+TSEN54	Pontocerebellar hypoplasia type 5
+TSFM	Fatal mitochondrial disease due to combined oxidative phosphorylation deficiency 3
+TSHB	Isolated thyroid-stimulating hormone deficiency
+TSHR	Athyreosis
+TSHR	Familial gestational hyperthyroidism
+TSHR	Familial hyperthyroidism due to mutations in TSH receptor
+TSHR	Hypothyroidism due to TSH receptor mutations
+TSHR	Thyroid hypoplasia
+TSPAN12	Familial exudative vitreoretinopathy
+TSPAN7	X-linked nonsyndromic intellectual deficit
+TSPYL1	Sudden infant death - dysgenesis of the testes
+TTBK2	Spinocerebellar ataxia type 11
+TTC19	Isolated CoQ-cytochrome C reductase deficiency
+TTC21B	Infantile autosomal recessive medullary cystic kidney disease
+TTC21B	Jeune syndrome
+TTC37	Syndromic diarrhea
+TTC8	Bardet-Biedl syndrome
+TTC8	Retinitis pigmentosa
+TTPA	Friedreich-like ataxia with selective vitamin E deficiency
+TTR	Familial amyloid polyneuropathy
+TTR	Transthyretin-related familial amyloid cardiomyopathy
+TUBA1A	Lissencephaly due to TUBA1A mutation
+TUBA8	Polymicrogyria with optic nerve hypoplasia
+TUBB1	Autosomal dominant macrothrombocytopenia
+TUBB2B	Unilateral hemispheric polymicrogyria
+TUBB3	Congenital fibrosis of extraocular muscles
+TUFM	Combined oxidative phosphorylation defect type 4
+TULP1	Congenital Leber amaurosis
+TULP1	Retinitis pigmentosa
+TUSC3	Autosomal recessive nonsyndromic intellectual deficit
+TWIST1	Isolated brachycephaly
+TWIST1	Isolated scaphocephaly
+TWIST1	Saethre-Chotzen syndrome
+TWIST2	Facial ectodermal dysplasia
+TXNDC3	Primary ciliary dyskinesia
+TYK2	Autosomal recessive hyper IgE syndrome
+TYK2	Mendelian susceptibility to atypical mycobacteria
+TYMP	Mitochondrial neurogastrointestinal encephalomyopathy
+TYR	Oculocutaneous albinism type 1A
+TYR	Oculocutaneous albinism type 1B
+TYR	Waardenburg syndrome type 2
+TYROBP	Polycystic lipomembranous osteodysplasia - sclerosing leukoencephalopathy
+TYRP1	Oculocutaneous albinism type 3
+UBA1	X-linked distal arthrogryposis multiplex congenita
+UBE2A	Intellectual deficit, X-linked, Nascimento type
+UBE3A	Angelman syndrome
+UBE3A	Angelman syndrome due to maternal 15q11q13 deletion
+UBIAD1	Schnyder's crystalline corneal dystrophy
+UBQLN2	Amyotrophic lateral sclerosis
+UBR1	Johanson-Blizzard syndrome
+UCHL1	Young adult-onset Parkinsonism
+UFD1L	Monosomy 22q11
+UGT1A1	Crigler-Najjar syndrome type 1
+UGT1A1	Crigler-Najjar syndrome type 2
+UGT1A1	Transient familial neonatal hyperbilirubinemia
+UMOD	Autosomal dominant medullary cystic kidney disease with or without hyperuricemia
+UMOD	Familial juvenile hyperuricemic nephropathy type 1
+UMPS	Hereditary orotic aciduria
+UNC119	Cone rod dystrophy
+UNC13D	Familial hemophagocytic lymphohistiocytosis
+UNC93B1	Herpetic encephalitis
+UNG	Hyper-IgM syndrome type 5
+UPB1	Beta-ureidopropionase deficiency
+UPF3B	Marfanoid habitus - intellectual deficit, X-linked
+UPF3B	X-linked nonsyndromic intellectual deficit
+UPK3A	Bilateral renal agenesis
+UQCRB	Isolated CoQ-cytochrome C reductase deficiency
+UQCRQ	Isolated CoQ-cytochrome C reductase deficiency
+UROC1	Urocanic aciduria
+UROD	Porphyria cutanea tarda
+UROS	Congenital erythropoietic porphyria
+USH1C	Autosomal recessive nonsyndromic sensorineural deafness type DFNB
+USH1C	Usher syndrome type 1
+USH1G	Usher syndrome type 1
+USH2A	Retinitis pigmentosa
+USH2A	Usher syndrome type 2
+USP9Y	Partial chromosome Y deletion
+VANGL1	Caudal regression sequence
+VANGL1	Familial caudal dysgenesis
+VAPB	Adult-onset proximal spinal muscular atrophy, autosomal dominant
+VAPB	Amyotrophic lateral sclerosis
+VCAN	Wagner disease
+VCL	Familial isolated dilated cardiomyopathy
+VCP	Amyotrophic lateral sclerosis
+VCP	Inclusion body myopathy with Paget disease of bone and frontotemporal dementia
+VDR	Hypocalcemic rickets
+VDR	Vitamin D resistant rickets
+VHL	Chuvash erythrocytosis
+VHL	Von Hippel-Lindau disease
+VIM	Pulverulent cataract
+VKORC1	Hereditary combined deficiency of vitamin K-dependent clotting factors
+VLDLR	Dysequilibrium syndrome
+VMA21	X-linked myopathy with excessive autophagy
+VPS13A	Choreoacanthocytosis
+VPS13B	Cohen syndrome
+VPS13B	Cutis verticis gyrata - retinitis pigmentosa - sensorineural deafness
+VPS33B	Arthrogryposis - renal dysfunction - cholestasis
+VPS35	Young adult-onset Parkinsonism
+VRK1	Pontocerebellar hypoplasia type 1
+VSX2	Colobomatous microphthalmia
+VSX2	Isolated anophthalmia - microphthalmia
+VSX2	Microphthalmia - cataract
+VWF	Von Willebrand disease type 1
+VWF	Von Willebrand disease type 2A
+VWF	Von Willebrand disease type 2B
+VWF	Von Willebrand disease type 2M
+VWF	Von Willebrand disease type 2N
+VWF	Von Willebrand disease type 3
+WAS	Wiskott-Aldrich syndrome
+WAS	X-linked severe congenital neutropenia
+WAS	X-linked thrombocytopenia with normal platelets
+WBSCR16	Williams syndrome
+WBSCR22	Williams syndrome
+WBSCR27	Williams syndrome
+WDPCP	Bardet-Biedl syndrome
+WDPCP	Meckel syndrome
+WDR11	Kallmann syndrome
+WDR11	Normosmic congenital hypogonadotropic hypogonadism
+WDR35	Sensenbrenner syndrome
+WDR35	Short rib-polydactyly syndrome, Verma-Naumoff type
+WDR36	Hereditary glaucoma
+WDR62	Autosomal recessive primary microcephaly
+WDR62	Pachygyria - intellectual deficit - epilepsy
+WDR72	Hypomaturation amelogenesis imperfecta
+WFS1	Autosomal dominant nonsyndromic sensorineural deafness type DFNA
+WFS1	Wolfram syndrome
+WHSC1	Wolf-Hirschhorn syndrome
+WHSC2	Wolf-Hirschhorn syndrome
+WISP3	Progressive pseudorheumatoid arthropathy of childhood
+WNK1	Hereditary sensory and autonomic neuropathy type 2
+WNK1	Pseudohypoaldosteronism type 2C
+WNK4	Pseudohypoaldosteronism type 2
+WNT10A	Odonto-onycho-dermal dysplasia
+WNT10A	Schopf-Schulz-Passarge syndrome
+WNT10B	Split hand - split foot
+WNT3	Autosomal recessive amelia
+WNT3	Tetraamelia - multiple malformations
+WNT4	Atypical Mayer-Rokitansky-Küster-Hauser syndrome
+WNT4	SERKAL syndrome
+WNT5A	Autosomal dominant Robinow syndrome
+WNT7A	Fuhrmann syndrome
+WNT7A	Phocomelia, Schinzel type
+WRN	Werner syndrome
+WT1	46,XY partial gonadal dysgenesis
+WT1	Denys-Drash syndrome
+WT1	Desmoplastic small round cell tumor
+WT1	Familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis
+WT1	Familial idiopathic steroid-resistant nephrotic syndrome with focal segmental hyalinosis
+WT1	Frasier syndrome
+WT1	Meacham syndrome
+WT1	Nephroblastoma
+WT1	Sporadic idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis
+WT1	WAGR syndrome
+WWOX	Esophageal carcinoma
+XDH	Xanthinuria type I
+XIAP	X-linked lymphoproliferative disease
+XK	McLeod neuroacanthocytosis syndrome
+XPA	Xeroderma pigmentosum complementation group A
+XPC	Xeroderma pigmentosum complementation group C
+XPNPEP2	Renin-angiotensin-aldosterone system-blocker-induced angioedema
+XPNPEP3	Autosomal recessive medullary cystic kidney disease
+YARS	Autosomal dominant intermediate Charcot-Marie-Tooth disease type C
+YARS2	Mitochondrial myopathy and sideroblastic anemia
+YWHAE	17p13.3 microduplication syndrome
+ZAP70	Combined immunodeficiency due to ZAP70 deficiency
+ZBTB24	ICF syndrome
+ZDHHC9	Intellectual deficit, X-linked, Raymond type
+ZEB1	Fuchs endothelial corneal dystrophy
+ZEB2	Mowat-Wilson syndrome
+ZEB2	Mowat-Wilson syndrome due to monosomy 2q22
+ZFP57	Transient neonatal diabetes mellitus
+ZFP90	3-methylglutaconic aciduria type 3
+ZFPM2	Congenital diaphragmatic hernia
+ZFPM2	Tetralogy of Fallot
+ZFYVE26	Autosomal recessive spastic paraplegia type 15
+ZIC1	Isolated Dandy-Walker malformation
+ZIC2	Holoprosencephaly
+ZIC2	Midline interhemispheric variant of holoprosencephaly
+ZIC3	Situs ambiguus
+ZIC4	Isolated Dandy-Walker malformation
+ZMPSTE24	Lethal restrictive dermopathy
+ZMPSTE24	Mandibuloacral dysplasia with type B lipodystrophy
+ZNF41	X-linked nonsyndromic intellectual deficit
+ZNF469	Brittle cornea syndrome
+ZNF513	Retinitis pigmentosa
+ZNF592	CAMOS syndrome
+ZNF674	X-linked nonsyndromic intellectual deficit
+ZNF750	Seborrhea-like dermatitis with psoriasiform elements
+ZNF81	X-linked nonsyndromic intellectual deficit

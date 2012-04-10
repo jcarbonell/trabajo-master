@@ -1,0 +1,1811 @@
+ensg	id	name
+ENSG00000000971	DOID_10871	age related macular degeneration
+ENSG00000000971	DOID_2569	retinal drusen
+ENSG00000001626	DOID_1485	cystic fibrosis
+ENSG00000001626	DOID_9563	bronchiectasis
+ENSG00000002822	DOID_10283	prostate cancer
+ENSG00000003393	DOID_332	amyotrophic lateral sclerosis
+ENSG00000003400	DOID_10534	stomach cancer
+ENSG00000003400	DOID_6688	autoimmune lymphoproliferative syndrome
+ENSG00000004939	DOID_2373	hereditary elliptocytosis
+ENSG00000004961	DOID_10629	microphthalmia
+ENSG00000005339	DOID_1933	Rubinstein-Taybi syndrome
+ENSG00000005381	DOID_10652	Alzheimer's disease
+ENSG00000005471	DOID_1949	cholecystitis
+ENSG00000005961	DOID_2219	Glanzmann's thrombasthenia
+ENSG00000006071	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000006071	DOID_9352	type 2 diabetes mellitus
+ENSG00000006468	DOID_3369	peripheral primitive neuroectodermal tumor
+ENSG00000006606	DOID_13922	eosinophilic esophagitis
+ENSG00000006695	DOID_3652	Leigh disease
+ENSG00000006695	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000006704	DOID_1928	Williams-Beuren syndrome
+ENSG00000006704	DOID_1929	supravalvular aortic stenosis
+ENSG00000006744	DOID_10283	prostate cancer
+ENSG00000007062	DOID_10584	retinitis pigmentosa
+ENSG00000007171	DOID_10825	essential hypertension
+ENSG00000007312	DOID_2583	agammaglobulinemia
+ENSG00000007314	DOID_14451	hyperkalemic periodic paralysis
+ENSG00000007314	DOID_14452	hypokalemic periodic paralysis
+ENSG00000007372	DOID_11975	coloboma of optic nerve
+ENSG00000007372	DOID_12270	coloboma
+ENSG00000007372	DOID_12271	aniridia
+ENSG00000007908	DOID_10825	essential hypertension
+ENSG00000007908	DOID_2986	IgA glomerulonephritis
+ENSG00000008086	DOID_1206	Rett syndrome
+ENSG00000008086	DOID_1932	Angelman syndrome
+ENSG00000008086	DOID_2481	infantile epileptic encephalopathy
+ENSG00000008226	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000008226	DOID_3905	lung carcinoma
+ENSG00000008311	DOID_9274	hyperlysinemia
+ENSG00000008710	DOID_898	polycystic kidney disease
+ENSG00000009709	DOID_4051	alveolar rhabdomyosarcoma
+ENSG00000009830	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000009950	DOID_1928	Williams-Beuren syndrome
+ENSG00000009950	DOID_1929	supravalvular aortic stenosis
+ENSG00000009954	DOID_1928	Williams-Beuren syndrome
+ENSG00000009954	DOID_1929	supravalvular aortic stenosis
+ENSG00000010671	DOID_14179	Bruton-type agammaglobulinemia
+ENSG00000010704	DOID_10652	Alzheimer's disease
+ENSG00000010704	DOID_2352	hemochromatosis
+ENSG00000010704	DOID_3132	porphyria cutanea tarda
+ENSG00000010704	DOID_4346	variegate porphyria
+ENSG00000011143	DOID_1935	Bardet-Biedl syndrome
+ENSG00000011198	DOID_1699	congenital ichthyosiform erythroderma
+ENSG00000012048	DOID_1612	breast cancer
+ENSG00000012048	DOID_2394	ovarian cancer
+ENSG00000012048	DOID_5683	hereditary breast ovarian cancer
+ENSG00000013619	DOID_10892	hypospadias
+ENSG00000013810	DOID_11054	urinary bladder cancer
+ENSG00000014919	DOID_3652	Leigh disease
+ENSG00000014919	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000015285	DOID_9169	Wiskott-Aldrich syndrome
+ENSG00000015532	DOID_2738	pseudoxanthoma elasticum
+ENSG00000018510	DOID_2580	rhizomelic chondrodysplasia punctata
+ENSG00000019549	DOID_3263	piebaldism
+ENSG00000019549	DOID_9258	Waardenburg's syndrome
+ENSG00000021488	DOID_9266	cystinuria
+ENSG00000021574	DOID_2476	hereditary spastic paraplegia
+ENSG00000021826	DOID_13042	persistent fetal circulation syndrome
+ENSG00000021826	DOID_9280	carbamoyl phosphate synthetase I deficiency disease
+ENSG00000022267	DOID_11726	Emery-Dreifuss muscular dystrophy
+ENSG00000022355	DOID_4890	juvenile myoclonic epilepsy
+ENSG00000022556	DOID_3590	gestational trophoblastic neoplasm
+ENSG00000023228	DOID_3652	Leigh disease
+ENSG00000023287	DOID_1612	breast cancer
+ENSG00000023839	DOID_12308	Dubin-Johnson syndrome
+ENSG00000026103	DOID_6688	autoimmune lymphoproliferative syndrome
+ENSG00000027075	DOID_3455	cerebrovascular accident
+ENSG00000031544	DOID_10584	retinitis pigmentosa
+ENSG00000032444	DOID_2476	hereditary spastic paraplegia
+ENSG00000034693	DOID_10582	Refsum disease
+ENSG00000034693	DOID_10588	adrenoleukodystrophy
+ENSG00000034693	DOID_905	Zellweger syndrome
+ENSG00000034971	DOID_1067	open-angle glaucoma
+ENSG00000034971	DOID_11211	buphthalmos
+ENSG00000035403	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000035403	DOID_12930	dilated cardiomyopathy
+ENSG00000036473	DOID_9271	ornithine carbamoyltransferase deficiency
+ENSG00000038295	DOID_1882	atrial heart septal defect
+ENSG00000038945	DOID_10283	prostate cancer
+ENSG00000039068	DOID_10283	prostate cancer
+ENSG00000039068	DOID_10534	stomach cancer
+ENSG00000039068	DOID_1612	breast cancer
+ENSG00000039068	DOID_2394	ovarian cancer
+ENSG00000039068	DOID_2871	endometrial carcinoma
+ENSG00000039139	DOID_9562	primary ciliary dyskinesia
+ENSG00000039650	DOID_2481	infantile epileptic encephalopathy
+ENSG00000040531	DOID_1064	cystinosis
+ENSG00000040608	DOID_5419	schizophrenia
+ENSG00000042088	DOID_1441	spinocerebellar ataxia
+ENSG00000042317	DOID_10584	retinitis pigmentosa
+ENSG00000042317	DOID_14791	Leber congenital amaurosis
+ENSG00000042781	DOID_10584	retinitis pigmentosa
+ENSG00000043355	DOID_4621	holoprosencephaly
+ENSG00000044524	DOID_1520	colon carcinoma
+ENSG00000044524	DOID_9256	colorectal cancer
+ENSG00000046604	DOID_12930	dilated cardiomyopathy
+ENSG00000046651	DOID_4501	orofaciodigital syndrome
+ENSG00000047410	DOID_3969	papillary thyroid carcinoma
+ENSG00000047579	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000047579	DOID_5419	schizophrenia
+ENSG00000049167	DOID_2962	Cockayne syndrome
+ENSG00000049540	DOID_1928	Williams-Beuren syndrome
+ENSG00000049540	DOID_1929	supravalvular aortic stenosis
+ENSG00000049541	DOID_1928	Williams-Beuren syndrome
+ENSG00000049541	DOID_1929	supravalvular aortic stenosis
+ENSG00000049768	DOID_9744	type 1 diabetes mellitus
+ENSG00000049860	DOID_3323	Sandhoff disease
+ENSG00000051180	DOID_1612	breast cancer
+ENSG00000051523	DOID_3265	chronic granulomatous disease
+ENSG00000053524	DOID_9352	type 2 diabetes mellitus
+ENSG00000053918	DOID_2842	Jervell-Lange Nielsen syndrome
+ENSG00000053918	DOID_2843	long QT syndrome
+ENSG00000054523	DOID_769	neuroblastoma
+ENSG00000054598	DOID_14686	Axenfeld-Rieger syndrome
+ENSG00000054654	DOID_11726	Emery-Dreifuss muscular dystrophy
+ENSG00000054983	DOID_10587	Krabbe disease
+ENSG00000055118	DOID_2843	long QT syndrome
+ENSG00000056345	DOID_2219	Glanzmann's thrombasthenia
+ENSG00000061337	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000064012	DOID_1612	breast cancer
+ENSG00000064012	DOID_3905	lung carcinoma
+ENSG00000064012	DOID_6688	autoimmune lymphoproliferative syndrome
+ENSG00000064012	DOID_684	hepatocellular carcinoma
+ENSG00000064195	DOID_2187	amelogenesis imperfecta
+ENSG00000064490	DOID_5812	MHC class II deficiency
+ENSG00000064692	DOID_14330	Parkinson's disease
+ENSG00000066279	DOID_10907	microcephaly
+ENSG00000066427	DOID_1440	Machado-Joseph disease
+ENSG00000066455	DOID_3969	papillary thyroid carcinoma
+ENSG00000066468	DOID_10534	stomach cancer
+ENSG00000066468	DOID_12960	acrocephalosyndactylia
+ENSG00000066468	DOID_14705	Pfeiffer syndrome
+ENSG00000066468	DOID_14768	Saethre-Chotzen syndrome
+ENSG00000066468	DOID_2339	Crouzon syndrome
+ENSG00000066926	DOID_13270	erythropoietic protoporphyria
+ENSG00000067082	DOID_10283	prostate cancer
+ENSG00000067082	DOID_10534	stomach cancer
+ENSG00000067955	DOID_9119	acute myeloid leukemia
+ENSG00000068028	DOID_3905	lung carcinoma
+ENSG00000068078	DOID_11054	urinary bladder cancer
+ENSG00000068078	DOID_13481	thanatophoric dysplasia
+ENSG00000068078	DOID_14768	Saethre-Chotzen syndrome
+ENSG00000068078	DOID_1520	colon carcinoma
+ENSG00000068078	DOID_2893	cervix carcinoma
+ENSG00000068078	DOID_2998	testicular cancer
+ENSG00000068078	DOID_4440	seminoma
+ENSG00000068078	DOID_4480	achondroplasia
+ENSG00000068078	DOID_5557	testicular germ cell cancer
+ENSG00000068078	DOID_6498	seborrheic keratosis
+ENSG00000068078	DOID_9256	colorectal cancer
+ENSG00000068078	DOID_9538	multiple myeloma
+ENSG00000068323	DOID_4239	alveolar soft part sarcoma
+ENSG00000068323	DOID_4465	papillary renal cell carcinoma
+ENSG00000068615	DOID_2476	hereditary spastic paraplegia
+ENSG00000068793	DOID_1932	Angelman syndrome
+ENSG00000068976	DOID_2746	glycogen storage disease V
+ENSG00000069011	DOID_11836	clubfoot
+ENSG00000069431	DOID_12930	dilated cardiomyopathy
+ENSG00000069696	DOID_14330	Parkinson's disease
+ENSG00000070061	DOID_11589	Riley-Day syndrome
+ENSG00000070182	DOID_2373	hereditary elliptocytosis
+ENSG00000070729	DOID_10584	retinitis pigmentosa
+ENSG00000070814	DOID_2908	Treacher Collins syndrome
+ENSG00000071462	DOID_1928	Williams-Beuren syndrome
+ENSG00000071462	DOID_1929	supravalvular aortic stenosis
+ENSG00000072121	DOID_2476	hereditary spastic paraplegia
+ENSG00000072210	DOID_14501	Sjogren-Larsson syndrome
+ENSG00000072571	DOID_1612	breast cancer
+ENSG00000072694	DOID_9074	systemic lupus erythematosus
+ENSG00000072786	DOID_2998	testicular cancer
+ENSG00000072786	DOID_4440	seminoma
+ENSG00000072786	DOID_5557	testicular germ cell cancer
+ENSG00000072840	DOID_12714	Ellis-Van Creveld syndrome
+ENSG00000073009	DOID_12305	Bloch-Sulzberger syndrome
+ENSG00000073009	DOID_14793	hypohidrotic ectodermal dysplasia
+ENSG00000073578	DOID_12930	dilated cardiomyopathy
+ENSG00000073578	DOID_3652	Leigh disease
+ENSG00000073792	DOID_9352	type 2 diabetes mellitus
+ENSG00000073921	DOID_9119	acute myeloid leukemia
+ENSG00000074047	DOID_4621	holoprosencephaly
+ENSG00000074317	DOID_12217	Lewy body dementia
+ENSG00000074319	DOID_1612	breast cancer
+ENSG00000074582	DOID_3652	Leigh disease
+ENSG00000074803	DOID_445	Bartter disease
+ENSG00000075043	DOID_2481	infantile epileptic encephalopathy
+ENSG00000075239	DOID_14723	beta-ketothiolase deficiency
+ENSG00000076003	DOID_10604	lactose intolerance
+ENSG00000076242	DOID_2871	endometrial carcinoma
+ENSG00000077522	DOID_12930	dilated cardiomyopathy
+ENSG00000077782	DOID_14705	Pfeiffer syndrome
+ENSG00000077782	DOID_3614	Kallmann syndrome
+ENSG00000077800	DOID_1928	Williams-Beuren syndrome
+ENSG00000077800	DOID_1929	supravalvular aortic stenosis
+ENSG00000077809	DOID_1928	Williams-Beuren syndrome
+ENSG00000077809	DOID_1929	supravalvular aortic stenosis
+ENSG00000078403	DOID_9119	acute myeloid leukemia
+ENSG00000078579	DOID_14330	Parkinson's disease
+ENSG00000078674	DOID_3969	papillary thyroid carcinoma
+ENSG00000079102	DOID_1520	colon carcinoma
+ENSG00000079102	DOID_9256	colorectal cancer
+ENSG00000079215	DOID_963	episodic ataxia
+ENSG00000080815	DOID_10652	Alzheimer's disease
+ENSG00000080815	DOID_11870	Pick's disease
+ENSG00000080815	DOID_2280	hidradenitis suppurativa
+ENSG00000080815	DOID_9255	frontotemporal dementia
+ENSG00000080819	DOID_13269	hereditary coproporphyria
+ENSG00000081052	DOID_10983	Alport syndrome
+ENSG00000081148	DOID_10584	retinitis pigmentosa
+ENSG00000081237	DOID_2377	multiple sclerosis
+ENSG00000081248	DOID_14452	hypokalemic periodic paralysis
+ENSG00000081248	DOID_8545	malignant hyperthermia
+ENSG00000081985	DOID_13241	Behcet's disease
+ENSG00000082805	DOID_3969	papillary thyroid carcinoma
+ENSG00000083093	DOID_13636	Fanconi's anemia
+ENSG00000083093	DOID_1612	breast cancer
+ENSG00000083123	DOID_9269	maple syrup urine disease
+ENSG00000083444	DOID_13359	Ehlers-Danlos syndrome
+ENSG00000083444	DOID_14748	Sotos syndrome
+ENSG00000083444	DOID_14775	type VI Ehlers-Danlos syndrome
+ENSG00000084674	DOID_1386	abetalipoproteinemia
+ENSG00000085117	DOID_10283	prostate cancer
+ENSG00000085224	DOID_1099	alpha thalassemia
+ENSG00000085998	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000085999	DOID_1612	breast cancer
+ENSG00000086288	DOID_9562	primary ciliary dyskinesia
+ENSG00000086544	DOID_13378	Kawasaki disease
+ENSG00000086730	DOID_1928	Williams-Beuren syndrome
+ENSG00000086730	DOID_1929	supravalvular aortic stenosis
+ENSG00000087266	DOID_1856	cherubism
+ENSG00000087274	DOID_10825	essential hypertension
+ENSG00000087460	DOID_1520	colon carcinoma
+ENSG00000087460	DOID_1858	McCune Albright Syndrome
+ENSG00000087460	DOID_4183	pseudopseudohypoparathyroidism
+ENSG00000087460	DOID_4184	pseudohypoparathyroidism
+ENSG00000087460	DOID_6255	growth hormone secreting pituitary adenoma
+ENSG00000087460	DOID_7004	ACTH-secreting pituitary adenoma
+ENSG00000087460	DOID_9256	colorectal cancer
+ENSG00000087586	DOID_1520	colon carcinoma
+ENSG00000087586	DOID_9256	colorectal cancer
+ENSG00000088836	DOID_11555	Fuchs' endothelial dystrophy
+ENSG00000088926	DOID_2229	factor XI deficiency
+ENSG00000089127	DOID_9744	type 1 diabetes mellitus
+ENSG00000089280	DOID_332	amyotrophic lateral sclerosis
+ENSG00000089280	DOID_5363	myxoid liposarcoma
+ENSG00000090534	DOID_2224	hemorrhagic thrombocythemia
+ENSG00000090776	DOID_14737	craniofrontonasal syndrome
+ENSG00000091140	DOID_3652	Leigh disease
+ENSG00000091140	DOID_9269	maple syrup urine disease
+ENSG00000091262	DOID_2738	pseudoxanthoma elasticum
+ENSG00000091592	DOID_12306	vitiligo
+ENSG00000091831	DOID_6364	migraine
+ENSG00000092054	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000092054	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000092054	DOID_12930	dilated cardiomyopathy
+ENSG00000092295	DOID_1699	congenital ichthyosiform erythroderma
+ENSG00000092529	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000093010	DOID_5419	schizophrenia
+ENSG00000095002	DOID_2871	endometrial carcinoma
+ENSG00000095002	DOID_3070	malignant glioma
+ENSG00000095002	DOID_3883	Lynch syndrome
+ENSG00000095002	DOID_8712	neurofibromatosis
+ENSG00000095015	DOID_14448	46 XY gonadal dysgenesis
+ENSG00000095464	DOID_13911	achromatopsia
+ENSG00000095585	DOID_2583	agammaglobulinemia
+ENSG00000096060	DOID_1595	endogenous depression
+ENSG00000096093	DOID_4890	juvenile myoclonic epilepsy
+ENSG00000096433	DOID_9744	type 1 diabetes mellitus
+ENSG00000096968	DOID_2224	hemorrhagic thrombocythemia
+ENSG00000096968	DOID_4971	myelofibrosis
+ENSG00000096968	DOID_8997	polycythemia vera
+ENSG00000096968	DOID_9119	acute myeloid leukemia
+ENSG00000097007	DOID_8552	chronic myeloid leukemia
+ENSG00000099937	DOID_2452	thrombophilia
+ENSG00000099956	DOID_2129	atypical teratoid rhabdoid tumor
+ENSG00000099956	DOID_3204	neurilemmomatosis
+ENSG00000099956	DOID_4586	familial meningioma
+ENSG00000100033	DOID_5419	schizophrenia
+ENSG00000100099	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000100146	DOID_9258	Waardenburg's syndrome
+ENSG00000100225	DOID_14330	Parkinson's disease
+ENSG00000100285	DOID_332	amyotrophic lateral sclerosis
+ENSG00000100299	DOID_10581	metachromatic leukodystrophy
+ENSG00000100311	DOID_4586	familial meningioma
+ENSG00000100336	DOID_5419	schizophrenia
+ENSG00000100342	DOID_1312	focal segmental glomerulosclerosis
+ENSG00000100342	DOID_5419	schizophrenia
+ENSG00000100373	DOID_14766	renal agenesis
+ENSG00000100393	DOID_1520	colon carcinoma
+ENSG00000100393	DOID_1933	Rubinstein-Taybi syndrome
+ENSG00000100393	DOID_9256	colorectal cancer
+ENSG00000100473	DOID_9849	Meniere's disease
+ENSG00000100526	DOID_684	hepatocellular carcinoma
+ENSG00000100697	DOID_4769	pleuropulmonary blastoma
+ENSG00000100714	DOID_1520	colon carcinoma
+ENSG00000100714	DOID_9256	colorectal cancer
+ENSG00000100836	DOID_11719	oculopharyngeal muscular dystrophy
+ENSG00000101076	DOID_9352	type 2 diabetes mellitus
+ENSG00000101200	DOID_12388	neurohypophyseal diabetes insipidus
+ENSG00000101292	DOID_3614	Kallmann syndrome
+ENSG00000101306	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000101306	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000101310	DOID_1338	congenital dyserythropoietic anemia
+ENSG00000101327	DOID_1441	spinocerebellar ataxia
+ENSG00000101365	DOID_10584	retinitis pigmentosa
+ENSG00000101384	DOID_6419	tetralogy of Fallot
+ENSG00000101384	DOID_9245	Alagille syndrome
+ENSG00000101400	DOID_2843	long QT syndrome
+ENSG00000101439	DOID_10871	age related macular degeneration
+ENSG00000101665	DOID_1520	colon carcinoma
+ENSG00000101665	DOID_9256	colorectal cancer
+ENSG00000101846	DOID_1700	X-linked ichthyosis
+ENSG00000101981	DOID_12259	hemophilia B
+ENSG00000101986	DOID_10588	adrenoleukodystrophy
+ENSG00000102081	DOID_14261	fragile X syndrome
+ENSG00000102081	DOID_5426	premature ovarian failure
+ENSG00000102119	DOID_11726	Emery-Dreifuss muscular dystrophy
+ENSG00000102125	DOID_12930	dilated cardiomyopathy
+ENSG00000102145	DOID_14250	Down syndrome
+ENSG00000102218	DOID_10584	retinitis pigmentosa
+ENSG00000102302	DOID_6683	Aarskog-Scott syndrome
+ENSG00000102312	DOID_2120	focal dermal hypoplasia
+ENSG00000102393	DOID_14499	Fabry disease
+ENSG00000102466	DOID_1441	spinocerebellar ataxia
+ENSG00000102468	DOID_1595	endogenous depression
+ENSG00000102468	DOID_5419	schizophrenia
+ENSG00000102683	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000103126	DOID_684	hepatocellular carcinoma
+ENSG00000103197	DOID_13515	tuberous sclerosis
+ENSG00000103241	DOID_13042	persistent fetal circulation syndrome
+ENSG00000103313	DOID_2987	familial Mediterranean fever
+ENSG00000103489	DOID_2738	pseudoxanthoma elasticum
+ENSG00000103995	DOID_10907	microcephaly
+ENSG00000104133	DOID_2476	hereditary spastic paraplegia
+ENSG00000104213	DOID_1520	colon carcinoma
+ENSG00000104213	DOID_684	hepatocellular carcinoma
+ENSG00000104213	DOID_9256	colorectal cancer
+ENSG00000104237	DOID_10584	retinitis pigmentosa
+ENSG00000104313	DOID_14702	branchiootorenal syndrome
+ENSG00000104320	DOID_12449	aplastic anemia
+ENSG00000104320	DOID_1612	breast cancer
+ENSG00000104320	DOID_7400	Nijmegen breakage syndrome
+ENSG00000104447	DOID_14743	trichorhinophalangeal syndrome type I
+ENSG00000104447	DOID_4998	Langer-Giedion syndrome
+ENSG00000104723	DOID_10283	prostate cancer
+ENSG00000104774	DOID_3413	alpha-mannosidosis
+ENSG00000104884	DOID_2960	photosensitive trichthiodystrophy
+ENSG00000104918	DOID_9352	type 2 diabetes mellitus
+ENSG00000104936	DOID_11722	myotonic dystrophy
+ENSG00000105221	DOID_9352	type 2 diabetes mellitus
+ENSG00000105329	DOID_1485	cystic fibrosis
+ENSG00000105329	DOID_4997	Camurati-Engelmann disease
+ENSG00000105369	DOID_2583	agammaglobulinemia
+ENSG00000105372	DOID_1339	Diamond-Blackfan anemia
+ENSG00000105392	DOID_10584	retinitis pigmentosa
+ENSG00000105610	DOID_1338	congenital dyserythropoietic anemia
+ENSG00000105618	DOID_10584	retinitis pigmentosa
+ENSG00000105697	DOID_2352	hemochromatosis
+ENSG00000105711	DOID_2481	infantile epileptic encephalopathy
+ENSG00000105877	DOID_9562	primary ciliary dyskinesia
+ENSG00000105976	DOID_1520	colon carcinoma
+ENSG00000105976	DOID_4465	papillary renal cell carcinoma
+ENSG00000105976	DOID_684	hepatocellular carcinoma
+ENSG00000105976	DOID_9256	colorectal cancer
+ENSG00000105983	DOID_1148	polydactyly
+ENSG00000106258	DOID_10825	essential hypertension
+ENSG00000106327	DOID_2352	hemochromatosis
+ENSG00000106331	DOID_1837	diabetic ketoacidosis
+ENSG00000106331	DOID_9352	type 2 diabetes mellitus
+ENSG00000106331	DOID_9744	type 1 diabetes mellitus
+ENSG00000106348	DOID_10584	retinitis pigmentosa
+ENSG00000106410	DOID_5426	premature ovarian failure
+ENSG00000106571	DOID_1148	polydactyly
+ENSG00000106571	DOID_14761	Greig cephalopolysyndactyly syndrome
+ENSG00000106571	DOID_9248	Pallister-Hall syndrome
+ENSG00000106571	DOID_9250	acrocallosal syndrome
+ENSG00000106617	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000106617	DOID_384	Wolff-Parkinson-White syndrome
+ENSG00000106633	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000106633	DOID_9352	type 2 diabetes mellitus
+ENSG00000106635	DOID_1928	Williams-Beuren syndrome
+ENSG00000106635	DOID_1929	supravalvular aortic stenosis
+ENSG00000106638	DOID_1928	Williams-Beuren syndrome
+ENSG00000106638	DOID_1929	supravalvular aortic stenosis
+ENSG00000106665	DOID_1928	Williams-Beuren syndrome
+ENSG00000106665	DOID_1929	supravalvular aortic stenosis
+ENSG00000106682	DOID_1928	Williams-Beuren syndrome
+ENSG00000106682	DOID_1929	supravalvular aortic stenosis
+ENSG00000106683	DOID_1928	Williams-Beuren syndrome
+ENSG00000106683	DOID_1929	supravalvular aortic stenosis
+ENSG00000106692	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000106804	DOID_8158	complement component 5 deficiency
+ENSG00000106991	DOID_1270	hereditary hemorrhagic telangiectasia
+ENSG00000107290	DOID_1441	spinocerebellar ataxia
+ENSG00000107290	DOID_332	amyotrophic lateral sclerosis
+ENSG00000107521	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000107537	DOID_10582	Refsum disease
+ENSG00000107679	DOID_10871	age related macular degeneration
+ENSG00000107779	DOID_3471	Cowden syndrome
+ENSG00000107779	DOID_6457	Cowden disease
+ENSG00000107789	DOID_3962	follicular thyroid carcinoma
+ENSG00000107796	DOID_14004	thoracic aortic aneurysm
+ENSG00000107831	DOID_3614	Kallmann syndrome
+ENSG00000107882	DOID_3858	medulloblastoma
+ENSG00000107968	DOID_3905	lung carcinoma
+ENSG00000108091	DOID_3969	papillary thyroid carcinoma
+ENSG00000108231	DOID_3070	malignant glioma
+ENSG00000108381	DOID_3613	Canavan disease
+ENSG00000108479	DOID_14695	galactokinase deficiency
+ENSG00000108556	DOID_437	myasthenia gravis
+ENSG00000108578	DOID_10652	Alzheimer's disease
+ENSG00000108733	DOID_10582	Refsum disease
+ENSG00000108733	DOID_10588	adrenoleukodystrophy
+ENSG00000108733	DOID_905	Zellweger syndrome
+ENSG00000108753	DOID_10283	prostate cancer
+ENSG00000108753	DOID_9352	type 2 diabetes mellitus
+ENSG00000108784	DOID_12801	mucopolysaccharidosis III
+ENSG00000108821	DOID_12347	osteogenesis imperfecta
+ENSG00000108821	DOID_14720	type I Ehlers-Danlos syndrome
+ENSG00000108821	DOID_4257	Caffey disease
+ENSG00000108823	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000108946	DOID_14669	acrodysostosis
+ENSG00000108946	DOID_3969	papillary thyroid carcinoma
+ENSG00000109099	DOID_12842	Guillain-Barre syndrome
+ENSG00000109132	DOID_10487	Hirschsprung's disease
+ENSG00000109132	DOID_769	neuroblastoma
+ENSG00000109220	DOID_9119	acute myeloid leukemia
+ENSG00000109323	DOID_3633	beta-mannosidosis
+ENSG00000109424	DOID_9970	obesity
+ENSG00000109501	DOID_10632	Wolfram syndrome
+ENSG00000109501	DOID_9352	type 2 diabetes mellitus
+ENSG00000109861	DOID_1474	aggressive periodontitis
+ENSG00000109861	DOID_3389	Papillon-Lefevre disease
+ENSG00000110074	DOID_3652	Leigh disease
+ENSG00000110092	DOID_14175	von Hippel-Lindau disease
+ENSG00000110092	DOID_1520	colon carcinoma
+ENSG00000110092	DOID_9256	colorectal cancer
+ENSG00000110092	DOID_9538	multiple myeloma
+ENSG00000110243	DOID_1171	hyperlipoproteinemia type V
+ENSG00000110628	DOID_1612	breast cancer
+ENSG00000110628	DOID_3905	lung carcinoma
+ENSG00000110651	DOID_12177	common variable immunodeficiency
+ENSG00000110711	DOID_5394	prolactinoma
+ENSG00000110711	DOID_6255	growth hormone secreting pituitary adenoma
+ENSG00000110711	DOID_7004	ACTH-secreting pituitary adenoma
+ENSG00000110717	DOID_3652	Leigh disease
+ENSG00000110756	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000110799	DOID_12531	von Willebrand's disease
+ENSG00000110887	DOID_5419	schizophrenia
+ENSG00000111046	DOID_11723	Duchenne muscular dystrophy
+ENSG00000111046	DOID_9883	Becker muscular dystrophy
+ENSG00000111245	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000111252	DOID_2224	hemorrhagic thrombocythemia
+ENSG00000111252	DOID_4971	myelofibrosis
+ENSG00000111252	DOID_9744	type 1 diabetes mellitus
+ENSG00000111262	DOID_963	episodic ataxia
+ENSG00000111537	DOID_12449	aplastic anemia
+ENSG00000111537	DOID_13515	tuberous sclerosis
+ENSG00000111664	DOID_10825	essential hypertension
+ENSG00000111834	DOID_9562	primary ciliary dyskinesia
+ENSG00000112039	DOID_13636	Fanconi's anemia
+ENSG00000112041	DOID_10584	retinitis pigmentosa
+ENSG00000112246	DOID_9970	obesity
+ENSG00000112319	DOID_12930	dilated cardiomyopathy
+ENSG00000112357	DOID_10582	Refsum disease
+ENSG00000112357	DOID_2580	rhizomelic chondrodysplasia punctata
+ENSG00000112367	DOID_332	amyotrophic lateral sclerosis
+ENSG00000112425	DOID_3534	Lafora disease
+ENSG00000112592	DOID_14330	Parkinson's disease
+ENSG00000112592	DOID_1441	spinocerebellar ataxia
+ENSG00000112619	DOID_10584	retinitis pigmentosa
+ENSG00000112619	DOID_11105	fundus albipunctatus
+ENSG00000112619	DOID_9822	partial central choroid dystrophy
+ENSG00000112715	DOID_9352	type 2 diabetes mellitus
+ENSG00000112902	DOID_12580	Cri-Du-Chat syndrome
+ENSG00000112964	DOID_9521	Laron syndrome
+ENSG00000113231	DOID_4751	striatonigral degeneration
+ENSG00000113273	DOID_12800	mucopolysaccharidosis VI
+ENSG00000113318	DOID_2871	endometrial carcinoma
+ENSG00000113327	DOID_2481	infantile epileptic encephalopathy
+ENSG00000113520	DOID_3455	cerebrovascular accident
+ENSG00000113924	DOID_9270	alkaptonuria
+ENSG00000113966	DOID_10584	retinitis pigmentosa
+ENSG00000113966	DOID_1935	Bardet-Biedl syndrome
+ENSG00000113971	DOID_12712	nephronopthisis
+ENSG00000114054	DOID_14701	propionic acidemia
+ENSG00000114062	DOID_1932	Angelman syndrome
+ENSG00000114354	DOID_3969	papillary thyroid carcinoma
+ENSG00000114354	DOID_6496	extraskeletal myxoid chondrosarcoma
+ENSG00000114374	DOID_14227	azoospermia
+ENSG00000114480	DOID_2750	glycogen storage disease IV
+ENSG00000114854	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000114854	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000114854	DOID_12930	dilated cardiomyopathy
+ENSG00000114859	DOID_4890	juvenile myoclonic epilepsy
+ENSG00000115138	DOID_9970	obesity
+ENSG00000115159	DOID_9352	type 2 diabetes mellitus
+ENSG00000115170	DOID_13374	fibrodysplasia ossificans progressiva
+ENSG00000115267	DOID_12361	Graves' disease
+ENSG00000115267	DOID_7997	thyrotoxicosis
+ENSG00000115286	DOID_3652	Leigh disease
+ENSG00000115317	DOID_14330	Parkinson's disease
+ENSG00000115392	DOID_13636	Fanconi's anemia
+ENSG00000115718	DOID_2452	thrombophilia
+ENSG00000115758	DOID_1520	colon carcinoma
+ENSG00000115758	DOID_9256	colorectal cancer
+ENSG00000115850	DOID_10604	lactose intolerance
+ENSG00000115904	DOID_3490	Noonan syndrome
+ENSG00000116062	DOID_2871	endometrial carcinoma
+ENSG00000116062	DOID_5683	hereditary breast ovarian cancer
+ENSG00000116288	DOID_14330	Parkinson's disease
+ENSG00000116701	DOID_3265	chronic granulomatous disease
+ENSG00000116745	DOID_10584	retinitis pigmentosa
+ENSG00000116745	DOID_14791	Leber congenital amaurosis
+ENSG00000116785	DOID_10871	age related macular degeneration
+ENSG00000116906	DOID_2580	rhizomelic chondrodysplasia punctata
+ENSG00000116984	DOID_14250	Down syndrome
+ENSG00000117118	DOID_9253	gastrointestinal stromal tumor
+ENSG00000117152	DOID_5419	schizophrenia
+ENSG00000117298	DOID_10825	essential hypertension
+ENSG00000117360	DOID_10584	retinitis pigmentosa
+ENSG00000117385	DOID_12347	osteogenesis imperfecta
+ENSG00000117400	DOID_2224	hemorrhagic thrombocythemia
+ENSG00000117400	DOID_8997	polycythemia vera
+ENSG00000117425	DOID_3858	medulloblastoma
+ENSG00000117560	DOID_6688	autoimmune lymphoproliferative syndrome
+ENSG00000117560	DOID_9074	systemic lupus erythematosus
+ENSG00000117586	DOID_9074	systemic lupus erythematosus
+ENSG00000117601	DOID_2452	thrombophilia
+ENSG00000118046	DOID_2998	testicular cancer
+ENSG00000118046	DOID_3852	Peutz-Jeghers syndrome
+ENSG00000118046	DOID_4440	seminoma
+ENSG00000118046	DOID_5557	testicular germ cell cancer
+ENSG00000118137	DOID_1388	Tangier disease
+ENSG00000118137	DOID_9538	multiple myeloma
+ENSG00000118194	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000118194	DOID_12930	dilated cardiomyopathy
+ENSG00000118246	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000118271	DOID_12169	carpal tunnel syndrome
+ENSG00000118520	DOID_9278	hyperargininemia
+ENSG00000118762	DOID_898	polycystic kidney disease
+ENSG00000119042	DOID_674	cleft palate
+ENSG00000119401	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000119401	DOID_1935	Bardet-Biedl syndrome
+ENSG00000119508	DOID_3369	peripheral primitive neuroectodermal tumor
+ENSG00000119508	DOID_6496	extraskeletal myxoid chondrosarcoma
+ENSG00000119509	DOID_12712	nephronopthisis
+ENSG00000119614	DOID_10629	microphthalmia
+ENSG00000119655	DOID_14504	Niemann-Pick disease
+ENSG00000119684	DOID_1520	colon carcinoma
+ENSG00000119684	DOID_2871	endometrial carcinoma
+ENSG00000119684	DOID_9256	colorectal cancer
+ENSG00000119950	DOID_10283	prostate cancer
+ENSG00000120008	DOID_3070	malignant glioma
+ENSG00000120149	DOID_2340	craniosynostosis
+ENSG00000120457	DOID_2843	long QT syndrome
+ENSG00000120693	DOID_14557	primary pulmonary hypertension
+ENSG00000120729	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000120948	DOID_332	amyotrophic lateral sclerosis
+ENSG00000121207	DOID_14791	Leber congenital amaurosis
+ENSG00000121361	DOID_9007	sudden infant death syndrome
+ENSG00000121653	DOID_9352	type 2 diabetes mellitus
+ENSG00000121680	DOID_10582	Refsum disease
+ENSG00000121680	DOID_10588	adrenoleukodystrophy
+ENSG00000121680	DOID_905	Zellweger syndrome
+ENSG00000121742	DOID_14693	Clouston syndrome
+ENSG00000121879	DOID_10534	stomach cancer
+ENSG00000121879	DOID_1520	colon carcinoma
+ENSG00000121879	DOID_1612	breast cancer
+ENSG00000121879	DOID_2394	ovarian cancer
+ENSG00000121879	DOID_3905	lung carcinoma
+ENSG00000121879	DOID_5683	hereditary breast ovarian cancer
+ENSG00000121879	DOID_6498	seborrheic keratosis
+ENSG00000121879	DOID_684	hepatocellular carcinoma
+ENSG00000121879	DOID_9256	colorectal cancer
+ENSG00000122025	DOID_9119	acute myeloid leukemia
+ENSG00000122126	DOID_1056	oculocerebrorenal syndrome
+ENSG00000122194	DOID_2452	thrombophilia
+ENSG00000122223	DOID_7148	rheumatoid arthritis
+ENSG00000122367	DOID_12930	dilated cardiomyopathy
+ENSG00000122406	DOID_1339	Diamond-Blackfan anemia
+ENSG00000122507	DOID_1935	Bardet-Biedl syndrome
+ENSG00000122550	DOID_10584	retinitis pigmentosa
+ENSG00000122643	DOID_583	hemolytic anemia
+ENSG00000122691	DOID_14768	Saethre-Chotzen syndrome
+ENSG00000122691	DOID_2340	craniosynostosis
+ENSG00000122735	DOID_9562	primary ciliary dyskinesia
+ENSG00000122779	DOID_3969	papillary thyroid carcinoma
+ENSG00000122852	DOID_12716	newborn respiratory distress syndrome
+ENSG00000122861	DOID_10652	Alzheimer's disease
+ENSG00000123191	DOID_893	Wilson disease
+ENSG00000123240	DOID_1070	primary open anle glaucoma
+ENSG00000123240	DOID_332	amyotrophic lateral sclerosis
+ENSG00000123454	DOID_14330	Parkinson's disease
+ENSG00000123473	DOID_10907	microcephaly
+ENSG00000123560	DOID_2476	hereditary spastic paraplegia
+ENSG00000123560	DOID_3210	Pelizaeus-Merzbacher disease
+ENSG00000123607	DOID_1935	Bardet-Biedl syndrome
+ENSG00000123700	DOID_2843	long QT syndrome
+ENSG00000124089	DOID_9970	obesity
+ENSG00000124164	DOID_332	amyotrophic lateral sclerosis
+ENSG00000124205	DOID_10487	Hirschsprung's disease
+ENSG00000124205	DOID_9258	Waardenburg's syndrome
+ENSG00000124212	DOID_10825	essential hypertension
+ENSG00000124222	DOID_4184	pseudohypoparathyroidism
+ENSG00000124479	DOID_7765	Coats disease
+ENSG00000124491	DOID_2211	factor XIII deficiency
+ENSG00000124491	DOID_2452	thrombophilia
+ENSG00000124564	DOID_2749	glycogen storage disease I
+ENSG00000124587	DOID_10582	Refsum disease
+ENSG00000124587	DOID_10588	adrenoleukodystrophy
+ENSG00000124587	DOID_905	Zellweger syndrome
+ENSG00000124588	DOID_1612	breast cancer
+ENSG00000124614	DOID_1339	Diamond-Blackfan anemia
+ENSG00000124767	DOID_12849	autistic disorder
+ENSG00000124788	DOID_1441	spinocerebellar ataxia
+ENSG00000124788	DOID_14784	olivopontocerebellar atrophy
+ENSG00000124813	DOID_13994	cleidocranial dysplasia
+ENSG00000125124	DOID_1935	Bardet-Biedl syndrome
+ENSG00000125347	DOID_10534	stomach cancer
+ENSG00000125347	DOID_3905	lung carcinoma
+ENSG00000125363	DOID_2187	amelogenesis imperfecta
+ENSG00000125378	DOID_10629	microphthalmia
+ENSG00000125398	DOID_14450	46 XX gonadal dysgenesis
+ENSG00000125538	DOID_10534	stomach cancer
+ENSG00000125730	DOID_10871	age related macular degeneration
+ENSG00000125779	DOID_3981	Hallervorden-Spatz syndrome
+ENSG00000125845	DOID_2352	hemochromatosis
+ENSG00000125863	DOID_1930	Laurence-Moon syndrome
+ENSG00000125863	DOID_1935	Bardet-Biedl syndrome
+ENSG00000126088	DOID_3132	porphyria cutanea tarda
+ENSG00000126215	DOID_1612	breast cancer
+ENSG00000126267	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000126522	DOID_14755	argininosuccinic aciduria
+ENSG00000126524	DOID_12449	aplastic anemia
+ENSG00000126583	DOID_1441	spinocerebellar ataxia
+ENSG00000126603	DOID_12712	nephronopthisis
+ENSG00000126752	DOID_5485	synovial sarcoma
+ENSG00000126883	DOID_9119	acute myeloid leukemia
+ENSG00000127870	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000127914	DOID_2843	long QT syndrome
+ENSG00000127946	DOID_10283	prostate cancer
+ENSG00000127980	DOID_10582	Refsum disease
+ENSG00000127980	DOID_10588	adrenoleukodystrophy
+ENSG00000127980	DOID_905	Zellweger syndrome
+ENSG00000128322	DOID_2583	agammaglobulinemia
+ENSG00000128335	DOID_5419	schizophrenia
+ENSG00000128604	DOID_7148	rheumatoid arthritis
+ENSG00000128656	DOID_12557	Duane retraction syndrome
+ENSG00000128714	DOID_14679	VACTERL association
+ENSG00000128739	DOID_11983	Prader-Willi syndrome
+ENSG00000128881	DOID_1441	spinocerebellar ataxia
+ENSG00000128928	DOID_14753	isovaleric acidemia
+ENSG00000129038	DOID_13641	exfoliation syndrome
+ENSG00000129116	DOID_4905	pancreatic carcinoma
+ENSG00000129170	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000129170	DOID_12930	dilated cardiomyopathy
+ENSG00000129221	DOID_14791	Leber congenital amaurosis
+ENSG00000129422	DOID_684	hepatocellular carcinoma
+ENSG00000129535	DOID_10584	retinitis pigmentosa
+ENSG00000129757	DOID_5572	Beckwith-Wiedemann syndrome
+ENSG00000129991	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000129991	DOID_12930	dilated cardiomyopathy
+ENSG00000130203	DOID_10652	Alzheimer's disease
+ENSG00000130203	DOID_10871	age related macular degeneration
+ENSG00000130203	DOID_4423	sea-blue histiocyte syndrome
+ENSG00000130283	DOID_6406	double outlet right ventricle
+ENSG00000130283	DOID_6419	tetralogy of Fallot
+ENSG00000130385	DOID_5426	premature ovarian failure
+ENSG00000130402	DOID_1312	focal segmental glomerulosclerosis
+ENSG00000130414	DOID_3652	Leigh disease
+ENSG00000130561	DOID_8498	hereditary night blindness
+ENSG00000130635	DOID_14720	type I Ehlers-Danlos syndrome
+ENSG00000130638	DOID_1441	spinocerebellar ataxia
+ENSG00000130707	DOID_9273	citrullinemia
+ENSG00000130714	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000131018	DOID_11726	Emery-Dreifuss muscular dystrophy
+ENSG00000131018	DOID_1441	spinocerebellar ataxia
+ENSG00000131089	DOID_2481	infantile epileptic encephalopathy
+ENSG00000131095	DOID_4252	Alexander disease
+ENSG00000131096	DOID_9970	obesity
+ENSG00000131183	DOID_1062	Fanconi syndrome
+ENSG00000131187	DOID_14735	hereditary angioedema
+ENSG00000131187	DOID_2231	factor XII deficiency
+ENSG00000131398	DOID_1441	spinocerebellar ataxia
+ENSG00000131482	DOID_2749	glycogen storage disease I
+ENSG00000131495	DOID_3652	Leigh disease
+ENSG00000131697	DOID_12712	nephronopthisis
+ENSG00000131828	DOID_3649	pyruvate decarboxylase deficiency
+ENSG00000131910	DOID_9970	obesity
+ENSG00000132155	DOID_14291	LEOPARD syndrome
+ENSG00000132155	DOID_3490	Noonan syndrome
+ENSG00000132170	DOID_3070	malignant glioma
+ENSG00000132170	DOID_9352	type 2 diabetes mellitus
+ENSG00000132170	DOID_9970	obesity
+ENSG00000132464	DOID_2187	amelogenesis imperfecta
+ENSG00000132518	DOID_14791	Leber congenital amaurosis
+ENSG00000132781	DOID_10534	stomach cancer
+ENSG00000132781	DOID_5374	pilomatrixoma
+ENSG00000132842	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000132965	DOID_3455	cerebrovascular accident
+ENSG00000133028	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000133048	DOID_5419	schizophrenia
+ENSG00000133104	DOID_2476	hereditary spastic paraplegia
+ENSG00000133105	DOID_11383	cryptorchidism
+ENSG00000133111	DOID_5812	MHC class II deficiency
+ENSG00000133216	DOID_10283	prostate cancer
+ENSG00000133392	DOID_14004	thoracic aortic aneurysm
+ENSG00000133703	DOID_10534	stomach cancer
+ENSG00000133703	DOID_11054	urinary bladder cancer
+ENSG00000133703	DOID_1612	breast cancer
+ENSG00000133703	DOID_3490	Noonan syndrome
+ENSG00000133703	DOID_3905	lung carcinoma
+ENSG00000133703	DOID_4905	pancreatic carcinoma
+ENSG00000133703	DOID_9119	acute myeloid leukemia
+ENSG00000133818	DOID_2394	ovarian cancer
+ENSG00000133895	DOID_10017	Wermer syndrome
+ENSG00000134086	DOID_14175	von Hippel-Lindau disease
+ENSG00000134242	DOID_7148	rheumatoid arthritis
+ENSG00000134242	DOID_9074	systemic lupus erythematosus
+ENSG00000134242	DOID_9744	type 1 diabetes mellitus
+ENSG00000134250	DOID_2736	Hajdu-Cheney syndrome
+ENSG00000134250	DOID_9245	Alagille syndrome
+ENSG00000134363	DOID_11612	polycystic ovary syndrome
+ENSG00000134371	DOID_1540	parathyroid carcinoma
+ENSG00000134376	DOID_10584	retinitis pigmentosa
+ENSG00000134438	DOID_10629	microphthalmia
+ENSG00000134571	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000134571	DOID_12930	dilated cardiomyopathy
+ENSG00000134595	DOID_14450	46 XX gonadal dysgenesis
+ENSG00000134853	DOID_9253	gastrointestinal stromal tumor
+ENSG00000134982	DOID_10534	stomach cancer
+ENSG00000134982	DOID_1520	colon carcinoma
+ENSG00000134982	DOID_3858	medulloblastoma
+ENSG00000134982	DOID_684	hepatocellular carcinoma
+ENSG00000134982	DOID_9256	colorectal cancer
+ENSG00000134987	DOID_1067	open-angle glaucoma
+ENSG00000134987	DOID_1070	primary open anle glaucoma
+ENSG00000135100	DOID_9352	type 2 diabetes mellitus
+ENSG00000135100	DOID_9744	type 1 diabetes mellitus
+ENSG00000135338	DOID_14791	Leber congenital amaurosis
+ENSG00000135406	DOID_332	amyotrophic lateral sclerosis
+ENSG00000135437	DOID_11105	fundus albipunctatus
+ENSG00000135636	DOID_11720	distal muscular dystrophy
+ENSG00000135636	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000135677	DOID_12801	mucopolysaccharidosis III
+ENSG00000135744	DOID_10825	essential hypertension
+ENSG00000135828	DOID_10283	prostate cancer
+ENSG00000135903	DOID_4051	alveolar rhabdomyosarcoma
+ENSG00000135903	DOID_9258	Waardenburg's syndrome
+ENSG00000135925	DOID_14793	hypohidrotic ectodermal dysplasia
+ENSG00000135929	DOID_4810	cerebrotendinous xanthomatosis
+ENSG00000135960	DOID_14793	hypohidrotic ectodermal dysplasia
+ENSG00000136068	DOID_14764	Larsen syndrome
+ENSG00000136160	DOID_10487	Hirschsprung's disease
+ENSG00000136160	DOID_9258	Waardenburg's syndrome
+ENSG00000136244	DOID_8577	ulcerative colitis
+ENSG00000136244	DOID_8632	Kaposi's sarcoma
+ENSG00000136244	DOID_9352	type 2 diabetes mellitus
+ENSG00000136463	DOID_3652	Leigh disease
+ENSG00000136492	DOID_13636	Fanconi's anemia
+ENSG00000136492	DOID_1612	breast cancer
+ENSG00000136531	DOID_2481	infantile epileptic encephalopathy
+ENSG00000136574	DOID_1882	atrial heart septal defect
+ENSG00000136634	DOID_13241	Behcet's disease
+ENSG00000136634	DOID_7148	rheumatoid arthritis
+ENSG00000136689	DOID_10534	stomach cancer
+ENSG00000136698	DOID_6406	double outlet right ventricle
+ENSG00000136802	DOID_2583	agammaglobulinemia
+ENSG00000136854	DOID_2481	infantile epileptic encephalopathy
+ENSG00000136861	DOID_10907	microcephaly
+ENSG00000136869	DOID_10871	age related macular degeneration
+ENSG00000136869	DOID_1520	colon carcinoma
+ENSG00000136869	DOID_9256	colorectal cancer
+ENSG00000136931	DOID_14448	46 XY gonadal dysgenesis
+ENSG00000136931	DOID_5426	premature ovarian failure
+ENSG00000136944	DOID_1067	open-angle glaucoma
+ENSG00000136944	DOID_9467	nail-patella syndrome
+ENSG00000136997	DOID_8584	Burkitt's lymphoma
+ENSG00000137106	DOID_2977	primary hyperoxaluria
+ENSG00000137265	DOID_9538	multiple myeloma
+ENSG00000137309	DOID_9352	type 2 diabetes mellitus
+ENSG00000137462	DOID_1520	colon carcinoma
+ENSG00000137462	DOID_9256	colorectal cancer
+ENSG00000137642	DOID_10652	Alzheimer's disease
+ENSG00000137672	DOID_1312	focal segmental glomerulosclerosis
+ENSG00000137674	DOID_2187	amelogenesis imperfecta
+ENSG00000137700	DOID_2749	glycogen storage disease I
+ENSG00000137713	DOID_3905	lung carcinoma
+ENSG00000137726	DOID_5419	schizophrenia
+ENSG00000137868	DOID_10629	microphthalmia
+ENSG00000137992	DOID_9269	maple syrup urine disease
+ENSG00000138061	DOID_1067	open-angle glaucoma
+ENSG00000138061	DOID_1070	primary open anle glaucoma
+ENSG00000138061	DOID_11211	buphthalmos
+ENSG00000138079	DOID_9266	cystinuria
+ENSG00000138083	DOID_4621	holoprosencephaly
+ENSG00000138293	DOID_3969	papillary thyroid carcinoma
+ENSG00000138326	DOID_1339	Diamond-Blackfan anemia
+ENSG00000138376	DOID_1612	breast cancer
+ENSG00000138378	DOID_7148	rheumatoid arthritis
+ENSG00000138378	DOID_9074	systemic lupus erythematosus
+ENSG00000138413	DOID_3070	malignant glioma
+ENSG00000138435	DOID_437	myasthenia gravis
+ENSG00000138449	DOID_2352	hemochromatosis
+ENSG00000138686	DOID_1935	Bardet-Biedl syndrome
+ENSG00000138796	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000138798	DOID_1520	colon carcinoma
+ENSG00000138798	DOID_9256	colorectal cancer
+ENSG00000138823	DOID_1386	abetalipoproteinemia
+ENSG00000138823	DOID_14221	metabolic syndrome X
+ENSG00000139083	DOID_9119	acute myeloid leukemia
+ENSG00000139133	DOID_2843	long QT syndrome
+ENSG00000139174	DOID_891	progressive myoclonic epilepsy
+ENSG00000139197	DOID_10582	Refsum disease
+ENSG00000139197	DOID_10588	adrenoleukodystrophy
+ENSG00000139197	DOID_905	Zellweger syndrome
+ENSG00000139219	DOID_14415	Legg-Calve-Perthes Disease
+ENSG00000139219	DOID_14789	spondyloepiphyseal dysplasia congenita
+ENSG00000139287	DOID_1595	endogenous depression
+ENSG00000139428	DOID_14749	methylmalonic acidemia
+ENSG00000139515	DOID_9352	type 2 diabetes mellitus
+ENSG00000139549	DOID_14448	46 XY gonadal dysgenesis
+ENSG00000139567	DOID_1270	hereditary hemorrhagic telangiectasia
+ENSG00000139618	DOID_10283	prostate cancer
+ENSG00000139618	DOID_13636	Fanconi's anemia
+ENSG00000139618	DOID_1612	breast cancer
+ENSG00000139618	DOID_2154	nephroblastoma
+ENSG00000139618	DOID_3070	malignant glioma
+ENSG00000139618	DOID_3858	medulloblastoma
+ENSG00000139618	DOID_4905	pancreatic carcinoma
+ENSG00000139618	DOID_5683	hereditary breast ovarian cancer
+ENSG00000139687	DOID_11054	urinary bladder cancer
+ENSG00000139687	DOID_3347	osteosarcoma
+ENSG00000139687	DOID_5409	lung small cell carcinoma
+ENSG00000139687	DOID_768	retinoblastoma
+ENSG00000139988	DOID_10584	retinitis pigmentosa
+ENSG00000139988	DOID_14791	Leber congenital amaurosis
+ENSG00000140092	DOID_10871	age related macular degeneration
+ENSG00000140326	DOID_1338	congenital dyserythropoietic anemia
+ENSG00000140416	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000140416	DOID_12930	dilated cardiomyopathy
+ENSG00000140463	DOID_1935	Bardet-Biedl syndrome
+ENSG00000140521	DOID_1442	Alpers syndrome
+ENSG00000140521	DOID_3652	Leigh disease
+ENSG00000140522	DOID_10584	retinitis pigmentosa
+ENSG00000140522	DOID_11105	fundus albipunctatus
+ENSG00000140525	DOID_13636	Fanconi's anemia
+ENSG00000140650	DOID_5212	congenital disorder of glycosylation
+ENSG00000140675	DOID_9432	renal glycosuria
+ENSG00000140678	DOID_9074	systemic lupus erythematosus
+ENSG00000140718	DOID_9970	obesity
+ENSG00000140836	DOID_10283	prostate cancer
+ENSG00000140905	DOID_9268	glycine encephalopathy
+ENSG00000141012	DOID_12804	mucopolysaccharidosis IV
+ENSG00000141385	DOID_1441	spinocerebellar ataxia
+ENSG00000141458	DOID_14504	Niemann-Pick disease
+ENSG00000141510	DOID_1520	colon carcinoma
+ENSG00000141510	DOID_1612	breast cancer
+ENSG00000141510	DOID_2626	choroid plexus papilloma
+ENSG00000141510	DOID_3012	Li-Fraumeni syndrome
+ENSG00000141510	DOID_3347	osteosarcoma
+ENSG00000141510	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000141510	DOID_3905	lung carcinoma
+ENSG00000141510	DOID_4905	pancreatic carcinoma
+ENSG00000141510	DOID_684	hepatocellular carcinoma
+ENSG00000141510	DOID_9256	colorectal cancer
+ENSG00000141510	DOID_9261	nasopharynx carcinoma
+ENSG00000141524	DOID_13777	epidermodysplasia verruciformis
+ENSG00000141646	DOID_14557	primary pulmonary hypertension
+ENSG00000141646	DOID_1520	colon carcinoma
+ENSG00000141646	DOID_4905	pancreatic carcinoma
+ENSG00000141646	DOID_9256	colorectal cancer
+ENSG00000141655	DOID_3347	osteosarcoma
+ENSG00000141655	DOID_5408	Paget's disease of bone
+ENSG00000141736	DOID_10534	stomach cancer
+ENSG00000141736	DOID_2394	ovarian cancer
+ENSG00000141736	DOID_3070	malignant glioma
+ENSG00000141736	DOID_3905	lung carcinoma
+ENSG00000141744	DOID_10825	essential hypertension
+ENSG00000141756	DOID_10871	age related macular degeneration
+ENSG00000141756	DOID_12347	osteogenesis imperfecta
+ENSG00000141837	DOID_1441	spinocerebellar ataxia
+ENSG00000141837	DOID_963	episodic ataxia
+ENSG00000141985	DOID_9119	acute myeloid leukemia
+ENSG00000142168	DOID_332	amyotrophic lateral sclerosis
+ENSG00000142192	DOID_10652	Alzheimer's disease
+ENSG00000142192	DOID_9246	cerebral amyloid angiopathy
+ENSG00000142208	DOID_13482	Proteus syndrome
+ENSG00000142208	DOID_1520	colon carcinoma
+ENSG00000142208	DOID_1612	breast cancer
+ENSG00000142208	DOID_2394	ovarian cancer
+ENSG00000142208	DOID_5419	schizophrenia
+ENSG00000142208	DOID_5683	hereditary breast ovarian cancer
+ENSG00000142208	DOID_9256	colorectal cancer
+ENSG00000142655	DOID_10582	Refsum disease
+ENSG00000142655	DOID_10588	adrenoleukodystrophy
+ENSG00000142655	DOID_905	Zellweger syndrome
+ENSG00000142676	DOID_1339	Diamond-Blackfan anemia
+ENSG00000142867	DOID_1520	colon carcinoma
+ENSG00000142867	DOID_1790	malignant mesothelioma
+ENSG00000142867	DOID_2998	testicular cancer
+ENSG00000142867	DOID_4440	seminoma
+ENSG00000142867	DOID_5557	testicular germ cell cancer
+ENSG00000142867	DOID_9256	colorectal cancer
+ENSG00000143153	DOID_10825	essential hypertension
+ENSG00000143224	DOID_4346	variegate porphyria
+ENSG00000143248	DOID_10825	essential hypertension
+ENSG00000143252	DOID_9253	gastrointestinal stromal tumor
+ENSG00000143278	DOID_2211	factor XIII deficiency
+ENSG00000143294	DOID_4465	papillary renal cell carcinoma
+ENSG00000143341	DOID_10871	age related macular degeneration
+ENSG00000143369	DOID_14498	lipoid proteinosis
+ENSG00000143390	DOID_5812	MHC class II deficiency
+ENSG00000143549	DOID_3969	papillary thyroid carcinoma
+ENSG00000143631	DOID_1702	ichthyosis vulgaris
+ENSG00000143631	DOID_3310	atopic dermatitis
+ENSG00000143669	DOID_2935	Chediak-Higashi syndrome
+ENSG00000143801	DOID_10652	Alzheimer's disease
+ENSG00000143801	DOID_12930	dilated cardiomyopathy
+ENSG00000143815	DOID_9631	Pelger-Huet anomaly
+ENSG00000143819	DOID_10591	pre-eclampsia
+ENSG00000143951	DOID_1935	Bardet-Biedl syndrome
+ENSG00000144028	DOID_10584	retinitis pigmentosa
+ENSG00000144061	DOID_12712	nephronopthisis
+ENSG00000144191	DOID_13911	achromatopsia
+ENSG00000144285	DOID_2481	infantile epileptic encephalopathy
+ENSG00000144381	DOID_2476	hereditary spastic paraplegia
+ENSG00000144452	DOID_1699	congenital ichthyosiform erythroderma
+ENSG00000144554	DOID_13636	Fanconi's anemia
+ENSG00000144891	DOID_10825	essential hypertension
+ENSG00000145012	DOID_9119	acute myeloid leukemia
+ENSG00000145020	DOID_9268	glycine encephalopathy
+ENSG00000145050	DOID_4905	pancreatic carcinoma
+ENSG00000145321	DOID_12361	Graves' disease
+ENSG00000145321	DOID_7997	thyrotoxicosis
+ENSG00000145335	DOID_12217	Lewy body dementia
+ENSG00000145335	DOID_14330	Parkinson's disease
+ENSG00000145354	DOID_10632	Wolfram syndrome
+ENSG00000145996	DOID_9352	type 2 diabetes mellitus
+ENSG00000146648	DOID_3905	lung carcinoma
+ENSG00000146938	DOID_12849	autistic disorder
+ENSG00000147044	DOID_14711	FG syndrome
+ENSG00000147202	DOID_5426	premature ovarian failure
+ENSG00000147257	DOID_2154	nephroblastoma
+ENSG00000147316	DOID_10907	microcephaly
+ENSG00000147548	DOID_9119	acute myeloid leukemia
+ENSG00000147889	DOID_10041	familial atypical multiple mole-melanoma
+ENSG00000147889	DOID_3012	Li-Fraumeni syndrome
+ENSG00000148290	DOID_3652	Leigh disease
+ENSG00000148400	DOID_1711	congenital aortic valve stenosis
+ENSG00000148516	DOID_11555	Fuchs' endothelial dystrophy
+ENSG00000148604	DOID_10584	retinitis pigmentosa
+ENSG00000148672	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000148677	DOID_4297	scimitar syndrome
+ENSG00000148702	DOID_2452	thrombophilia
+ENSG00000148737	DOID_9352	type 2 diabetes mellitus
+ENSG00000149131	DOID_14735	hereditary angioedema
+ENSG00000149177	DOID_1520	colon carcinoma
+ENSG00000149177	DOID_9256	colorectal cancer
+ENSG00000149311	DOID_12704	ataxia telangiectasia
+ENSG00000149311	DOID_1612	breast cancer
+ENSG00000149397	DOID_3890	acute intermittent porphyria
+ENSG00000149489	DOID_10584	retinitis pigmentosa
+ENSG00000149781	DOID_6612	leukocyte adhesion deficiency
+ENSG00000149948	DOID_13223	uterine fibroid
+ENSG00000149948	DOID_3315	lipoma
+ENSG00000150907	DOID_4051	alveolar rhabdomyosarcoma
+ENSG00000150995	DOID_1441	spinocerebellar ataxia
+ENSG00000151067	DOID_2843	long QT syndrome
+ENSG00000151090	DOID_11633	thyroid hormone resistance syndrome
+ENSG00000151208	DOID_8577	ulcerative colitis
+ENSG00000151348	DOID_206	hereditary multiple exostoses
+ENSG00000151577	DOID_5419	schizophrenia
+ENSG00000151611	DOID_14749	methylmalonic acidemia
+ENSG00000151617	DOID_6364	migraine
+ENSG00000151702	DOID_3369	peripheral primitive neuroectodermal tumor
+ENSG00000151704	DOID_445	Bartter disease
+ENSG00000151729	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000151729	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000151849	DOID_10907	microcephaly
+ENSG00000152556	DOID_11721	glycogen storage disease VII
+ENSG00000152591	DOID_4154	dentinogenesis imperfecta
+ENSG00000152591	DOID_701	dentin dysplasia
+ENSG00000152601	DOID_11722	myotonic dystrophy
+ENSG00000152642	DOID_9007	sudden infant death syndrome
+ENSG00000152661	DOID_4534	Hallermann-Streiff syndrome
+ENSG00000152661	DOID_9955	hypoplastic left heart syndrome
+ENSG00000152977	DOID_2785	Dandy-Walker syndrome
+ENSG00000153064	DOID_9074	systemic lupus erythematosus
+ENSG00000153208	DOID_10584	retinitis pigmentosa
+ENSG00000153234	DOID_14330	Parkinson's disease
+ENSG00000154099	DOID_9562	primary ciliary dyskinesia
+ENSG00000154277	DOID_14330	Parkinson's disease
+ENSG00000154415	DOID_9352	type 2 diabetes mellitus
+ENSG00000154803	DOID_1520	colon carcinoma
+ENSG00000154803	DOID_9256	colorectal cancer
+ENSG00000155256	DOID_2476	hereditary spastic paraplegia
+ENSG00000155380	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000155657	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000155657	DOID_12930	dilated cardiomyopathy
+ENSG00000155846	DOID_9970	obesity
+ENSG00000155850	DOID_14687	diastrophic dysplasia
+ENSG00000155980	DOID_2476	hereditary spastic paraplegia
+ENSG00000156170	DOID_3652	Leigh disease
+ENSG00000156313	DOID_10584	retinitis pigmentosa
+ENSG00000156466	DOID_10426	Klippel-Feil syndrome
+ENSG00000156466	DOID_10629	microphthalmia
+ENSG00000156466	DOID_12270	coloboma
+ENSG00000156475	DOID_1441	spinocerebellar ataxia
+ENSG00000156574	DOID_758	situs inversus
+ENSG00000156738	DOID_12177	common variable immunodeficiency
+ENSG00000156970	DOID_1520	colon carcinoma
+ENSG00000156970	DOID_9256	colorectal cancer
+ENSG00000157017	DOID_9970	obesity
+ENSG00000157152	DOID_5419	schizophrenia
+ENSG00000157212	DOID_10652	Alzheimer's disease
+ENSG00000157404	DOID_12309	urticaria pigmentosa
+ENSG00000157404	DOID_2998	testicular cancer
+ENSG00000157404	DOID_3263	piebaldism
+ENSG00000157404	DOID_350	mastocytosis
+ENSG00000157404	DOID_4440	seminoma
+ENSG00000157404	DOID_5557	testicular germ cell cancer
+ENSG00000157404	DOID_9119	acute myeloid leukemia
+ENSG00000157404	DOID_9253	gastrointestinal stromal tumor
+ENSG00000157554	DOID_3369	peripheral primitive neuroectodermal tumor
+ENSG00000157764	DOID_14291	LEOPARD syndrome
+ENSG00000157764	DOID_1520	colon carcinoma
+ENSG00000157764	DOID_3490	Noonan syndrome
+ENSG00000157764	DOID_3905	lung carcinoma
+ENSG00000157764	DOID_9256	colorectal cancer
+ENSG00000157765	DOID_12117	pulmonary alveolar microlithiasis
+ENSG00000157766	DOID_84	osteochondritis dissecans
+ENSG00000157911	DOID_10582	Refsum disease
+ENSG00000157911	DOID_10588	adrenoleukodystrophy
+ENSG00000157911	DOID_905	Zellweger syndrome
+ENSG00000158169	DOID_13636	Fanconi's anemia
+ENSG00000158517	DOID_3265	chronic granulomatous disease
+ENSG00000158773	DOID_13809	familial combined hyperlipidemia
+ENSG00000158813	DOID_14793	hypohidrotic ectodermal dysplasia
+ENSG00000158828	DOID_14330	Parkinson's disease
+ENSG00000158887	DOID_11549	Adie syndrome
+ENSG00000159023	DOID_2373	hereditary elliptocytosis
+ENSG00000159197	DOID_2843	long QT syndrome
+ENSG00000159216	DOID_7148	rheumatoid arthritis
+ENSG00000159216	DOID_8552	chronic myeloid leukemia
+ENSG00000159216	DOID_9119	acute myeloid leukemia
+ENSG00000159251	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000159251	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000159251	DOID_12930	dilated cardiomyopathy
+ENSG00000159251	DOID_1882	atrial heart septal defect
+ENSG00000159267	DOID_859	holocarboxylase synthetase deficiency
+ENSG00000159339	DOID_7148	rheumatoid arthritis
+ENSG00000159459	DOID_14694	Johanson-Blizzard syndrome
+ENSG00000159640	DOID_10652	Alzheimer's disease
+ENSG00000159640	DOID_3455	cerebrovascular accident
+ENSG00000159723	DOID_9970	obesity
+ENSG00000159842	DOID_3858	medulloblastoma
+ENSG00000159921	DOID_3659	sialuria
+ENSG00000159958	DOID_12177	common variable immunodeficiency
+ENSG00000160050	DOID_1935	Bardet-Biedl syndrome
+ENSG00000160211	DOID_2862	glucosephosphate dehydrogenase deficiency
+ENSG00000160213	DOID_3535	Unverricht-Lundborg syndrome
+ENSG00000160255	DOID_6612	leukocyte adhesion deficiency
+ENSG00000160789	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000160789	DOID_11726	Emery-Dreifuss muscular dystrophy
+ENSG00000160789	DOID_12930	dilated cardiomyopathy
+ENSG00000160789	DOID_3911	progeria
+ENSG00000160789	DOID_5688	Werner syndrome
+ENSG00000160801	DOID_4624	Ollier disease
+ENSG00000160808	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000160856	DOID_7148	rheumatoid arthritis
+ENSG00000160882	DOID_14080	glucocorticoid-remediable aldosteronism
+ENSG00000160957	DOID_2732	Rothmund-Thomson syndrome
+ENSG00000161011	DOID_5408	Paget's disease of bone
+ENSG00000162009	DOID_6255	growth hormone secreting pituitary adenoma
+ENSG00000162105	DOID_12849	autistic disorder
+ENSG00000162399	DOID_445	Bartter disease
+ENSG00000162512	DOID_9970	obesity
+ENSG00000162551	DOID_14213	hypophosphatasia
+ENSG00000162594	DOID_13241	Behcet's disease
+ENSG00000162594	DOID_8577	ulcerative colitis
+ENSG00000162614	DOID_12930	dilated cardiomyopathy
+ENSG00000162688	DOID_2748	glycogen storage disease III
+ENSG00000162735	DOID_10582	Refsum disease
+ENSG00000162735	DOID_10588	adrenoleukodystrophy
+ENSG00000162735	DOID_905	Zellweger syndrome
+ENSG00000162736	DOID_2280	hidradenitis suppurativa
+ENSG00000162896	DOID_2986	IgA glomerulonephritis
+ENSG00000162928	DOID_10582	Refsum disease
+ENSG00000162928	DOID_10588	adrenoleukodystrophy
+ENSG00000162928	DOID_905	Zellweger syndrome
+ENSG00000162946	DOID_5419	schizophrenia
+ENSG00000162992	DOID_9352	type 2 diabetes mellitus
+ENSG00000163050	DOID_1441	spinocerebellar ataxia
+ENSG00000163069	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000163093	DOID_1935	Bardet-Biedl syndrome
+ENSG00000163132	DOID_6678	tooth and nail syndrome
+ENSG00000163161	DOID_2960	photosensitive trichthiodystrophy
+ENSG00000163421	DOID_3614	Kallmann syndrome
+ENSG00000163497	DOID_9007	sudden infant death syndrome
+ENSG00000163513	DOID_14323	Marfan syndrome
+ENSG00000163513	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000163554	DOID_2373	hereditary elliptocytosis
+ENSG00000163599	DOID_12361	Graves' disease
+ENSG00000163599	DOID_7997	thyrotoxicosis
+ENSG00000163599	DOID_9074	systemic lupus erythematosus
+ENSG00000163600	DOID_12177	common variable immunodeficiency
+ENSG00000163635	DOID_14784	olivopontocerebellar atrophy
+ENSG00000163655	DOID_9119	acute myeloid leukemia
+ENSG00000163697	DOID_10652	Alzheimer's disease
+ENSG00000163755	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000163795	DOID_10584	retinitis pigmentosa
+ENSG00000163914	DOID_10584	retinitis pigmentosa
+ENSG00000163914	DOID_11105	fundus albipunctatus
+ENSG00000163930	DOID_1790	malignant mesothelioma
+ENSG00000163931	DOID_10915	Wernicke-Korsakoff syndrome
+ENSG00000164093	DOID_14686	Axenfeld-Rieger syndrome
+ENSG00000164120	DOID_14283	primary hypertrophic osteoarthropathy
+ENSG00000164182	DOID_3652	Leigh disease
+ENSG00000164190	DOID_11725	Cornelia de Lange syndrome
+ENSG00000164252	DOID_2926	Klippel-Trenaunay syndrome
+ENSG00000164258	DOID_3652	Leigh disease
+ENSG00000164326	DOID_9970	obesity
+ENSG00000164342	DOID_10871	age related macular degeneration
+ENSG00000164362	DOID_12449	aplastic anemia
+ENSG00000164442	DOID_6419	tetralogy of Fallot
+ENSG00000164458	DOID_3302	chordoma
+ENSG00000164532	DOID_1882	atrial heart septal defect
+ENSG00000164610	DOID_10584	retinitis pigmentosa
+ENSG00000164690	DOID_1148	polydactyly
+ENSG00000164690	DOID_12270	coloboma
+ENSG00000164690	DOID_4621	holoprosencephaly
+ENSG00000164692	DOID_12347	osteogenesis imperfecta
+ENSG00000164751	DOID_10582	Refsum disease
+ENSG00000164751	DOID_10588	adrenoleukodystrophy
+ENSG00000164751	DOID_905	Zellweger syndrome
+ENSG00000164756	DOID_9352	type 2 diabetes mellitus
+ENSG00000164867	DOID_10591	pre-eclampsia
+ENSG00000164867	DOID_10652	Alzheimer's disease
+ENSG00000164867	DOID_10825	essential hypertension
+ENSG00000164867	DOID_3455	cerebrovascular accident
+ENSG00000164953	DOID_12712	nephronopthisis
+ENSG00000164953	DOID_1935	Bardet-Biedl syndrome
+ENSG00000164961	DOID_2476	hereditary spastic paraplegia
+ENSG00000165029	DOID_1388	Tangier disease
+ENSG00000165060	DOID_12705	Friedreich ataxia
+ENSG00000165102	DOID_12801	mucopolysaccharidosis III
+ENSG00000165140	DOID_5204	fructose-1,6-bisphosphatase deficiency
+ENSG00000165168	DOID_3265	chronic granulomatous disease
+ENSG00000165171	DOID_1928	Williams-Beuren syndrome
+ENSG00000165171	DOID_1929	supravalvular aortic stenosis
+ENSG00000165194	DOID_2481	infantile epileptic encephalopathy
+ENSG00000165240	DOID_1838	Menkes disease
+ENSG00000165392	DOID_1520	colon carcinoma
+ENSG00000165392	DOID_5688	Werner syndrome
+ENSG00000165392	DOID_9256	colorectal cancer
+ENSG00000165458	DOID_9352	type 2 diabetes mellitus
+ENSG00000165506	DOID_9562	primary ciliary dyskinesia
+ENSG00000165533	DOID_10584	retinitis pigmentosa
+ENSG00000165533	DOID_1935	Bardet-Biedl syndrome
+ENSG00000165588	DOID_10629	microphthalmia
+ENSG00000165671	DOID_14731	Weaver syndrome
+ENSG00000165671	DOID_14748	Sotos syndrome
+ENSG00000165671	DOID_5572	Beckwith-Wiedemann syndrome
+ENSG00000165671	DOID_9119	acute myeloid leukemia
+ENSG00000165699	DOID_13515	tuberous sclerosis
+ENSG00000165704	DOID_1919	Lesch-Nyhan syndrome
+ENSG00000165730	DOID_10591	pre-eclampsia
+ENSG00000165731	DOID_10016	Wagenmann-Froboese syndrome
+ENSG00000165731	DOID_10487	Hirschsprung's disease
+ENSG00000165731	DOID_14766	renal agenesis
+ENSG00000165731	DOID_1520	colon carcinoma
+ENSG00000165731	DOID_3969	papillary thyroid carcinoma
+ENSG00000165731	DOID_9256	colorectal cancer
+ENSG00000166033	DOID_10871	age related macular degeneration
+ENSG00000166035	DOID_9352	type 2 diabetes mellitus
+ENSG00000166147	DOID_14323	Marfan syndrome
+ENSG00000166189	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000166278	DOID_10871	age related macular degeneration
+ENSG00000166311	DOID_14504	Niemann-Pick disease
+ENSG00000166415	DOID_2187	amelogenesis imperfecta
+ENSG00000166546	DOID_1441	spinocerebellar ataxia
+ENSG00000166603	DOID_9970	obesity
+ENSG00000166716	DOID_1441	spinocerebellar ataxia
+ENSG00000166794	DOID_12347	osteogenesis imperfecta
+ENSG00000166813	DOID_1935	Bardet-Biedl syndrome
+ENSG00000166813	DOID_9248	Pallister-Hall syndrome
+ENSG00000166813	DOID_9250	acrocallosal syndrome
+ENSG00000166949	DOID_1520	colon carcinoma
+ENSG00000166949	DOID_9256	colorectal cancer
+ENSG00000167085	DOID_1612	breast cancer
+ENSG00000167165	DOID_2739	Gilbert syndrome
+ENSG00000167165	DOID_3803	Crigler-Najjar syndrome
+ENSG00000167207	DOID_8577	ulcerative colitis
+ENSG00000167244	DOID_14681	Silver-Russell syndrome
+ENSG00000167244	DOID_5572	Beckwith-Wiedemann syndrome
+ENSG00000167434	DOID_10584	retinitis pigmentosa
+ENSG00000167522	DOID_14780	KBG syndrome
+ENSG00000167632	DOID_1059	intellectual disability
+ENSG00000167634	DOID_3590	gestational trophoblastic neoplasm
+ENSG00000167744	DOID_1067	open-angle glaucoma
+ENSG00000167749	DOID_2187	amelogenesis imperfecta
+ENSG00000167768	DOID_4603	epidermolytic hyperkeratosis
+ENSG00000167792	DOID_3652	Leigh disease
+ENSG00000167792	DOID_4252	Alexander disease
+ENSG00000167895	DOID_13777	epidermodysplasia verruciformis
+ENSG00000167995	DOID_10584	retinitis pigmentosa
+ENSG00000168000	DOID_2476	hereditary spastic paraplegia
+ENSG00000168036	DOID_1520	colon carcinoma
+ENSG00000168036	DOID_1790	malignant mesothelioma
+ENSG00000168036	DOID_2394	ovarian cancer
+ENSG00000168036	DOID_3858	medulloblastoma
+ENSG00000168036	DOID_452	pleomorphic adenoma
+ENSG00000168036	DOID_5374	pilomatrixoma
+ENSG00000168036	DOID_684	hepatocellular carcinoma
+ENSG00000168036	DOID_9256	colorectal cancer
+ENSG00000168282	DOID_5212	congenital disorder of glycosylation
+ENSG00000168291	DOID_3649	pyruvate decarboxylase deficiency
+ENSG00000168329	DOID_10871	age related macular degeneration
+ENSG00000168447	DOID_9563	bronchiectasis
+ENSG00000168477	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000168484	DOID_12716	newborn respiratory distress syndrome
+ENSG00000168484	DOID_2796	desquamative interstitial pneumonia
+ENSG00000168509	DOID_2352	hemochromatosis
+ENSG00000168542	DOID_14756	autosomal dominant type IV Ehlers-Danlos syndrome
+ENSG00000168542	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000168542	DOID_7693	abdominal aortic aneurysm
+ENSG00000168610	DOID_3261	Job's syndrome
+ENSG00000168621	DOID_10487	Hirschsprung's disease
+ENSG00000168646	DOID_1520	colon carcinoma
+ENSG00000168646	DOID_9256	colorectal cancer
+ENSG00000168685	DOID_2377	multiple sclerosis
+ENSG00000168769	DOID_2224	hemorrhagic thrombocythemia
+ENSG00000168769	DOID_4971	myelofibrosis
+ENSG00000168769	DOID_8997	polycythemia vera
+ENSG00000168878	DOID_12716	newborn respiratory distress syndrome
+ENSG00000169031	DOID_10983	Alport syndrome
+ENSG00000169047	DOID_9352	type 2 diabetes mellitus
+ENSG00000169057	DOID_1206	Rett syndrome
+ENSG00000169057	DOID_12849	autistic disorder
+ENSG00000169057	DOID_1932	Angelman syndrome
+ENSG00000169083	DOID_10283	prostate cancer
+ENSG00000169083	DOID_10892	hypospadias
+ENSG00000169083	DOID_4674	androgen insensitivity syndrome
+ENSG00000169184	DOID_4586	familial meningioma
+ENSG00000169252	DOID_9970	obesity
+ENSG00000169297	DOID_14448	46 XY gonadal dysgenesis
+ENSG00000169359	DOID_2476	hereditary spastic paraplegia
+ENSG00000169432	DOID_2481	infantile epileptic encephalopathy
+ENSG00000169676	DOID_529	blepharospasm
+ENSG00000169696	DOID_4239	alveolar soft part sarcoma
+ENSG00000169704	DOID_2217	Bernard-Soulier syndrome
+ENSG00000169714	DOID_11722	myotonic dystrophy
+ENSG00000169814	DOID_856	biotinidase deficiency
+ENSG00000169862	DOID_12580	Cri-Du-Chat syndrome
+ENSG00000169919	DOID_12803	mucopolysaccharidosis VII
+ENSG00000169946	DOID_3827	congenital diaphragmatic hernia
+ENSG00000169946	DOID_6419	tetralogy of Fallot
+ENSG00000170113	DOID_2476	hereditary spastic paraplegia
+ENSG00000170264	DOID_10584	retinitis pigmentosa
+ENSG00000170266	DOID_12804	mucopolysaccharidosis IV
+ENSG00000170266	DOID_3322	gangliosidosis GM1
+ENSG00000170275	DOID_12347	osteogenesis imperfecta
+ENSG00000170289	DOID_13911	achromatopsia
+ENSG00000170315	DOID_674	cleft palate
+ENSG00000170365	DOID_14557	primary pulmonary hypertension
+ENSG00000170485	DOID_1595	endogenous depression
+ENSG00000170624	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000170624	DOID_12930	dilated cardiomyopathy
+ENSG00000170820	DOID_5425	ovarian hyperstimulation syndrome
+ENSG00000170836	DOID_1612	breast cancer
+ENSG00000170927	DOID_898	polycystic kidney disease
+ENSG00000171094	DOID_769	neuroblastoma
+ENSG00000171105	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000171105	DOID_9352	type 2 diabetes mellitus
+ENSG00000171119	DOID_10487	Hirschsprung's disease
+ENSG00000171298	DOID_2752	glycogen storage disease II
+ENSG00000171316	DOID_3614	Kallmann syndrome
+ENSG00000171320	DOID_5325	Roberts syndrome
+ENSG00000171453	DOID_2908	Treacher Collins syndrome
+ENSG00000171557	DOID_2236	congenital afibrinogenemia
+ENSG00000171560	DOID_2236	congenital afibrinogenemia
+ENSG00000171564	DOID_2236	congenital afibrinogenemia
+ENSG00000171595	DOID_9562	primary ciliary dyskinesia
+ENSG00000171711	DOID_8577	ulcerative colitis
+ENSG00000171714	DOID_11720	distal muscular dystrophy
+ENSG00000171714	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000171759	DOID_9281	phenylketonuria
+ENSG00000171812	DOID_11555	Fuchs' endothelial dystrophy
+ENSG00000171862	DOID_10041	familial atypical multiple mole-melanoma
+ENSG00000171862	DOID_10283	prostate cancer
+ENSG00000171862	DOID_13482	Proteus syndrome
+ENSG00000171862	DOID_14679	VACTERL association
+ENSG00000171862	DOID_2871	endometrial carcinoma
+ENSG00000171862	DOID_3070	malignant glioma
+ENSG00000171862	DOID_3471	Cowden syndrome
+ENSG00000171862	DOID_3962	follicular thyroid carcinoma
+ENSG00000171862	DOID_4586	familial meningioma
+ENSG00000171862	DOID_6457	Cowden disease
+ENSG00000171862	DOID_8923	skin melanoma
+ENSG00000171863	DOID_1339	Diamond-Blackfan anemia
+ENSG00000171867	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000171867	DOID_4249	Gerstmann-Straussler-Scheinker disease
+ENSG00000172062	DOID_12376	juvenile spinal muscular atrophy
+ENSG00000172062	DOID_13137	Werdnig-Hoffmann disease
+ENSG00000172243	DOID_2058	chronic mucocutaneous candidiasis
+ENSG00000172426	DOID_9562	primary ciliary dyskinesia
+ENSG00000172456	DOID_332	amyotrophic lateral sclerosis
+ENSG00000172482	DOID_2977	primary hyperoxaluria
+ENSG00000172548	DOID_1699	congenital ichthyosiform erythroderma
+ENSG00000172575	DOID_9074	systemic lupus erythematosus
+ENSG00000172660	DOID_6496	extraskeletal myxoid chondrosarcoma
+ENSG00000172817	DOID_2476	hereditary spastic paraplegia
+ENSG00000172893	DOID_14692	Smith-Lemli-Opitz syndrome
+ENSG00000173040	DOID_12714	Ellis-Van Creveld syndrome
+ENSG00000173077	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000173599	DOID_3651	pyruvate carboxylase deficiency disease
+ENSG00000173894	DOID_14448	46 XY gonadal dysgenesis
+ENSG00000173898	DOID_1441	spinocerebellar ataxia
+ENSG00000173976	DOID_10871	age related macular degeneration
+ENSG00000173991	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000173991	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000173991	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000173991	DOID_12930	dilated cardiomyopathy
+ENSG00000174106	DOID_4253	melorheostosis
+ENSG00000174175	DOID_3455	cerebrovascular accident
+ENSG00000174231	DOID_10584	retinitis pigmentosa
+ENSG00000174358	DOID_1060	Hartnup disease
+ENSG00000174374	DOID_1928	Williams-Beuren syndrome
+ENSG00000174374	DOID_1929	supravalvular aortic stenosis
+ENSG00000174405	DOID_9538	multiple myeloma
+ENSG00000174437	DOID_2734	keratosis follicularis
+ENSG00000174469	DOID_12849	autistic disorder
+ENSG00000174483	DOID_1935	Bardet-Biedl syndrome
+ENSG00000174697	DOID_9970	obesity
+ENSG00000174775	DOID_11054	urinary bladder cancer
+ENSG00000174775	DOID_3962	follicular thyroid carcinoma
+ENSG00000174775	DOID_8161	thyroid hurthle cell carcinoma
+ENSG00000174963	DOID_2785	Dandy-Walker syndrome
+ENSG00000175084	DOID_12930	dilated cardiomyopathy
+ENSG00000175197	DOID_5363	myxoid liposarcoma
+ENSG00000175198	DOID_14701	propionic acidemia
+ENSG00000175445	DOID_1171	hyperlipoproteinemia type V
+ENSG00000175445	DOID_13809	familial combined hyperlipidemia
+ENSG00000175445	DOID_14118	familial lipoprotein lipase deficiency
+ENSG00000175538	DOID_14451	hyperkalemic periodic paralysis
+ENSG00000175538	DOID_14452	hypokalemic periodic paralysis
+ENSG00000175548	DOID_2843	long QT syndrome
+ENSG00000175564	DOID_9970	obesity
+ENSG00000175567	DOID_9970	obesity
+ENSG00000175832	DOID_3369	peripheral primitive neuroectodermal tumor
+ENSG00000175899	DOID_10652	Alzheimer's disease
+ENSG00000176165	DOID_1206	Rett syndrome
+ENSG00000176410	DOID_1928	Williams-Beuren syndrome
+ENSG00000176410	DOID_1929	supravalvular aortic stenosis
+ENSG00000177000	DOID_2452	thrombophilia
+ENSG00000177000	DOID_3455	cerebrovascular accident
+ENSG00000177000	DOID_5419	schizophrenia
+ENSG00000177045	DOID_14702	branchiootorenal syndrome
+ENSG00000177098	DOID_2843	long QT syndrome
+ENSG00000177189	DOID_3783	Coffin-Lowry syndrome
+ENSG00000177257	DOID_8577	ulcerative colitis
+ENSG00000177426	DOID_4621	holoprosencephaly
+ENSG00000177455	DOID_12177	common variable immunodeficiency
+ENSG00000177542	DOID_2481	infantile epileptic encephalopathy
+ENSG00000177628	DOID_14330	Parkinson's disease
+ENSG00000177628	DOID_1926	Gaucher's disease
+ENSG00000178053	DOID_9119	acute myeloid leukemia
+ENSG00000178127	DOID_14330	Parkinson's disease
+ENSG00000178235	DOID_11119	Gilles de la Tourette syndrome
+ENSG00000178445	DOID_9268	glycine encephalopathy
+ENSG00000179142	DOID_14080	glucocorticoid-remediable aldosteronism
+ENSG00000179148	DOID_1699	congenital ichthyosiform erythroderma
+ENSG00000179163	DOID_14500	fucosidosis
+ENSG00000179270	DOID_10584	retinitis pigmentosa
+ENSG00000179295	DOID_14291	LEOPARD syndrome
+ENSG00000179295	DOID_3490	Noonan syndrome
+ENSG00000179344	DOID_10608	celiac disease
+ENSG00000179344	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000179344	DOID_2377	multiple sclerosis
+ENSG00000179344	DOID_9744	type 1 diabetes mellitus
+ENSG00000179348	DOID_9119	acute myeloid leukemia
+ENSG00000179477	DOID_1699	congenital ichthyosiform erythroderma
+ENSG00000179583	DOID_2377	multiple sclerosis
+ENSG00000179583	DOID_5812	MHC class II deficiency
+ENSG00000179583	DOID_7148	rheumatoid arthritis
+ENSG00000179915	DOID_12849	autistic disorder
+ENSG00000179941	DOID_1935	Bardet-Biedl syndrome
+ENSG00000180053	DOID_6406	double outlet right ventricle
+ENSG00000180210	DOID_2235	prothrombin deficiency
+ENSG00000180210	DOID_2452	thrombophilia
+ENSG00000180210	DOID_3455	cerebrovascular accident
+ENSG00000180509	DOID_2842	Jervell-Lange Nielsen syndrome
+ENSG00000180509	DOID_2843	long QT syndrome
+ENSG00000180644	DOID_12449	aplastic anemia
+ENSG00000180921	DOID_2187	amelogenesis imperfecta
+ENSG00000181004	DOID_1935	Bardet-Biedl syndrome
+ENSG00000181027	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000181072	DOID_1595	endogenous depression
+ENSG00000181092	DOID_9352	type 2 diabetes mellitus
+ENSG00000181163	DOID_9119	acute myeloid leukemia
+ENSG00000181449	DOID_10629	microphthalmia
+ENSG00000181523	DOID_12801	mucopolysaccharidosis III
+ENSG00000181544	DOID_13636	Fanconi's anemia
+ENSG00000181690	DOID_452	pleomorphic adenoma
+ENSG00000181804	DOID_12849	autistic disorder
+ENSG00000181830	DOID_6612	leukocyte adhesion deficiency
+ENSG00000181856	DOID_9352	type 2 diabetes mellitus
+ENSG00000182185	DOID_13223	uterine fibroid
+ENSG00000182197	DOID_206	hereditary multiple exostoses
+ENSG00000182197	DOID_3371	chondrosarcoma
+ENSG00000182197	DOID_4998	Langer-Giedion syndrome
+ENSG00000182346	DOID_5419	schizophrenia
+ENSG00000182389	DOID_4890	juvenile myoclonic epilepsy
+ENSG00000182533	DOID_11724	limb-girdle muscular dystrophy
+ENSG00000182533	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000182533	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000182533	DOID_2843	long QT syndrome
+ENSG00000182533	DOID_9007	sudden infant death syndrome
+ENSG00000182621	DOID_2481	infantile epileptic encephalopathy
+ENSG00000182636	DOID_11983	Prader-Willi syndrome
+ENSG00000182774	DOID_1339	Diamond-Blackfan anemia
+ENSG00000182851	DOID_1171	hyperlipoproteinemia type V
+ENSG00000182899	DOID_1339	Diamond-Blackfan anemia
+ENSG00000182944	DOID_3369	peripheral primitive neuroectodermal tumor
+ENSG00000183072	DOID_6406	double outlet right ventricle
+ENSG00000183072	DOID_6419	tetralogy of Fallot
+ENSG00000183161	DOID_13636	Fanconi's anemia
+ENSG00000183337	DOID_10629	microphthalmia
+ENSG00000183513	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000183715	DOID_2394	ovarian cancer
+ENSG00000183715	DOID_5683	hereditary breast ovarian cancer
+ENSG00000183733	DOID_5426	premature ovarian failure
+ENSG00000183765	DOID_10283	prostate cancer
+ENSG00000183765	DOID_1612	breast cancer
+ENSG00000183765	DOID_3012	Li-Fraumeni syndrome
+ENSG00000183765	DOID_3347	osteosarcoma
+ENSG00000183770	DOID_14778	blepharophimosis, ptosis, and epicanthus inversus syndrome
+ENSG00000183770	DOID_5426	premature ovarian failure
+ENSG00000183873	DOID_12930	dilated cardiomyopathy
+ENSG00000183873	DOID_2843	long QT syndrome
+ENSG00000183873	DOID_9007	sudden infant death syndrome
+ENSG00000184058	DOID_11198	DiGeorge syndrome
+ENSG00000184058	DOID_12583	velocardiofacial syndrome
+ENSG00000184058	DOID_6406	double outlet right ventricle
+ENSG00000184344	DOID_10426	Klippel-Feil syndrome
+ENSG00000184344	DOID_10629	microphthalmia
+ENSG00000184381	DOID_14330	Parkinson's disease
+ENSG00000184634	DOID_14711	FG syndrome
+ENSG00000184640	DOID_10383	amyotrophic neuralgia
+ENSG00000184779	DOID_1339	Diamond-Blackfan anemia
+ENSG00000184895	DOID_14450	46 XX gonadal dysgenesis
+ENSG00000184903	DOID_11119	Gilles de la Tourette syndrome
+ENSG00000184908	DOID_445	Bartter disease
+ENSG00000184937	DOID_14515	WAGR syndrome
+ENSG00000184937	DOID_1790	malignant mesothelioma
+ENSG00000184937	DOID_2154	nephroblastoma
+ENSG00000184937	DOID_3764	Denys-Drash syndrome
+ENSG00000185008	DOID_9620	vesicoureteral reflux
+ENSG00000185010	DOID_12134	factor VIII deficiency
+ENSG00000185068	DOID_2960	photosensitive trichthiodystrophy
+ENSG00000185245	DOID_2217	Bernard-Soulier syndrome
+ENSG00000185345	DOID_14330	Parkinson's disease
+ENSG00000185345	DOID_2394	ovarian cancer
+ENSG00000185345	DOID_3905	lung carcinoma
+ENSG00000185345	DOID_5683	hereditary breast ovarian cancer
+ENSG00000185527	DOID_10584	retinitis pigmentosa
+ENSG00000185909	DOID_8567	Hodgkin's lymphoma
+ENSG00000185920	DOID_2512	nevoid basal cell carcinoma syndrome
+ENSG00000185920	DOID_3858	medulloblastoma
+ENSG00000185920	DOID_4621	holoprosencephaly
+ENSG00000185950	DOID_9352	type 2 diabetes mellitus
+ENSG00000185974	DOID_8498	hereditary night blindness
+ENSG00000186010	DOID_8161	thyroid hurthle cell carcinoma
+ENSG00000186153	DOID_3748	esophagus squamous cell carcinoma
+ENSG00000186184	DOID_2908	Treacher Collins syndrome
+ENSG00000186197	DOID_14793	hypohidrotic ectodermal dysplasia
+ENSG00000186395	DOID_4603	epidermolytic hyperkeratosis
+ENSG00000186510	DOID_445	Bartter disease
+ENSG00000186575	DOID_1790	malignant mesothelioma
+ENSG00000186575	DOID_3204	neurilemmomatosis
+ENSG00000186575	DOID_4586	familial meningioma
+ENSG00000186575	DOID_8712	neurofibromatosis
+ENSG00000186716	DOID_8552	chronic myeloid leukemia
+ENSG00000186765	DOID_10584	retinitis pigmentosa
+ENSG00000186790	DOID_11367	congenital aphakia
+ENSG00000186868	DOID_11870	Pick's disease
+ENSG00000186868	DOID_14330	Parkinson's disease
+ENSG00000186868	DOID_678	progressive supranuclear palsy
+ENSG00000186868	DOID_9255	frontotemporal dementia
+ENSG00000187045	DOID_11252	microcytic anemia
+ENSG00000187098	DOID_9258	Waardenburg's syndrome
+ENSG00000187486	DOID_13317	hyperinsulinemic hypoglycemia
+ENSG00000187486	DOID_9352	type 2 diabetes mellitus
+ENSG00000187566	DOID_3534	Lafora disease
+ENSG00000187741	DOID_13636	Fanconi's anemia
+ENSG00000187790	DOID_13636	Fanconi's anemia
+ENSG00000187796	DOID_2058	chronic mucocutaneous candidiasis
+ENSG00000187908	DOID_3070	malignant glioma
+ENSG00000187908	DOID_3858	medulloblastoma
+ENSG00000188037	DOID_2106	Thomsen disease
+ENSG00000188107	DOID_10584	retinitis pigmentosa
+ENSG00000188120	DOID_14227	azoospermia
+ENSG00000188153	DOID_10983	Alport syndrome
+ENSG00000188257	DOID_1520	colon carcinoma
+ENSG00000188257	DOID_9256	colorectal cancer
+ENSG00000188389	DOID_2377	multiple sclerosis
+ENSG00000188389	DOID_9074	systemic lupus erythematosus
+ENSG00000188404	DOID_2986	IgA glomerulonephritis
+ENSG00000188419	DOID_9821	choroideremia
+ENSG00000188452	DOID_10584	retinitis pigmentosa
+ENSG00000188536	DOID_10241	thalassemia
+ENSG00000188536	DOID_1099	alpha thalassemia
+ENSG00000188641	DOID_14218	dihydropyrimidine dehydrogenase deficiency
+ENSG00000188690	DOID_13271	cutaneous porphyria
+ENSG00000188778	DOID_9970	obesity
+ENSG00000188906	DOID_14330	Parkinson's disease
+ENSG00000189114	DOID_3753	Hermansky-Pudlak syndrome
+ENSG00000196126	DOID_2377	multiple sclerosis
+ENSG00000196126	DOID_7148	rheumatoid arthritis
+ENSG00000196155	DOID_1441	spinocerebellar ataxia
+ENSG00000196189	DOID_10584	retinitis pigmentosa
+ENSG00000196218	DOID_3529	central core myopathy
+ENSG00000196218	DOID_8545	malignant hyperthermia
+ENSG00000196338	DOID_12849	autistic disorder
+ENSG00000196396	DOID_9352	type 2 diabetes mellitus
+ENSG00000196415	DOID_12132	Wegener's granulomatosis
+ENSG00000196628	DOID_9248	Pallister-Hall syndrome
+ENSG00000196712	DOID_1520	colon carcinoma
+ENSG00000196712	DOID_8712	neurofibromatosis
+ENSG00000196712	DOID_9256	colorectal cancer
+ENSG00000196735	DOID_10608	celiac disease
+ENSG00000196743	DOID_4795	Tay-Sachs disease AB variant
+ENSG00000196767	DOID_10003	sensorineural hearing loss
+ENSG00000196914	DOID_9119	acute myeloid leukemia
+ENSG00000196924	DOID_14711	FG syndrome
+ENSG00000197208	DOID_7148	rheumatoid arthritis
+ENSG00000197208	DOID_8577	ulcerative colitis
+ENSG00000197249	DOID_13372	alpha 1-antitrypsin deficiency
+ENSG00000197299	DOID_2717	bloom syndrome
+ENSG00000197323	DOID_3969	papillary thyroid carcinoma
+ENSG00000197375	DOID_14365	systemic primary carnitine deficiency disease
+ENSG00000197386	DOID_12858	Huntington's disease
+ENSG00000197561	DOID_5339	cyclic hematopoiesis
+ENSG00000197579	DOID_10584	retinitis pigmentosa
+ENSG00000197594	DOID_9352	type 2 diabetes mellitus
+ENSG00000197594	DOID_9970	obesity
+ENSG00000197616	DOID_11984	hypertrophic cardiomyopathy
+ENSG00000197616	DOID_11986	familial hypertrophic cardiomyopathy
+ENSG00000197616	DOID_12930	dilated cardiomyopathy
+ENSG00000197694	DOID_2481	infantile epileptic encephalopathy
+ENSG00000197728	DOID_1339	Diamond-Blackfan anemia
+ENSG00000197912	DOID_2476	hereditary spastic paraplegia
+ENSG00000198087	DOID_1312	focal segmental glomerulosclerosis
+ENSG00000198400	DOID_3969	papillary thyroid carcinoma
+ENSG00000198513	DOID_2476	hereditary spastic paraplegia
+ENSG00000198515	DOID_10584	retinitis pigmentosa
+ENSG00000198523	DOID_12930	dilated cardiomyopathy
+ENSG00000198570	DOID_14791	Leber congenital amaurosis
+ENSG00000198691	DOID_10584	retinitis pigmentosa
+ENSG00000198691	DOID_10871	age related macular degeneration
+ENSG00000198695	DOID_3652	Leigh disease
+ENSG00000198695	DOID_3687	MELAS syndrome
+ENSG00000198695	DOID_705	leber hereditary optic neuropathy
+ENSG00000198707	DOID_14791	Leber congenital amaurosis
+ENSG00000198707	DOID_1935	Bardet-Biedl syndrome
+ENSG00000198712	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000198727	DOID_705	leber hereditary optic neuropathy
+ENSG00000198734	DOID_2216	factor V deficiency
+ENSG00000198734	DOID_3455	cerebrovascular accident
+ENSG00000198763	DOID_705	leber hereditary optic neuropathy
+ENSG00000198786	DOID_3652	Leigh disease
+ENSG00000198786	DOID_3687	MELAS syndrome
+ENSG00000198786	DOID_705	leber hereditary optic neuropathy
+ENSG00000198804	DOID_1520	colon carcinoma
+ENSG00000198804	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000198804	DOID_705	leber hereditary optic neuropathy
+ENSG00000198804	DOID_9256	colorectal cancer
+ENSG00000198805	DOID_5813	purine nucleoside phosphorylase deficiency
+ENSG00000198835	DOID_2476	hereditary spastic paraplegia
+ENSG00000198840	DOID_3652	Leigh disease
+ENSG00000198886	DOID_3687	MELAS syndrome
+ENSG00000198886	DOID_705	leber hereditary optic neuropathy
+ENSG00000198888	DOID_3687	MELAS syndrome
+ENSG00000198888	DOID_705	leber hereditary optic neuropathy
+ENSG00000198899	DOID_3652	Leigh disease
+ENSG00000198899	DOID_4751	striatonigral degeneration
+ENSG00000198899	DOID_705	leber hereditary optic neuropathy
+ENSG00000198910	DOID_10487	Hirschsprung's disease
+ENSG00000198938	DOID_3687	MELAS syndrome
+ENSG00000198938	DOID_3762	cytochrome-c oxidase deficiency
+ENSG00000198938	DOID_705	leber hereditary optic neuropathy
+ENSG00000198947	DOID_11723	Duchenne muscular dystrophy
+ENSG00000198947	DOID_12930	dilated cardiomyopathy
+ENSG00000198947	DOID_9883	Becker muscular dystrophy
+ENSG00000203485	DOID_1312	focal segmental glomerulosclerosis
+ENSG00000203618	DOID_2217	Bernard-Soulier syndrome
+ENSG00000203747	DOID_9074	systemic lupus erythematosus
+ENSG00000203867	DOID_12930	dilated cardiomyopathy
+ENSG00000204120	DOID_14330	Parkinson's disease
+ENSG00000204217	DOID_14557	primary pulmonary hypertension
+ENSG00000204217	DOID_5453	pulmonary venoocclusive disease
+ENSG00000204262	DOID_14720	type I Ehlers-Danlos syndrome
+ENSG00000204267	DOID_5812	MHC class II deficiency
+ENSG00000204359	DOID_10871	age related macular degeneration
+ENSG00000204364	DOID_10871	age related macular degeneration
+ENSG00000204490	DOID_6364	migraine
+ENSG00000204498	DOID_7148	rheumatoid arthritis
+ENSG00000204713	DOID_3969	papillary thyroid carcinoma
+ENSG00000204842	DOID_14784	olivopontocerebellar atrophy
+ENSG00000204843	DOID_332	amyotrophic lateral sclerosis
+ENSG00000205155	DOID_2280	hidradenitis suppurativa
+ENSG00000205213	DOID_5419	schizophrenia
+ENSG00000205571	DOID_12376	juvenile spinal muscular atrophy
+ENSG00000205571	DOID_13137	Werdnig-Hoffmann disease
+ENSG00000205916	DOID_14227	azoospermia
+ENSG00000205944	DOID_14227	azoospermia
+ENSG00000206172	DOID_10241	thalassemia
+ENSG00000206172	DOID_1099	alpha thalassemia
+ENSG00000206190	DOID_1932	Angelman syndrome
+ENSG00000206235	DOID_5812	MHC class II deficiency
+ENSG00000206237	DOID_10608	celiac disease
+ENSG00000206237	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000206237	DOID_2377	multiple sclerosis
+ENSG00000206237	DOID_9744	type 1 diabetes mellitus
+ENSG00000206240	DOID_2377	multiple sclerosis
+ENSG00000206240	DOID_7148	rheumatoid arthritis
+ENSG00000206258	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000206299	DOID_5812	MHC class II deficiency
+ENSG00000206302	DOID_10608	celiac disease
+ENSG00000206302	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000206302	DOID_2377	multiple sclerosis
+ENSG00000206302	DOID_9744	type 1 diabetes mellitus
+ENSG00000206305	DOID_10608	celiac disease
+ENSG00000206306	DOID_2377	multiple sclerosis
+ENSG00000206306	DOID_7148	rheumatoid arthritis
+ENSG00000206340	DOID_9074	systemic lupus erythematosus
+ENSG00000206372	DOID_10871	age related macular degeneration
+ENSG00000206439	DOID_6364	migraine
+ENSG00000206440	DOID_7148	rheumatoid arthritis
+ENSG00000206449	DOID_7148	rheumatoid arthritis
+ENSG00000206450	DOID_1123	spondyloarthropathy
+ENSG00000206503	DOID_1123	spondyloarthropathy
+ENSG00000206505	DOID_1123	spondyloarthropathy
+ENSG00000211896	DOID_9538	multiple myeloma
+ENSG00000211899	DOID_2583	agammaglobulinemia
+ENSG00000212907	DOID_705	leber hereditary optic neuropathy
+ENSG00000213024	DOID_4751	striatonigral degeneration
+ENSG00000213281	DOID_1520	colon carcinoma
+ENSG00000213281	DOID_3490	Noonan syndrome
+ENSG00000213281	DOID_3962	follicular thyroid carcinoma
+ENSG00000213281	DOID_9256	colorectal cancer
+ENSG00000213398	DOID_1391	Norum disease
+ENSG00000213614	DOID_3320	Tay-Sachs disease
+ENSG00000213619	DOID_3652	Leigh disease
+ENSG00000213689	DOID_9074	systemic lupus erythematosus
+ENSG00000213918	DOID_9074	systemic lupus erythematosus
+ENSG00000214140	DOID_10584	retinitis pigmentosa
+ENSG00000214274	DOID_332	amyotrophic lateral sclerosis
+ENSG00000215193	DOID_10582	Refsum disease
+ENSG00000215193	DOID_10588	adrenoleukodystrophy
+ENSG00000215193	DOID_905	Zellweger syndrome
+ENSG00000215641	DOID_3969	papillary thyroid carcinoma
+ENSG00000215644	DOID_9352	type 2 diabetes mellitus
+ENSG00000221829	DOID_13636	Fanconi's anemia
+ENSG00000223481	DOID_5812	MHC class II deficiency
+ENSG00000223532	DOID_1123	spondyloarthropathy
+ENSG00000223952	DOID_6364	migraine
+ENSG00000223980	DOID_1123	spondyloarthropathy
+ENSG00000224320	DOID_1123	spondyloarthropathy
+ENSG00000224608	DOID_1123	spondyloarthropathy
+ENSG00000224608	DOID_13241	Behcet's disease
+ENSG00000225614	DOID_14775	type VI Ehlers-Danlos syndrome
+ENSG00000225824	DOID_10608	celiac disease
+ENSG00000225824	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000225824	DOID_2377	multiple sclerosis
+ENSG00000225824	DOID_9744	type 1 diabetes mellitus
+ENSG00000225830	DOID_10871	age related macular degeneration
+ENSG00000225830	DOID_2962	Cockayne syndrome
+ENSG00000225830	DOID_3905	lung carcinoma
+ENSG00000225890	DOID_10608	celiac disease
+ENSG00000225967	DOID_5812	MHC class II deficiency
+ENSG00000226560	DOID_10871	age related macular degeneration
+ENSG00000227476	DOID_11727	facioscapulohumeral muscular dystrophy
+ENSG00000227565	DOID_7148	rheumatoid arthritis
+ENSG00000227715	DOID_1123	spondyloarthropathy
+ENSG00000227746	DOID_9074	systemic lupus erythematosus
+ENSG00000227772	DOID_7148	rheumatoid arthritis
+ENSG00000227904	DOID_11727	facioscapulohumeral muscular dystrophy
+ENSG00000228080	DOID_2377	multiple sclerosis
+ENSG00000228080	DOID_7148	rheumatoid arthritis
+ENSG00000228114	DOID_11727	facioscapulohumeral muscular dystrophy
+ENSG00000228188	DOID_11727	facioscapulohumeral muscular dystrophy
+ENSG00000228253	DOID_12934	Kearns-Sayre syndrome
+ENSG00000228284	DOID_10608	celiac disease
+ENSG00000228321	DOID_6364	migraine
+ENSG00000228582	DOID_5812	MHC class II deficiency
+ENSG00000228849	DOID_6364	migraine
+ENSG00000228964	DOID_1123	spondyloarthropathy
+ENSG00000228978	DOID_6364	migraine
+ENSG00000229006	DOID_3969	papillary thyroid carcinoma
+ENSG00000229074	DOID_2377	multiple sclerosis
+ENSG00000229074	DOID_7148	rheumatoid arthritis
+ENSG00000229215	DOID_1123	spondyloarthropathy
+ENSG00000229341	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000229353	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000230108	DOID_6364	migraine
+ENSG00000231286	DOID_10608	celiac disease
+ENSG00000231286	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000231286	DOID_2377	multiple sclerosis
+ENSG00000231286	DOID_9744	type 1 diabetes mellitus
+ENSG00000231543	DOID_10871	age related macular degeneration
+ENSG00000231608	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000231834	DOID_1123	spondyloarthropathy
+ENSG00000231939	DOID_10608	celiac disease
+ENSG00000231939	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000231939	DOID_2377	multiple sclerosis
+ENSG00000231939	DOID_9744	type 1 diabetes mellitus
+ENSG00000232062	DOID_10608	celiac disease
+ENSG00000232126	DOID_1123	spondyloarthropathy
+ENSG00000232326	DOID_5812	MHC class II deficiency
+ENSG00000232810	DOID_6364	migraine
+ENSG00000233209	DOID_10608	celiac disease
+ENSG00000233209	DOID_11949	Creutzfeldt-Jakob syndrome
+ENSG00000233209	DOID_2377	multiple sclerosis
+ENSG00000233209	DOID_9744	type 1 diabetes mellitus
+ENSG00000233323	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000233948	DOID_3969	papillary thyroid carcinoma
+ENSG00000234414	DOID_14227	azoospermia
+ENSG00000234495	DOID_3969	papillary thyroid carcinoma
+ENSG00000234530	DOID_7148	rheumatoid arthritis
+ENSG00000234745	DOID_1123	spondyloarthropathy
+ENSG00000235017	DOID_10871	age related macular degeneration
+ENSG00000235125	DOID_7148	rheumatoid arthritis
+ENSG00000235657	DOID_1123	spondyloarthropathy
+ENSG00000235696	DOID_10871	age related macular degeneration
+ENSG00000235718	DOID_10629	microphthalmia
+ENSG00000236196	DOID_7148	rheumatoid arthritis
+ENSG00000236221	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000236236	DOID_14757	type III Ehlers-Danlos syndrome
+ENSG00000236346	DOID_7148	rheumatoid arthritis
+ENSG00000236418	DOID_10608	celiac disease
+ENSG00000236625	DOID_9074	systemic lupus erythematosus
+ENSG00000236884	DOID_2377	multiple sclerosis
+ENSG00000236884	DOID_7148	rheumatoid arthritis
+ENSG00000237071	DOID_3969	papillary thyroid carcinoma
+ENSG00000237462	DOID_3969	papillary thyroid carcinoma
+ENSG00000239672	DOID_769	neuroblastoma
+ENSG00000239754	DOID_10871	age related macular degeneration
+ENSG00000240224	DOID_2739	Gilbert syndrome
+ENSG00000240224	DOID_3803	Crigler-Najjar syndrome
+ENSG00000240505	DOID_12177	common variable immunodeficiency
+ENSG00000241119	DOID_2739	Gilbert syndrome
+ENSG00000241119	DOID_3803	Crigler-Najjar syndrome
+ENSG00000241253	DOID_10871	age related macular degeneration
+ENSG00000241534	DOID_10871	age related macular degeneration
+ENSG00000241635	DOID_2739	Gilbert syndrome
+ENSG00000241635	DOID_3803	Crigler-Najjar syndrome
+ENSG00000241935	DOID_2977	primary hyperoxaluria
+ENSG00000242335	DOID_10871	age related macular degeneration
+ENSG00000242366	DOID_2739	Gilbert syndrome
+ENSG00000242366	DOID_3803	Crigler-Najjar syndrome
+ENSG00000242515	DOID_2739	Gilbert syndrome
+ENSG00000242515	DOID_3803	Crigler-Najjar syndrome
+ENSG00000242802	DOID_2476	hereditary spastic paraplegia
+ENSG00000243135	DOID_2739	Gilbert syndrome
+ENSG00000243135	DOID_3803	Crigler-Najjar syndrome
+ENSG00000243335	DOID_891	progressive myoclonic epilepsy
+ENSG00000243570	DOID_10871	age related macular degeneration
+ENSG00000243649	DOID_10871	age related macular degeneration
+ENSG00000244122	DOID_2739	Gilbert syndrome
+ENSG00000244122	DOID_3803	Crigler-Najjar syndrome
+ENSG00000244207	DOID_9074	systemic lupus erythematosus
+ENSG00000244414	DOID_10871	age related macular degeneration
+ENSG00000244474	DOID_2739	Gilbert syndrome
+ENSG00000244474	DOID_3803	Crigler-Najjar syndrome
+ENSG00000244682	DOID_8924	autoimmune thrombocytopenic purpura
+ENSG00000244731	DOID_9074	systemic lupus erythematosus
+ENSG00000244734	DOID_10241	thalassemia
+ENSG00000244734	DOID_10923	sickle cell anemia
+ENSG00000244734	DOID_12241	beta thalassemia
+ENSG00000245848	DOID_9119	acute myeloid leukemia
+ENSG00000248098	DOID_9269	maple syrup urine disease
+ENSG00000248099	DOID_11383	cryptorchidism
+ENSG00000248144	DOID_14330	Parkinson's disease
+ENSG00000248657	DOID_332	amyotrophic lateral sclerosis
+ENSG00000249437	DOID_12376	juvenile spinal muscular atrophy
+ENSG00000249437	DOID_13137	Werdnig-Hoffmann disease
+ENSG00000251295	DOID_1441	spinocerebellar ataxia
+ENSG00000255974	DOID_3905	lung carcinoma
+ENSG00000256269	DOID_3890	acute intermittent porphyria
+ENSG00000257437	DOID_11870	Pick's disease
+ENSG00000257437	DOID_14330	Parkinson's disease
+ENSG00000257437	DOID_678	progressive supranuclear palsy
+ENSG00000257437	DOID_9255	frontotemporal dementia
+ENSG00000257473	DOID_10608	celiac disease
+ENSG00000258839	DOID_10041	familial atypical multiple mole-melanoma
+ENSG00000258839	DOID_10611	protein-losing enteropathy
+ENSG00000258839	DOID_8923	skin melanoma
+ENSG00000259207	DOID_2219	Glanzmann's thrombasthenia

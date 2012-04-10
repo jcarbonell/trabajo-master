@@ -9,15 +9,14 @@ home_path <- getwd()
 
 # input params
 nfams <- 3
-ngenes <- 50
-nsims <- 50
-score_function_names <- c("default_score","default_score2","default_score3")
+ngenes <- 20
+nsims <- 10
+# score_function_names <- c("default_score","default_score2","default_score3")
+score_function_names <- c("default_score2","default_score4")
 global_score_methods <- c("no_zero_mean","no_zero_min","sum","median","min","max")
-# score_function_names <- c("default_score2","default_score3")
-# global_score_methods <- c("no_zero_mean","min")
 
 # prepare variables
-nscores <- length(sre$score_function_names)
+nscores <- length(score_function_names)
 
 # load interactomes
 interactomes <- load_interactomes(paste(home_path,"/../interactomes/",sep=""))
@@ -34,5 +33,16 @@ sre <- run_and_evaluate(family_set_series,interactomes,score_function_names=scor
 # paint evaluation
 paint_global_scores(sre$score_runs)
 
+
+paint_score_density(sre$score_runs[[1]],label=score_function_names[1])
 paint_score_density(sre$score_runs[[2]],label=score_function_names[2])
+
+
+annot_file <- "../misc/omim_clean_annot.txt"
+nfams <- c(3,5,3,5)
+
+
+
+
+
 
