@@ -53,8 +53,8 @@ get_subnets <- function(genes,interactomes,ninter){
   
 }
 
-get_subnet <- function(genes,interactome,ninter){  
-  return(get.all.shortest.paths.Josete(interactome,genes,ninter))
+get_subnet <- function(genes,interactome,ninter,verbose=F){  
+  return(get.all.shortest.paths.Josete(interactome,genes,ninter,verbose=verbose))
 }
 
 compute_distance_matrix <- function(sif){
