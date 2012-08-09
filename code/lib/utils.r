@@ -232,3 +232,7 @@ get_gene_distance_matrix <- function(genes,interactome){
   return(distance_matrix)
 }
 
+
+get_interactome_genes <- function(interactome){
+    return(unique(c(interactome[,1],interactome[,3])))
+}
