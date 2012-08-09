@@ -1,0 +1,15 @@
+
+Score parameters
+------------------------
+  
+* Weights
+* Distance priors
+
+* Filter
+  - INTER family
+  - self node family
+
+* Quantifying
+  - length unique families per distance
+  - sum of nodes/distances
+  
