@@ -71,14 +71,23 @@ evaluate_global_prioritization <- function(global_score_table,family_set){
   colnames(genes_position) <- colnames(global_score_table)
       
   for(i in 1:ninteractomes){
+    
     col <- colnames(global_score_table)[i]
     
     score <- as.numeric(global_score_table[,col])
     names(score) <- rownames(global_score_table)
     
-    sorted_score <- sort(score,decreasing=T)
+    sorted_score <- sort(score,decreasing=T,na.last=T)
+    
     get_pos <- function(gene){
-      which(names(sorted_score)==gene)
+      raw_pos <- which(names(sorted_score)==gene)
+      value <- sorted_score[raw_pos]
+      if(is.na(value)){
+        all_value_pos <- is.na(sorted_score)
+      } else {
+        all_value_pos <- which(sorted_score==value)
+      }
+      tail(all_value_pos,1)
     }
     genes_position[,i] <- sapply(family_set$fam_disease_genes,get_pos)
     
@@ -205,7 +214,6 @@ paint_mrp_comparison <- function(sims,sim_labels){
   
 }
 
-
 paint_global_scores <- function(score_runs){
   nscores <- length(score_runs)
   print(names(score_runs))
@@ -218,10 +226,33 @@ paint_global_scores <- function(score_runs){
 paint_global_score <- function(score_run,label="Score"){
   
   all_quantiles <- do.call("rbind",lapply(score_run$global_evaluation_list,function(x) x$genes_quantile))
-  boxplot(all_quantiles,main=label,cex.axis=0.7,names=F,ylim=c(0,1))
+  
+  # get and paint NAs
+  all_values <- do.call("rbind",lapply(score_run$global_evaluation_list, function(x) { x$target_global_score_table}))
+  na_prop <- apply(all_values,2,function(x) length(which(is.na(x)))/length(x))  
+  r <- barplot(na_prop,col=rgb(0.99,0.65,0,0.4),axes=F,density=30,ylim=c(0,1.03),border=T,names=F,cex.axis=0.7,main=label)
+  axis(1,tick=F,labels=F)
+  
+  # paint quantiles
+  boxplot(all_quantiles,axes=F,add=T,at=r,cex.axis=0.7,cex.lab=0.8,ylab="relative rank position",names=F,boxwex=0.8,col=rgb(1,1,1,0.5),border="black",outline=F)
+  axis(2,cex.axis=0.7)
+  par(xpd=F)
+  grid(nx=NA,ny=NULL)
+  
+  
+
+  # labels
   labels = colnames(all_quantiles)
-  text(1:length(labels), par("usr")[3] - 0.10, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
-  lines(c(0,length(labels)+1),c(0.5,0.5),lty=2)
+  text(r, par("usr")[3] - 0.07, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
+  
+  # central line
+  lines(c(-0.1,r[length(r)]+0.7),rep(0.5,2),lty=2,xpd=F)
+
+  text(r, 0.05, cex = 0.7,labels=format(digits=2,na_prop),col="darkorange",xpd=T)
+  
+  for(i in 1:length(na_prop)){
+    points(rep(r[i],nrow(all_quantiles))+runif(nrow(all_quantiles),min=0,max=0.2)-0.10,all_quantiles[,i],pch=20,cex=0.3,col="black")
+  }
   
   score_summary <- apply(all_quantiles,2,summary)
   print(score_summary)
@@ -256,12 +287,12 @@ paint_score_density <- function(score_run=NULL,target_scores=NULL,random_scores=
     }
   }
   
-  all_density <- density(all_scores[,score_name])
+  all_density <- density(all_scores[,score_name],na.rm=T)
   if(nrow(inter_scores)>0){
-    inter_density <- density(inter_scores[,score_name])
+    inter_density <- density(inter_scores[,score_name],na.rm=T)
   }
-  random_density <- density(random_scores[,score_name])
-  target_density <- density(target_scores[,score_name])
+  random_density <- density(random_scores[,score_name],na.rm=T)
+  target_density <- density(target_scores[,score_name],na.rm=T)
   
   if(norm_densities){
     if(nrow(inter_scores)>0){
@@ -291,7 +322,8 @@ paint_score_density <- function(score_run=NULL,target_scores=NULL,random_scores=
   boxplot(at=c(4,3,2,1),xlab=score_name,horizontal=T,list(all_scores[,score_name],inter_scores[,score_name],random_scores[,score_name],target_scores[,score_name]),cex.axis=0.7,names=F,col=thecols)
   labels <- c("INTER","RANDOM","TARGET")
 #   text(1:length(labels), par("usr")[3] - 0.05, cex = 0.7,srt = 45, adj = 1, labels, xpd = TRUE)
-  
+ 
+  return(random_scores)
 }
 
 get_target_list_distances <- function(target_list,random_list=NULL,distance_matrix){

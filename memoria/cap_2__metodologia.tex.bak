@@ -1,0 +1,34 @@
+\chapter{Material y métodos}
+
+
+\section{Obtención de genes candidatos}
+
+
+
+\section{Metodología de priorización}
+
+	\subsection{Búsqueda de vecindarios compartidos entre familias}
+
+	\subsection{Medidas de distancia}
+
+	\subsection{Computo del estadístico de priorización}
+
+	\subsection{Diagrama general del método}
+
+	\subsection{Otras estrategias complementarias al método}
+
+
+		\subsubsection{Estimación del rol general del gen}
+
+
+		\subsubsection{Información funcional}
+
+
+
+
+\section{Validación}
+
+	\subsection{Simulaciones}
+
+	\subsection{Caso de uso}
+

@@ -114,6 +114,34 @@ convert_interactome_ids <- function(interactome_file,xref_file,outfile,id_col=1)
   
 }
 
+get.igraph <- function(interactome=NULL,interactome.file=NULL){
+  if(is.null(interactome)){
+    my.graph <- read.table(interactome.file, quote=NULL, header=FALSE, sep="\t", stringsAsFactors=FALSE)[,c(1,3)]  
+    my.graph <- my.graph[which(my.graph[,1]!=my.graph[,2]),]
+  } else {
+    my.graph <- interactome[which(interactome[,1]!=interactome[,3]),][,c(1,3)]
+  }
+  my.igraph <- simplify(graph.data.frame(my.graph, directed=FALSE))
+  return(my.igraph)
+}
+
+get_interactome_params <- function(interactome){
+    
+  my.graph <- interactome[,c(1,3)]
+  my.graph <- my.graph[which(my.graph[,1]!=my.graph[,2]),]
+  my.igraph <- simplify(graph.data.frame(my.graph, directed=FALSE))
+  
+  gene_degree <- degree(my.igraph)
+  gene_betweenness <- betweenness(my.igraph)
+  gene_closeness <- closeness(my.igraph)
+  gene_burt <- constraint(my.igraph)
+  
+  params <- data.frame(degree=gene_degree,betweenness=gene_betweenness,closeness=gene_closeness,burt=gene_burt)
+  rownames(params) <- get.vertex.attribute(my.igraph,"name")
+  
+  return(params)
+  
+}
 
 get.all.shortest.paths.Josete <- function(sif, list, numinterm,verbose=F){
 

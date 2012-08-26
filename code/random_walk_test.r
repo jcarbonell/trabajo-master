@@ -56,3 +56,11 @@ binding_adm <- get_interactome_adjacency_matrix(interactomes$binding)
 system.time(
 rw <- RandomWalk.with.restart(all_binding_genes,"BRCA2",binding_adm)
 )
+
+
+
+weight <- function(distance){
+  1-pnorm(distance*2,mean=5,sd=1.1)
+}
+
+

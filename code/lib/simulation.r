@@ -172,7 +172,7 @@ simulate_run_and_evaluate <- function(nfams=3,ngenes=20,nsims=5,interactomes,dis
   
 }
 
-run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,score_function_names="default_score",verbose=T,global_score_methods=NULL,radio=5,test.inter=T){
+run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL,probability_matrices=NULL,score_function_names="default_score",verbose=T,global_score_methods=NULL,radio=5,test.inter=T){
   
   start <- proc.time()
   
@@ -185,6 +185,7 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
   # sizes
   nsims <- length(family_set_series)
   ninteractomes <- length(interactomes)
+  print(ninteractomes)
   nscores <- length(score_function_names)
   
   # family set series params
@@ -197,6 +198,9 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
     cat("Run and evaluate",date(),"\n")
     message("score functions: [",paste(score_function_names,collapse=","),"]")
     message("params: steps=",nsims,", nfams=[",paste(nfams_range,collapse=","),"],ngenes=[",paste(ngenes_range,collapse=","),"]")
+    if(!is.null(probability_matrices)){
+      message("provided probability matrices")
+    }
   }
 
   # init result list
@@ -230,7 +234,7 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
         score_function <- get(score_function_names[s])
         
         # run
-        score_runs[[s]]$multi_score_list[[k]] <- compute_multi_score(family_set_series[[k]]$raw_gene_list,interactomes,score_function,global_score_methods=global_score_methods,verbose=F,radio=radio,,test.inter=test.inter)
+        score_runs[[s]]$multi_score_list[[k]] <- compute_multi_score2(family_set_series[[k]]$raw_gene_list,interactomes,score_function,probability_matrices=probability_matrices,global_score_methods=global_score_methods,verbose=F,radio=radio,,test.inter=test.inter)
         
         # evaluate
         score_runs[[s]]$global_evaluation_list[[k]] <- evaluate_global_prioritization(score_runs[[s]]$multi_score_list[[k]]$global_score_table,family_set_series[[k]])

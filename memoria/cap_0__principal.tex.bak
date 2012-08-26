@@ -1,0 +1,116 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{xcolor}
+\usepackage{url}
+
+ 
+\author{José Carbonell Caballero}
+\title{Identificación y priorización de genes candidatos en enfermedades hereditarias: un estudio basado en redes génicas}
+%
+%\renewcommand{\chapter}[1]{ 
+%
+%\begin{flushright}
+%
+%	\begin{LARGE}
+%	   \thechapter{}
+%	\end{LARGE}	
+%	\\
+%	\line(1,0){250}
+%	\\
+%	\begin{LARGE}
+%	#1
+%	\end{LARGE}
+%
+%\end{flushright}
+%	
+%\medskip
+%	
+%}
+
+\makeatletter
+\def\thickhrule{\leavevmode \leaders \hrule height .5pt \hfill \kern \z@}
+\def\position{\centering}
+%% Note the difference between the commands the one is 
+%% make and the other one is makes
+\renewcommand\@makechapterhead[1]{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \position \reset@font
+       % {\Huge \scshape  \thechapter }
+        \par\nobreak
+        \vspace*{5\p@}%
+        \interlinepenalty\@M
+        \thickhrule
+        \par\nobreak
+        \vspace*{2\p@}%
+            % hacken om nummer 0 niet te weergeven 
+        \noindent
+        \parbox{\linewidth}{\raggedleft\Huge \bfseries 
+          \ifnum\thechapter>0 \thechapter\space\fi #1}\par\nobreak}
+        \par\nobreak
+        \vspace*{2\p@}%
+        \noindent
+        \thickhrule
+    \vskip 50\p@
+  }
+
+%% This uses makes
+
+\def\@makeschapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \position \reset@font
+        %{\Huge \scshape \vphantom{\thechapter}}
+        \par\nobreak
+        \vspace*{5\p@}%
+        \interlinepenalty\@M
+        \thickhrule
+        \par\nobreak
+        \vspace*{2\p@}%
+        \noindent
+        \parbox{\linewidth}{\raggedleft\Huge \bfseries #1}
+        \par\nobreak
+        \vspace*{2\p@}%
+        \thickhrule
+    \vskip 50\p@
+  }}
+\makeatother
+
+
+
+\begin{document}
+
+
+
+\maketitle
+
+\pagebreak
+
+\begin{abstract}
+Esto será el abstract...
+\end{abstract}
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\bibliographystyle{unsrt}
+
+
+\include{cap_1__introduccion}
+
+\include{cap_2__metodologia}
+\include{cap_3__resultados}
+\include{cap_4__conclusiones}
+\include{cap_5__agradecimientos}
+\include{cap_6__referencias}
+\include{cap_7__suplementario}
+
+
+\end{document}

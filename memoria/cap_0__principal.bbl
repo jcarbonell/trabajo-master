@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{watsonycrick}
+J.~D. Watson and F.~H.~C. Crick.
+\newblock {Molecular Structure of Nucleic Acids: A Structure for Deoxyribose
+  Nucleic Acid}.
+\newblock {\em Nature}, 171(4356):737--738, April 1953.
+
+\bibitem{GRC}
+Genome reference consortium.
+\newblock
+  \url{http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/human/}.
+
+\bibitem{Sanger1977}
+F~Sanger, S~Nicklen, and AR~Coulson.
+\newblock {DNA} sequencing with chain-terminating inhibitors.
+\newblock {\em { Proceedings of The National Academy of Sciences of The United
+  States Of America}}, {74}({12}):{5463--5467}, {1977}.
+
+\end{thebibliography}
