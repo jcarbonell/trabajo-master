@@ -107,23 +107,25 @@ A pesar de todo, los ultrasecuenciadores constituye la tecnología más prometed
 
 \section{Identificación y priorización de genes candidatos}
 
+\subsection{Indentificación de genes candidatos: estudio caso/control}
+
+
+Los genes constituyen únicamente el 5\% del genoma, el resto, antaño considerado como ADN basura, tiene una función todavía desconocida, que en algunas  ocasiones estará relacionada con aspectos más estructurales que funcionales en la molécula de ADN. A su vez, los genes tienen en su interior cierto grado de estructura. Poseen porciones que serán codificadas directamente a proteínas, llamadas exones o regiones codificantes, pero también poseen otras regiones de control relacionadas con su regulación, transcripción y otras regiones denominadas intrones, que flanquean a las regiones codificantes.
+
 \medskip
-Los genes constituyen únicamente el 5\% del genoma, el resto, antaño considerado como ADN basura, tiene una función todavía desconocida, que en algunas  ocasiones estará relacionada con aspectos más estructurales que funcionales en la molécula de ADN. A su vez, los genes tienen en su interior cierto grado de estructura. Poseen porciones que serán codificadas directamente a proteínas, llamadas regiones codificantes o exones, pero también poseen regiones relacionadas con su regulación, regiones empleadas durante la transcripción y otras regiones denominadas intrones situadas alrededor de los exones.
+Debido a la estructura y funcionamiento del genoma, es mucho más probable encontrar una mutación causante de enfermedad dentro de una zona codificante, que en zonas intergénicas, u otras zonas interiores al gen, donde un cambio de nucleótido tendría consecuencias mucho menores. Este factor produce que en la práctica no se realice una secuenciación orientada a genoma completo, por el contrario, se recurre a kits especiales de secuenciación que cubren únicamente las regiones codificantes de los genes. Esta reducción en el área de búsqueda tiene ciertas limitaciones, ya que en algunas ocasiones, la variación estructural nociva no aparecerá en la zona codificante, sino en zonas de control relacionadas con la regulación del gen. Sin embargo, la porción de ADN estudiado se reduce a sólo un 1\% del total, lo cual aporta grandes beneficios para toda la fase de procesamiento, almacenamiento y análisis que ocurre después de la secuenciación, lo cual permite un aprovechamiento máximo de los recursos económicos disponibles dentro de un proyecto de investigación. 
 
-Debido a la estructura y funcionamiento del genoma, es mucho más probable encontrar una mutación causante de enfermedad dentro de una zona codificante, que en zonas intergénicas, u otras zonas interiores al gen, donde un cambio de tendría unas consecuencias mucho menores. Este factor produce que en la práctica no se realice una secuenciación orientada a genoma completo, por el contrario, se recurre a kits especiales de secuenciación que cubren únicamente las regiones codificantes de los genes. Esta reducción en el área de búsqueda tiene ciertas limitaciones, ya que en algunas ocasiones la variación estructural no aparecerá en la zona codificante, sino en zonas relacionadas con señales de control en la regulación del gen. Sin embargo, la porción de ADN estudiado se reduce a sólo un 1\% del total, lo cual aporta grandes beneficios para toda la fase de procesamiento, almacenamiento y análisis que ocurre después de la secuenciación, lo cual permite un aprovechamiento máximo de los recursos económicos dentro de un proyecto. 
+\medskip
+El protocolo de selección de genes candidatos se realiza a partir de un estudio caso/control. Como es habitual, el grupo de casos está formado por una serie de individuos que comparten el mismo síndrome, en este caso, de origen genético. El grupo de casos se acompaña de un grupo de individuos control que nos permite filtrar todas aquellas mutaciones potencialmente nocivas que por estar presentes en población sana no deberían estar relacionadas con el síndrome. Una vez realizada la secuenciación y el resto de pasos computacionales necesarios para la obtención de todas las mutaciones propias de cada individuo del estudio, se realiza una selección de mutaciones candidatas que, en general, presenten una prevalencia significativamente mayor en los casos que en los controles. Si consideramos que los genes responsables de la enfermedad no tiene necesariamente que estar compartidos por el 100\% de casos, o permitimos que un porcentaje minoritario de controles pueda disponer de algunas de las mutaciones nocivas (como suele ocurrir en enfermedades multigénicas), la selección de mutaciones o genes candidatos se realizará habitualmente por medio de un test estadístico de proporciones, como el test exacto de Fisher. Si por el contrario, la selección de mutaciones se realiza de forma más estricta, únicamente se escogerán aquellas mutaciones o genes presentes en el 100\% de casos, sin prevalencia alguna en los controles, lo que hace irrelevante el uso de un test estadístico. 
 
-El protocolo de selección de genes candidatos se realiza a partir de un estudio caso/control. Como es habitual, el grupo de casos está formado por una serie de individuos que comparten el mismo síndrome, en este caso, de origen genético. El grupo de casos se acompaña de un grupo de individuos control que nos permitirá filtrar todas aquellas mutaciones potencialmente nocivas que por estar presentes en población sana no deberían estar relacionadas con el síndrome. Una vez realizada la secuenciación y el resto de pasos computacionales necesarios para la obtención de todas las mutaciones presentes en cada uno de los individuos del estudio, se realiza una selección de mutaciones candidatas que, en general, presenten una prevalencia significativamente mayor en los casos que en los controles. Si consideramos que los genes responsables de la enfermedad no tiene necesariamente que estar compartidos por el 100\% de casos, o permitimos que un porcentaje minoritario de controles pueda disponer de algunas de las mutaciones nocivas, como suele ocurrir en enfermedades multigénicas, la selección de mutaciones o genes candidatos se realizará habitualmente por medio de un test de proporciones (como el test de Fisher). Si por el contrario, la selección de mutaciones se realiza de forma más estricta, únicamente se escogeran mutaciones o genes presentes en el 100\% de casos, sin prevalencia ninguna en los controles, por lo que no será necesario aplicar ningún test estadístico. Una vez se realiza el primer filtro en función de casos y controles, se realiza una segunda selección donde quedan eliminadas aquellas mutaciones que producen cambios sinónimos (cambio de nucleótido que no conlleva un cambio de aminoácido)  o que por estar en una zona de regulación, sea dificil testar su malignidad. El conjunto de genes que finalmente permanece será considerado como el conjunto de genes candidatos a la enfermedad. 
+\medskip
+Una vez se realiza el primer filtro en función de casos y controles, se realiza una segunda selección donde quedan eliminadas aquellas mutaciones que producen cambios sinónimos (cambio de nucleótido que no conlleva un cambio de aminoácido)  o que por estar en una zonas no codificantes, sea dificil asegurar su malignidad. Finalmente, el grupo de genes que han pasado todos los filtros serán considerados como el conjunto de genes candidatos a la enfermedad. 
 
-
-En este caso, debido a problemas relacionados con el tamaño muestral de los estudios y otros errores del proceso, el gen causante de la enfermedad será seleccionando junto a un grupo de genes adicionales que también han pasado todos los filtros, y por tanto no han podido ser filtrados. Los genes que contienen a las mutaciones seleccionadas, serán considerados como genes candidatos a la enfermedad. 
-
-El tamaño muestral y otras parámetros de error relacionados con la secuenciación y los pasos de cómputo adicional, tendrán una influencia directa sobre el número de genes candidatos. 
-
-
+\medskip
+Debido a limitaciones relacionadas con el tamaño muestral y otro tipo de sesgos surgidos durante todo el proceso, el gen, o genes causantes de la enfermedad serán seleccionando junto a un grupo de genes aleatorios que cumplirán los mismos requisitos y que por tanto no podrán ser filtrados ni separados de estos. De esta forma, será tarea de estrategias posteriores encontrar argumentos biológicos o técnicos que permitan reducir el número de candidatos, o priorizar convenientemente a los que quedan. Esta es la razón principal que obliga a disponer de una fase de priorización (tanto manual como automática) de los genes candidatos, ya que los mecanismos de validación que se ejecutaran al final del estudio, incorporan necesariamente trabajos de laboratorio costosos tanto en tiempo como en gastos económicos. El tamaño del conjunto inicial de genes candidatos será principalmente función del tamaño muestral y de otros parámetros de calidad relacionados con la secuenciación, aunque otros aspectos relacionados con la fase computacional posterior también podrían tener gran influencia.
 
 
-
-identificación de mutaciones***
+\subsection{Reducción y priorización de genes candidatos}
 
 \medskip
 Modelos animales***
@@ -133,6 +135,14 @@ Selección de genes candidatos***
 priorización basada en funciones biológicas***
 
 comparación con genes conocidos***
+
+
+\subsection{Validación del conjunto final de genes candidatos}
+
+***modelos animales
+
+
+***grupo de test
 
 
 \section{Metodologías de priorización en ausencia de genes conocidos}

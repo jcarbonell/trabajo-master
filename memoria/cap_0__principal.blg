@@ -10,44 +10,50 @@ A level-1 auxiliary file: cap_5__agradecimientos.aux
 A level-1 auxiliary file: cap_6__referencias.aux
 A level-1 auxiliary file: cap_7__suplementario.aux
 Database file #1: referencias.bib
-You've used 3 entries,
+Illegal end of database file---line 149 of file referencias.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 13 entries,
             1791 wiz_defined-function locations,
-            477 strings with 4271 characters,
-and the built_in function-call counts, 641 in all, are:
-= -- 57
-> -- 20
+            533 strings with 14907 characters,
+and the built_in function-call counts, 10152 in all, are:
+= -- 248
+> -- 1816
 < -- 0
-+ -- 8
-- -- 5
-* -- 48
-:= -- 98
-add.period$ -- 8
-call.type$ -- 3
-change.case$ -- 3
++ -- 611
+- -- 598
+* -- 1347
+:= -- 2129
+add.period$ -- 35
+call.type$ -- 13
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 23
-empty$ -- 71
-format.name$ -- 5
-if$ -- 142
+cite$ -- 13
+duplicate$ -- 106
+empty$ -- 290
+format.name$ -- 598
+if$ -- 1742
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 17
-num.names$ -- 2
-pop$ -- 8
+int.to.str$ -- 13
+missing$ -- 11
+newline$ -- 64
+num.names$ -- 10
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 13
+skip$ -- 49
 stack$ -- 0
-substring$ -- 58
-swap$ -- 3
+substring$ -- 227
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 4
-write$ -- 31
+while$ -- 27
+width$ -- 15
+write$ -- 130
+(There was 1 error message)

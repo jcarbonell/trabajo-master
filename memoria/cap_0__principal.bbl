@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{watsonycrick}
 J.~D. Watson and F.~H.~C. Crick.
@@ -16,5 +16,153 @@ F~Sanger, S~Nicklen, and AR~Coulson.
 \newblock {DNA} sequencing with chain-terminating inhibitors.
 \newblock {\em { Proceedings of The National Academy of Sciences of The United
   States Of America}}, {74}({12}):{5463--5467}, {1977}.
+
+\bibitem{sift}
+P.~Kumar, S.~Henikoff, and P.~C. Ng.
+\newblock {{P}redicting the effects of coding non-synonymous variants on
+  protein function using the {S}{I}{F}{T} algorithm}.
+\newblock {\em Nat Protoc}, 4(7):1073--1081, 2009.
+
+\bibitem{polyphen}
+I.~A. Adzhubei, S.~Schmidt, L.~Peshkin, V.~E. Ramensky, A.~Gerasimova, P.~Bork,
+  A.~S. Kondrashov, and S.~R. Sunyaev.
+\newblock {{A} method and server for predicting damaging missense mutations}.
+\newblock {\em Nat. Methods}, 7(4):248--249, Apr 2010.
+
+\bibitem{dbsnp}
+S.~T. Sherry, M.~H. Ward, M.~Kholodov, J.~Baker, L.~Phan, E.~M. Smigielski, and
+  K.~Sirotkin.
+\newblock {db{S}{N}{P}: the {N}{C}{B}{I} database of genetic variation}.
+\newblock {\em Nucleic Acids Res.}, 29(1):308--311, Jan 2001.
+
+\bibitem{1000genomes}
+D.~Altshuler, R.~M. Durbin, G.~R. Abecasis, D.~R. Bentley, A.~Chakravarti,
+  A.~G. Clark, F.~S. Collins, F.~M. De~La~Vega, P.~Donnelly, M.~Egholm,
+  P.~Flicek, S.~B. Gabriel, R.~A. Gibbs, B.~M. Knoppers, E.~S. Lander,
+  H.~Lehrach, E.~R. Mardis, G.~A. McVean, D.~A. Nickerson, L.~Peltonen, A.~J.
+  Schafer, S.~T. Sherry, J.~Wang, R.~Wilson, R.~A. Gibbs, D.~Deiros,
+  M.~Metzker, D.~Muzny, J.~Reid, D.~Wheeler, J.~Wang, J.~Li, M.~Jian, G.~Li,
+  R.~Li, H.~Liang, G.~Tian, B.~Wang, J.~Wang, W.~Wang, H.~Yang, X.~Zhang,
+  H.~Zheng, E.~S. Lander, D.~L. Altshuler, L.~Ambrogio, T.~Bloom, K.~Cibulskis,
+  T.~J. Fennell, S.~B. Gabriel, D.~B. Jaffe, E.~Shefler, C.~L. Sougnez, D.~R.
+  Bentley, N.~Gormley, S.~Humphray, Z.~Kingsbury, P.~Kokko-Gonzales, J.~Stone,
+  K.~J. McKernan, G.~L. Costa, J.~K. Ichikawa, C.~C. Lee, R.~Sudbrak,
+  H.~Lehrach, T.~A. Borodina, A.~Dahl, A.~N. Davydov, P.~Marquardt, F.~Mertes,
+  W.~Nietfeld, P.~Rosenstiel, S.~Schreiber, A.~V. Soldatov, B.~Timmermann,
+  M.~Tolzmann, M.~Egholm, J.~Affourtit, D.~Ashworth, S.~Attiya, M.~Bachorski,
+  E.~Buglione, A.~Burke, A.~Caprio, C.~Celone, S.~Clark, D.~Conners, B.~Desany,
+  L.~Gu, L.~Guccione, K.~Kao, J.~Kebbler, J.~Knowlton, M.~Labrecque, L.~McDade,
+  C.~Mealmaker, M.~Minderman, A.~Nawrocki, F.~Niazi, K.~Pareja, R.~Ramenani,
+  D.~Riches, W.~Song, C.~Turcotte, S.~Wang, E.~R. Mardis, R.~K. Wilson,
+  D.~Dooling, L.~Fulton, R.~Fulton, G.~Weinstock, R.~M. Durbin, J.~Burton,
+  D.~M. Carter, C.~Churcher, A.~Coffey, A.~Cox, A.~Palotie, M.~Quail,
+  T.~Skelly, J.~Stalker, H.~P. Swerdlow, D.~Turner, A.~De~Witte, S.~Giles,
+  R.~A. Gibbs, D.~Wheeler, M.~Bainbridge, D.~Challis, A.~Sabo, F.~Yu, J.~Yu,
+  J.~Wang, X.~Fang, X.~Guo, R.~Li, Y.~Li, R.~Luo, S.~Tai, H.~Wu, H.~Zheng,
+  X.~Zheng, Y.~Zhou, G.~Li, J.~Wang, H.~Yang, G.~T. Marth, E.~P. Garrison,
+  W.~Huang, A.~Indap, D.~Kural, W.~P. Lee, W.~F. Leong, A.~R. Quinlan,
+  C.~Stewart, M.~P. Stromberg, A.~N. Ward, J.~Wu, C.~Lee, R.~E. Mills, X.~Shi,
+  M.~J. Daly, M.~A. DePristo, D.~L. Altshuler, A.~D. Ball, E.~Banks, T.~Bloom,
+  B.~L. Browning, K.~Cibulskis, T.~J. Fennell, K.~V. Garimella, S.~R. Grossman,
+  R.~E. Handsaker, M.~Hanna, C.~Hartl, D.~B. Jaffe, A.~M. Kernytsky, J.~M.
+  Korn, H.~Li, J.~R. Maguire, S.~A. McCarroll, A.~McKenna, J.~C. Nemesh, A.~A.
+  Philippakis, R.~E. Poplin, A.~Price, M.~A. Rivas, P.~C. Sabeti, S.~F.
+  Schaffner, E.~Shefler, I.~A. Shlyakhter, D.~N. Cooper, E.~V. Ball, M.~Mort,
+  A.~D. Phillips, P.~D. Stenson, J.~Sebat, V.~Makarov, K.~Ye, S.~C. Yoon, C.~D.
+  Bustamante, A.~G. Clark, A.~Boyko, J.~Degenhardt, S.~Gravel, R.~N.
+  Gutenkunst, M.~Kaganovich, A.~Keinan, P.~Lacroute, X.~Ma, A.~Reynolds,
+  L.~Clarke, P.~Flicek, F.~Cunningham, J.~Herrero, S.~Keenen, E.~Kulesha,
+  R.~Leinonen, W.~M. McLaren, R.~Radhakrishnan, R.~E. Smith, V.~Zalunin,
+  X.~Zheng-Bradley, J.~O. Korbel, A.~M. Stutz, S.~Humphray, M.~Bauer, R.~K.
+  Cheetham, T.~Cox, M.~Eberle, T.~James, S.~Kahn, L.~Murray, A.~Chakravarti,
+  K.~Ye, F.~M. De~La~Vega, Y.~Fu, F.~C. Hyland, J.~M. Manning, S.~F.
+  McLaughlin, H.~E. Peckham, O.~Sakarya, Y.~A. Sun, E.~F. Tsung, M.~A. Batzer,
+  M.~K. Konkel, J.~A. Walker, R.~Sudbrak, M.~W. Albrecht, V.~S. Amstislavskiy,
+  R.~Herwig, D.~V. Parkhomchuk, S.~T. Sherry, R.~Agarwala, H.~M. Khouri, A.~O.
+  Morgulis, J.~E. Paschall, L.~D. Phan, K.~E. Rotmistrovsky, R.~D. Sanders,
+  M.~F. Shumway, C.~Xiao, G.~A. McVean, A.~Auton, Z.~Iqbal, G.~Lunter, J.~L.
+  Marchini, L.~Moutsianas, S.~Myers, A.~Tumian, B.~Desany, J.~Knight, R.~Winer,
+  D.~W. Craig, S.~M. Beckstrom-Sternberg, A.~Christoforides, A.~A. Kurdoglu,
+  J.~V. Pearson, S.~A. Sinari, W.~D. Tembe, D.~Haussler, A.~S. Hinrichs, S.~J.
+  Katzman, A.~Kern, R.~M. Kuhn, M.~Przeworski, R.~D. Hernandez, B.~Howie, J.~L.
+  Kelley, S.~C. Melton, G.~R. Abecasis, Y.~Li, P.~Anderson, T.~Blackwell,
+  W.~Chen, W.~O. Cookson, J.~Ding, H.~M. Kang, M.~Lathrop, L.~Liang, M.~F.
+  Moffatt, P.~Scheet, C.~Sidore, M.~Snyder, X.~Zhan, S.~Zollner, P.~Awadalla,
+  F.~Casals, Y.~Idaghdour, J.~Keebler, E.~A. Stone, M.~Zilversmit, L.~Jorde,
+  J.~Xing, E.~E. Eichler, G.~Aksay, C.~Alkan, I.~Hajirasouliha, F.~Hormozdiari,
+  J.~M. Kidd, S.~C. Sahinalp, P.~H. Sudmant, E.~R. Mardis, K.~Chen,
+  A.~Chinwalla, L.~Ding, D.~C. Koboldt, M.~D. McLellan, D.~Dooling,
+  G.~Weinstock, J.~W. Wallis, M.~C. Wendl, Q.~Zhang, R.~M. Durbin, C.~A.
+  Albers, Q.~Ayub, S.~Balasubramaniam, J.~C. Barrett, D.~M. Carter, Y.~Chen,
+  D.~F. Conrad, P.~Danecek, E.~T. Dermitzakis, M.~Hu, N.~Huang, M.~E. Hurles,
+  H.~Jin, L.~Jostins, T.~M. Keane, S.~Q. Le, S.~Lindsay, Q.~Long, D.~G.
+  MacArthur, S.~B. Montgomery, L.~Parts, J.~Stalker, C.~Tyler-Smith, K.~Walter,
+  Y.~Zhang, M.~B. Gerstein, M.~Snyder, A.~Abyzov, S.~Balasubramanian,
+  R.~Bjornson, J.~Du, F.~Grubert, L.~Habegger, R.~Haraksingh, J.~Jee,
+  E.~Khurana, H.~Y. Lam, J.~Leng, X.~J. Mu, A.~E. Urban, Z.~Zhang, Y.~Li,
+  R.~Luo, G.~T. Marth, E.~P. Garrison, D.~Kural, A.~R. Quinlan, C.~Stewart,
+  M.~P. Stromberg, A.~N. Ward, J.~Wu, C.~Lee, R.~E. Mills, X.~Shi, S.~A.
+  McCarroll, E.~Banks, M.~A. DePristo, R.~E. Handsaker, C.~Hartl, J.~M. Korn,
+  H.~Li, J.~C. Nemesh, J.~Sebat, V.~Makarov, K.~Ye, S.~C. Yoon, J.~Degenhardt,
+  M.~Kaganovich, L.~Clarke, R.~E. Smith, X.~Zheng-Bradley, J.~O. Korbel,
+  S.~Humphray, R.~K. Cheetham, M.~Eberle, S.~Kahn, L.~Murray, K.~Ye, F.~M.
+  De~La~Vega, Y.~Fu, H.~E. Peckham, Y.~A. Sun, M.~A. Batzer, M.~K. Konkel,
+  J.~A. Walker, C.~Xiao, Z.~Iqbal, B.~Desany, T.~Blackwell, M.~Snyder, J.~Xing,
+  E.~E. Eichler, G.~Aksay, C.~Alkan, I.~Hajirasouliha, F.~Hormozdiari, J.~M.
+  Kidd, K.~Chen, A.~Chinwalla, L.~Ding, M.~D. McLellan, J.~W. Wallis, M.~E.
+  Hurles, D.~F. Conrad, K.~Walter, Y.~Zhang, M.~B. Gerstein, M.~Snyder,
+  A.~Abyzov, J.~Du, F.~Grubert, R.~Haraksingh, J.~Jee, E.~Khurana, H.~Y. Lam,
+  J.~Leng, X.~J. Mu, A.~E. Urban, Z.~Zhang, R.~A. Gibbs, M.~Bainbridge,
+  D.~Challis, C.~Coafra, H.~Dinh, C.~Kovar, S.~Lee, D.~Muzny, L.~Nazareth,
+  J.~Reid, A.~Sabo, F.~Yu, J.~Yu, G.~T. Marth, E.~P. Garrison, A.~Indap, W.~F.
+  Leong, A.~R. Quinlan, C.~Stewart, A.~N. Ward, J.~Wu, K.~Cibulskis, T.~J.
+  Fennell, S.~B. Gabriel, K.~V. Garimella, C.~Hartl, E.~Shefler, C.~L. Sougnez,
+  J.~Wilkinson, A.~G. Clark, S.~Gravel, F.~Grubert, L.~Clarke, P.~Flicek, R.~E.
+  Smith, X.~Zheng-Bradley, S.~T. Sherry, H.~M. Khouri, J.~E. Paschall, M.~F.
+  Shumway, C.~Xiao, G.~A. McVean, S.~J. Katzman, G.~R. Abecasis, E.~R. Mardis,
+  D.~Dooling, L.~Fulton, R.~Fulton, D.~C. Koboldt, R.~M. Durbin,
+  S.~Balasubramaniam, A.~Coffey, T.~M. Keane, D.~G. MacArthur, A.~Palotie,
+  C.~Scott, J.~Stalker, C.~Tyler-Smith, M.~B. Gerstein, S.~Balasubramanian,
+  A.~Chakravarti, B.~M. Knoppers, G.~R. Abecasis, C.~D. Bustamante, N.~Gharani,
+  R.~A. Gibbs, L.~Jorde, J.~S. Kaye, A.~Kent, T.~Li, A.~L. McGuire, G.~A.
+  McVean, P.~N. Ossorio, C.~N. Rotimi, Y.~Su, L.~H. Toji, C.~Tyler-Smith, L.~D.
+  Brooks, A.~L. Felsenfeld, J.~E. McEwen, A.~Abdallah, C.~R. Juenger, N.~C.
+  Clemm, F.~S. Collins, A.~Duncanson, E.~D. Green, M.~S. Guyer, J.~L. Peterson,
+  A.~J. Schafer, Y.~Xue, and R.~A. Cartwright.
+\newblock {{A} map of human genome variation from population-scale sequencing}.
+\newblock {\em Nature}, 467(7319):1061--1073, Oct 2010.
+
+\bibitem{go}
+M.~Ashburner, C.~A. Ball, J.~A. Blake, D.~Botstein, H.~Butler, J.~M. Cherry,
+  A.~P. Davis, K.~Dolinski, S.~S. Dwight, J.~T. Eppig, M.~A. Harris, D.~P.
+  Hill, L.~Issel-Tarver, A.~Kasarskis, S.~Lewis, J.~C. Matese, J.~E.
+  Richardson, M.~Ringwald, G.~M. Rubin, and G.~Sherlock.
+\newblock {{G}ene ontology: tool for the unification of biology. {T}he {G}ene
+  {O}ntology {C}onsortium}.
+\newblock {\em Nat. Genet.}, 25(1):25--29, May 2000.
+
+\bibitem{kegg}
+M.~Kotera, M.~Hirakawa, T.~Tokimatsu, S.~Goto, and M.~Kanehisa.
+\newblock {{T}he {K}{E}{G}{G} databases and tools facilitating omics analysis:
+  latest developments involving human diseases and pharmaceuticals}.
+\newblock {\em Methods Mol. Biol.}, 802:19--39, 2012.
+
+\bibitem{R}
+M.~Kotera, M.~Hirakawa, T.~Tokimatsu, S.~Goto, and M.~Kanehisa.
+\newblock {{T}he {K}{E}{G}{G} databases and tools facilitating omics analysis:
+  latest developments involving human diseases and pharmaceuticals}.
+\newblock {\em Methods Mol. Biol.}, 802:19--39, 2012.
+
+\bibitem{latex-project}
+Latex – a document preparation system.
+\newblock \url{http://www.latex-project.org/}.
+
+\bibitem{latex-book}
+Michel Mittelbach, Frank;~Goosens.
+\newblock {\em The LaTeX Companion (2nd ed.)}.
+\newblock Addison-Wesley, 2004.
+
+\bibitem{texmaker}
+Texmaker.
 
 \end{thebibliography}

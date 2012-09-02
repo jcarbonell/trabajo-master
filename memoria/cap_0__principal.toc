@@ -1,36 +1,50 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{2}
-\contentsline {section}{\numberline {1.1}Biolog\IeC {\'\i }a molecular y computacional}{2}
-\contentsline {subsection}{\numberline {1.1.1}Los inicios de la biolog\IeC {\'\i }a moculecular}{2}
-\contentsline {subsection}{\numberline {1.1.2}Biolog\IeC {\'\i }a computacional}{3}
-\contentsline {section}{\numberline {1.2}Biolog\IeC {\'\i }a computacional en el estudio de enfermedades hereditarias}{3}
-\contentsline {section}{\numberline {1.3}Secuenciaci\IeC {\'o}n de ADN}{5}
-\contentsline {subsection}{\numberline {1.3.1}La secuenciaci\IeC {\'o}n del genoma}{5}
-\contentsline {subsection}{\numberline {1.3.2}Secuenciaci\IeC {\'o}n por Sanger}{6}
-\contentsline {subsection}{\numberline {1.3.3}Chips de ADN}{6}
-\contentsline {subsection}{\numberline {1.3.4}Ultrasecuenciadores o t\IeC {\'e}cnicas de secuenciaci\IeC {\'o}n masiva}{6}
-\contentsline {section}{\numberline {1.4}Identificaci\IeC {\'o}n y priorizaci\IeC {\'o}n de genes candidatos}{7}
-\contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }as de priorizaci\IeC {\'o}n en ausencia de genes conocidos}{8}
-\contentsline {chapter}{\numberline {2}Material y m\IeC {\'e}todos}{9}
-\contentsline {section}{\numberline {2.1}Obtenci\IeC {\'o}n de genes candidatos}{9}
-\contentsline {section}{\numberline {2.2}Metodolog\IeC {\'\i }a de priorizaci\IeC {\'o}n}{9}
-\contentsline {subsection}{\numberline {2.2.1}B\IeC {\'u}squeda de vecindarios compartidos entre familias}{9}
-\contentsline {subsection}{\numberline {2.2.2}Medidas de distancia}{9}
-\contentsline {subsection}{\numberline {2.2.3}Computo del estad\IeC {\'\i }stico de priorizaci\IeC {\'o}n}{9}
-\contentsline {subsection}{\numberline {2.2.4}Diagrama general del m\IeC {\'e}todo}{9}
-\contentsline {subsection}{\numberline {2.2.5}Otras estrategias complementarias al m\IeC {\'e}todo}{9}
-\contentsline {subsubsection}{Estimaci\IeC {\'o}n del rol general del gen}{9}
-\contentsline {subsubsection}{Informaci\IeC {\'o}n funcional}{9}
-\contentsline {section}{\numberline {2.3}Validaci\IeC {\'o}n}{9}
-\contentsline {subsection}{\numberline {2.3.1}Simulaciones}{9}
-\contentsline {subsection}{\numberline {2.3.2}Caso de uso}{9}
-\contentsline {chapter}{\numberline {3}Resultados}{10}
-\contentsline {section}{\numberline {3.1}Simulaciones}{10}
-\contentsline {section}{\numberline {3.2}Caso de uso}{10}
-\contentsline {chapter}{\numberline {4}Conclusiones}{11}
-\contentsline {section}{\numberline {4.1}Validez del m\IeC {\'e}todo}{11}
-\contentsline {section}{\numberline {4.2}Aportaci\IeC {\'o}n del m\IeC {\'e}todo en ausencia de genes conocidos}{11}
-\contentsline {section}{\numberline {4.3}Limitaciones de la metodolog\IeC {\'\i }a y l\IeC {\'\i }neas futuras}{11}
-\contentsline {chapter}{\numberline {5}Agradecimientos}{12}
-\contentsline {chapter}{\numberline {6}Material suplementario}{14}
-\contentsline {section}{\numberline {.1}First Appendix}{14}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {1.1}Biolog\IeC {\'\i }a molecular y computacional}{3}
+\contentsline {subsection}{\numberline {1.1.1}Los inicios de la biolog\IeC {\'\i }a moculecular}{3}
+\contentsline {subsection}{\numberline {1.1.2}Biolog\IeC {\'\i }a computacional}{4}
+\contentsline {section}{\numberline {1.2}Biolog\IeC {\'\i }a computacional en el estudio de enfermedades hereditarias}{4}
+\contentsline {section}{\numberline {1.3}Secuenciaci\IeC {\'o}n de ADN}{6}
+\contentsline {subsection}{\numberline {1.3.1}La secuenciaci\IeC {\'o}n del genoma}{6}
+\contentsline {subsection}{\numberline {1.3.2}Secuenciaci\IeC {\'o}n por Sanger}{7}
+\contentsline {subsection}{\numberline {1.3.3}Chips de ADN}{7}
+\contentsline {subsection}{\numberline {1.3.4}Ultrasecuenciadores o t\IeC {\'e}cnicas de secuenciaci\IeC {\'o}n masiva}{7}
+\contentsline {section}{\numberline {1.4}Identificaci\IeC {\'o}n y priorizaci\IeC {\'o}n de genes candidatos}{8}
+\contentsline {subsection}{\numberline {1.4.1}Indentificaci\IeC {\'o}n de genes candidatos: estudio caso/control}{8}
+\contentsline {subsection}{\numberline {1.4.2}Reducci\IeC {\'o}n y priorizaci\IeC {\'o}n de genes candidatos}{9}
+\contentsline {subsection}{\numberline {1.4.3}Validaci\IeC {\'o}n del conjunto final de genes candidatos}{10}
+\contentsline {section}{\numberline {1.5}Metodolog\IeC {\'\i }as de priorizaci\IeC {\'o}n en ausencia de genes conocidos}{10}
+\contentsline {chapter}{\numberline {2}Material y m\IeC {\'e}todos}{11}
+\contentsline {section}{\numberline {2.1}Situaci\IeC {\'o}n inicial: genes candidatos}{11}
+\contentsline {section}{\numberline {2.2}Metodolog\IeC {\'\i }a general}{12}
+\contentsline {subsection}{\numberline {2.2.1}Esquema general del m\IeC {\'e}todo}{12}
+\contentsline {subsection}{\numberline {2.2.2}Estimaci\IeC {\'o}n del grado de interacci\IeC {\'o}n entre genes candidatos y familias}{13}
+\contentsline {subsection}{\numberline {2.2.3}B\IeC {\'u}squeda de vecindarios compartidos entre familias}{14}
+\contentsline {section}{\numberline {2.3}Estimaci\IeC {\'o}n de par\IeC {\'a}metros}{15}
+\contentsline {subsection}{\numberline {2.3.1}Medidas de distancia}{15}
+\contentsline {subsection}{\numberline {2.3.2}Computo del estad\IeC {\'\i }stico de priorizaci\IeC {\'o}n}{16}
+\contentsline {subsection}{\numberline {2.3.3}Integraci\IeC {\'o}n de los estad\IeC {\'\i }sticos computados por interactoma}{17}
+\contentsline {subsection}{\numberline {2.3.4}Otras ponderaciones complementarias al m\IeC {\'e}todo}{17}
+\contentsline {subsubsection}{Evaluaci\IeC {\'o}n de las mutaciones del gen}{18}
+\contentsline {subsubsection}{Estimaci\IeC {\'o}n del rol general del gen}{18}
+\contentsline {subsubsection}{Informaci\IeC {\'o}n funcional}{19}
+\contentsline {subsection}{\numberline {2.3.5}Diagrama general del m\IeC {\'e}todo}{19}
+\contentsline {section}{\numberline {2.4}Validaci\IeC {\'o}n}{20}
+\contentsline {subsection}{\numberline {2.4.1}Simulaciones}{20}
+\contentsline {subsubsection}{Medidas de distancia}{21}
+\contentsline {subsubsection}{N\IeC {\'u}mero de familias}{21}
+\contentsline {subsubsection}{N\IeC {\'u}mero de genes por familia}{21}
+\contentsline {subsubsection}{Solapamiento entre familias}{22}
+\contentsline {subsubsection}{Otras ponderaciones complementarias}{23}
+\contentsline {subsection}{\numberline {2.4.2}Caso de uso}{23}
+\contentsline {section}{\numberline {2.5}Implementaci\IeC {\'o}n}{23}
+\contentsline {chapter}{\numberline {3}Resultados}{24}
+\contentsline {section}{\numberline {3.1}Simulaciones}{24}
+\contentsline {section}{\numberline {3.2}Caso de uso}{24}
+\contentsline {chapter}{\numberline {4}Conclusiones}{25}
+\contentsline {section}{\numberline {4.1}Validez del m\IeC {\'e}todo}{25}
+\contentsline {section}{\numberline {4.2}Aportaci\IeC {\'o}n del m\IeC {\'e}todo en ausencia de genes conocidos}{25}
+\contentsline {section}{\numberline {4.3}Limitaciones de la metodolog\IeC {\'\i }a y l\IeC {\'\i }neas futuras}{25}
+\contentsline {chapter}{\numberline {5}Agradecimientos}{26}
+\contentsline {chapter}{\numberline {6}Material suplementario}{31}
+\contentsline {section}{\numberline {.1}First Appendix}{31}
