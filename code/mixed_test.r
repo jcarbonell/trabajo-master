@@ -1,6 +1,7 @@
 
 source("lib/shortestpath-mariangela.R")
 source("lib/score.r")
+source("lib/score_functions.r")
 source("lib/utils.r")
 source("lib/simulation.r")
 source("lib/evaluation.r")
@@ -10,28 +11,46 @@ source("lib/random_walk.r")
 home_path <- getwd()
 
 # input params
-nfams <- 3
+nfams <- 5
+ndisease_genes <- 4
 ngenes <- 150
 nsims <- 10
-score_function_names <- c("default_score3c","default_score3d")
-global_score_methods <- c("no_zero_mean","no_zero_max","no_zero_min")
+score_function_names <- c("final_score")
+global_score_methods <- c("no_zero_mean","no_zero_max")
 
 # load interactomes
 interactomes <- load_interactomes(paste(home_path,"/../interactomes/",sep=""))
 
 # simulate family set series
 all_genes <- read.table("../misc/all_hgnc_symbols.txt",header=F,stringsAsFactors=F)$V1
-family_set_series <- simulate_known_family_set_series(paste(home_path,"/../misc/omim_clean_annot.txt",sep=""),all_genes,nfams=nfams,ngenes=ngenes,nsims=nsims)
+family_set_series <- simulate_known_family_set_series(paste(home_path,"/../misc/omim_clean_annot.txt",sep=""),all_genes,nfams=nfams,ngenes=ngenes,nsims=nsims,ndisease_genes=ndisease_genes)
 
 # load probability matrices (and synchronize with interactomes)
+valid_interactomes <- c("binding","ptmod")
+load("../interactomes/rwd/intermediation_matrices.rdata")
+intermediation_matrices$binding <- as.matrix(intermediation_matrices$binding)
+intermediation_matrices$ptmod <- as.matrix(intermediation_matrices$ptmod)
+intermediation_matrices <- intermediation_matrices[valid_interactomes]
 load("../interactomes/rwd/all_rwd.rdata")
-interactomes <- interactomes[names(probability_matrices)]
+probability_matrices <- probability_matrices[valid_interactomes]
+interactomes <- interactomes[valid_interactomes]
+gc()
 
-# distance-based
+# shortest path
+source("lib/score.r")
+source("lib/score_functions.r")
 sre_nop <- run_and_evaluate(family_set_series,interactomes,score_function_names=score_function_names,global_score_methods=global_score_methods,test.inter=F)
-paint_global_scores(sre_nop$score_runs)
+paint_global_score(sre_nop$score_runs[[1]],label="Shortest path")
+paint_score_density(sre_nop$score_runs[[1]],score_name="binding")
+
+# intermediation
+source("lib/score.r")
+sre_inter <- run_and_evaluate(family_set_series,interactomes,probability_matrices=intermediation_matrices,score_function_names=score_function_names,global_score_methods=global_score_methods,test.inter=F)
+paint_global_scores(sre_inter$score_runs)
+paint_score_density(sre_inter$score_runs[[1]],score_name="binding")
 
 # with random walk probability
+source("lib/score.r")
 sre <- run_and_evaluate(family_set_series,interactomes,probability_matrices=probability_matrices,score_function_names=score_function_names,global_score_methods=global_score_methods,test.inter=F)
 paint_global_scores(sre$score_runs)
 
@@ -41,6 +60,9 @@ paint_global_scores(sre_rw$score_runs)
 
 # fine analysis
 paint_global_score(sre_nop$score_runs[[1]])
+paint_global_score(sre_nop$score_runs[[2]])
+
+
 paint_global_score(sre$score_runs[[1]])
 paint_global_score(sre$score_runs[[2]])
 paint_global_score(sre_rw$score_runs[[1]])

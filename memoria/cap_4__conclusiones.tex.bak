@@ -1,14 +1,38 @@
 \chapter{Conclusiones}
 
-\section{Validez del método}
+En el presente trabajo se ha planteado una metodología computacional que permite identificar y priorizar genes candidatos en enfermedades hereditarias, donde, a diferencia de los métodos actuales, no es necesario contar con un set de genes previamente descritos en la enfermedad de estudio.
+
+\medskip
+Se han detallando los conceptos más importantes sobre los que reposa la metodología y, por último, se han planteado una serie de experimentos de validación que han probado su fiabilidad bajo diferentes circunstancias. Concretamente, la metodología ha mostrado robustez frente a la variación del número de familias y el aumento del número total de genes aleatorios, parámetros que definen habitualmente el nivel de ruido en el análisis.
+
+\medskip
+Hay que destacar que la metodología propuesta tiene una aplicación directa en la mayoría de estudios genómicos actuales, donde el uso de un protocolo fiable de priorización permitiría reducir y ordenar el conjunto de marcadores potencialmente relacionados con la patología de estudio, facilitando así las etapas de validación posteriores. Se trata generalmente de estudios de genoma (o exoma) completo orientados a la detección y validación de nuevos marcadores en enfermedades hereditarias, donde no existe un conocimiento previo que permita delimitar las regiones cromosómicas alteradas. Es por tanto una metodología muy versátil, de especial interés en casos como el estudio de enfermedades raras, donde los recursos son muy limitados y el número de estudios previos muy reducido.
+
+\medskip
+La aportación más importante de la metodología con respecto a métodos anteriores, consiste en evitar la necesidad de contar con un set de genes previamente descritos en la enfermedad con los que construir un perfil y así ponderar a los candidatos. En este caso, la metodología trata de cuantificar las interacciones descritas entre los genes candidatos de cada grupo independiente con el fin de detectar posibles clusters o vecindarios altamente conectados que podrían contener a los genes de enfermedad.
+
+\medskip
+Una de las conclusiones principales de este estudio reside en la evaluación de las 3 medidas de distancia planteadas. Los resultados indican claramente la necesidad de contar con medidas de distancia más sofisticadas que tengan en cuenta la estructura total de la red. Se ha observado como los estadístico de priorización obtenidos a partir de la distancia \emph{Shortest path} han sido claramente superados por los obtenidos mediante intermediación y \emph{Random walk}. Además, se ha demostrado la validez de una medida estadística como la frecuencia de intermediación a la hora estimar el grado de proximidad entre dos genes, lo que sugiere que también otras medidas estadísticas parecidas podrían ser empleadas en el futuro para medir la interacción.
+
+\medskip
+También, se han planteado algunas limitaciones y puntos débiles en la metología que tendrán que ser necesariamente tratados en el futuro. Uno de los principales problemas reside en la falta de completitud de los interactomas empleados, la cual produce sesgos evidentes a la hora de computar el grado de interacción entre dos genes y por consiguiente, en el ranking global del estadístico de priorización. En el futuro, los nuevos estudios genómicos contribuirán a completar el set de interacciones conocidas, sobretodo gracias las nuevas tecnologías de ultrasecuenciación. Además, se prevé ampliar el conjunto de interactomas, con el fin de recoger otro tipo de relaciones existentes entre los genes. 
+
+\medskip
+Otro de los problemas abiertos consiste en la determinación robusta del valor de priorización global a partir de las ponderaciones aportadas por cada interactoma. En este caso, será de especial interés la evaluación exhaustiva de otras formas de integración que permitan establecer adecuadamente el grado de interacción entre dos genes, con independencia de la naturaleza de sus relaciones. Uno de las posible formas de cuantificación global consistiría en la construcción de un (meta) interactoma que uniera las relaciones existentes descritas en todos interactomas empleados. Este mecanismo permitiría simplificar el proceso de priorización, pero probablemente requeriría la introducción de aristas ponderadas para describir cuando dos genes disponen de interacciones multiples.
+
+\medskip
+Otro de los puntos interesantes a estudiar consiste en la mejora de la aleatorización de los genes candidatos en las simulaciones. A pesar de que durante todo el proceso se han considerado totalmente aleatorios, los estudios genomicos actuales comienzan a demostrar que algunos genes altamente polimórficos o pertenecientes a grandes familias génicas (con secuencias muy parecidas), aparecen seleccionados como candidatos con una frecuencia mucho mayor de los esperado. Por otro lado, en la práctica, el set de candidatos aleatorios estará comprendido en el grupo de genes típicamente mutados en la población a la que pertenecen los individuos del estudio. 
+
+\medskip
+Entre las lineas de futuro más importantes destaca la delimitación de clusters o vecindarios independientes sobre el conjunto de genes mejor priorizados. Esta mejora podría incluso permitir la recuperación de algunos genes causantes mal priorizados, que por pertener al mismo cluster que algunos genes bien priorizados, se convertirían en nuevos candidatos.
+
+\medskip
+Otra de las lineas de futuro importantes consiste en evaluar la metodología en el estudio de enfermedades complejas. Se trata de un punto muy importante ya que, en general, el estudio de cualquier tipo de síndrome donde sea necesario la participación de una combinación de genes mutados, se verá beneficiado por una metodología como la propuesta, basada en el cómputo de interacciones. Por tanto, se espera un comportamiento mucho más eficiente que en enfermedades monogénicas. El inconveniente en este caso es desarrollar metodologías que permitan simular de forma realista a un grupo individuos independientes que muestran 1 o varias combinación distintas de genes mutados que podrían producir la misma enfermedad, lo cual es mucho más complicado que la simulación de familias afectadas por enfermedades mendelianas. 
+
+\medskip
+Por último, se prevé extender la metodología propuesta para el estudio de otras listas de genes independientes. La metodología propuesta trata de ponderar de forma positiva a aquellos genes que muestran un mayor número de interacciones dentro del conjunto total de candidatos. Se trata de una metodología que podrían ser empleada más allá del estudio de enfermedades, por ejemplo, podría ser utilizada para identificar a los genes mas importantes que actuan en varios procesos biológicos con recorridos parecidos. Por supuesto, también podría ser una metodología adecuada para el estudio de rasgos fenotípicos en población normal. 
 
 
-\section{Aportación del método en ausencia de genes conocidos}
 
 
-\section{Limitaciones de la metodología y líneas futuras}
 
-
-medidas de distancia más óptimas***
-
-interactomas incompletos***

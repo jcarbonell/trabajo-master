@@ -230,16 +230,16 @@ paint_global_score <- function(score_run,label="Score"){
   # get and paint NAs
   all_values <- do.call("rbind",lapply(score_run$global_evaluation_list, function(x) { x$target_global_score_table}))
   na_prop <- apply(all_values,2,function(x) length(which(is.na(x)))/length(x))  
-  r <- barplot(na_prop,col=rgb(0.99,0.65,0,0.4),axes=F,density=30,ylim=c(0,1.03),border=T,names=F,cex.axis=0.7,main=label)
+  r <- barplot(na_prop,col=rgb(0.99,0.65,0,0.4),axes=F,density=30,ylim=c(0,1.03),border=T,names=F,cex.axis=0.7)
+  title(label,cex.main=1.1,font.main=1)
   axis(1,tick=F,labels=F)
   
   # paint quantiles
-  boxplot(all_quantiles,axes=F,add=T,at=r,cex.axis=0.7,cex.lab=0.8,ylab="relative rank position",names=F,boxwex=0.8,col=rgb(1,1,1,0.5),border="black",outline=F)
+  boxplot(all_quantiles,axes=F,add=T,at=r,cex.axis=0.7,cex.lab=0.8,ylab="posición relativa en el ranking",names=F,boxwex=0.8,col=rgb(1,1,1,0.5),border="black",outline=F)
   axis(2,cex.axis=0.7)
   par(xpd=F)
+  par(oma=c(1,1,1,1))
   grid(nx=NA,ny=NULL)
-  
-  
 
   # labels
   labels = colnames(all_quantiles)
@@ -251,7 +251,7 @@ paint_global_score <- function(score_run,label="Score"){
   text(r, 0.05, cex = 0.7,labels=format(digits=2,na_prop),col="darkorange",xpd=T)
   
   for(i in 1:length(na_prop)){
-    points(rep(r[i],nrow(all_quantiles))+runif(nrow(all_quantiles),min=0,max=0.2)-0.10,all_quantiles[,i],pch=20,cex=0.3,col="black")
+    points(rep(r[i],nrow(all_quantiles))+runif(nrow(all_quantiles),min=0,max=0.4)-0.20,all_quantiles[,i],pch=20,cex=0.3,col=rgb(0,0,0,0.1))
   }
   
   score_summary <- apply(all_quantiles,2,summary)

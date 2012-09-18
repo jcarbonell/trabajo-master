@@ -1,130 +1,288 @@
 \chapter{Material y métodos}
 
 
-\section{Situación inicial: genes candidatos}
+\section{Obtención de genes candidatos}
 
-La metodología propuesta en el presente trabajo trata de describir como priorizar un conjunto de genes candidatos obtenidos a partir de un típico estudio caso/control. El contexto de aplicación serán las enfermedades hereditarias y se va a plantear una metodología compatible tanto con un estudio de tipo familiar, donde se dispone de 1 o más familias distintas con el mismo síndrome, pero no necesariamente con la misma mutación, como con un estudio de tipo más general, donde los individuos disponibles no tienen parentesco alguno. 
+La metodología propuesta en el presente trabajo trata de describir cómo priorizar un conjunto de genes candidatos obtenidos a partir de un típico estudio caso/control. El contexto de aplicación serán las enfermedades hereditarias y se va a plantear una metodología compatible tanto con un estudio de tipo familiar, donde se dispone de una o más familias distintas con el mismo síndrome (aunque no necesariamente con la misma mutación), cómo con un estudio de tipo más general, donde los individuos disponibles no muestran parentesco alguno. 
 
 \medskip
-Cuando afrontamos un estudio de tipo familiar, los individuos seleccionados, tanto casos como controles, se distribuyen a lo largo de las distintas familias. Si se ha realizado un diseño experimental en condiciones, cada nucleo familiar, dispondrá tanto de sujetos caso, como de sujetos control propios de la familia. La ventaja proporcionada por las estructuras familiares es que a priori se espera que todos los individuos enfermos pertenecientes a la misma familia compartan exactamente el mismo origen, es decir, la misma mutación dañina (heredada de padres a hijos), lo cual sería mucho más difícil de afirmar en el caso de individuos independientes. Esta situación permite reducir drásticamente el número de candidatos finales con sólo realizar una simple intersección entre las mutaciones de los individuos enfermos. Por otro lado, los familiares sanos incluidos en el estudio dispondrán de una capacidad de filtrado mucho mayor, ya que al compartir con sus familiares enfermos una porción de genoma mayor de lo esperable con un control externo, será posible eliminar una cantidad mayor de mutaciones no relacionadas con la enfermedad. Además, dicha potencia aumentará con el grado de parentesco, se calcula que un hermano sano (el cual compartirá el 50\% de su genoma con el hermano enfermo) puede tener una capacidad de filtrado equivalente a cientos de controles externos. La figura xxx muestras las diferencias básicas entre el protocolo inicial de selección de candidatos para un estudio familiar frente a uno más general. Al final, en cualquiera de los dos casos, se dispone de una lista de genes candidatos para cada grupo de individuos independientes. Si el estudio es familiar, dispondremos de una lista de candidatos para cada familia, mientras que en el caso general, cada individuo aportará su lista de genes. 
+Cuando afrontamos un estudio de tipo familiar, los individuos seleccionados, tanto casos cómo controles, se distribuyen a lo largo de las distintas familias. Si se ha realizado un diseño experimental razonable, cada nucleo familiar, dispondrá tanto de sujetos caso, cómo de sujetos control propios. La ventaja proporcionada por las estructuras familiares es que a priori se espera que todos los individuos enfermos pertenecientes a la misma familia compartan la misma alteración genómica, lo cual sería mucho más difícil de afirmar en el caso de individuos independientes. Esta situación permite reducir drásticamente el número de candidatos finales con sólo realizar una simple intersección entre las mutaciones de los individuos enfermos. 
+
+\medskip
+Por otro lado, los familiares sanos incluidos en el estudio dispondrán de una capacidad de filtrado mucho mayor, ya que al compartir con sus familiares enfermos una porción de genoma mayor de lo esperable con un control externo, será posible eliminar una cantidad mayor de mutaciones no relacionadas con la enfermedad. Además, dicha potencia aumentará con el grado de parentesco, se calcula que un hermano sano (el cual compartirá aproximadamente el 50\% de su genoma con su hermano enfermo) puede tener una capacidad de filtrado equivalente a cientos de controles externos.
+
+\medskip
+Finalmente, se dispone de una lista de genes candidatos por cada grupo de individuos independientes. Si el estudio es familiar, dispondremos de una lista de candidatos para cada familia, mientras que en el caso general, cada individuo aportará su lista de genes.
+
+%%% INDEPENDENCIA!!!
 
 \section{Metodología general}
 
 \subsection{Esquema general del método}
 
-La metodología propuesta trata de puntuar a cada gen candidato en función del grado de importancia global sobre el total de familias o individuos estudiados. El proceso se podría describir como una especie de intersección entre los candidatos aportados por cada grupo independiente, donde los genes que aparezcan en un mayor número de grupos serán en general los que tienen una probabilidad mayor de ser responsables de la enfermedad de estudio y por tanto, los mejor priorizados. 
+La metodología propuesta puntúa a cada gen candidato en función de su relevancia global sobre el total de familias o individuos estudiados. Básicamente, se trata de computar la frecuencia de aparición de cada candidato sobre las listas de genes independientes y complementar este valor con un término proporcional a la cantidad de interacciones descritas entre el candidato y dichos genes. 
 
 \medskip
-Una forma sencilla de abordar el problema cuando esperamos que todos los individuos del estudio tengan mutado el mismo gen, sería mediante la intersección directa de las listas de candidatos proporcionadas por cada familia. En un escenario sencillo, esta sería probablemente la metodología más adecuada, ya que, salvo por un error de secuenciación o procesamiento posterior, el gen de la enfermedad estará presente en todas las listas de candidatos obtenidas. Además, al aumentar el número de familias en el estudio se estará aumentando de forma exponencial la fiabilidad del resultado, ya que, se reduce la probabilidad de encontrar un gen que por azar esté presente también en todas las familias. Sin embargo, cuando disponemos de familias o individuos heterogéneos, con el mismo síndrome, pero con genes mutados diferentes, la metodología de intersección directa no sería valida. El problema se agrava al considerar que los errores del protocolo podrían provocar que el gen de la enfermedad no fuera correctamente secuenciado y que por tanto, no apareciera en la lista de candidatos iniciales. En este caso, es necesario aplicar metodologías más sofisticadas que permitan detectar cuando un gen, aun no habiendo sido seleccionado directamente por una familia, presenta interacciones descritas con los genes que sí han sido seleccionados.
+El término de interacción trata de incrementar el peso de un gen sobre una familia cuando este no ha sido explicitamente seleccionado cómo un candidato, de forma que, en caso de existir evidencias claras de interacción con uno o varios de sus genes, se puede afirmar que el gen también resulta importante para la familia .
+
+%\medskip
+%Una forma sencilla de abordar el problema cuando esperamos que todos los individuos del estudio tengan mutado el mismo gen, sería mediante la intersección directa de las listas de %candidatos proporcionadas por cada familia. En un escenario sencillo, esta sería probablemente la metodología más adecuada, ya que, salvo por un error de secuenciación o %procesamiento posterior, el gen de la enfermedad estará presente en todas las listas de candidatos obtenidas. Además, al aumentar el número de familias en el estudio se estará %aumentando de forma exponencial la fiabilidad del resultado, ya que, se reduce la probabilidad de encontrar un gen que por azar esté presente también en todas las familias. Sin %embargo, cuando disponemos de familias o individuos heterogéneos, con el mismo síndrome, pero con genes mutados diferentes, la metodología de intersección directa no sería valida. %El problema se agrava al considerar que los errores del protocolo podrían provocar que el gen de la enfermedad no fuera correctamente secuenciado y que por tanto, no apareciera en %la lista de candidatos iniciales. En este caso, es necesario aplicar metodologías más sofisticadas que permitan detectar cuando un gen, aun no habiendo sido seleccionado %directamente por una familia, presenta interacciones descritas con los genes que sí han sido seleccionados.
 
 \medskip
-Se calcula que más de un 15\% de enfermedades mendelianas disponen de más de un gen distinto con capacidad para producir la enfermedad, este porcentaje aumentaría mucho en el caso de las enfermedades complejas. Esto se debe a que, aun teniendo una función claramente definida, generalmente los genes actuan de forma colaborativa para llevar a cabo los distintos procesos biológicos que ocurren en la célula. Los genes se coordinan en rutas metabólicas, rutas de señalización u otro tipo de procesos biológicos donde el grado de coordinación entre las distintas moléculas participantes es muy alto. De esta forma, si un síndrome está causado por el mal funcionamiento de un determinado proceso biológico en la célula, es probable que mutando cualquiera de sus genes importantes, se acabe produciendo el mismo síndrome. Esto nos obliga a adaptar las metodologías de trabajo, y poder recoger así la heterogeneidad presente en un set de individuos seleccionados para un estudio.
+Aproximadamente un 15\% de enfermedades mendelianas disponen de más de un gen distinto con capacidad para producir la misma enfermedad, este porcentaje aumentaría mucho en el caso de las enfermedades complejas, donde un mismo gen mutado combinado con otros genes distintos, puede jugar un rol importante en varios síndromes. 
 
 \medskip
-El proceso de priorización comienza con el reclutamiento de todas las listas de genes candidatos aportadas por los distintos grupos independientes del estudio. Seguidamente, se construye el conjunto global de candidatos a partir de la unión de todos los genes seleccionados por las familias. 
-A continuación, se procede a realizar el cómputo del peso, o estadístico de priorización, para cada uno de los genes incluidos en el conjunto global de candidatos. Por último, una vez obtenidos los pesos de cada uno de los genes candidatos, se realiza un ordenamiento de la lista de genes en función del estadístico calculado. De esta forma, los genes que estén en lo alto de la lista serán los mejor priorizados, y por tanto, los primeros a validar.
+La biología de sistemas demuestra que los genes actúan de forma colaborativa para llevar a cabo las distintas tareas esenciales para la célula. Los genes se comunican en procesos biológicos donde el grado de coordinación entre las distintas moléculas participantes es muy alto. Esto implica que si un síndrome está causado por el mal funcionamiento de una ruta metabólica, es probable que al alterar alguno de sus genes importantes, se acabe produciendo el mismo resultado para el individuo. 
+
+*** imagen pathway
 
 \medskip
-El cómputo del estadístico de priorización para un determinado gen candidato, se realiza básicamente a partir de la suma del peso que tiene el gen en cada una de las familias del estudio. Cuanto mayor sea el peso del gen en las distintas familias, o mayor sea el número de familias en las que el gen esta presente, mejor será su ponderación. Para calcular la relación entre un gen candidato y una familia de estudio, se realiza una evaluación en dos partes: en primer lugar se proporciona un peso inicial en función de si el gen está presente en la lista de candidatos aportada por la familia (equivalente a la que se realizaría con el método de intersección directa) y en un segundo lugar, se añade un segundo término proporcional a la cantidad de interacciones descritas entre el gen candidato y los genes seleccionados por la familia. Esta metodología permite recoger de forma más eficiente el grado de proximidad entre un gen y una familia, lo que a la postre proporciona una priorización más precisa, permitiendo incluso ponderar de forma satisfactoria, genes que no han sido directamente seleccionados por la familia como candidatos. 
-
-\subsection{Estimación del grado de interacción entre genes candidatos y familias}
+Hay que señalar que, a menudo, las células disponen de mecanismos naturales de compensación que les permiten sobrevivir pese al mal funcionamiento de alguno de sus genes importantes. Desgraciadamente, estos mecanismos no siempre consiguen evitar la aparición de anomalias graves que posteriormente provocarán la aparición de una enfermedad.
 
 \medskip
-La parte complicada del proceso reside en como calcular y ponderar el grado de interacción entre un gen candidato y el conjunto de genes aportados por una familia. Para ello, en primer lugar, es necesario disponer de una base de datos que recoja el total de interacciones descritas entre los genes. En este caso, se hará uso de diferentes interactomas. Se trata de ficheros que recogen todas las interacciones descritas entre cada par de genes, a partir de los cuales es posible reconstruir fácilmente la red de interacción global de todas las proteínas o genes. Esta red de interacción, donde los nodos son los genes y las aristas sus interacciones, permite, además de recuperar los genes vecinos que interaccionan directamente con un determinado gen, reconstruir totalmente los caminos o secuencias de genes que podríamos emplear para llegar desde un nodo (o gen) de la red a otro. El conjunto total de caminos existente entre cada par de genes de la red nos va a permitir calcular una medida de distancia que va a ser directamente empleada para estimar el grado de interacción entre ellos. Intuitivamente, una distancia pequeña o un número grande de caminos posibles describirá una interacción fuerte entre dos genes, mientras que un número elevado de intermediarios o un número pequeño de caminos posibles describirán una interacción pobre entre los mismos. La medida de distancia va a ser una herramienta fundamental a la hora de evaluar el grado de interacción entre un gen candidato, y cualquiera de los genes aportados por una familia. Más adelante se describirán diferentes formas de computarlo. 
+El proceso de priorización comienza con el reclutamiento de todas las listas de genes candidatos aportadas por cada familia.
+
+\begin{equation}
+  C = [c_1,c_2,...,c_i,..,c_n] 
+\end{equation}
 
 \medskip
-En la práctica, se emplearán varios interactomas diferentes, encargados de recoger interacciones de diferente naturaleza. Concretamente, para el presente trabajo han sido empleados los siguientes interactomas:
+donde $C$ se corresponde con el vector de listas de candidatos, $n$ con el número de familias (o grupos independientes) del estudio y $c_i$ con la lista de candidatos aportada por la familia $iesima$.
+\\
+
+A continuación, se procede a construir el set global de candidatos $G$ formado a partir de la unión de todas las listas independientes
+
+\begin{equation}
+G = unico( \cup \; \forall c_i, i \exists C )
+\end{equation}
+
+\medskip
+Seguidamente, se procede a calcular el estadístico de priorización para cada gen contenido en el set global de candidatos:
+
+\begin{equation}
+\rho_i = \Phi(g_i), \forall g_i, i \exists G 
+\end{equation}
+
+\medskip
+Por último, se ordena la lista global de candidatos en función del estadístico de priorización computado.
+
+\begin{equation}
+R = orden(\rho)
+\end{equation}
+
+\medskip
+De esta forma, los genes que estén en lo alto de la lista serán los mejor priorizados, y por tanto, los primeros a validar.
+
+\medskip
+El cómputo del estadístico de priorización para un determinado gen candidato, se realiza básicamente a partir de la suma del peso que tiene el gen en cada una de las familias del estudio. 
+
+\begin{equation}
+\rho_i =  \sum_{j=1}^{n}  \Phi(g_i,c_j)
+\end{equation}
+
+\medskip
+donde $\Phi(g_i,c_j)$ se corresponde con el peso del gen $i$ sobre la familia $j$
+
+\medskip
+Cuanto mayor sea el peso del gen en las distintas familias, o mayor sea el número de familias en las que el gen está presente, mejor será su ponderación. Para calcular la relación entre un gen candidato y una familia de estudio, se realiza una evaluación en dos partes: en primer lugar se proporciona un peso inicial en función de si el gen está presente en la lista de candidatos aportada por la familia y en segundo lugar, se añade un segundo término proporcional a la cantidad de interacciones descritas entre el gen candidato y los genes seleccionados por la familia. Concretamente:
+
+\begin{equation}
+\rho_{i,x} = \sum_{j=1}^{n} \alpha_j * \gamma_{ij} + \delta(i,j) * (1-\gamma_{ij})
+\end{equation}
+
+\medskip
+donde \textit{n} se corresponde con el número de familias, $\alpha_j$ con el peso inicial asociado a la familia \textit{j}, $\gamma_{ij}$ con un factor con valores 0 o 1 en función de si el gen \textit{i} está seleccionado por la familia \textit{j} y $\delta(i,j)$ con la función que estima el grado de interacción entre el gen \textit{i} y el vector de genes seleccionado por la familia \textit{j}.
+
+
+\subsection{Estimación del grado de interacción entre genes}
+
+La parte más compleja del proceso consiste en cómo estimar el grado de interacción entre un gen candidato y el conjunto de genes aportados por una familia. Para ello, es necesario disponer de una base de datos que recoja el total de interacciones descritas entre los genes. En este caso, se hará uso de diferentes interactomas (o redes de interacción génica). Se trata de bancos de datos que recogen todas las interacciones descritas entre cada par de genes, a partir de los cuales es posible reconstruir fácilmente la red de interacción global de todas las proteínas o genes. 
+
+\medskip
+La red de interacción, donde los nodos son los genes y las aristas sus interacciones, se define cómo:
+
+
+\begin{equation}
+I = (V,E)
+\end{equation}
+
+donde $I$ se corresponde con el grafo general, $V$ con el conjunto total de genes, y $E$ con sus interacciones descritas.
+
+\medskip
+La red permite recuperar los vecinos directos de un determinado gen, pero también reconstruir totalmente los caminos o secuencias de genes que podríamos emplear para llegar desde un nodo (o gen) de la red a otro:
+
+\begin{equation}
+ P_{i,j} = [P_{i,j,0},P_{i,j,1},...,P_{i,j,t}]
+\end{equation}
+\\
+
+donde $P_{i,j}$ se corresponde con el conjunto total de $t$ caminos entre el nodo $V_i$ y el nodo $V_j$.
+\\
+
+Asimismo, cada camino se compone del conjunto de interacciones entre ambos genes.
+
+\begin{equation}
+P_{i,j,\alpha} = [E_{i,0},E_{0,1},E_{1,2},...,E_{k-1,k},E_{k,j}], V_i \in V, V_j \in V
+\end{equation}
+
+done $P_{i,j,\alpha}$ se corresponde con un posible camino del nodo $V_i$ al nodo $V_j$ compuesto por las interacciones entre ambos nodos y los $k$ intermediarios necesarios.
+
+\medskip
+El conjunto total de caminos existentes entre cada par de genes de la red nos va a permitir calcular una medida de distancia que va a ser directamente empleada para estimar el grado de interacción entre ellos. 
+
+\begin{equation}
+d_{i,j} = f(P_{i,j})
+\end{equation}
+
+\medskip
+Intuitivamente, una distancia pequeña o un número grande de caminos posibles describirá una interacción fuerte entre dos genes, mientras que un número elevado de intermediarios o un número pequeño de caminos posibles describirán una interacción pobre entre los mismos. 
+
+\medskip
+En la práctica, se emplearán varios interactomas distintos, encargados de recoger interacciones de diferente naturaleza. Concretamente, para el presente trabajo han sido empleados los siguientes interactomas:
 
 \begin{itemize}
-\item Binding: interacción física entre las proteínas generadas por dos genes
-\item Ptmod: modificaciones post-transcripcionales
-\item Functional: funciones comunes
-\item Regulation: relaciones de tipo regulador-regulado
-\item Text-mining: relaciones entre genes obtenidas a partir de articulos y técnicas de minería de datos
+\item \emph{Binding}: interacción física entre las proteínas generadas por dos genes
+\item \emph{Ptmod}: modificaciones post-transcripcionales
+\item \emph{Functional}: funciones comunes
+\item \emph{Regulation}: relaciones de tipo regulador-regulado
+\item \emph{Text-mining}: relaciones entre genes obtenidas a partir de artículos y técnicas de minería de datos
 \end{itemize}
 
-Es importante señalar que el cómputo del grado de interacción descrito con anterioridad se realiza de forma independiente para cada interactoma, por lo que se obtendrán tantos rankings como interactomas hayan sido empleados en el estudio. Así pues, una de las tareas importantes dentro de la metodología propuesta consiste en como unir o ponderar los resultados obtenidos con cada interactoma. Más adelante, se discutirán diferentes formas de llevarlo a cabo.
+\medskip
+Es importante señalar que el cómputo del grado de interacción descrito con anterioridad se realiza de forma independiente para cada interactoma, por lo que se obtendrán tantos rankings cómo interactomas hayan sido empleados en el estudio. Así pues, una de las tareas importantes dentro de la metodología propuesta consiste en cómo unir o ponderar los resultados obtenidos con cada interactoma para obtener un resultado global.
+
+\begin{equation}
+\rho_{i} = f([\rho_{i,0},\rho_{i,1},\rho_{i,m}])
+\end{equation}
+
+donde $\rho_{i}$ se corresponde con el estadístico de priorización global obtenido para el gen $i$, a partir del valor indivual obtenido en cada uno de los $m$ interactomas empleados.
 
 \medskip
-Conocer a priori cual es el interactoma que mejor recoge las relaciones existentes entre los genes implicados en una enfermedad es una tarea complicada, ya que depende de la naturaleza misma del síndrome. Existen enfermedades (como la xxxx) donde los procesos biológicos sobre los que actúan sus genes implicados se describen de forma casi completa mediante interacciones físicas entre sus proteínas, y sin embargo, existen otras enfermedades de origen regulatorio (como la XXXXX), que serían mejor descritas por el interactoma de regulación. 
+Conocer a priori cual es el interactoma que mejor recoge las relaciones existentes entre los genes implicados en una enfermedad es una tarea complicada, ya que depende de la naturaleza misma del síndrome. Algunas enfermedades mendelianas pueden ser descritas de forma casi completa mediante la alteración de un conjunto de interacciones físicas entre sus proteínas, sin embargo, otras enfermedades, principalmente complejas, serían mejor descritas por un interactoma de regulación. 
 
 \medskip
-Por otro lado, es importante indicar que no todos los interactomas describen en realidad interacciones físicas. Sin embargo, representar la relación de cualquier tipo existente entre los genes a partir de una red, proporciona una herramienta de estudio muy potente. Con esta representación es fácil determinar la relación existente entre un determinado gen y sus vecinos indirectos. Si por ejemplo el gen A y el gen B se expresan simultáneamente en algún tejido y el gen B y el gen C se expresan simultáneamente en algún momento del desarrollo, es facil inferir que A y C tienen una estrecha relación y que podrían incluso coexpresar bajo condiciones muy determinadas. De esta forma, podríamos concluir que A y C están a una distancia mucho menor de la que, en promedio, encontrariamos entre dos genes aleatorios.
+Por otro lado, es importante indicar que no todos los interactomas describen en realidad interacciones directas entre los genes. En la práctica, se emplea el mismo tipo de representación para describir cualquier tipo de relación entre dos nodos, cómo por ejemplo, una evidencia de coexpresión entre dos genes. Esta representación permite evaluar de forma sencilla las relaciones indirectas entre dos genes. Si por ejemplo el gen \emph{A} y el gen \emph{B} se expresan simultáneamente en algún tejido y el gen \emph{B} y el gen \emph{C} se expresan simultáneamente en algún momento del desarrollo, es facil inferir que \emph{A} y \emph{C} tienen una estrecha relación y que podrían incluso coexpresar bajo condiciones muy determinadas. De esta forma, podríamos concluir que \emph{A} y \emph{C} están a una distancia mucho menor de la que, en promedio, encontraríamos entre dos genes escogidos de forma aleatoria.
  
-interactomas incompletos***** 
+\medskip
+También es importante resaltar, que la gran mayoría de interacciones existentes entre dos proteínas, son todavía desconocidas. Esto significa que los interactomas disponibles muestran una falta de completitud bastante grande, que en la práctica podría suponer un handicap considerable a la hora de realizar la priorización. 
  
 \subsection{Búsqueda de vecindarios compartidos entre familias}
 
-La forma en que se desarrolla todo el proceso de secuenciación y su posterior análisis estadístico provocan que, en general, en un estudio de estas características, el número de falsos positivos sea muy elevado en relación al número positivos esperados. Tanto si se trabaja con familias como con individuos independientes, es conveniente aumentar el tamaño muestral ya que, debido a la metodología de intersección y filtrado empleada, este tiene un impacto directo sobre el tamaño del conjunto de genes candidatos a priorizar, y por tanto, sobre la precisión final del resultado obtenido.
+La forma en que se desarrolla todo el proceso de secuenciación y su posterior análisis estadístico provoca que, en general, se disponga de un número de falsos positivos muy elevado en relación al número de positivos esperados. Tanto si se trabaja con familias, cómo con individuos independientes, es conveniente aumentar el tamaño muestral ya que, debido a la metodología de intersección y filtrado empleada, este tiene un impacto directo sobre la talla del conjunto de genes candidatos a priorizar y por tanto, sobre la precisión final del resultado obtenido.
 
 \medskip
-Si se trabaja con una enfermedad mendeliana, al analizar una familia, únicamente deberíamos encontrar un gen responsable, ya que todos los familiares enfermos deberían coincidir en su mutación nociva. El resto de genes seleccionados como candidatos van a ser genes aleatorios obtenidos principalmente a causa de limitaciones derivadas del tamaño muestral máximo que una familia normal puede ofrecer. Hay que tener en cuenta que, si disponemos de un diseño experimental razonable, el número de genes totales aportados por la familia podrían estar en torno a un rango de 20 a 200 genes. Esto significa que, en el mejor de lo casos, estaremos introduciendo aproximadamente un 95\% de falsos positivos. 
+Si se realiza un estudio familiar con una enfermedad mendeliana, únicamente se espera encontrar un gen responsable por familia, ya que todos los individuos enfermos deberían coincidir en su mutación nociva. El resto de genes seleccionados cómo candidatos se corresponden con falsos positivos obtenidos principalmente a causa de limitaciones derivadas del tamaño muestral máximo que una familia normal puede ofrecer. Hay que tener en cuenta que, si disponemos de un diseño experimental razonable, el número de genes totales aportados por cada familia estará entre 20 y 200 genes, lo cual significa que, en el mejor de lo casos, estaremos introduciendo aproximadamente un 95\% de falsos positivos. 
 
 \medskip
-La intersección posterior realizada entre familias, debería eliminar de forma considerable la mayor parte de genes aleatorios propios de cada familia, de forma equivalente a cómo se reduce el ruido al promediar varias adquisiciones de la misma señal. En la práctica, tal y como se ha discutido anteriormente, ni todas las familias deben disponer del mismo gen mutado, ni todos los genes responsables del síndrome en cada familia podrán llegar a la fase de selección.  Esta es la razón por la que se aplica un proceso de priorización posterior, y también la que justifica parte de la metodología planteada. Si consideramos el caso extremo en el cual disponemos de N familias con el mismo síndrome pero cada una con un gen causante distinto, deberíamos ajustar la metodología para que fuera capaz de detectar entre los candidatos un grupo de genes con un grado de interacción por encima de lo esperado. Si dichas interacciones pudieran estar descritas en un interactoma, significa que el cluster de genes causante del síndrome, debería reflejarse como un vecindario de la red con una densidad de genes candidatos también por encima de lo normal.   
+En la metodología propuesta, la intersección realizada entre familias debería descartar de forma clara la mayor parte de genes aleatorios propios de cada familia, de forma equivalente a cómo se reduce el ruido al promediar varias adquisiciones de la misma señal. 
 
 \medskip
-El hecho de que en general, la mayoría de genes aportados por las familias sean de carácter aleatorio permite sugerir que el grado de interacción medio debería ser equivalente al obtenido en promedio para un grupo de genes escogidos de forma aleatoria. De esta forma, el vecindario que contiene al grupo de genes causantes, debería ser identificado al evaluar el grado de interacción de cada uno de ellos con respecto a sus vecinos. Por supuesto, las premisas planteadas son sensibles a la talla final del conjunto de genes candidatos, ya que a mayor número de genes aleatorios, más probable es que surgan otros vecindarios altamente conectados por azar. 
+Tanto si se trabaja con una enfermedad mendeliana, o sobre un síndrome complejo, es probable encontrar, en el conjunto total de individuos, más de un gen distinto que de forma directa o indirecta regule los procesos biológicos alterados en el síndrome de estudio. Si las interacciones existentes entre los genes causantes estuvieran correctamente descritas en un interactoma, significa que se acabaría observando un cluster o vecindario en la red con una densidad de genes candidatos por encima de lo normal. 
 
 \medskip
-Por otro lado, es problable que la región de la red donde figuran los genes a identificar no esté descrita de forma completa en el interactoma empleado, lo que provocaría un descenso en la conectividad media del cluster y por tanto una subestimación del estadístico de priorización para los genes causantes de la enfermedad.
+El hecho de que la mayoría de genes aportados por las familias sean de carácter aleatorio permite sugerir que el grado de interacción medio para una red debería ser equivalente al obtenido en promedio para un grupo de genes escogidos de forma aleatoria. Eso significa que el vecindario que contiene al grupo de genes causantes tendrá un valor de priorización medio significativamente superior a la media y que por tanto debería ser identificable. Sin embargo, en la práctica resulta más complicado ya que si el proceso de selección de los candidatos iniciales no consigue acotar de forma considerable el conjunto de genes a evaluar, surgirán otros vecindarios altamente conectados simplemente por azar. 
+
+\medskip
+Otro aspecto a tener en cuenta es que la región de la red donde figuran los genes a identificar podría no estar descrita de forma completa en el interactoma empleado, lo que provocaría un descenso en la conectividad media del cluster y por tanto una subestimación del estadístico de priorización para el grupo de genes causante de la enfermedad.
+
 
 \section{Estimación de parámetros}
 	
 	\subsection{Medidas de distancia}
 	
-	Tal y como se ha descrito anteriormente, la metodología propuesta trata de mejorar el peso asignado a cada gen candidato incorporando un término matemático que recoge el grado de interacción entre el gen y cada una de las familias incluidas en el estudio. El grado de interacción reposa directamente sobre la medida de distancia calculada entre el gen de estudio y cada uno de los candidatos familiares. En la práctica, estimar la distancia entre dos genes dentro de una red de interacción no es algo trivial, ya que, debido a que los interactomas son redes altamente conectadas, lo normal es disponer de más de un camino distinto para llegar de un punto a otro de la red. 
+	El estadístico de priorización incorpora un término matemático que recoge el grado de interacción entre el gen y cada una de las familias incluidas en el estudio. El grado de interacción reposa directamente sobre la medida de distancia calculada entre el gen de estudio y cada uno de los candidatos familiares. En la práctica, estimar la distancia entre dos genes dentro de una red de interacción no es algo trivial, ya que, debido a que los interactomas son redes altamente conectadas, lo normal es disponer de más de un camino distinto para llegar de un punto a otro de la red. 
 	
 \medskip
-La función de distancia toma como entrada al conjunto formado por los N caminos disponibles entre ambos nodos. El caso es especialmente complicado cuando se dispone de una gran cantidad de caminos, con longitudes muy distintas. Para este trabajo, se han implementado y validado 3 medidas distintas de distancia que recogen varios enfoques distintos a la hora de cuantificar la distancia entre dos nodos. Las medidas empleadas se describen a continuación:
+La función de distancia toma cómo entrada al conjunto formado por los N caminos disponibles entre ambos nodos (ecuación 2.10). El caso es especialmente complicado cuando se dispone de una gran cantidad de caminos, con longitudes muy distintas. Para este trabajo, se han implementado y validado 3 medidas de distancia diferentes que recogen varios enfoques distintos a la hora de cuantificar la proximidad entre dos nodos.
 
-\begin{list}{•}{\setlength\labelwidth{1in}}
+\medskip
+Las medidas empleadas son las siguientes:
 
-\item Shortest path (camino más corto): La distancia entre dos nodos viene definida por la longitud del camino más corto entre ellos. Se trata de una medida que simplifica enormemente el cómputo de distancia, pero que deja de lado algunas características propias de la topología formada por la subred existente entre los dos genes de estudio.
+\subsubsection{a) Shortest path (camino más corto)}
 
-\item Integrated distance (distancia integrada): La distancia entre dos nodos se calcula empleando el total de caminos existentes entre ellos. La medida de distancia final vendrá determinada tanto por la longitud de los caminos existentes como por el número de caminos disponibles.  Se trata de una medida mucho más compleja y costosa computacionalmente que la técnica del Shortest path, pero consigue recoger de forma más eficiente la relación entre la topología de la red formada por ambos genes.
+La distancia entre dos nodos viene definida por la longitud del camino más corto entre ellos, también conocido como distancia geodésica. 
 
-\item Random walk: La medidad de distancia viene determinada por la probabilidad de paso, tomando como origen un gen y como destino el siguiente. Se trata de la adaptación del algoritmo random walk para el trabajo con redes.
+\begin{equation}
+SP_{i,j} = min(L(P_{i,j}))
+\end{equation}
+\\
 
-\end{list}
+donde $L$ se corresponde con la función de longitud computada sobre el conjunto de caminos $P_{i,j}$ y $SP_{i,j}$ su valor mínimo.
 
-Además, las 3 medidas pueden ser adaptadas tanto para el computo de una distancia gen-gen, como para el cómputo de una distancia gen-lista de genes. 
+\medskip
+Se trata de una medida que simplifica enormemente el cómputo de distancias, pero que deja de lado algunas características propias de la topología de la red, cómo el número de caminos existentes entre dos nodos.
+
+\subsubsection{b) Intermediación}
+
+Mide la frecuencia en la que el gen $i$ aparece en el total de caminos cortos que parten del gen $j$
+
+\begin{equation}
+IM_{i,j} = \frac{L(i \in SP_j)}{L(SP_j)} 
+\end{equation}
+
+donde $IM_{i,j}$ se corresponde con la frecuencia de intermediación de $i$ sobre $j$ y $SP_j$ el conjunto total de caminos cortos tomando como origen al gen $j$.
+\\
+
+En este caso, se considera que cuando un gen $i$ aparece de forma sistemática en los caminos que parten de $j$ hacia el resto de genes, significa que ambos interaccionan en un gran número de procesos celulares y que por tanto, están muy próximos, aunque el camino más corto que los une sea largo.
+
+\subsubsection{c) Random walk}
+
+La medidad de distancia viene determinada por la probabilidad de llegar al gen $j$, partiendo desde el gen $i$, cuando el \emph{viajero} elige caminos aleatorios.
+
+\begin{equation}
+RW_{i,j} = P(j|i)*P(j)
+\end{equation}
+
+Se trata de la adaptación del conocido algoritmo de \emph{random walk} para el trabajo con redes. Se trata de un método computacionalmente costoso, pero que tiene en cuenta la estructura total de la red de interacción.
+
+Random walk (parámetros por defecto) ****
 
 
-	\subsection{Computo del estadístico de priorización}
+\subsection{Integración de los estadísticos computados por interactoma}
 
-El estadístico de priorización se computa para cada uno de los genes incluidos en el conjunto global de candidatos y para cada uno de los interactomas incluidos en el estudio. Concretamente, el estadístico de priorización para el gen \textit{i} y el interactoma \textit{x} se define como: 
+La comunicación entre genes puede producirse a diferentes niveles. Cada tipo de interacción se representa mediante el mismo modelo de red, pero en interactomas separados. Se trata de un sistema de información que puede ser enriquecido y actualizado de forma periódica, tanto con nuevas interacciones descritas en la literatura reciente, como a partir de interactomas nuevos, que describen otro tipo de relaciones no empleadas hasta ese momento. El hecho de almacenar tantos tipos de interacción como sea posible, permite disponer de un criterio biológico más amplio y preciso a la hora de evaluar la relación entre dos genes.
+	
+	\medskip
+Después del proceso de priorización se dispone para cada gen de tantos valores como interactomas hayan sido incluidos en el estudio. De esta forma, el estadístico de priorización del gen $i$ para un interactoma $x$ se define como:
 
-  \[	\rho_{i,x} = \sum_{j=1}^{n} \alpha_j * \gamma_{ij} + \delta(i,j)  \]
-		
- 
- \bigskip
- donde \textit{n} se corresponde con el número de familias, $\alpha_j$ con el peso inicial asociado a la familia \textit{j}, $\gamma_{ij}$ con un factor con valores 0 o 1 en función de si el gen \textit{i} está seleccionado por la familia \textit{j} y $\delta(i,j)$ con la función que estima el grado de interacción entre el gen \textit{i} y el vector de genes seleccionado por la familia \textit{j}.
- 
+
+\begin{equation}
+\rho_{i,x} = \sum_{j=1}^{n} \alpha_j * \gamma_{ij} + \delta(i,j,x)*(1-\gamma_{ij})
+\end{equation}
+\\
+
+donde $\rho_{i,x}$ se corresponde con el valor de priorización para el interactoma $x$ y $\delta(i,j,x)$ como el grado de interacción entre el gen $i$ y la familia $j$ en ese mismo interactoma.
+\\
+
  \medskip
  A su vez, el término de interacción $\delta$ se define como:
  
-   \[ 	\delta(i,j) = f([d(i, G_{j1}), d(i,G_{j2}),...,d(i,G_{jk})])   \]
-   
-  donde \textit{d} es la función de distancia entre el gen \textit{i} y un gen de la familia \textit{j}, y \textit{f} la función que integra todas las medidas de distancia obtenidas y proporciona finalmente el valor de interacción entre el gen candidato \textit{i} y la familia \textit{j}. La función de integración se define de forma genérica porque puede ser substituida por varias funciones distintas, como el máximo o la media del conjunto de valores.
-  
-  
- 
- 
-    \subsection{Integración de los estadísticos computados por interactoma}
+\begin{equation}
+ \delta(i,j,x) = f([d(i, G_{j1},x), d(i,G_{j2},x),...,d(i,G_{jk},x)])
+\end{equation}
 
-La comunicación entre genes puede producirse a diferentes niveles. Cada tipo de interacción se representa mediante el mismo modelo de red, pero en interactomas separados. Se trata de un sistema de información que puede ser enriquecido y actualizado de forma periódica, tanto con nuevas interacciones descritas en la literatura reciente, como a partir de interactomas nuevos, que describe otro tipo de relaciones no empleados hasta ese momento. El hecho de almacenar tantos tipos de interacción como sea posible, permite disponer de un criterio más amplio y preciso a la hora de evaluar el grado de interacción entre dos genes.
-	
-	\medskip
-Después del proceso de priorización se dispone para cada gen de tantos valores como interactomas hayan sido incluidos en el estudio. Desgraciadamente, en la práctica los genes no disponen de valores de priorización para todos los interactomas, ya que, en general, todos muestran en mayor o menor medida signos evidentes de incompletitud, especialmente en aquellos interactomas que recogen relaciones de tipo complejo como los procesos de regulación. Debido a esto, es necesario determinar cuando el valor de priorización obtenido a partir de un interactoma puede ser aprovechable. Para el presente trabajo, se ha considerado que un interactoma no debe ser empleado cuando su valor de priorización es igual a 0, es decir, cuando no dispone de interacciones descritas para el gen. 
+   
+  donde \textit{d} es la función de distancia entre el gen \textit{i} y un gen de la familia \textit{j} en el interactoma $x$ y \textit{f} la función que integra todas las medidas de distancia obtenidas y proporciona finalmente el valor de interacción entre el gen candidato \textit{i} y la familia \textit{j}. En este caso, se ha definido el valor de interacción gen/familia como la media de aquellas medidas de distancia con un valor superior al cuantil 0.95 de la distribución, es decir, la interacción entre un candidato $i$ y una familia $j$ se computa únicamente a partir de los genes con mayor proximidad.
 
 \medskip
-Una vez seleccionados los valores de priorización correspondientes a cada interactoma válido, se computa un valor global de priorización, que permite establecer la relevancia del gen a lo largo de todo el sistema de información. La forma en la que se computa el valor global resulta limitada, ya que en general se dispone de muy pocos valores. Para el presente trabajo se han empleado dos funciones distintas para computar el valor de priorización global: la media y el máximo de los valores de priorización válidos.
+Por último, se computa el valor de priorización global tal que:
 
+\begin{equation}
+\rho_{i} = f([\rho_{i,1},\rho_{i,2},...,\rho_{i,m}])
+\end{equation}
+\\
+
+donde $\rho_{i}$ se corresponde con el valor global de priorización para el gen $i$ obtenido a partir de un función $f$ que integra los valores de priorización de los $m$ interactomas.
+\\
+
+Desgraciadamente, en la práctica los genes no disponen de información para todos los interactomas disponibles, ya que, en general todos muestran en mayor o menor medida signos evidentes de falta de completitud. Debido a esto, es necesario determinar cuando el valor de priorización obtenido a partir de un interactoma aporta información, o por el contrario, provoca una subestimación del peso. Para el presente trabajo, se ha considerado que un interactoma no debe ser empleado cuando su valor de priorización es igual a 0, es decir, cuando no dispone de interacciones descritas para el gen. 
+
+\medskip
+Asimismo, se han empleado dos funciones integradoras distintas: la media y el máximo de los valores de priorización que no son 0. Cabe destacar que en el mejor de los casos, se dispondrá de tantos valores como interactomas, lo que puede impedir la aplicación de otras funciones integradoras de mayor complejidad.
 
 \subsection{Otras ponderaciones complementarias al método}
 	
-La metodología propuesta comienza en el instante posterior a la selección inicial de candidatos por parte de cada familia. Hasta el momento, cada uno de los genes seleccionados por una familia muestra a priori la misma probabilidad de causar la enfermedad. Sin embargo, hay determinadas estrategias que pueden enriquecer o completar la metodología planteada estableciendo unas probabilidades a priori diferentes para cada gen. Estas estrategias pueden trabajar a partir de los propios datos del estudio, o con información conocida almacenada en bases de datos públicas. Esta información permiten inferir la importancia de cada gen dentro del contexto global de la célula y por tanto ponderar de forma positiva a aquellos genes que por su rol, podrían acarrear consecuencias mucho peores a la célula en caso de mal funcionamiento. Estas medidas pueden llegar a ser muy importantes ya que corrigen el valor de priorización obtenido en presencia de errores de secuenciación o por la falta de información en los interactomas.
+La metodología propuesta comienza en el instante posterior a la selección inicial de candidatos por parte de cada familia. Hasta el momento, cada uno de los genes seleccionados por una familia muestra a priori la misma probabilidad de causar la enfermedad. Sin embargo, hay determinadas estrategias que pueden enriquecer o completar la metodología planteada estableciendo unas probabilidades a priori diferentes para cada gen. Estas estrategias pueden trabajar a partir de los propios datos del estudio, o con información conocida almacenada en bases de datos públicas, la cual permite estimar la importancia de cada gen dentro del contexto global de la célula y por tanto ponderar de forma positiva a aquellos genes que por su rol podrían acarrear consecuencias mucho peores a la célula en caso de mal funcionamiento. Estas medidas pueden llegar a corregir el valor de priorización obtenido en presencia de errores de secuenciación o por la falta de información en los interactomas.
 
 \medskip
 A continuación, se describen algunas estrategias posibles.
@@ -134,27 +292,48 @@ A continuación, se describen algunas estrategias posibles.
 La reglas biológicas que rigen el proceso de traducción de un ARN mensajero en una proteína totalmente funcional, describen como una única mutación puede ser capaz de inutilizar o provocar el mal funcionamiento de un gen y como consecuencia, una cascada de anomalías que derive en una enfermedad. No obstante, esto no debería obviar el hecho de que aquellos genes que acumulen un mayor número de mutaciones nocivas, deberían tener una probabilidad mayor de contener a la mutación causante de la enfermedad, por lo que deberían ser a priori mejor ponderados.
 
 \medskip
-Por otro lado, se conoce que determinadas mutaciones en zonas codificantes, aun habiendo provocado un cambio de aminoacido en la secuencia de la proteína, en realidad no producen cambios significativos en su conformación y por tanto en su funcionamiento. En ese sentido, existen en la actualidad algunas herramientas informáticas disponibles, como SIFT \cite{sift} o Polyphen \cite{polyphen} que evalúan algunas características de la secuencia de aminoacidos mutada, y son capaces de proporcionan un estadístico proporcional al grado cambio en la proteína.
+Por otro lado, se conoce que determinadas mutaciones en zonas codificantes, aun habiendo provocado un cambio de aminoacido en la secuencia de la proteína, en realidad no producen cambios significativos en su conformación y por tanto en su funcionamiento. En ese sentido, existen en la actualidad algunas herramientas informáticas disponibles, como SIFT \cite{sift} o Polyphen \cite{polyphen} que evalúan algunas características esenciales de la secuencia de aminoacidos mutada, y proporcionan un estadístico que describe el grado cambio en la proteína.
 
 \medskip
-Otra de las formas de evaluar el potencial efecto de una mutación consiste en determinar si esta ha sido descrita anteriormente en población sana no incluida en el estudio, ya que de ser así, podría no reunir las características necesarias. Para tal efecto, es posible consultar si la mutación ha sido recogida por dbSNP \cite{dbsnp}, lo cual probaría a priori probaría su inocuidad, o consultar si ha sido descrita en el proyecto de los 1000 genomas \cite{1000genomes}, y en caso de ser así, con qué frecuencia alélica. Este dato resulta de gran utilidad, ya que, en general, las enfermedades complejas surgen a raíz de una combinación de mutaciones, que de forma individual sí pueden estar presentes en población sana.
+Otra de las formas de evaluar el potencial efecto de una mutación consiste en determinar si esta ha sido descrita anteriormente en población sana no incluida en el estudio, ya que de ser así, podría no reunir las condiciones necesarias para producir la enfermedad. Para tal efecto, es posible consultar si la mutación ha sido recogida por dbSNP \cite{dbsnp}, lo cual probaría a priori su inocuidad, o consultar si ha sido descrita en el proyecto de los 1000 genomas \cite{1000genomes}, y en caso de ser así, con qué frecuencia alélica. Este dato resulta de gran utilidad, ya que, en general, las enfermedades complejas surgen a raíz de una combinación de mutaciones, que de forma individual sí pueden estar presentes en población sana.
   
 
-  \subsubsection{Estimación del rol general del gen}
+  \subsubsection{Rol general del gen en la red de interacción}
 
 El estadístico de priorización obtenido a partir de los interactomas depende totalmente del set de candidatos escogidos, de tal forma que un mismo gen, podría tener valores de ponderación muy diferentes, en función de los genes que le acompañen. Sin embargo, existen algunas medidas generales interesantes acerca del gen que pueden ser computadas de forma determinista a partir de un interactoma. Estas medidas permiten evaluar la importancia del gen en la red en función de parámetros como el número de conexiones. Una de las medidas que mejor describe el rol del gen dentro de la red de interacción lo constituye el concepto de centralidad, el cual trata precisamente de determinar la importancia relativa de un nodo en el contexto global del interactoma. 
 
 \medskip
 En la práctica, la centralidad puede ser computada de muchas maneras. Por ejemplo, se puede hacer uso de los siguientes indicadores:
 
-\begin{itemize}
-\item \emph{Grado}: Número de conexiones existentes para el nodo. Es la medida más simple para describir la centralidad. A mayor número de conexiones, se le atribuye mayor importancia.
-\item \emph{Cercanía}: Suma (o ocasiones media) de las distancias existentes entre un nodo y todos aquellos nodos accesibles. Se trata de una medida más compleja donde, a valores más pequeños, mayor cercanía y por tanto, mayor importancia.
-\item \emph{Intermediación}: Frecuencia con la que un nodo aparece en el camino más corto entre cada para de nodos de la red. A mayor frecuencia, mayor importancia.
+\bigskip
+\textit{a) Grado\\}
 
-\end{itemize}
+Número de conexiones existentes para el nodo. Es la medida más simple para describir la centralidad. A mayor número de conexiones, se le atribuye mayor importancia.
 
-Otro de los enfoque actuales más interesantes para estimar la importancia de un nodo en una red lo constituyen los estadísticos empleados por los motores de búsqueda de internet para determinar la importancia de una \textit{web}.  El caso más popular lo representa el algoritmo PageRank de Google, el cual, debido a su generalidad, es directamente aplicable para estimar la importancia de un gen dentro de un interactoma. 
+\begin{equation}
+Grado_i = L([E_{i,1},E_{i,2},...,E_{i,k}])
+\end{equation}
+
+donde $L$ es la función de longitud sobre el vector de $k$ interacciones que contienen al gen $i$
+
+\bigskip
+\textit{b) Cercanía}\\
+
+Suma (u en ocasiones media) de las distancias existentes entre un nodo y todos aquellos nodos accesibles. Se trata de una medida más compleja donde, a valores más pequeños, mayor cercanía y por tanto, mayor importancia.
+
+\begin{equation}
+Cercania_i = \sum_{j=1}^{k} d(c_{i,j}) / k
+\end{equation}
+
+donde $Cercania_i$ se corresponde con la media de la distancia de todos los $k$ caminos entre el gen $i$ y cualquier otro nodo $j$
+
+\bigskip
+\textit{c) Intermediación}\\
+
+Frecuencia con la que un nodo aparece en el camino más corto entre cada par de nodos de la red. A mayor frecuencia, mayor importancia. Se trata del mismo concepto empleado como medida de distancia, pero computado de forma global para un gen y todos los nodos del interactoma.
+
+\medskip
+Otro de los enfoque actuales más interesantes para estimar la importancia de un nodo en la red lo constituyen los estadísticos empleados por los motores de búsqueda de internet para determinar la importancia de una \textit{web}.  El caso más popular lo representa el algoritmo PageRank de Google, el cual, debido a su generalidad, es directamente aplicable para estimar la importancia de un gen dentro de un interactoma. 
 
   
   \subsubsection{Información funcional}
@@ -219,14 +398,24 @@ fin
 
 \section{Validación}
 
-Después de plantear en detalle la metodología de priorización, es necesario realizar una serie de experimentos que permitan evaluar el procedimiento de forma global y la influencia de cada parámetro característico sobre la fiabilidad del resultado. Dicha validación se ha realizado en dos partes, en primer lugar se han empleado simulaciones para evaluar de forma exhaustiva cada parámetro del estudio, y por último, la metodología propuesta se ha aplicado en un caso real donde se conoce el gen causante de la enfermedad.
+Después de plantear en detalle la metodología de priorización, es necesario realizar una serie de experimentos que permitan evaluar el procedimiento de forma global y la influencia de cada parámetro característico sobre el resultado. Dicha validación se ha realizado en dos partes, en primer lugar se han empleado simulaciones para evaluar de forma exhaustiva cada parámetro del estudio, y por último, la metodología propuesta se ha aplicado en un caso real donde se conoce el gen causante de la enfermedad.
 
 	\subsection{Simulaciones}
 	
 Las simulaciones nos permiten evaluar de forma exhaustiva el rendimiento de los parámetros del método, los cuales, a partir de datos reales costarían mucho de calibrar. Con el fin de simular de forma realista un caso de estudio típico, los genes de enfermedad seleccionados para cada simulación han sido extraidos de síndromes reales. Concretamente, se han extraído a partir del repositorio OMIM, mediante el cual se preparó una lista de enfermedades mendelianas y sus correspondientes genes. 
 
 \medskip
-Para simular un estudio real, en primer lugar se decide el número de familias que lo componen y el número de genes por familia. A continuación, se escoge al azar una enfermedad de OMIM que contenga un número de genes mayor o igual al de familias. Seguidamente, se le asigna a cada familia un gen de la enfermedad seleccionada. Por último, se añade a cada familia un conjunto de genes aleatorios, componiendo así el set final de genes candidatos. Este conjunto de genes es el equivalente al que habría seleccionado una familia después de haber procesado los individuos que la componen.
+Para simular un estudio real, en primer lugar se decide el número de familias que lo componen y el número de genes por familia. A continuación, se escoge al azar una enfermedad de OMIM que contenga un número de genes mayor o igual al de familias. Seguidamente, se le asigna a cada familia un gen de la enfermedad seleccionada. Por último, se añade a cada familia un conjunto de genes aleatorios, componiendo así el set final de genes candidatos.
+
+\begin{equation}
+ c_i = [T_i,R_1,R_2,...,R_k]
+\end{equation}
+\\
+
+donde $c_i$ se corresponde con la lista de candidatos aportada por la familia $iesima$, compuesta por un gen de enfermedad $T_i$ y un conjunto de $k$ genes escogidos de forma aleatoria.
+
+\medskip
+Este conjunto de genes es el equivalente al que habría seleccionado una familia después de haber procesado los individuos que la componen.
 
 \medskip
 Con el esquema de simulación planteado, se ha confeccionado una serie de experimentos destinados a evaluar algunos aspectos críticos de la metodología de priorización. A continuación se describen las diferentes tandas de simulación.
@@ -237,6 +426,7 @@ En primer lugar, se ha realizado una tanda de experimentos con el fin de evaluar
 \bigskip
 \begin{small}
 \begin{center}
+\begin{table}[H]
 \begin{tabular}{cccc}
 \textbf{distancia} & \textbf{repeticiones} & \textbf{familias} & \textbf{genes por familia}\tabularnewline 
 \hline
@@ -248,6 +438,10 @@ En primer lugar, se ha realizado una tanda de experimentos con el fin de evaluar
 \addlinespace[0.2cm]
 \hline
 \end{tabular}
+\caption{Tandas de simulación planteadas para evaluar las 3 medidas de distancia propuestas}
+\label{tab:tabla_distancias}
+\end{table}
+
 \end{center}
 \end{small}
 \medskip
@@ -258,6 +452,7 @@ El número de familias empleadas en el estudio es un parámetro crítico que va 
 \bigskip
 \begin{small}
 \begin{center}
+\begin{table}[H]
 \begin{tabular}{cccc}
 \textbf{distancia} & \textbf{repeticiones} & \textbf{familias} & \textbf{genes por familia}\tabularnewline 
 \hline
@@ -287,6 +482,9 @@ RW & 100 & \textbf{10} & 100 \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \end{tabular}
+\caption{Tandas de simulación planteadas para evaluar la influencia del número de familias sobre el resultado}
+\label{tab:tabla_familias}
+\end{table}
 \end{center}
 \end{small}
 \bigskip
@@ -297,12 +495,12 @@ Otro de los parámetros importantes a evaluar lo constituye el número de genes 
 \bigskip
 \begin{small}
 \begin{center}
+\begin{table}[H]
 \begin{tabular}{cccc}
 \textbf{distancia} & \textbf{repeticiones} & \textbf{familias} & \textbf{genes por familia}\tabularnewline 
 \hline
 \hline
 \addlinespace[0.2cm]
-SP	 & 100 & 3 & \textbf{25} \tabularnewline 
 SP	 & 100 & 3 & \textbf{50} \tabularnewline
 SP	 & 100 & 3 & \textbf{100} \tabularnewline
 SP	 & 100 & 3 & \textbf{200} \tabularnewline
@@ -310,7 +508,6 @@ SP	 & 100 & 3 & \textbf{500} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \addlinespace[0.2cm]
-ID	 & 100 & 3 & \textbf{25} \tabularnewline 
 ID	 & 100 & 3 & \textbf{50} \tabularnewline
 ID	 & 100 & 3 & \textbf{100} \tabularnewline
 ID	 & 100 & 3 & \textbf{200} \tabularnewline
@@ -318,53 +515,60 @@ ID	 & 100 & 3 & \textbf{500} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \addlinespace[0.2cm]
-ID	 & 100 & 3 & \textbf{25} \tabularnewline 
-ID	 & 100 & 3 & \textbf{50} \tabularnewline
-ID	 & 100 & 3 & \textbf{100} \tabularnewline
-ID	 & 100 & 3 & \textbf{200} \tabularnewline
-ID	 & 100 & 3 & \textbf{500} \tabularnewline
+RW  & 100 & 3 & \textbf{50} \tabularnewline
+RW	 & 100 & 3 & \textbf{100} \tabularnewline
+RW	 & 100 & 3 & \textbf{200} \tabularnewline
+RW	 & 100 & 3 & \textbf{500} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \end{tabular}
+\caption{Tandas de simulación planteadas para evaluar la influencia del número de genes por familia sobre el resultado}
+\label{tab:tabla_genes}
+\end{table}
 \end{center}
 \end{small}
 \bigskip
 
 \subsubsection{Solapamiento entre familias}
-En la práctica, las familias de un estudio pueden coincidir en el gen de la enfermedad. A nivel computaciones, esto provoca que el término asociado a la intersección directa tenga más peso que el término de interacción. Para este fin, se ha empleado otra tanda de experimentos donde se evalúa el grado de solapamiento entre familias:
+En la práctica, las familias de un estudio pueden coincidir en el gen de la enfermedad. A nivel computacional, esto provoca que el término asociado a la intersección directa tenga más peso que el término de interacción. Para este fin, se ha empleado otra tanda de experimentos donde se evalúa el grado de solapamiento entre familias:
 
 \bigskip
 \begin{small}
 \begin{center}
+\begin{table}[H]
 \begin{tabular}{ccccc}
 \textbf{distancia} & \textbf{repeticiones} & \textbf{familias} & \textbf{genes por familia} & \textbf{genes de enfermedad} \tabularnewline 
 \hline
 \hline
 \addlinespace[0.2cm]
-SP	 & 100 & 3 & 100 & \textbf{5} \tabularnewline 
-SP	 & 100 & 3 & 100 & \textbf{4} \tabularnewline
-SP	 & 100 & 3 & 100 & \textbf{3} \tabularnewline
-SP	 & 100 & 3 & 100 & \textbf{2} \tabularnewline
-SP	 & 100 & 3 & 100 & \textbf{1} \tabularnewline
+SP	 & 100 & 5 & 100 & \textbf{5} \tabularnewline 
+SP	 & 100 & 5 & 100 & \textbf{4} \tabularnewline
+SP	 & 100 & 5 & 100 & \textbf{3} \tabularnewline
+SP	 & 100 & 5 & 100 & \textbf{2} \tabularnewline
+SP	 & 100 & 5 & 100 & \textbf{1} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \addlinespace[0.2cm]
-ID	 & 100 & 3 & 100 & \textbf{5} \tabularnewline 
-ID	 & 100 & 3 & 100 & \textbf{4} \tabularnewline
-ID	 & 100 & 3 & 100 & \textbf{3} \tabularnewline
-ID	 & 100 & 3 & 100 & \textbf{2} \tabularnewline
-ID	 & 100 & 3 & 100 & \textbf{1} \tabularnewline
+ID	 & 100 & 5 & 100 & \textbf{5} \tabularnewline 
+ID	 & 100 & 5 & 100 & \textbf{4} \tabularnewline
+ID	 & 100 & 5 & 100 & \textbf{3} \tabularnewline
+ID	 & 100 & 5 & 100 & \textbf{2} \tabularnewline
+ID	 & 100 & 5 & 100 & \textbf{1} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \addlinespace[0.2cm]
-ID	 & 100 & 3 & 100 & \textbf{5} \tabularnewline 
-ID	 & 100 & 3 & 100 & \textbf{4} \tabularnewline
-ID	 & 100 & 3 & 100 & \textbf{3} \tabularnewline
-ID	 & 100 & 3 & 100 & \textbf{2} \tabularnewline
-ID	 & 100 & 3 & 100 & \textbf{1} \tabularnewline
+RW	 & 100 & 5 & 100 & \textbf{5} \tabularnewline 
+RW	 & 100 & 5 & 100 & \textbf{4} \tabularnewline
+RW	 & 100 & 5 & 100 & \textbf{3} \tabularnewline
+RW	 & 100 & 5 & 100 & \textbf{2} \tabularnewline
+RW	 & 100 & 5 & 100 & \textbf{1} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \end{tabular}
+\caption{Tandas de simulación planteadas para evaluar las 3 medidas de distancia propuestas}
+\label{tab:tabla_disease}
+\end{table}
+
 \end{center}
 \end{small}
 \bigskip
@@ -376,6 +580,7 @@ Por último, se ha considerado importante evaluar el grado de mejora ofrecido po
 \bigskip
 \begin{small}
 \begin{center}
+\begin{table}[H]
 \begin{tabular}{ccccc}
 \textbf{distancia} & \textbf{repeticiones} & \textbf{familias} & \textbf{genes por familia} & \textbf{complementario} \tabularnewline 
 \hline
@@ -402,6 +607,9 @@ RW & 100 & 3 & 100 & \textbf{grado + pagerank} \tabularnewline
 \addlinespace[0.2cm]
 \hline
 \end{tabular}
+\caption{Tandas de simulación planteadas para evaluar las 3 medidas de distancia propuestas}
+\label{tab:tabla_otras}
+\end{table}
 \end{center}
 \end{small}
 \bigskip

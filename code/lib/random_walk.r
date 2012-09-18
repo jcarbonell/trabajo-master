@@ -269,6 +269,7 @@ get_gene_to_gene_random_walk_distance <- function(ad_matrix,outfile,genes=NULL){
   }
       
 }
+
 compute_gene_to_gene_random_walk_distance <- function(ad_matrix,genes=NULL,verbose=F){
   
   if(is.null(genes)){

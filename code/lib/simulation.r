@@ -1,15 +1,34 @@
 
-simulate_known_family_set_series <- function(disease_annot_file,random_genes,nfams=NULL,ngenes=NULL,nsims=NULL,fam_name_prefix="fam_",verbose=T) {
+simulate_known_family_set_series <- function(nfams=NULL,ngenes=NULL,nsims=NULL,ndisease_genes=NULL,params=NULL,home_path=NULL,fam_name_prefix="fam_",verbose=F) {
+    
+  if(is.null(home_path)){
+    home_path <- getwd()
+  }
+  random_genes <- read.table(paste(home_path,"/../misc/all_hgnc_symbols.txt",sep=""),header=F,stringsAsFactors=F)$V1
+  disease_annot_file <- paste(home_path,"/../misc/omim_clean_annot.txt",sep="")  
   
-  # default
-  if(is.null(nfams)){
-    nfams <- 3
-  }
-  if(is.null(ngenes)){
-    ngenes <- 20
-  }
-  if(is.null(nsims)){
-    nsims <- 5
+  if(is.null(params)){
+    # default
+    if(is.null(nfams)){
+      nfams <- 3
+    }
+    if(is.null(ndisease_genes)){
+      ndisease_genes <- nfams
+    }
+    if(ndisease_genes>nfams){
+      ndisease_genes <- nfams
+    }
+    if(is.null(ngenes)){
+      ngenes <- 20
+    }
+    if(is.null(nsims)){
+      nsims <- 5
+    }
+  } else {
+    nsims <- params$nsims
+    nfams <- params$nfams
+    ndisease_genes <- params$ndisease_genes
+    ngenes <- params$ngenes
   }
   if(verbose){
     cat("Simulating",nsims,"simulations from known disease genes...\n")
@@ -17,8 +36,9 @@ simulate_known_family_set_series <- function(disease_annot_file,random_genes,nfa
   
   # prepare
   nfams_series <- floor(runif(nsims,min=min(nfams),max=(max(nfams)+1)))
+  ndisease_genes_series <- floor(runif(nsims,min=min(ndisease_genes),max=(max(ndisease_genes)+1)))
   ngenes_series <- floor(runif(nsims,min=min(ngenes),max=(max(ngenes)+1)))
-  known_series <- load_known_disease_genes_series(annot_file=disease_annot_file,nfams=nfams_series)
+  known_series <- load_known_disease_genes_series(annot_file=disease_annot_file,nfams=nfams_series,ndisease_genes=ndisease_genes_series)
   
   # simulate set
   family_set_series <- list()
@@ -43,7 +63,9 @@ simulate_known_family_set_series <- function(disease_annot_file,random_genes,nfa
     
     family_set_series[[k]]$nfams <- nfams_series[k]
     family_set_series[[k]]$ngenes <- ngenes_series[k]
+    family_set_series[[k]]$ndisease_genes <- ndisease_genes_series[k]
     family_set_series[[k]]$selected_disease <- known_series$selected_disease[[k]]
+    
   }
                       
   return(family_set_series)
@@ -185,7 +207,6 @@ run_and_evaluate <- function(family_set_series,interactomes,distance_matrix=NULL
   # sizes
   nsims <- length(family_set_series)
   ninteractomes <- length(interactomes)
-  print(ninteractomes)
   nscores <- length(score_function_names)
   
   # family set series params

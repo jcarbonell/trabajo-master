@@ -1,404 +1,16 @@
 
-score_kernel <- function(node,distance_matrix,weights,distance_priors,super_list_fams,ACCOUNT_OWN_FAMILY=F,SCALE_BY_FAMILY_SIZE=F,SCALE_BY_DISTANCE_PRIORS=F,inter_family="INTER"){
-  #
-  # Computes gene score
-  #
-  # parameters:
-  
-  #  node: gene to score
-  #  distance_matrix: interactome distance matrix
-  #  weights: Weights of scores by distance
-  #  distance_priors: glogal density distribution of gene-to-gene distances
-  #  super_list_fams: Family ids of selected and intermediates gene
-  #  
-  #  ACCOUNT_OWN_FAMILY: Define whether the own node family must be filtered 
-  #  SCALE_BY_FAMILY_SIZE: Scale every family contribution by family size
-  #  SCALE_BY_DISTANCE_PRIORS: Scale every distance contribution by distance priors
-  #
-  # return:
-  # 
-  #  gene score
-  #
-  #
-  
-  family_freqs <- table(as.character(super_list_fams))
-  
-  scores_by_distance <- numeric(length(weights))
-  
-  distance <- 0
-  distance_prior <- 1
-  
-  for(j in 1:length(weights)){
-    
-    if(distance==0){
-      selected_distance_nodes <- node
-      distance_prior <- distance_priors[1]
-    } else {
-      node_distances <- distance_matrix[node,]
-      selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
-      distance_prior <- distance_priors[distance]
-    }
-    
-    node_fam <- unique(unlist(super_list_fams[node]))
-    
-    selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-    selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
-    if(distance>0 & ACCOUNT_OWN_FAMILY==F){
-      selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
-    }
-    
-    if(is.null(selected_distance_fams)){
-      scores_by_distance[j] <- 0
-    } else {
-      selected_distance_fams_freqs <- table(unlist(super_list_fams[selected_distance_nodes]))[selected_distance_fams]
-      selected_distance_fams_sizes <- family_freqs[selected_distance_fams]
-      scores_by_distance[j] <- sum(selected_distance_fams_freqs/selected_distance_fams_sizes) * weights[j]
-    }    
-    
-    distance <- distance+1
-    
-  }
-  
-  score <- sum(scores_by_distance) - 1*weights[j]
-  
-  return(list(
-    scores_by_distance=scores_by_distance,
-    score=score
-    ))
-  
-}
-
-
-default_score <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  scores_by_distance <- numeric(length(weights))
-  
-  distance <- 0
-  
-  per_distance <- function(j){
-    
-      distance = j-1
-      
-      if(distance==0){
-        selected_distance_nodes <- node
-      } else {
-        node_distances <- distance_matrix[node,]
-        selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
-      }
-        
-      selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-      selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
-  
-      if(is.null(selected_distance_fams)){
-          scores_by_distance <- 0
-      } else {
-          scores_by_distance <- (length(selected_distance_fams)*weights[j])                   
-      }
-      
-      return(scores_by_distance)
-        
-  }
-
-  scores_by_distance <- sapply(1:length(weights),per_distance)
-  
-  return(list(
-    scores_by_distance=scores_by_distance,
-    score=sum(scores_by_distance)
-  ))
-  
-}
-
-default_score2 <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  scores_by_distance <- numeric(length(weights))
-  
-  distance <- 0
-  
-  per_distance <- function(j){
-    
-      distance = j-1
-                  
-      if(distance==0){
-        selected_distance_nodes <- node
-      } else {
-        node_distances <- distance_matrix[node,]
-        selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
-      }
-        
-      selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-      selected_distance_fams <- setdiff(selected_distance_fams,inter_family)      
-      if(distance>0){
-        node_fam <- unique(unlist(super_list_fams[node]))
-        selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
-      }
-  
-      if(is.null(selected_distance_fams)){
-          scores_by_distance <- 0
-      } else {                
-          scores_by_distance <- (length(selected_distance_fams)*weights[j])
-      }
-  
-      return(scores_by_distance)
-
-  }
-
-  scores_by_distance <- sapply(1:length(weights),per_distance)
-  
-  score <- sum(scores_by_distance) - weights[1]
-        
-  return(list(
-    scores_by_distance=scores_by_distance,
-    score=score
-    ))
-  
-}
-
-default_score3 <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  scores_by_distance <- numeric(length(weights))
-  
-  distance <- 0
-  distance_prior <- 1
-  
-  per_distance <- function(j){
-    
-    distance = j-1
-    
-    if(distance==0){
-      selected_distance_nodes <- node
-      distance_prior <- 1
-    } else {
-      node_distances <- distance_matrix[node,]
-      selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
-      distance_prior <- distance_priors[distance]
-    }
-    
-    node_fam <- unique(unlist(super_list_fams[node]))
-    
-    selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-    selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
-    if(distance>0){
-      node_fam <- unique(unlist(super_list_fams[node]))
-      selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
-    }
-        
-    if(is.null(selected_distance_fams)){
-      scores_by_distance <- 0
-    } else {                
-#       scores_by_distance <- (length(selected_distance_fams)*weights[j])/distance_prior
-      scores_by_distance <- (length(selected_distance_fams)*weights[j])
-
-    }
-    
-    return(scores_by_distance)
-    
-  }
-  
-  scores_by_distance <- sapply(1:length(weights),per_distance)
-  
-  return(list(
-    scores_by_distance=scores_by_distance,
-    score=sum(scores_by_distance)
-    ))
-  
-}
-
-default_score3b <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  weight <- function(distance){
-    1-pnorm(distance*2,mean=5,sd=1.1)
-  }
-  
-  node_fam <- unique(unlist(super_list_fams[node]))
-  
-  score <- length(node_fam)*weight(0)
-  
-  if(node %in% colnames(distance_matrix)){
-  
-    node_distances <- distance_matrix[node,]
-  
-    interactors <- node_distances[which(node_distances>0 & node_distances<=5)]
-    interactor_names <- names(interactors)
-      
-    for(i in 1:length(interactors)){
-     
-      selected_distance_fams <- unique(unlist(super_list_fams[interactor_names[i]]))
-      selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
-      selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
-      
-      if(!is.null(selected_distance_fams)){        
-        score <- score + as.numeric(length(selected_distance_fams)*weight(interactors[i]))
-      }
-        
-    }
-
-  }
-  
-  return(list(
-    scores_by_distance=rep(0,6),
-    score=score
-    ))
-  
-}
-
-default_score3c <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  weight <- function(distance){
-    1-pnorm(distance*2,mean=5,sd=1.1)
-  }
-  
-  node_fam <- unique(unlist(super_list_fams[node]))
-  
-  score <- 0
-  
-  if(node %in% colnames(distance_matrix)){
-  
-    node_distances <- distance_matrix[node,]
-  
-    interactors <- node_distances#[which(node_distances>0 & node_distances<=5)]
-  
-    interactor_names <- names(interactors)
-    
-    fam_list <- unlist(unique(super_list_fams))
-    fam_list <- setdiff(fam_list,node_fam)
-    fam_list <- setdiff(fam_list,inter_family)
-              
-    for(i in 1:length(fam_list)){
-      all_fam_genes <- names(which(lapply(super_list_fams,function(x) fam_list[i] %in% x)==T))
-      fam_distances <- node_distances[all_fam_genes]
-      
-#       score <- score +min(fam_distances,na.rm=T)      
-#        score <- score + mean(fam_distances,na.rm=T)
-       score <- score + sum(fam_distances[which(fam_distances>=quantile(fam_distances,.95,na.rm=T))],na.rm=T)
-    }
-
-  } else {
-    score <- NA
-  }
-  
-  return(list(
-    scores_by_distance=rep(0,6),
-    score=score
-    ))
-  
-}
-
-default_score3d <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  weight <- function(distance){
-    1-pnorm(distance*2,mean=5,sd=1.1)
-  }
-  
-  node_fam <- unique(unlist(super_list_fams[node]))
-  
-  score <- 0
-  
-  if(node %in% colnames(distance_matrix)){
-  
-    node_distances <- distance_matrix[node,]
-  
-    interactors <- node_distances[which(node_distances>0 & node_distances<=5)]
-  
-    interactor_names <- names(interactors)
-    
-    fam_list <- unlist(unique(super_list_fams))
-    fam_list <- setdiff(fam_list,node_fam)
-    fam_list <- setdiff(fam_list,inter_family)
-      
-    all_fam_genes <- c()
-    for(i in 1:length(fam_list)){
-      fam_genes <- names(which(lapply(super_list_fams,function(x) fam_list[i] %in% x)==T))
-      all_fam_genes <- c(all_fam_genes,fam_genes)
-    }
-    all_fam_genes <- unique(all_fam_genes)
-    
-    fam_distances <- node_distances[all_fam_genes]      
-#     score <- score + 5-min(fam_distances,na.rm=T)
-#     score <- score + sum(fam_distances,na.rm=T)
-    score <- score + sum(fam_distances[which(fam_distances>=quantile(fam_distances,.95,na.rm=T))],na.rm=T)
-
-    
-  } else {
-    score <- NA
-  }
-  
-  return(list(
-    scores_by_distance=rep(0,6),
-    score=score
-    ))
-  
-}
-
-default_score4 <- function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family="INTER"){
-  
-  family_freqs <- table(as.character(super_list_fams))
-  
-  scores_by_distance <- numeric(length(weights))
-  
-  distance <- 0
-  distance_prior <- 1
-  
-  for(j in 1:length(weights)){
-    
-    if(distance==0){
-      selected_distance_nodes <- node
-      distance_prior <- distance_priors[1]
-    } else {
-      node_distances <- distance_matrix[node,]
-      selected_distance_nodes <- names(node_distances[which(node_distances==distance)])
-      distance_prior <- distance_priors[distance]
-    }
-    
-    node_fam <- unique(unlist(super_list_fams[node]))
-    
-    selected_distance_fams <- unique(unlist(super_list_fams[selected_distance_nodes]))
-    selected_distance_fams <- setdiff(selected_distance_fams,inter_family)
-    if(distance>0){
-      selected_distance_fams <- setdiff(selected_distance_fams,node_fam)
-    }
-    
-    if(is.null(selected_distance_fams)){
-      scores_by_distance[j] <- 0
-    } else {
-      selected_distance_fams_freqs <- table(unlist(super_list_fams[selected_distance_nodes]))[selected_distance_fams]
-      selected_distance_fams_sizes <- family_freqs[selected_distance_fams]
-      scores_by_distance[j] <- sum(selected_distance_fams_freqs/selected_distance_fams_sizes) * weights[j]
-    }    
-    
-    distance <- distance+1
-    
-  }
-  
-  score <- sum(scores_by_distance) - 1*weights[j]
-        
-  return(list(
-    scores_by_distance=scores_by_distance,
-    score=score
-    ))
-  
-}
-
-
-
-######################################################################################
-######################################################################################
-######################################################################################
-######################################################################################
-######################################################################################
-
-
 compute_score <- function(raw_gene_list,interactome=NULL,score_function,probability_matrix=NULL,radio=5,numinter=1,inter_family="INTER",test.inter=T,verbose=T){
   
   # interactome pruning
   all_raw_genes <- unique(unlist(raw_gene_list))
-  
+    
   # prepare data
   if(is.null(probability_matrix)){
     
     subnet <- get.all.shortest.paths.Josete(interactome,all_raw_genes,5)
     
-    subnet_summary <- describe_interactome(subnet,plot=F)
-    distance_priors <- subnet_summary["Median",]/sum(subnet_summary["Median",])
+    #subnet_summary <- describe_interactome(subnet,plot=F)
+    #distance_priors <- subnet_summary["Median",]/sum(subnet_summary["Median",])
     
     # init interactors
     interactors <- unique(c(subnet[,1],subnet[,3]))
@@ -437,49 +49,31 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
   }
   super_list_fams <- lapply(super_list,get_gene_fams)
   names(super_list_fams) <- super_list
-
+  
   # compute node distances
   if(is.null(probability_matrix)){
-    distance_matrix <- compute_distance_matrix(subnet)
+    distance_matrix <- compute_distance_matrix(subnet)    
+    distance_matrix <- 1- distance_matrix/max(distance_matrix)
   } else {
-    distance_matrix <- probability_matrix
-    themin <- min(distance_matrix)
-    themax <- max(distance_matrix)
-#     distance_matrix <- 1 - (distance_matrix-themin)/(themax-themin)
-#     distance_matrix <- distance_matrix*5
+    av_genes <- rownames(probability_matrix)    
+    distance_matrix <- probability_matrix[which(av_genes %in% super_list),which(av_genes %in% super_list)]
+    distance_matrix <- distance_matrix/max(distance_matrix)
   }
-    
-#   cat("..................computing am...",nrow(subnet),"\n")
-#   am <- get_interactome_adjacency_matrix(subnet)
-#   cat("..................computing distance...\n")
-#   distance_matrix <- compute_gene_to_gene_random_walk_distance(am,genes=query_genes)
-#   
-  
-  
-#   distance_matrix <- round((max(distance_matrix) -distance_matrix)*5)
-#   distance_matrix <- 1 - (distance_matrix-min(distance_matrix))/(max(distance_matrix)-min(distance_matrix))
-#   distance_matrix <- 1 - distance_matrix
-#   print(summary(as.numeric(distance_matrix)))
-#   distance_matrix <- distance_matrix*5
-#   print(summary(as.numeric(distance_matrix)))
-#   cat("...\n")
       
   # compute weights
   steps <- radio+1
   distances <- 0:radio
-#   raw_weights <- 1-pnorm(radio:(radio*2),mean=radio,sd=2)
   raw_weights <- 1-pnorm(0:radio*2,mean=radio,sd=1.1)
-#   weights <- raw_weights/sum(raw_weights)
   weights <- raw_weights/max(raw_weights)
 
   # init working variables
   node_scores <- numeric(length(super_list))
   names(node_scores) <- super_list
-  scores_by_distance <- matrix(rep(0,nsuper*steps),ncol=steps)
-  rownames(scores_by_distance) <- super_list
-  colnames(scores_by_distance) <- distances
+#   scores_by_distance <- matrix(rep(0,nsuper*steps),ncol=steps)
+#   rownames(scores_by_distance) <- super_list
+#   colnames(scores_by_distance) <- distances
   uninteractors <- c()
-  
+    
   # compute score by genes
 #   for(w in 1:nsuper){    
 #     node <- super_list[w]
@@ -493,14 +87,14 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
         
       if(is.null(super_list_fams[[node]])){
         
-        node_score <- 0
-        scores_by_distance <- rep(0,length(weights))
+        node_score <- NA
+#         scores_by_distance <- rep(0,length(weights))
         
       } else {
        
-        comp <- score_function(node,distance_matrix,weights[1],distance_priors,super_list_fams,inter_family=inter_family)
+        comp <- score_function(node,distance_matrix,super_list_fams,inter_family=inter_family)
         node_score <- comp$score
-        scores_by_distance <- c(comp$scores_by_distance,rep(0,length(weights)-1))
+#         scores_by_distance <- c(comp$scores_by_distance,rep(0,length(weights)-1))
         
       }
       
@@ -508,12 +102,12 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
       neighbour_distance <- c()
           
     } else {
-       
-      comp <- score_function(node,distance_matrix,weights,distance_priors,super_list_fams,inter_family=inter_family)
+
+      comp <- score_function(node,distance_matrix,super_list_fams,inter_family=inter_family)
       node_score <- comp$score
-      scores_by_distance <- comp$scores_by_distance
+#       scores_by_distance <- comp$scores_by_distance
           
-      neighborhood <- colnames(distance_matrix)[which(distance_matrix[node,]>0 & distance_matrix[node,]<=radio)]
+      neighborhood <- colnames(distance_matrix)[which(distance_matrix[node,]>0 & distance_matrix[node,]<=0.25)]
       neighbour_distance <- distance_matrix[node,neighborhood]
       
     }
@@ -531,15 +125,16 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
 
   # process
   processed <- lapply(super_list,per_node)  
-  
+   
   # recover score
   node_scores <- sapply(processed,function(x)x$node_score)
   names(node_scores) <- super_list
-  scores_by_distance <- do.call("rbind",lapply(processed,function(x)x$scores_by_distance))
-  
+#   scores_by_distance <- do.call("rbind",lapply(processed,function(x)x$scores_by_distance))
+   
 #   rownames(scores_by_distance) <- super_list
 #   colnames(scores_by_distance) <- distances  
   neighborhoods <- lapply(processed,function(x)x$neighborhood)
+ 
   names(neighborhoods) <- super_list
   neighbour_distance <- lapply(processed,function(x)x$neighbour_distance)  
   names(neighbour_distance) <- super_list
@@ -554,7 +149,7 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
     group_score
   }
   group_scores <- sapply(super_list,gene_group_score)
-  
+    
   # uninteractors
   uninteractors <- super_list[]
  
@@ -566,26 +161,22 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
   get_fam_hit <- function(fams){return(paste(fams,collapse=","))}
   fam_hits <- sapply(super_list_fams,get_fam_hit)
   
-  # page ranke weight
-  my.graph <- interactome[,c(1,3)]
-  my.graph <- my.graph[which(my.graph[,1]!=my.graph[,2]),]
-  my.igraph <- simplify(graph.data.frame(my.graph, directed=FALSE))
-  pr <- page.rank(my.igraph)
-  page_ranks <- pr$vector
-  names(page_ranks) <- get.vertex.attribute(my.igraph,"name")
-  node_page_ranks <- page_ranks[super_list]
-  names(node_page_ranks) <- super_list
-  node_page_ranks[is.na(node_page_ranks)] <- min(node_page_ranks,na.rm=T)
-  node_page_ranks <- (node_page_ranks-min(node_page_ranks))/(max(node_page_ranks)-min(node_page_ranks))
-#   node_page_ranks <- node_page_ranks +1 
-  
-  node_scores <- node_scores*(node_page_ranks)
-#   node_scores <- node_page_ranks
-
-  # network params weight
-  net_params <- get_interactome_params(interactome)
-  node_scores <- node_scores * net_params[super_list,"degree"]
-#   node_scores <- node_scores * net_params[super_list,"betweenness"]
+#   # page ranke weight
+#   my.graph <- interactome[,c(1,3)]
+#   my.graph <- my.graph[which(my.graph[,1]!=my.graph[,2]),]
+#   my.igraph <- simplify(graph.data.frame(my.graph, directed=FALSE))
+#   pr <- page.rank(my.igraph)
+#   page_ranks <- pr$vector
+#   names(page_ranks) <- get.vertex.attribute(my.igraph,"name")
+#   node_page_ranks <- page_ranks[super_list]
+#   names(node_page_ranks) <- super_list
+#   node_page_ranks[is.na(node_page_ranks)] <- min(node_page_ranks,na.rm=T)
+#   node_page_ranks <- (node_page_ranks-min(node_page_ranks))/(max(node_page_ranks)-min(node_page_ranks))
+#   node_scores <- node_scores*(node_page_ranks)
+# 
+   # network params weight
+   #net_params <- get_interactome_params(interactome)
+   #node_scores <- node_scores * net_params[super_list,"degree"]
   
   
   # sorting index
@@ -615,7 +206,7 @@ compute_score <- function(raw_gene_list,interactome=NULL,score_function,probabil
     neighborhoods=neighborhoods,
     neighbour_distance=neighbour_distance,
     # weights
-    distance_priors=distance_priors,
+    #distance_priors=distance_priors,
     weights=weights,
     # uninteractors
     uninteractors=uninteractors,
@@ -738,7 +329,7 @@ compute_global_score_table <- function(score_frames,inter=F,method="max",field="
   ninteractomes <- length(score_frames)
   score_matrix <- matrix(rep(0,length(scored_genes)*ninteractomes),ncol=ninteractomes)
   rownames(score_matrix) <- scored_genes
-  colnames(score_matrix) <- names(interactomes)
+  colnames(score_matrix) <- names(score_frames)
   for(i in 1:ninteractomes){
     if(inter){
       score_matrix[,i] <- score_frames[[i]]$score_table_with_intermediates[scored_genes,field]

@@ -13,7 +13,7 @@ home_path <- getwd()
 
 # input params
 nfams <- 3
-ngenes <- 200
+ngenes <- 100
 nsims <- 10
 global_score_methods <- c("no_zero_mean","no_zero_max")
 with_known_genes <- T

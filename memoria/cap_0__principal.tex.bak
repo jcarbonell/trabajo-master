@@ -9,12 +9,18 @@
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{booktabs}
-\usepackage{algorithm}
-\usepackage{algorithmic}
+\usepackage{float}
+\restylefloat{table}
 
  
-\author{José Carbonell Caballero}
 \title{Identificación y priorización de genes candidatos en enfermedades hereditarias: un estudio basado en redes génicas}
+\author{José Carbonell Caballero}
+
+\date{Septiembre 2012}
+
+
+
+
 %
 %\renewcommand{\chapter}[1]{ 
 %
@@ -87,9 +93,59 @@
 
 \begin{document}
 
+\begin{titlepage}
+	\begin{center}
+
+% Upper part of the page
+%\includegraphics[width=0.15\textwidth]{./logo}\\[1cm]    
+
+\textsc{\LARGE Universidad de Valencia}\\[1.5cm]
+\textsc{\Large Proyecto final de master}\\[0.5cm]
+
+\bigskip
+\bigskip
+\bigskip
+
+{ \huge 
+Identificación y priorización de genes \\
+candidatos en enfermedades hereditarias: \\
+Un estudio basado en redes génicas \\
+}
+
+%\\[0.4cm]
 
 
-\maketitle
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+
+% Author and supervisor
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+José Carbonell Caballero
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Tutor:} \\
+José Bermudez Edo
+\end{flushright}
+\end{minipage}
+
+
+\vfill
+
+% Bottom of the page
+Septiembre 2012
+\end{center}
+
+\end{titlepage}
 
 \pagebreak
 

@@ -7,11 +7,29 @@ source("lib/simulation.r")
 source("lib/evaluation.r")
 source("lib/postprocess.r")
 source("lib/random_walk.r")
+source("lib/intermediation_utils.R")
 
 home_path <- getwd()
 
 # load interactomes
 interactomes <- load_interactomes(paste(home_path,"/../interactomes/",sep=""))
+
+
+
+bin <- get.igraph(interactomes$binding)
+bin_ix <- get_vertex_indexes(bin)
+
+fun <- get.igraph(interactomes$functional)
+fun_ix <- get_vertex_indexes(fun)
+
+
+
+
+
+
+
+
+
 fake <- load_interactome("../interactomes/fake_interactome.sif")
 
 #

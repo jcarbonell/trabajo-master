@@ -204,7 +204,7 @@ add_hgnc_symbol <- function(ens2hgnc_file,data_file,ens_col,outfile=NULL){
 }
 
 
-load_known_disease_genes_series <- function(annot_file,nfams){
+load_known_disease_genes_series <- function(annot_file,nfams,ndisease_genes){
   
   size <- length(nfams)
   
@@ -215,12 +215,13 @@ load_known_disease_genes_series <- function(annot_file,nfams){
   selected_diseases <- character(size)
 
   for(i in 1:size){
-    available_indexes <- which(dsize>=nfams[i])
+    available_indexes <- which(dsize>=ndisease_genes[i])
     if(length(available_indexes)>0){
       selected_index <- sample(available_indexes,1)
       selected_disease <- names(dsize)[selected_index]
       selected_diseases[i] <- selected_disease
-      fam_disease_genes[[i]] <- sample(dannot$gene[which(dannot$disease==selected_disease)],nfams[i])
+      core_genes <-  sample(dannot$gene[which(dannot$disease==selected_disease)],ndisease_genes[i])
+      fam_disease_genes[[i]] <- c(core_genes,sample(core_genes,nfams[i]-length(core_genes),replace=T))
     } else {
       fam_disease_genes[[i]] <- NULL
     }
